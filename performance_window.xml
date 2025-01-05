@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <StatusIconTemplate>
+        <Name>performance_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>160</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>lag_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>192</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>framerate_icon_large</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>224</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>performance_icon_small</Name>
+        <TextureName>page3</TextureName>
+        <TextureStart>
+            <X>208</X>
+            <Y>97</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <WindowTemplate>
+        <Name>performance</Name>
+        <WindowId>PerformanceWindow</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>32</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--large icons-->
+
+
+        <StatusIconDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>performance_icon_large</TemplateName>
+            <AdapterName>performance_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>lag_icon_large</TemplateName>
+            <AdapterName>lag_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>64</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>framerate_icon_large</TemplateName>
+            <AdapterName>framerate_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <!--small icons-->
+
+
+        <StatusIconDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>performance_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>lag_meter</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>performance_icon_small</TemplateName>
+            <AdapterName>framerate_meter</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>emoticons</Name>
+        <File>atlantis/emoticons.tga</File>
+    </Texture>
+
+
+    <ImageAreaTemplate>
+        <Name>emote_button</Name>
+        <TextureName>emoticons</TextureName>
+        <Size>
+            <X>20</X>
+            <Y>20</Y>
+        </Size>
+        <TopLeft>
+            <X>80</X>
+            <Y>100</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>channel_button</Name>
+        <TextureName>emoticons</TextureName>
+        <Size>
+            <X>20</X>
+            <Y>20</Y>
+        </Size>
+        <TopLeft>
+            <X>100</X>
+            <Y>100</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>chat</Name>
+        <WindowId>Chat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>350</Width>
+        <Height>200</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>312</MinWidth>
+        <MinHeight>120</MinHeight>
+        <ContextTemplateName>chat_context</ContextTemplateName>
+        <TabName>Main</TabName>
+        <TabName>Broad</TabName>
+        <TabName>Guild</TabName>
+        <TabName>Group</TabName>
+        <TabName>Chat</TabName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>350</Width>
+            <Height>200</Height>
+        </FullResizeImageDef>
+
+
+        <ChatControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>chat</TemplateName>
+            <LinePadding>1</LinePadding>
+            <TextOffset>
+                <X>9</X>
+                <Y>8</Y>
+            </TextOffset>
+            <Width>340</Width>
+            <Height>84</Height>
+            <BufferName>chat</BufferName>
+        </ChatControlDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>343</Width>
+            <Height>16</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>337</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Adapter>chat_entry</Adapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>340</Width>
+            <Height>98</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>TwoWayResizeTopRight</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>chat_scale</TemplateName>
+        </ButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <ToolTipID>156</ToolTipID>
+            <ImageAreaTemplateName>emote_button</ImageAreaTemplateName>
+            <HRButtonTemplateName>hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <ToolTipID>157</ToolTipID>
+            <ImageAreaTemplateName>channel_button</ImageAreaTemplateName>
+            <HRButtonTemplateName>hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

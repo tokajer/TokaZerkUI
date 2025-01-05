@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>command</Name>
+        <WindowId>Command</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>129</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>129</Width>
+        <Height>230</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>129</Width>
+            <Height>230</Height>
+        </FullResizeImageDef>
+
+
+        <!--Left Column Buttons-->
+
+
+        <ButtonDef>
+            <ControlId>0</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>13</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Attack</Label>
+            <OnClickEvent>ToggleAttackMode</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Sprint</Label>
+            <OnClickEvent>Sprint</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>51</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Sit</Label>
+            <OnClickEvent>ToggleSitting</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>3</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Follow</Label>
+            <OnClickEvent>Follow</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>89</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Stick</Label>
+            <OnClickEvent>Stick</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>6</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>108</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Face</Label>
+            <OnClickEvent>Face</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>7</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>127</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Pray</Label>
+            <OnClickEvent>Pray</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>8</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>146</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Release</Label>
+            <OnClickEvent>Release</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>9</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>165</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Bonuses</Label>
+            <OnClickEvent>Bonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>10</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Bind</Label>
+            <OnClickEvent>Bind</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>203</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Clock</Label>
+            <OnClickEvent>ToggleClock</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Right Column Buttons-->
+
+
+        <ButtonDef>
+            <ControlId>11</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>13</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Keeps</Label>
+            <OnClickEvent>Realm</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>12</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Relics</Label>
+            <OnClickEvent>Relic</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>13</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>51</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Task</Label>
+            <OnClickEvent>Task</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>14</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Friends</Label>
+            <OnClickEvent>Friends</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>15</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>89</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>AFK</Label>
+            <OnClickEvent>Afk</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>16</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>108</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Compass</Label>
+            <OnClickEvent>ToggleCompass</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>17</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>127</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Help</Label>
+            <OnClickEvent>Help</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>18</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>146</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Journal</Label>
+            <OnClickEvent>Journal</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>19</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>165</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Quit</Label>
+            <OnClickEvent>Quit</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Keyboard</Label>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>65</X>
+                <Y>203</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Map</Label>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

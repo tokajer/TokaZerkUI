@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Context Arrow Image -->
+
+
+    <ImageAreaTemplate>
+        <Name>arrow</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>8</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>92</X>
+            <Y>133</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <!-- Context Check Mark -->
+
+
+    <ImageAreaTemplate>
+        <Name>check_mark</Name>
+        <TextureName>navigation</TextureName>
+        <Size>
+            <X>10</X>
+            <Y>14</Y>
+        </Size>
+        <TopLeft>
+            <X>144</X>
+            <Y>43</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <!-- Base Context Window -->
+
+
+    <WindowTemplate>
+        <Name>context</Name>
+        <WindowId>Context</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>96</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+    </WindowTemplate>
+
+
+    <!-- Base Sub Context Window -->
+
+
+    <WindowTemplate>
+        <Name>context_sub</Name>
+        <WindowId>ContextSub</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>96</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+    </WindowTemplate>
+
+
+    <!-- Concrete Context Windows -->
+
+
+    <!-- Chat Context Window -->
+
+
+    <WindowTemplate>
+        <Name>chat_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>136</Width>
+        <Height>155</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>139</Width>
+            <Height>155</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Message &amp; Channel</Label>
+            <Width>135</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>130</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>39</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>41</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>130</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>130</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>77</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>79</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>130</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>96</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>98</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>New Window</Label>
+            <Width>130</Width>
+            <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>115</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>117</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Delete Window</Label>
+            <Width>130</Width>
+            <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>134</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>136</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Rename Window</Label>
+            <Width>130</Width>
+            <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Chat Context Window Without New Window -->
+
+
+    <WindowTemplate>
+        <Name>chat_no_new_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>136</Width>
+        <Height>136</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>136</Width>
+            <Height>136</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Message &amp; Channel</Label>
+            <Width>135</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>135</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>39</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>41</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>135</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>135</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>77</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>79</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>135</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>96</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>98</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Delete Window</Label>
+            <Width>135</Width>
+            <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>115</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>117</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Rename Window</Label>
+            <Width>135</Width>
+            <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Main Chat Context Window -->
+
+
+    <WindowTemplate>
+        <Name>main_chat_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>106</Width>
+        <Height>116</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>106</Width>
+            <Height>116</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Message &amp; Channel</Label>
+            <Width>100</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>39</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>41</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>77</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>79</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>96</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>97</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>New Window</Label>
+            <Width>100</Width>
+            <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Main Chat Context Window Without New Window -->
+
+
+    <WindowTemplate>
+        <Name>main_chat_no_new_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>106</Width>
+        <Height>98</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>106</Width>
+            <Height>98</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>context_hr_button_wtext</TemplateName>
+            <Label>Message &amp; Channel</Label>
+            <Width>100</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>39</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>41</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>60</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>77</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>88</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>79</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>100</Width>
+            <ImageOffset>
+                <X>90</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Emoticon Context Window -->
+
+
+    <WindowTemplate>
+        <Name>emoticon_context</Name>
+        <WindowId>ContextEmoticon</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>22</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>96</Width>
+            <Height>22</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>90</Width>
+            <ImageOffset>
+                <X>80</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Default Context Window -->
+
+
+    <WindowTemplate>
+        <Name>default_context</Name>
+        <WindowId></WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>41</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>96</Width>
+            <Height>41</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>90</Width>
+            <ImageOffset>
+                <X>80</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>78</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>22</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>90</Width>
+            <ImageOffset>
+                <X>80</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Sub Context Window -->
+
+
+    <!-- Window Alpha -->
+
+
+    <WindowTemplate>
+        <Name>context_window_alpha</Name>
+        <WindowId>ContextWindowAlpha</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>25</Width>
+        <Height>160</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>25</Width>
+            <Height>160</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chatfont</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Adapter>window_alpha_value</Adapter>
+        </LabelDef>
+
+
+        <VerticalSliderDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>20</Y>
+            </Position>
+            <Adaptername></Adaptername>
+            <Height>135</Height>
+            <Numticks>100</Numticks>
+            <OnClickEvent>ContextSetWindowAlpha</OnClickEvent>
+            <Templatename>generic_vertical_slider</Templatename>
+        </VerticalSliderDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Font Alpha -->
+
+
+    <WindowTemplate>
+        <Name>context_font_alpha</Name>
+        <WindowId>ContextFontAlpha</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>25</Width>
+        <Height>160</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>25</Width>
+            <Height>160</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chatfont</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Adapter>font_alpha_value</Adapter>
+        </LabelDef>
+
+
+        <VerticalSliderDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>20</Y>
+            </Position>
+            <Adaptername></Adaptername>
+            <Height>135</Height>
+            <Numticks>100</Numticks>
+            <OnClickEvent>ContextSetFontAlpha</OnClickEvent>
+            <Templatename>generic_vertical_slider</Templatename>
+        </VerticalSliderDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Font Size -->
+
+
+    <WindowTemplate>
+        <Name>context_font_size</Name>
+        <WindowId>ContextFontSize</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>44</Width>
+        <Height>184</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>44</Width>
+            <Height>184</Height>
+        </FullResizeImageDef>
+
+
+        <!-- 9 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>9</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 10 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>21</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>10</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>38</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 11 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>39</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>11</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>56</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 12 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>57</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>12</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>74</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 13 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>75</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>13</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>92</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 14 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>93</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>14</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>110</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 15 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2008</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>111</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>15</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>128</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 16 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2009</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>129</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>16</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>146</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 18 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2010</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>147</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>18</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>164</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>35</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- 21 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>165</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>21</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Default Channel Window -->
+
+
+    <WindowTemplate>
+        <Name>context_default_channel</Name>
+        <WindowId>ContextFontSize</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>95</Width>
+        <Height>148</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>95</Width>
+            <Height>148</Height>
+        </FullResizeImageDef>
+
+
+        <!-- None -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>None</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Say -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2013</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>21</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Say</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>38</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2014</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>39</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>56</Y>
+            </Position>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Guild -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2015</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>57</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Guild</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>74</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Officer -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2016</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>75</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Officer</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>92</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Alliance -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2017</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>93</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Alliance</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>110</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Chat Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2018</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>111</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Chat Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>128</Y>
+            </Position>
+            <TemplateName>g_horizontal_line</TemplateName>
+            <Width>87</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- Battle Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2019</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>129</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>context_hr_button_wtext</HRButtonTemplateName>
+            <Width>89</Width>
+            <ImageOffset>
+                <X>74</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Battle Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

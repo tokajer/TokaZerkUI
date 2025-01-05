@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XML ID="DAOCUi">
+	<Canvas>
+		<Name>wpns1_s</Name>
+		<File>icons/wpns1_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>wpns2_s</Name>
+		<File>icons/wpns2_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>wpns3_s</Name>
+		<File>icons/wpns3_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>wpns1_b</Name>
+		<File>icons/wpns1_b.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>wpns2_b</Name>
+		<File>icons/wpns2_b.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>wpns3_b</Name>
+		<File>icons/wpns3_b.bmp</File>
+	</Canvas>
+</XML>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_target_window</Name>
+        <WindowId>float_target</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>150</Width>
+        <Height>70</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>-1</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>150</Width>
+            <Height>70</Height>
+        </FullResizeImageDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>28</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>115</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>25</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>118</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>50</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>FOLLOW</Label>
+            <Width>48</Width>
+            <OnClickEvent>Follow</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>102</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>STICK</Label>
+            <Width>43</Width>
+            <OnClickEvent>Stick</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>102</X>
+                <Y>49</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ATTACK</Label>
+            <Width>43</Width>
+            <OnClickEvent>ToggleAttackMode</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>50</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ASSIST</Label>
+            <Width>48</Width>
+            <OnClickEvent>AssistTarget</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>4</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>INVITE</Label>
+            <Width>44</Width>
+            <OnClickEvent>GroupInvite</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>4</X>
+                <Y>28</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>FACE</Label>
+            <Width>44</Width>
+            <OnClickEvent>Face</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>Face</OnClickEvent>
+            <Width>150</Width>
+            <Height>14</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

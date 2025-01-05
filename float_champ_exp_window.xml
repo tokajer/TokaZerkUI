@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_champ_exp_window</Name>
+        <WindowId>float_champ_exp</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>148</Width>
+        <Height>22</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- XP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>xp coarse</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statusbar_xp_green</TemplateName>
+            <AdapterName>summary_champ_exp_coarse</AdapterName>
+            <Width>150</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>xp fine</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_bar_endo_biggreen</TemplateName>
+            <AdapterName>summary_champ_exp_fine</AdapterName>
+            <Width>148</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_fine</Adapter>
+            <Data>%</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>57</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>lvl</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>46</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Lvl:</Data>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+            <Width>148</Width>
+            <Height>22</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>title</Name>
+        <WindowId>Title</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>435</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>435</Width>
+        <Height>281</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>435</Width>
+            <Height>281</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>435</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Player Title</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>23</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>128</Width>
+            <Height>17</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Available Titles</Data>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>200</Width>
+            <Height>200</Height>
+            <TemplateName>listbox_bg</TemplateName>
+            <AdapterName>titles_available_titles</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>225</X>
+                <Y>23</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>128</Width>
+            <Height>17</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Stats</Data>
+        </LabelDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>225</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>titles_stats</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>200</Width>
+            <Height>200</Height>
+        </TextAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Set Title</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>364</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>OK</Label>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XML ID="DAOCUi">
+	<Canvas>
+		<Name>itm1_s</Name>
+		<File>icons/itm1_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>itm2_s</Name>
+		<File>icons/itm2_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>itm3_s</Name>
+		<File>icons/itm3_s.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>itm1_b</Name>
+		<File>icons/itm1_b.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>itm2_b</Name>
+		<File>icons/itm2_b.bmp</File>
+	</Canvas>
+	<Canvas>
+		<Name>itm3_b</Name>
+		<File>icons/itm3_b.bmp</File>
+	</Canvas>
+</XML>

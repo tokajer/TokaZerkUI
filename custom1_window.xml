@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom1_window</Name>
+        <WindowId>custom1_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>375</Width>
+        <Height>93</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level0</Adapter>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>19</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>101</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>96</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level1</Adapter>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>113</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>94</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>195</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>190</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level2</Adapter>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>207</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>188</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>289</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>284</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level3</Adapter>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>301</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>282</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level4</Adapter>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>19</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>39</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>101</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>96</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level5</Adapter>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>113</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>133</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>94</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>195</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>190</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level6</Adapter>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>207</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>253</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>227</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>188</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>289</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>284</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_level7</Adapter>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>301</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>60</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_endurance7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>347</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>252</G>
+                <B>32</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>321</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>282</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

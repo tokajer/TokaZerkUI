@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom4_window</Name>
+        <WindowId>custom4_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>99</Width>
+        <Height>17</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ButtonDef>
+            <Position>
+                <X>1</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_smallfontbar</TemplateName>
+        </ButtonDef>
+
+
+        <!-- RP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>rp coarse</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_xpbubble_ultracompact_orange</TemplateName>
+            <AdapterName>realm_exp_coarse</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>rp fine</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>realm_exp_fine</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_xp_ultracompact</TemplateName>
+        </ImageAreaDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>rps</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>ghost_tahoma9</FontName>
+            <Width>100</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_realm_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>rp</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_tahoma9</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>RP</Data>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>10</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom3</OnClickEvent>
+            <Width>89</Width>
+            <Height>17</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

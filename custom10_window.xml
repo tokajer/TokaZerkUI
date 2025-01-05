@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Templates Boutons tab-->
+
+
+    <ButtonTemplate>
+        <Name>bouton_menu_sf</Name>
+        <Size>
+            <X>46</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>Verd9</Name>
+            <ColorNormal>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>100</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>100</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>100</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>100</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName></TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>0</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>0</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>0</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <WindowTemplate>
+        <Name>custom10_window</Name>
+        <WindowId>custom10</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>395</Width>
+        <Height>26</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <TabsDef>
+            <TemplateName>tokajer_tab</TemplateName>
+            <Position>
+                <X>5</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Width>400</Width>
+            <Height>18</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>Fight</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>Actions</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>Info 1</Name>
+        </Tab>
+        <Tab>
+            <Id>4</Id>
+            <Name>Info 2</Name>
+        </Tab>
+        <Tab>
+            <Id>5</Id>
+            <Name>UI</Name>
+        </Tab>
+        <Tab>
+            <Id>6</Id>
+            <Name>Group</Name>
+        </Tab>
+        <Tab>
+            <Id>7</Id>
+            <Name></Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1100</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1101</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1102</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1103</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1104</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1105</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1106</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1200</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1201</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1202</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1203</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1204</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1205</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1206</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1300</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1301</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1302</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1303</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1304</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1305</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1306</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1400</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1401</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1402</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1403</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1404</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1405</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1406</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1500</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1501</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1502</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1503</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1504</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1505</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1506</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1600</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1601</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1602</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1603</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1604</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1605</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1606</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <!-- TAB 6 : Groupe -->
+
+
+        <ButtonDef>
+            <ControlId>1600</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Buffs</Label>
+            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1601</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>MiniCon</Label>
+            <OnClickEvent>ToggleCustom1</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1602</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>HH</Label>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1603</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Gruppe</Label>
+            <OnClickEvent>ToggleCustom7</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1604</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Minigrp</Label>
+            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1605</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Invite</Label>
+            <OnClickEvent>GroupInvite</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1606</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Disband</Label>
+            <OnClickEvent>GroupDisband</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- TAB 5 : Interface -->
+
+
+        <ButtonDef>
+            <ControlId>1500</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>RP</Label>
+            <OnClickEvent>ToggleCustom4</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1501</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>XP</Label>
+            <OnClickEvent>ToggleCustom5</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1502</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Money</Label>
+            <OnClickEvent>ToggleCustom11</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1503</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Perfom</Label>
+            <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1504</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Stats</Label>
+            <OnClickEvent>ToggleCustom6</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1505</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Summary</Label>
+            <OnClickEvent>ToggleSummary</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1506</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Options</Label>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- TAB 4 : Infos -->
+
+
+        <ButtonDef>
+            <ControlId>1400</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Quest</Label>
+            <OnClickEvent>Journal</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1401</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Resists</Label>
+            <OnClickEvent>ToggleCustom15</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1402</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Crafting</Label>
+            <OnClickEvent>ToggleCustom14</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1403</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Conc</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1404</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Bonus</Label>
+            <OnClickEvent>Bonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1405</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Stats+</Label>
+            <OnClickEvent>ToggleCustom11</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1406</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Friends</Label>
+            <OnClickEvent>Friends</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- TAB 3 : Menus -->
+
+
+        <ButtonDef>
+            <ControlId>1300</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Realm</Label>
+            <OnClickEvent>Realm</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1301</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Map</Label>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1302</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>RvR</Label>
+            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1303</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Ranks</Label>
+            <OnClickEvent>ToggleCustom3</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1304</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Bonuses</Label>
+            <OnClickEvent>Bonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1305</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Relikte</Label>
+            <OnClickEvent>Relic</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1306</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Sozial</Label>
+            <OnClickEvent>Community</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- TAB 2 : Actions -->
+
+
+        <ButtonDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Anon</Label>
+            <OnClickEvent>Anon</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1201</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Afk</Label>
+            <OnClickEvent>Afk</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1202</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Bind</Label>
+            <OnClickEvent>Bind</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1203</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Pray</Label>
+            <OnClickEvent>Pray</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1204</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Rel</Label>
+            <OnClickEvent>Release</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1205</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Task</Label>
+            <OnClickEvent>Task</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1206</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Quit</Label>
+            <OnClickEvent>Quit</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- TAB 1 : Combat -->
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>-1</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Attack</Label>
+            <OnClickEvent>ToggleAttackMode</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>62</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Stick</Label>
+            <OnClickEvent>Stick</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Face</Label>
+            <OnClickEvent>Face</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>186</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Follow</Label>
+            <OnClickEvent>Follow</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>248</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Sprint</Label>
+            <OnClickEvent>Sprint</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>310</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Sit</Label>
+            <OnClickEvent>ToggleSitting</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

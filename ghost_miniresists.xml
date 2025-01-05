@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <Font>
+        <Name>ghost_mini_stats</Name>
+        <File>custom/ghost_verdana11_shadowed_normalized.tga</File>
+    </Font>
+
+
+    <WindowTemplate>
+        <Name>custom15_window</Name>
+        <WindowId>custom15_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>10</Width>
+        <Height>10</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- Mini Stats Window -->
+
+
+        <LabelDef>
+            <ControlId>Thr</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>11</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>35</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Thr:</Data>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>str_data</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <Adapter>stats_thrust</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Cru</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>9</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Cru: </Data>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>cru_data</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <Adapter>stats_crush</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Sla</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>10</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Sla: </Data>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>sla_data</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <Adapter>stats_slash</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Hea</ControlId>
+            <Position>
+                <X>81</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>12</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Hea: </Data>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>hea_data</ControlId>
+            <Position>
+                <X>108</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <Adapter>stats_heat</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Col</ControlId>
+            <Position>
+                <X>81</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>13</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Col: </Data>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>col_data</ControlId>
+            <Position>
+                <X>108</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <Adapter>stats_cold</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>mat</ControlId>
+            <Position>
+                <X>81</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>14</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Mat: </Data>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>mat_data</ControlId>
+            <Position>
+                <X>108</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <Adapter>stats_matter</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>ene</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>17</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Ene:</Data>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>ene_data</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <Adapter>stats_energy</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>spi</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>16</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Spi:</Data>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>spi_data</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <Adapter>stats_spirit</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Bod</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>15</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Bod:</Data>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>bod_data</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ghost_mini_stats</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <Adapter>stats_body</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

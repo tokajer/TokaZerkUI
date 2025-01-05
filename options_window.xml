@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>options_window</Name>
+        <WindowId>Options</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>390</Width>
+        <Height>600</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>390</Width>
+            <Height>600</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>390</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Game Options</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>165</X>
+                <Y>562</Y>
+            </Position>
+            <TemplateName>button_tokajer_82x18</TemplateName>
+            <Label>OK</Label>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>60</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Sound Settings</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>180</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Graphic and Camera Settings</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>425</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Interface</Data>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>485</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>One</Data>
+            <LabelWidth>35</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>485</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Two (Alt)</Data>
+            <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1019</ControlId>
+            <Position>
+                <X>290</X>
+                <Y>485</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Three (Ctrl)</Data>
+            <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>340</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Display Names</Data>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>40</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Monsters/NPCs</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>40</X>
+                <Y>375</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Gravestones</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>40</X>
+                <Y>390</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Players</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>40</X>
+                <Y>405</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Your Name</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Groupmates</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>375</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Guildmates</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>390</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Enemy Players</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>320</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Show Facial Morphs</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>320</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>295</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Snapback</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>270</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Shadows</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>270</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>445</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>125</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Tooltip Transparency</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>465</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>125</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Tooltip Delay</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>485</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Quickbars</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>245</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Figure Clip Plane</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>245</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>220</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Terrain Clip Plane</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>220</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>195</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Spell Effects</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>195</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>150</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ambient Music Volume</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>150</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>125</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ambient Sounds Volume</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>125</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>100</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Music Volume</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>100</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>75</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Sound Effects Volume</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>75</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>35</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>50</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Names</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>35</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--SpellEffectIcons-->
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>505</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Spell Effect Icons</Data>
+        </LabelDef>
+
+
+        <!--SpellEffectIconsWidth-->
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>525</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Width</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>96</X>
+                <Y>525</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>40</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>99</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>86</X>
+                <Y>523</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>128</X>
+                <Y>523</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--SpellEffectIconsHeight-->
+
+
+        <LabelDef>
+            <Position>
+                <X>165</X>
+                <Y>525</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Height</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>221</X>
+                <Y>525</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>40</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>99</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1026</ControlId>
+            <Position>
+                <X>211</X>
+                <Y>523</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>253</X>
+                <Y>523</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--SpellEffectIconsOrder-->
+
+
+        <CheckBoxDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>290</X>
+                <Y>525</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Oldest First</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>461</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>438</Y>
+            </Position>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

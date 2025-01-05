@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <CheckBoxTemplate>
+        <Name>tree_check</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>128</A>
+            </ColorDisabled>
+            <TextOffset>
+                <X>14</X>
+                <Y>0</Y>
+            </TextOffset>
+            <TextAlignment>
+                <TopLeft>true</TopLeft>
+            </TextAlignment>
+            <ChangeFontColor>true</ChangeFontColor>
+        </Font>
+        <Texture>
+            <TextureName>page1</TextureName>
+            <Normal>
+                <X>76</X>
+                <Y>241</Y>
+            </Normal>
+            <Pressed>
+                <X>63</X>
+                <Y>241</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>102</X>
+                <Y>241</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>89</X>
+                <Y>241</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>76</X>
+                <Y>241</Y>
+            </Disabled>
+        </Texture>
+    </CheckBoxTemplate>
+
+
+    <TreeControlTemplate>
+        <Name>generic_tree_control</Name>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
+        <CheckBoxTemplate>tree_check</CheckBoxTemplate>
+        <IconTemplate>plain_icon_small</IconTemplate>
+        <FontName>arial9</FontName>
+        <FontColor>
+            <R>192</R>
+            <G>192</G>
+            <B>192</B>
+            <A>255</A>
+        </FontColor>
+        <LinePadding>1</LinePadding>
+        <OffsetX>0</OffsetX>
+        <OffsetY>0</OffsetY>
+        <TextOffset>2</TextOffset>
+    </TreeControlTemplate>
+
+
+    <WindowTemplate>
+        <Name>stats_spells</Name>
+        <WindowId>c_windowInvalid</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>416</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>192</Width>
+            <Height>416</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>6</X>
+                <Y>44</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>180</Width>
+            <Height>365</Height>
+        </FullResizeImageDef>
+
+
+        <TreeControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>48</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_tree_control</TemplateName>
+            <AdapterName>stats_spells</AdapterName>
+            <Width>171</Width>
+            <Height>355</Height>
+            <Column1Width>100</Column1Width>
+            <Column1Offset>10</Column1Offset>
+            <Column2Width>100</Column2Width>
+            <Column2Offset>125</Column2Offset>
+        </TreeControlDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>11</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>164</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Magic</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>96</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Conc.</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Pet</Label>
+            <OnClickEvent>ToggleMiniPet</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

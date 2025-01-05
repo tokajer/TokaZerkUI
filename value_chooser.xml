@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>value_chooser</Name>
+        <WindowId>ValueChooser</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>135</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>135</Width>
+        <Height>84</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>135</Width>
+            <Height>84</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Choose Quantity</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>update me!</Data>
+            <Adapter>value_item_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>32</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_left_button</TemplateName>
+            <OnClickEvent>ValueChooserDecrease</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>82</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_right_button</TemplateName>
+            <OnClickEvent>ValueChooserIncrease</OnClickEvent>
+        </ButtonDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>55</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>34</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>value_chooser_qty</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--Commit Buttons-->
+
+
+        <ButtonDef>
+            <Position>
+                <X>1</X>
+                <Y>62</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Accept</Label>
+            <OnClickEvent>ValueChooserAccept</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>65</X>
+                <Y>62</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Cancel</Label>
+            <OnClickEvent>ValueChooserCancel</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

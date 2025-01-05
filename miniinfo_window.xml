@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mini_info</Name>
+        <WindowId>MiniInfo</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>190</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>190</Width>
+        <Height>60</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>190</Width>
+            <Height>60</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>13</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>175</Width>
+            <Height>26</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo0</Data>
+            <Adapter>mini_info_string0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>24</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo1</Data>
+            <Adapter>mini_info_string1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>35</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo2</Data>
+            <Adapter>mini_info_string2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>46</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo3</Data>
+            <Adapter>mini_info_string3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>57</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo4</Data>
+            <Adapter>mini_info_string4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>68</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info 5</Data>
+            <Adapter>mini_info_string5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>79</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info6</Data>
+            <Adapter>mini_info_string6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>90</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info7</Data>
+            <Adapter>mini_info_string7</Adapter>
+        </LabelDef>
+
+
+        <IconDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>Delve</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>43</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Repair</Label>
+            <OnClickEvent>Repair</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>62</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Craft</Label>
+            <OnClickEvent>Craft</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>85</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Salvage</Label>
+            <OnClickEvent>Salvage</OnClickEvent>
+        </ButtonDef>
+
+
+        <ListBoxDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>143</Width>
+            <Height>40</Height>
+            <TemplateName>listbox_nobg</TemplateName>
+            <AdapterName>mini_info_use_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

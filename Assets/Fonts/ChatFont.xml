@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.77b -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+  <!-- Load Chat Font -->
+
+  <Font>
+    <Name>Font_Chat</Name>
+    <File>custom/overp_shadow.tga</File>
+	<antialiased>false</antialiased>
+  </Font>
+
+</Root_Element>

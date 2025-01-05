@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>release_window</Name>
+        <WindowId>Release</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>285</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>285</Width>
+        <Height>96</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>285</Width>
+            <Height>96</Height>
+        </FullResizeImageDef>
+
+
+        <StatusBarDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>17</X>
+                <Y>34</Y>
+            </Position>
+            <TemplateName>b_bar_xp4_grey</TemplateName>
+            <AdapterName>release_timer_time</AdapterName>
+            <Width>250</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>12</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>300</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Bizquit</Data>
+            <Adapter>release_timer_text</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>15</X>
+                <Y>48</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RELEASE</Label>
+            <Width>120</Width>
+            <OnClickEvent>Release</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>148</X>
+                <Y>70</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RELEASE BIND</Label>
+            <Width>120</Width>
+            <OnClickEvent>ReleaseToBind</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>148</X>
+                <Y>48</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RELEASE CITY</Label>
+            <Width>120</Width>
+            <OnClickEvent>ReleaseToCity</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>15</X>
+                <Y>70</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RELEASE HOUSE</Label>
+            <Width>120</Width>
+            <OnClickEvent>ReleaseToHouse</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

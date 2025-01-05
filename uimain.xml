@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<XML ID="DAOCUi">
+	<Include>styles.xml</Include>
+	<Include>command_window.xml</Include>
+	<Include>timer_window.xml</Include>
+	<Include>clock_window.xml</Include>
+	<Include>interact_window.xml</Include>
+	<Include>quest_window.xml</Include>
+	<Include>info_window.xml</Include>
+	<Include>minifriends_window.xml</Include>
+	<Include>minigroup_window.xml</Include>
+	<Include>minicraft_window.xml</Include>
+	<Include>miniinfo_window.xml</Include>
+	<Include>concentration_window.xml</Include>
+	<Include>chat_window.xml</Include>
+	<Include>master_level_window.xml</Include>
+	<Include>chat_config_window.xml</Include>
+	<Include>train.xml</Include>
+	<Include>compass.xml</Include>
+	<Include>merchant_window.xml</Include>
+	<Include>daoc_subclass_window.xml</Include>
+	<Include>item_icons.xml</Include>
+	<Include>combat_icons.xml</Include>
+	<Include>skill_icons.xml</Include>
+	<Include>spell_icons.xml</Include>
+	<Include>weapon_icons.xml</Include>
+	<Include>assets.xml</Include>
+</XML>

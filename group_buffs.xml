@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <IconSetTemplate>
+        <Name>group_buffs_iconset</Name>
+        <CellPadding>0</CellPadding>
+        <LinePadding>0</LinePadding>
+        <IconTemplate>plain_icon_small</IconTemplate>
+    </IconSetTemplate>
+
+
+    <WindowTemplate>
+        <Name>group_buffs</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>280</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>280</Width>
+        <Height>370</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>280</Width>
+            <Height>370</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>280</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Group Enhancements</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>25</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 0</Data>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>37</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 0</Data>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>119</X>
+                <Y>37</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>7</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_0icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>7</X>
+                <Y>25</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>25</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 1</Data>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>37</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 1</Data>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>257</X>
+                <Y>37</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>145</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_1icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>25</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>108</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 2</Data>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>120</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 2</Data>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>119</X>
+                <Y>120</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>7</X>
+                <Y>133</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_2icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>7</X>
+                <Y>108</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>108</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 3</Data>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>120</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 3</Data>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>257</X>
+                <Y>120</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>145</X>
+                <Y>133</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_3icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>108</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>191</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 4</Data>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>203</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 4</Data>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>119</X>
+                <Y>203</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>7</X>
+                <Y>216</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_4icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>7</X>
+                <Y>191</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>191</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 5</Data>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>203</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 5</Data>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>257</X>
+                <Y>203</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>145</X>
+                <Y>216</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_5icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>191</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>274</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 6</Data>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>286</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 6</Data>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>119</X>
+                <Y>286</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>7</X>
+                <Y>299</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_6icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>7</X>
+                <Y>274</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>274</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group member 7</Data>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>145</X>
+                <Y>286</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Group class 7</Data>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>257</X>
+                <Y>286</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>145</X>
+                <Y>299</Y>
+            </Position>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>3</Rows>
+            <Columns>8</Columns>
+            <BaseAdapterName>group_7icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>274</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>128</Width>
+            <Height>73</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom9_window</Name>
+        <WindowId>custom9_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>252</Width>
+        <Height>28</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ButtonDef>
+            <ControlId>rw</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ShowWarMap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_realmwar</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>map</ControlId>
+            <Position>
+                <X>56</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>56</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_map</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>bonuses</ControlId>
+            <Position>
+                <X>84</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleBonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>84</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_bonuses</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>journal</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>Journal</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>112</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_journal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>mljournal</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleCustom14</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>140</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_mljournal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>clock</ControlId>
+            <Position>
+                <X>168</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleClock</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>168</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_clock</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>PhioenixInfo</ControlId>
+            <Position>
+                <X>196</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleCustom19</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>196</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_friends</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>command</ControlId>
+            <Position>
+                <X>224</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>ToggleCommandWindow</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>224</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_command</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>warmap</ControlId>
+            <Position>
+                <X>28</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_generic_icon_button</TemplateName>
+            <OnClickEvent>Realm</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>28</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_icon_realmwar</TemplateName>
+        </ImageAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

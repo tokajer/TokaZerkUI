@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom7_window</Name>
+        <WindowId>custom7_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>458</Width>
+        <Height>102</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ButtonDef>
+            <ControlId>member_0_clickarea_h</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_0_iconhealth</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_health_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_health</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>11</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_power</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_power_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_endurance</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_endurance_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_0_label</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group0</Data>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>class_0_label</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group0</Data>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_0_label_hp</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_0_clickarea</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_1_clickarea_h</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_1_iconhealth</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_health_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_health</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_power</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_power_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_endurance</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_endurance_frame</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_1_label</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group1</Data>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_1_class</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group1</Data>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_1_label_hp</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>61</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_1_clickarea</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_2_clickarea_h</ControlId>
+            <Position>
+                <X>118</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_2_iconhealth</ControlId>
+            <Position>
+                <X>114</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_health_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_health</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>11</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_power</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_power_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_endurance</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_endurance_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_2_label</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group2</Data>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_2_class</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group2</Data>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_2_label_hp</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_2_clickarea</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_3_clickarea_h</ControlId>
+            <Position>
+                <X>118</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_3_iconhealth</ControlId>
+            <Position>
+                <X>114</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_health_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_health</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_power</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_power_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_endurance</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_endurance_frame</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_3_label</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group3</Data>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_3_class</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group3</Data>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_3_label_hp</ControlId>
+            <Position>
+                <X>124</X>
+                <Y>61</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_3_clickarea</ControlId>
+            <Position>
+                <X>122</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_4_clickarea_h</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_4_iconhealth</ControlId>
+            <Position>
+                <X>226</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_health_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_health</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>11</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_power</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_power_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_endurance</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_endurance_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_4_label</ControlId>
+            <Position>
+                <X>260</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group4</Data>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_4_class</ControlId>
+            <Position>
+                <X>260</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group4</Data>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_4_label_hp</ControlId>
+            <Position>
+                <X>236</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_4_clickarea</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_5_clickarea_h</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_5_iconhealth</ControlId>
+            <Position>
+                <X>226</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_health_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_health</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_power</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_power_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_endurance</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_endurance_frame</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_5_label</ControlId>
+            <Position>
+                <X>260</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group5</Data>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_5_label</ControlId>
+            <Position>
+                <X>260</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group5</Data>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_5_label_hp</ControlId>
+            <Position>
+                <X>236</X>
+                <Y>61</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_5_clickarea</ControlId>
+            <Position>
+                <X>234</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_6_clickarea_h</ControlId>
+            <Position>
+                <X>342</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_6_iconhealth</ControlId>
+            <Position>
+                <X>338</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_health_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_health</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>11</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_power</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_power_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_endurance</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_endurance_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_6_label</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group6</Data>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_6_class</ControlId>
+            <Position>
+                <X>372</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group6</Data>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_6_label_hp</ControlId>
+            <Position>
+                <X>348</X>
+                <Y>14</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_6_clickarea</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>member_7_clickarea_h</ControlId>
+            <Position>
+                <X>342</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_background_groupsingle</TemplateName>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_7_iconhealth</ControlId>
+            <Position>
+                <X>338</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_grouphelper_status</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_health_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thick_outline</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_health</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_power</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_power_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_endurance</ControlId>
+            <Position>
+                <X>347</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_endurance_frame</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Width>102</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId>member_7_label</ControlId>
+            <Position>
+                <X>375</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group7</Data>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>member_7_label</ControlId>
+            <Position>
+                <X>375</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group7</Data>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_7_label_hp</ControlId>
+            <Position>
+                <X>348</X>
+                <Y>61</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_7_clickarea</ControlId>
+            <Position>
+                <X>346</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>100</Width>
+            <Height>38</Height>
+        </InvisibleButtonDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>leftborder</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vline</TemplateName>
+            <Height>100</Height>
+        </VerticalResizeImageDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>rightborder</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>g_vline</TemplateName>
+            <Height>100</Height>
+        </VerticalResizeImageDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom12_window</Name>
+        <WindowId>custom12_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>242</Width>
+        <Height>125</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>240</MinWidth>
+        <MinHeight>125</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>-3</X>
+                <Y>-3</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>246</Width>
+            <Height>128</Height>
+        </FullResizeImageDef>
+
+
+        <TabsDef>
+            <TemplateName>tokajer_tab_large</TemplateName>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Width>240</Width>
+            <Height>120</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>Alb</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>Hib</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>Mid</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>11</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>22</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>33</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <DynamicImageDef>
+            <ControlId>11</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>22</Y>
+            </Position>
+            <TextureName>resis_alb</TextureName>
+            <Dimensions>
+                <X>240</X>
+                <Y>100</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>22</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>21</Y>
+            </Position>
+            <TextureName>resis_hib</TextureName>
+            <Dimensions>
+                <X>240</X>
+                <Y>100</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>33</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>21</Y>
+            </Position>
+            <TextureName>resis_mid</TextureName>
+            <Dimensions>
+                <X>240</X>
+                <Y>100</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

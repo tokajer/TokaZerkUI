@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>new_summary_window</Name>
+        <WindowId>new_summary</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>160</TitleWidth>
+        <TitleHeight>90</TitleHeight>
+        <Width>160</Width>
+        <Height>90</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>160</Width>
+            <Height>90</Height>
+        </FullResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>115</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>24</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>master_rank</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>142</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>28</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>26</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>125</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>20</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_hits</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>26</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>green_status</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>125</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>26</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>125</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>50</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>20</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>39</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>20</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>102</R>
+                <G>255</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_end</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+            <FontName>arial9</FontName>
+            <Width>20</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_hits</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>26</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>118</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>26</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>red_status</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>125</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>74</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>23</Width>
+            <Height>11</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>57</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>16</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>RR</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>83</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>16</Width>
+            <Height>12</Height>
+            <MaxCharacters>9999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>77</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>16</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>L</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>102</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>28</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>ML</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>37</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>28</Width>
+            <Height>10</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>28</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Level</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>131</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>28</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>CL</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>115</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>24</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>master_rank</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>70</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>16</Width>
+            <Height>12</Height>
+            <MaxCharacters>9999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_rank</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>11</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Merchant</Data>
+            <Adapter>summary_title</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>g_hh_reverse</Name>
+        <File>custom/Assets/Textures/ghost_hh_reverse.tga</File>
+    </Texture>
+
+
+    <StatusIconTemplate>
+        <Name>g_reverse_red_bar</Name>
+        <TextureName>g_hh_reverse</TextureName>
+        <TextureStart>
+            <X>156</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>100</Width>
+        <Height>26</Height>
+        <MaxLevels>34</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>g_vstatus_bg</Name>
+        <Width>7</Width>
+        <TopHeight>0</TopHeight>
+        <RepeatHeight>26</RepeatHeight>
+        <BottomHeight>0</BottomHeight>
+        <Texture>
+            <TextureName>g_hh_reverse</TextureName>
+            <Top>
+                <X>0</X>
+                <Y>0</Y>
+            </Top>
+            <Repeat>
+                <X>0</X>
+                <Y>0</Y>
+            </Repeat>
+            <Bottom>
+                <X>0</X>
+                <Y>0</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>g_vstatus_bg_greentop</Name>
+        <Width>7</Width>
+        <TopHeight>0</TopHeight>
+        <RepeatHeight>26</RepeatHeight>
+        <BottomHeight>0</BottomHeight>
+        <Texture>
+            <TextureName>g_hh_reverse</TextureName>
+            <Top>
+                <X>0</X>
+                <Y>0</Y>
+            </Top>
+            <Repeat>
+                <X>24</X>
+                <Y>0</Y>
+            </Repeat>
+            <Bottom>
+                <X>0</X>
+                <Y>0</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>g_vstatus_fg_green</Name>
+        <Width>7</Width>
+        <TopHeight>0</TopHeight>
+        <RepeatHeight>26</RepeatHeight>
+        <BottomHeight>0</BottomHeight>
+        <Texture>
+            <TextureName>g_hh_reverse</TextureName>
+            <Top>
+                <X>0</X>
+                <Y>0</Y>
+            </Top>
+            <Repeat>
+                <X>8</X>
+                <Y>0</Y>
+            </Repeat>
+            <Bottom>
+                <X>0</X>
+                <Y>0</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>g_vstatus_fg_yellow</Name>
+        <Width>7</Width>
+        <TopHeight>0</TopHeight>
+        <RepeatHeight>26</RepeatHeight>
+        <BottomHeight>0</BottomHeight>
+        <Texture>
+            <TextureName>g_hh_reverse</TextureName>
+            <Top>
+                <X>0</X>
+                <Y>0</Y>
+            </Top>
+            <Repeat>
+                <X>16</X>
+                <Y>0</Y>
+            </Repeat>
+            <Bottom>
+                <X>0</X>
+                <Y>0</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <VerticalStatusBarTemplate>
+        <Name>g_vstatus_greentop</Name>
+        <ForegroundImage>g_vstatus_bg</ForegroundImage>
+        <BackgroundImage>g_vstatus_bg_greentop</BackgroundImage>
+        <Width>7</Width>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </VerticalStatusBarTemplate>
+
+
+    <VerticalStatusBarTemplate>
+        <Name>g_vstatus_green</Name>
+        <ForegroundImage>g_vstatus_fg_green</ForegroundImage>
+        <BackgroundImage>g_vstatus_bg</BackgroundImage>
+        <Width>7</Width>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </VerticalStatusBarTemplate>
+
+
+    <VerticalStatusBarTemplate>
+        <Name>g_vstatus_yellow</Name>
+        <ForegroundImage>g_vstatus_fg_yellow</ForegroundImage>
+        <BackgroundImage>g_vstatus_bg</BackgroundImage>
+        <Width>7</Width>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </VerticalStatusBarTemplate>
+
+
+    <ButtonTemplate>
+        <Name>g_highlight_smallgroup</Name>
+        <Size>
+            <X>244</X>
+            <Y>114</Y>
+        </Size>
+        <Font>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>g_bghighlight</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>1024</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>1024</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>1024</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <WindowTemplate>
+        <Name>mini_group</Name>
+        <WindowId>MiniGroup</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>243</Width>
+        <Height>113</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- BG Controls -->
+
+
+        <FullResizeImageDef>
+            <ControlId>black bg</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>244</Width>
+            <Height>114</Height>
+        </FullResizeImageDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_0_health</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_0_power</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_0_endurance_top</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_greentop</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_0_endurance</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_0_label</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group0</Data>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_0_label_hp</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class0</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_0_clickarea</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_1_health</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>30</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_1_power</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_1_endurance_top</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_1_endurance</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_1_label</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group1</Data>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_1_label_hp</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class1</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>43</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_1_clickarea</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_2_health</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_2_power</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_2_endurance_top</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_2_endurance</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_2_label</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group2</Data>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_2_label_hp</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class2</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>71</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_2_clickarea</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_3_health</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>86</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_3_power</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_3_endurance_top</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_3_endurance</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_3_label</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group3</Data>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_3_label_hp</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class3</ControlId>
+            <Position>
+                <X>42</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_3_clickarea</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_4_health</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_4_power</ControlId>
+            <Position>
+                <X>134</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_4_endurance_top</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_4_endurance</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_4_label</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group4</Data>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_4_label_hp</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class4</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_4_clickarea</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_5_health</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>30</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_5_power</ControlId>
+            <Position>
+                <X>134</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_5_endurance_top</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_5_endurance</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_5_label</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group5</Data>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_5_label_hp</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class5</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>43</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_5_clickarea</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_6_health</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>58</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_power</ControlId>
+            <Position>
+                <X>134</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_endurance_top</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_endurance</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_6_label</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group6</Data>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_6_label_hp</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class6</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>71</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_6_clickarea</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId>member_7_health</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>86</Y>
+            </Position>
+            <TemplateName>g_reverse_red_bar</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_7_power</ControlId>
+            <Position>
+                <X>134</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_7_endurance_top</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_7_endurance</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <LabelDef>
+            <ControlId>member_7_label</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>14</MaxCharacters>
+            <Data>group7</Data>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>member_7_label_hp</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_health7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>class7</ControlId>
+            <Position>
+                <X>166</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>76</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>member_7_clickarea</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>117</Width>
+            <Height>26</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <ListBoxTemplate>
+        <Name>g_pulse_listbox</Name>
+        <LinePadding>-12</LinePadding>
+        <CellPadding>1</CellPadding>
+        <LabelLength>0</LabelLength>
+        <ScrollbarTemplate></ScrollbarTemplate>
+        <DrawScroll>false</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <IconTemplate>plain_icon_large</IconTemplate>
+        <TextFont>
+            <Name></Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>0</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>32</X>
+                <Y>32</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
+    <ButtonTemplate>
+        <Name>g_highlight_pulse</Name>
+        <Size>
+            <X>34</X>
+            <Y>34</Y>
+        </Size>
+        <Font>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>g_bghighlight</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>1024</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>1024</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>1024</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <WindowTemplate>
+        <Name>custom18_window</Name>
+        <WindowId>Custom18_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>34</TitleWidth>
+        <TitleHeight>34</TitleHeight>
+        <Width>34</Width>
+        <Height>34</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>34</MinWidth>
+        <MinHeight>34</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_highlight_pulse</TemplateName>
+        </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>IconHolder</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>34</Width>
+            <Height>34</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>PulseIcon</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>13</Y>
+            </Position>
+            <Width>40</Width>
+            <Height>32</Height>
+            <TemplateName>g_pulse_listbox</TemplateName>
+            <AdapterName>conc_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

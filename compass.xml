@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>compass</Name>
+        <File>custom/shazcompass_modg.dds</File>
+    </Texture>
+
+
+    <StatusIconTemplate>
+        <Name>compass_status_icon</Name>
+        <TextureName>compass</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>32</Y>
+        </TextureStart>
+        <Width>64</Width>
+        <Height>64</Height>
+        <MaxLevels>32</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>compass_outer</Name>
+        <TextureName>compass</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>95</Y>
+        </TextureStart>
+        <Width>66</Width>
+        <Height>66</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <WindowTemplate>
+        <Name>compass</Name>
+        <WindowId>Compass</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>14</TitleWidth>
+        <TitleHeight>14</TitleHeight>
+        <Width>14</Width>
+        <Height>14</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>14</MinWidth>
+        <MinHeight>14</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>-25</X>
+                <Y>-25</Y>
+            </Position>
+            <TemplateName>compass_status_icon</TemplateName>
+            <AdapterName>compass_heading</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>-26</X>
+                <Y>-26</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>compass_outer</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>realm_bonuses</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>500</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>300</Width>
+            <Height>505</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Realm Bonuses</Data>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>280</Width>
+            <Height>170</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>30</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_keep_text</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>51</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Darkness Falls</Data>
+            <ColorAdapter>realm_df_color</ColorAdapter>
+            <Adapter>realm_df_text</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>65</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>2 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>65</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+2% Realm Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>77</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>3 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color3</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>77</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+2% BP/Coin/XP Bonus</Data>
+            <ColorAdapter>realm_bonus_color3</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>89</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>4 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color4</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>89</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% Realm Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color4</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>101</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>5 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color5</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>101</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% BP/Coin/XP Bonus</Data>
+            <ColorAdapter>realm_bonus_color5</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>113</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>6 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color6</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>113</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% Bounty Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color6</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>125</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>7 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color7</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>125</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% Realm Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color7</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>137</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>8 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color8</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>137</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% Experience Bonus</Data>
+            <ColorAdapter>realm_bonus_color8</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>149</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>9 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color9</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>149</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% Coin Bonus</Data>
+            <ColorAdapter>realm_bonus_color9</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>161</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>10 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color10</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>161</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+25% Bounty Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color10</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>173</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>11 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color11</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>173</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+25% Experience Bonus</Data>
+            <ColorAdapter>realm_bonus_color11</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>185</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>12 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color12</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>185</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+25% Coin Bonus</Data>
+            <ColorAdapter>realm_bonus_color12</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>197</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>13 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color13</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>197</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+25% Realm Point Bonus</Data>
+            <ColorAdapter>realm_bonus_color13</ColorAdapter>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>280</Width>
+            <Height>72</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>225</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_power_text</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>246</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>your power relic</Data>
+            <ColorAdapter>realm_power_color0</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>258</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>1 enemy relic</Data>
+            <ColorAdapter>realm_power_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>258</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% spell damage/healing</Data>
+            <ColorAdapter>realm_power_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>270</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% XP/BP/Coin/Craft Haste</Data>
+            <ColorAdapter>realm_power_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>282</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>2 enemy relics</Data>
+            <ColorAdapter>realm_power_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>282</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+10% spell damage/healing</Data>
+            <ColorAdapter>realm_power_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>294</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+30% XP/BP/Coin/Craft Haste</Data>
+            <ColorAdapter>realm_power_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>336</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>280</Width>
+            <Height>72</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>10</X>
+                <Y>320</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_strength_text</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>341</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>your strength relic</Data>
+            <ColorAdapter>realm_strength_color0</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>353</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>1 enemy relic</Data>
+            <ColorAdapter>realm_strength_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>353</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% melee damage</Data>
+            <ColorAdapter>realm_strength_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>365</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+15% XP/BP/Coin/Craft Haste</Data>
+            <ColorAdapter>realm_strength_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>377</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>2 enemy relics</Data>
+            <ColorAdapter>realm_strength_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>377</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+10% melee damage</Data>
+            <ColorAdapter>realm_strength_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>389</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+30% XP/BP/Coin/Craft Haste</Data>
+            <ColorAdapter>realm_strength_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>440</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>280</Width>
+            <Height>51</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>12</X>
+                <Y>420</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>172</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Current Population Bonuses</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>447</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Albion</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>460</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>102</R>
+                <G>102</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Midgard</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>22</X>
+                <Y>474</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>156</R>
+                <G>255</G>
+                <B>133</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Hibernia</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>447</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>alb_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>460</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>102</R>
+                <G>102</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>mid_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>474</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>156</R>
+                <G>255</G>
+                <B>133</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>hib_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

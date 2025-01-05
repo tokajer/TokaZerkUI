@@ -1,0 +1,4892 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <ButtonTemplate>
+        <Name>button_large_tab</Name>
+        <Size>
+            <X>100</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>192</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>page3</TextureName>
+            <Normal>
+                <X>155</X>
+                <Y>222</Y>
+            </Normal>
+            <Pressed>
+                <X>155</X>
+                <Y>239</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>155</X>
+                <Y>205</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>155</X>
+                <Y>222</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>155</X>
+                <Y>222</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <TabsTemplate>
+        <Name>large_tabs</Name>
+        <ControlAreaFullResizeImageTemplate>g_window_background</ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>g_combo_label</TabButtonTemplate>
+        <TabXOffset>5</TabXOffset>
+        <TabYOffset>2</TabYOffset>
+    </TabsTemplate>
+
+
+    <WindowTemplate>
+        <Name>training_window</Name>
+        <WindowId>Training</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>390</Width>
+        <Height>536</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>390</Width>
+            <Height>536</Height>
+        </FullResizeImageDef>
+
+
+        <!--Title-->
+
+
+        <LabelDef>
+            <Position>
+                <X>38</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Training</Data>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>6</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>377</Width>
+            <Height>110</Height>
+        </FullResizeImageDef>
+
+
+        <!--Specialization Points-->
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>30</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Specialization Points</Data>
+        </LabelDef>
+
+
+        <!--Available-->
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>50</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Available</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>120</X>
+                <Y>50</Y>
+            </Position>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_spec_avail</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--Needed-->
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>70</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Needed</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>120</X>
+                <Y>70</Y>
+            </Position>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_spec_needed</Adapter>
+            <ColorAdapter>training_spec_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Remaining-->
+
+
+        <LabelDef>
+            <Position>
+                <X>40</X>
+                <Y>90</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Remaining</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>120</X>
+                <Y>90</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_spec_remaining</Adapter>
+            <ColorAdapter>training_spec_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Realm Points-->
+
+
+        <LabelDef>
+            <Position>
+                <X>210</X>
+                <Y>30</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Realm Points</Data>
+        </LabelDef>
+
+
+        <!--Available-->
+
+
+        <LabelDef>
+            <Position>
+                <X>220</X>
+                <Y>50</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Available</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>300</X>
+                <Y>50</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_realm_avail</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--Needed-->
+
+
+        <LabelDef>
+            <Position>
+                <X>220</X>
+                <Y>70</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Needed</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>300</X>
+                <Y>70</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_realm_needed</Adapter>
+            <ColorAdapter>training_realm_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Remaining-->
+
+
+        <LabelDef>
+            <Position>
+                <X>220</X>
+                <Y>90</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Remaining</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>300</X>
+                <Y>90</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>training_realm_remaining</Adapter>
+            <ColorAdapter>training_realm_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Minimum Level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>130</X>
+                <Y>115</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>160</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Minimum Level</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>240</X>
+                <Y>115</Y>
+            </Position>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>train_min_level</Adapter>
+            <ColorAdapter>train_min_level_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Tabs-->
+
+
+        <TabsDef>
+            <TemplateName>tokajer_tab_xlarge</TemplateName>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>70</Y>
+            </Position>
+            <Width>377</Width>
+            <Height>350</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>Specializations</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>Ability Summary</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>Realm Abilities</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1100</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1101</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1102</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1103</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1104</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1105</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1106</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1107</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1108</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1109</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1110</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1111</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1112</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1113</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1114</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1115</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1116</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1117</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1118</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1119</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1120</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1121</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1122</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1123</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1124</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1125</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1126</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1127</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1128</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1129</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1130</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1131</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1150</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1151</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1160</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1161</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1162</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1163</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1164</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1165</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1166</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1167</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1168</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1169</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1170</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1171</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1172</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1173</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1174</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1175</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1176</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1177</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1178</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1179</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1200</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1201</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1202</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1203</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1204</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1205</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1206</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1207</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1208</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1209</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1210</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1211</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1212</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1213</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1214</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1215</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1216</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1220</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1221</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1222</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1223</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1224</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1225</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1226</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1227</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1228</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1229</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1230</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1231</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1232</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1233</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1234</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1235</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1236</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1240</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1241</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1242</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1243</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1244</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1245</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1246</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1247</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1248</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1249</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1250</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1251</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1252</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1253</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1254</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1255</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1256</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1260</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1261</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1262</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1263</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1264</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1265</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1266</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1267</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1268</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1269</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1270</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1271</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1272</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1273</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1274</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1275</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1299</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1300</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1301</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1302</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1303</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1304</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1305</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1306</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1307</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1308</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1309</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1310</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1311</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1312</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1313</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1314</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1315</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1316</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1317</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1318</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1319</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1320</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1321</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1322</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1323</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1324</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1325</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1326</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1327</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1328</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1329</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1330</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1331</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1332</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1333</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1334</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1335</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1336</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1337</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1338</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1339</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1340</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1341</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1342</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1343</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1344</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1345</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1346</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1347</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1348</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1349</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1350</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1351</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1352</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1353</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1354</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1355</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1356</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1357</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1358</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1359</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1360</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1361</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1362</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1363</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1364</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1365</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1366</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1367</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1368</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1369</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1399</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <!--Specializations Line One-->
+
+
+        <LabelDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>180</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line One</Data>
+            <Adapter>spec_name0</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>178</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>180</Y>
+            </Position>
+            <Adaptername>spec_level0</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>180</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level0</Adapter>
+            <ColorAdapter>spec_level_color0</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Two-->
+
+
+        <LabelDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>205</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line One</Data>
+            <Adapter>spec_name1</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>203</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1106</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>205</Y>
+            </Position>
+            <Adaptername>spec_level1</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>205</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level1</Adapter>
+            <ColorAdapter>spec_level_color1</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Three-->
+
+
+        <LabelDef>
+            <ControlId>1109</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>230</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Three</Data>
+            <Adapter>spec_name2</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1108</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>228</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1110</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>230</Y>
+            </Position>
+            <Adaptername>spec_level2</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1111</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>230</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level2</Adapter>
+            <ColorAdapter>spec_level_color2</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Four-->
+
+
+        <LabelDef>
+            <ControlId>1113</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>255</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Four</Data>
+            <Adapter>spec_name3</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1112</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>253</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1114</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>255</Y>
+            </Position>
+            <Adaptername>spec_level3</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1115</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>255</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level3</Adapter>
+            <ColorAdapter>spec_level_color3</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Five-->
+
+
+        <LabelDef>
+            <ControlId>1117</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>280</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Five</Data>
+            <Adapter>spec_name4</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1116</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>278</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1118</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>280</Y>
+            </Position>
+            <Adaptername>spec_level4</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1119</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>280</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level4</Adapter>
+            <ColorAdapter>spec_level_color4</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Six-->
+
+
+        <LabelDef>
+            <ControlId>1121</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>305</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Six</Data>
+            <Adapter>spec_name5</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1120</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>303</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1122</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>305</Y>
+            </Position>
+            <Adaptername>spec_level5</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1123</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>305</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level5</Adapter>
+            <ColorAdapter>spec_level_color5</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Seven-->
+
+
+        <LabelDef>
+            <ControlId>1125</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>330</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Seven</Data>
+            <Adapter>spec_name6</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1124</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>328</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1126</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>330</Y>
+            </Position>
+            <Adaptername>spec_level6</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1127</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>330</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level6</Adapter>
+            <ColorAdapter>spec_level_color6</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <!--Specializations Line Eight-->
+
+
+        <LabelDef>
+            <ControlId>1129</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>355</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Eight</Data>
+            <Adapter>spec_name7</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1128</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>353</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainInfo</OnClickEvent>
+            <Width>130</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1130</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>355</Y>
+            </Position>
+            <Adaptername>spec_level7</Adaptername>
+            <Width>155</Width>
+            <Numticks>51</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1131</ControlId>
+            <Position>
+                <X>330</X>
+                <Y>355</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>spec_level7</Adapter>
+            <ColorAdapter>spec_level_color7</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1150</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>380</Y>
+            </Position>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>336</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!--Specializations: Styles and Skills-->
+
+
+        <LabelDef>
+            <ControlId>1151</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>390</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>New Styles and Skills</Data>
+        </LabelDef>
+
+
+        <IconDef>
+            <ControlId>1160</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon0</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc0</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1161</ControlId>
+            <Position>
+                <X>59</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon1</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc1</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1162</ControlId>
+            <Position>
+                <X>93</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon2</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc2</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1163</ControlId>
+            <Position>
+                <X>127</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon3</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc3</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1164</ControlId>
+            <Position>
+                <X>161</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon4</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc4</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1165</ControlId>
+            <Position>
+                <X>195</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon5</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc5</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1166</ControlId>
+            <Position>
+                <X>229</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon6</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc6</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1167</ControlId>
+            <Position>
+                <X>263</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon7</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc7</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1168</ControlId>
+            <Position>
+                <X>297</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon8</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc8</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1169</ControlId>
+            <Position>
+                <X>331</X>
+                <Y>410</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon9</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc9</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1170</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon10</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc10</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1171</ControlId>
+            <Position>
+                <X>59</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon11</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc11</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1172</ControlId>
+            <Position>
+                <X>93</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon12</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc12</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1173</ControlId>
+            <Position>
+                <X>127</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon13</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc13</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1174</ControlId>
+            <Position>
+                <X>161</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon14</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc14</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1175</ControlId>
+            <Position>
+                <X>195</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon15</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc15</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1176</ControlId>
+            <Position>
+                <X>229</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon16</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc16</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1177</ControlId>
+            <Position>
+                <X>263</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon17</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc17</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1178</ControlId>
+            <Position>
+                <X>297</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon18</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc18</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1179</ControlId>
+            <Position>
+                <X>331</X>
+                <Y>444</Y>
+            </Position>
+            <ToolTipID>39</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>spec_icon19</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>spec_icon_desc19</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <!--Ability Summary Tab-->
+
+
+        <!--Ability One-->
+
+
+        <LabelDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>165</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ability0</Data>
+            <Adapter>summary_label0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1201</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>165</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_level0</Adapter>
+            <Data>Level: </Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1202</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>165</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_skill_amount0</Adapter>
+            <Data>New Abilities: </Data>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <ControlId>1203</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon00</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc00</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1204</ControlId>
+            <Position>
+                <X>61</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon01</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc01</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1205</ControlId>
+            <Position>
+                <X>95</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon02</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc02</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1206</ControlId>
+            <Position>
+                <X>129</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon03</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc03</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1207</ControlId>
+            <Position>
+                <X>163</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon04</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc04</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1208</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon05</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc05</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1209</ControlId>
+            <Position>
+                <X>231</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon06</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc06</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1210</ControlId>
+            <Position>
+                <X>265</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon07</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc07</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1211</ControlId>
+            <Position>
+                <X>299</X>
+                <Y>184</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon08</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc08</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1212</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>220</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>PREV</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1213</ControlId>
+            <Position>
+                <X>222</X>
+                <Y>220</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>NEXT</Label>
+        </ButtonDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1214</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>222</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_page0</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1215</ControlId>
+            <Position>
+                <X>175</X>
+                <Y>222</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_amount0</Adapter>
+            <Data>of   </Data>
+        </ScalarLabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1216</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>240</Y>
+            </Position>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>336</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!--Ability Two-->
+
+
+        <LabelDef>
+            <ControlId>1220</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>245</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ability1</Data>
+            <Adapter>summary_label1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1221</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>245</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_level1</Adapter>
+            <Data>Level: </Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1222</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>245</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_skill_amount1</Adapter>
+            <Data>New Abilities: </Data>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <ControlId>1223</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon10</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc10</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1224</ControlId>
+            <Position>
+                <X>61</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon11</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc11</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1225</ControlId>
+            <Position>
+                <X>95</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon12</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc12</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1226</ControlId>
+            <Position>
+                <X>129</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon13</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc13</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1227</ControlId>
+            <Position>
+                <X>163</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon14</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc14</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1228</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon15</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc15</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1229</ControlId>
+            <Position>
+                <X>231</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon16</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc16</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1230</ControlId>
+            <Position>
+                <X>265</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon17</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc17</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1231</ControlId>
+            <Position>
+                <X>299</X>
+                <Y>264</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon18</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc18</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1232</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>300</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>PREV</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1233</ControlId>
+            <Position>
+                <X>222</X>
+                <Y>300</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>NEXT</Label>
+        </ButtonDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1234</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>302</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_page1</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1235</ControlId>
+            <Position>
+                <X>175</X>
+                <Y>302</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_amount1</Adapter>
+            <Data>of   </Data>
+        </ScalarLabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1236</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>320</Y>
+            </Position>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>336</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!--Ability Three-->
+
+
+        <LabelDef>
+            <ControlId>1240</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>325</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ability2</Data>
+            <Adapter>summary_label2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1241</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>325</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_level2</Adapter>
+            <Data>Level: </Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1242</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>325</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_skill_amount2</Adapter>
+            <Data>New Abilities: </Data>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <ControlId>1243</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon20</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc20</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1244</ControlId>
+            <Position>
+                <X>61</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon21</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc21</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1245</ControlId>
+            <Position>
+                <X>95</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon22</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc22</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1246</ControlId>
+            <Position>
+                <X>129</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon23</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc23</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1247</ControlId>
+            <Position>
+                <X>163</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon24</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc24</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1248</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon25</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc25</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1249</ControlId>
+            <Position>
+                <X>231</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon26</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc26</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1250</ControlId>
+            <Position>
+                <X>265</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon27</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc27</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1251</ControlId>
+            <Position>
+                <X>299</X>
+                <Y>344</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon28</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc28</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1252</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>380</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>PREV</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1253</ControlId>
+            <Position>
+                <X>222</X>
+                <Y>380</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>NEXT</Label>
+        </ButtonDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1254</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>382</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_page2</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1255</ControlId>
+            <Position>
+                <X>175</X>
+                <Y>382</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_amount2</Adapter>
+            <Data>of   </Data>
+        </ScalarLabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1256</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>400</Y>
+            </Position>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>336</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!--Ability Four-->
+
+
+        <LabelDef>
+            <ControlId>1260</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>405</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ability3</Data>
+            <Adapter>summary_label3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1261</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>405</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_level3</Adapter>
+            <Data>Level: </Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1262</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>405</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_skill_amount3</Adapter>
+            <Data>New Abilities: </Data>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <ControlId>1263</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon30</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc30</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1264</ControlId>
+            <Position>
+                <X>61</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon31</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc31</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1265</ControlId>
+            <Position>
+                <X>95</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon32</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc32</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1266</ControlId>
+            <Position>
+                <X>129</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon33</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc33</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1267</ControlId>
+            <Position>
+                <X>163</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon34</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc34</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1268</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon35</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc35</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1269</ControlId>
+            <Position>
+                <X>231</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon36</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc36</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1270</ControlId>
+            <Position>
+                <X>265</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon37</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc37</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <ControlId>1271</ControlId>
+            <Position>
+                <X>299</X>
+                <Y>424</Y>
+            </Position>
+            <ToolTipID>40</ToolTipID>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName>summary_icon38</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <Width>32</Width>
+            <Height>32</Height>
+            <LabelAdapterName>summary_icon_desc38</LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1272</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>460</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>PREV</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1273</ControlId>
+            <Position>
+                <X>222</X>
+                <Y>460</Y>
+            </Position>
+            <TemplateName>button_large</TemplateName>
+            <Label>NEXT</Label>
+        </ButtonDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1274</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>462</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_page3</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1275</ControlId>
+            <Position>
+                <X>175</X>
+                <Y>462</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_amount3</Adapter>
+            <Data>of   </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Vertical Slider Bar -->
+
+
+        <VerticalSliderDef>
+            <ControlId>1299</ControlId>
+            <Position>
+                <X>362</X>
+                <Y>156</Y>
+            </Position>
+            <Adaptername>summary_slider</Adaptername>
+            <Height>330</Height>
+            <Numticks>5</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_vertical_slider</Templatename>
+        </VerticalSliderDef>
+
+
+        <!-- Realm Ability Tab -->
+
+
+        <!-- Line One -->
+
+
+        <LabelDef>
+            <ControlId>1301</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>180</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line One</Data>
+            <Adapter>realm_name0</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1300</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>178</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1302</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>180</Y>
+            </Position>
+            <Adaptername>realm_level0</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1303</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>180</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level0</Adapter>
+            <ColorAdapter>realm_level_color0</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1304</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>180</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost0</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Two -->
+
+
+        <LabelDef>
+            <ControlId>1306</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>201</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Two</Data>
+            <Adapter>realm_name1</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1305</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>199</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1307</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>201</Y>
+            </Position>
+            <Adaptername>realm_level1</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1308</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>201</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level1</Adapter>
+            <ColorAdapter>realm_level_color1</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1309</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>201</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost1</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Three -->
+
+
+        <LabelDef>
+            <ControlId>1311</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>222</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Three</Data>
+            <Adapter>realm_name2</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1310</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>220</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1312</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>222</Y>
+            </Position>
+            <Adaptername>realm_level2</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1313</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>222</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level2</Adapter>
+            <ColorAdapter>realm_level_color2</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1314</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>222</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost2</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Four -->
+
+
+        <LabelDef>
+            <ControlId>1316</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>243</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Four</Data>
+            <Adapter>realm_name3</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1315</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>241</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1317</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>243</Y>
+            </Position>
+            <Adaptername>realm_level3</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1318</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>243</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level3</Adapter>
+            <ColorAdapter>realm_level_color3</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1319</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>243</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost3</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Five -->
+
+
+        <LabelDef>
+            <ControlId>1321</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>264</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Five</Data>
+            <Adapter>realm_name4</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1320</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>262</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1322</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>264</Y>
+            </Position>
+            <Adaptername>realm_level4</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1323</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>264</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level4</Adapter>
+            <ColorAdapter>realm_level_color4</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1324</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>264</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost4</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Six -->
+
+
+        <LabelDef>
+            <ControlId>1326</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>285</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Four</Data>
+            <Adapter>realm_name5</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1325</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>283</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1327</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>285</Y>
+            </Position>
+            <Adaptername>realm_level5</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1328</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>285</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level5</Adapter>
+            <ColorAdapter>realm_level_color5</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1329</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>285</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost5</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Seven -->
+
+
+        <LabelDef>
+            <ControlId>1331</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>306</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Seven</Data>
+            <Adapter>realm_name6</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1330</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>304</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1332</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>306</Y>
+            </Position>
+            <Adaptername>realm_level6</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1333</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>306</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level6</Adapter>
+            <ColorAdapter>realm_level_color6</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1334</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>306</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost6</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Eight -->
+
+
+        <LabelDef>
+            <ControlId>1336</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>327</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Eight</Data>
+            <Adapter>realm_name7</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1335</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>325</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1337</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>327</Y>
+            </Position>
+            <Adaptername>realm_level7</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1338</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>327</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level7</Adapter>
+            <ColorAdapter>realm_level_color7</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1339</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>327</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost7</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Nine -->
+
+
+        <LabelDef>
+            <ControlId>1341</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>348</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Nine</Data>
+            <Adapter>realm_name8</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1340</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>346</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1342</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>348</Y>
+            </Position>
+            <Adaptername>realm_level8</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1343</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>348</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level8</Adapter>
+            <ColorAdapter>realm_level_color8</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1344</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>348</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost8</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Ten -->
+
+
+        <LabelDef>
+            <ControlId>1346</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>369</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Ten</Data>
+            <Adapter>realm_name9</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1345</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>367</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1347</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>369</Y>
+            </Position>
+            <Adaptername>realm_level9</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1348</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>369</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level9</Adapter>
+            <ColorAdapter>realm_level_color9</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1349</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>369</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost9</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Eleven -->
+
+
+        <LabelDef>
+            <ControlId>1351</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>390</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Eleven</Data>
+            <Adapter>realm_name10</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1350</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>388</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1352</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>390</Y>
+            </Position>
+            <Adaptername>realm_level10</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1353</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>390</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level10</Adapter>
+            <ColorAdapter>realm_level_color10</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1354</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>390</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost10</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Twelve -->
+
+
+        <LabelDef>
+            <ControlId>1356</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>411</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Twelve</Data>
+            <Adapter>realm_name11</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1355</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>409</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1357</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>411</Y>
+            </Position>
+            <Adaptername>realm_level11</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1358</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>411</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level11</Adapter>
+            <ColorAdapter>realm_level_color11</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1359</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>411</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost11</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Thirteen -->
+
+
+        <LabelDef>
+            <ControlId>1361</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>432</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Thirteen</Data>
+            <Adapter>realm_name12</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1360</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>430</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1362</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>432</Y>
+            </Position>
+            <Adaptername>realm_level12</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1363</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>432</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level12</Adapter>
+            <ColorAdapter>realm_level_color12</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1364</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>432</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost12</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Line Fourteen -->
+
+
+        <LabelDef>
+            <ControlId>1366</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>453</Y>
+            </Position>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>165</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Line Fourteen</Data>
+            <Adapter>realm_name13</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1365</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>451</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>NewTrainRealmInfo</OnClickEvent>
+            <Width>160</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <HorizontalSliderDef>
+            <ControlId>1367</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>453</Y>
+            </Position>
+            <Adaptername>realm_level13</Adaptername>
+            <Width>90</Width>
+            <Numticks>6</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_horizontal_slider</Templatename>
+        </HorizontalSliderDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1368</ControlId>
+            <Position>
+                <X>280</X>
+                <Y>453</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level13</Adapter>
+            <ColorAdapter>realm_level_color13</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1369</ControlId>
+            <Position>
+                <X>300</X>
+                <Y>453</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_cost13</Adapter>
+            <Data>Cost: </Data>
+        </ScalarLabelDef>
+
+
+        <!-- Vertical Slider Bar -->
+
+
+        <VerticalSliderDef>
+            <ControlId>1399</ControlId>
+            <Position>
+                <X>362</X>
+                <Y>156</Y>
+            </Position>
+            <Adaptername>realm_slider</Adaptername>
+            <Height>330</Height>
+            <Numticks>5</Numticks>
+            <OnClickEvent></OnClickEvent>
+            <Templatename>generic_vertical_slider</Templatename>
+        </VerticalSliderDef>
+
+
+        <!--Bottom Buttons-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1900</ControlId>
+            <Position>
+                <X>14</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TRAIN</Label>
+            <Width>115</Width>
+            <OnClickEvent>NewTrain</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1901</ControlId>
+            <Position>
+                <X>135</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>RESET</Label>
+            <Width>115</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1902</ControlId>
+            <Position>
+                <X>257</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CANCEL</Label>
+            <Width>115</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1900</ControlId>
+            <Position>
+                <X>14</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RESPEC ALL</Label>
+            <Width>115</Width>
+            <OnClickEvent>RespecAll</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1900</ControlId>
+            <Position>
+                <X>257</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RESPEC BUY</Label>
+            <Width>115</Width>
+            <OnClickEvent>RespecBuy</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1900</ControlId>
+            <Position>
+                <X>135</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>/RESPEC REALM</Label>
+            <Width>115</Width>
+            <OnClickEvent>RespecRealm</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

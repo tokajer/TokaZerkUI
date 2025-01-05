@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.71 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+    <WindowTemplate>
+        <Name>alpha_chooser</Name>
+        <WindowId>AlphaChooser</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>128</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>128</Width>
+        <Height>84</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+        <FullResizeImageDef>
+            <ControlId>background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background</TemplateName>
+            <Width>128</Width>
+            <Height>84</Height>
+        </FullResizeImageDef>
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Alpha Chooser</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+        <!--Window Section-->
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>26</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Window</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_left_button</TemplateName>
+            <Label></Label>
+            <onClickEvent>WindowAlphaDecrease</onClickEvent>
+        </ButtonDef>
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>100</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_right_button</TemplateName>
+            <Label></Label>
+            <onClickEvent>WindowAlphaIncrease</onClickEvent>
+        </ButtonDef>
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>73</X>
+                <Y>26</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>window_alpha</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>34</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+        <!--Font Section-->
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>44</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Font</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_left_button</TemplateName>
+            <Label></Label>
+            <onClickEvent>FontAlphaDecrease</onClickEvent>
+        </ButtonDef>
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>100</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_right_button</TemplateName>
+            <Label></Label>
+            <onClickEvent>FontAlphaIncrease</onClickEvent>
+        </ButtonDef>
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>73</X>
+                <Y>44</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>font_alpha</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>34</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+        <!--Commit Buttons-->
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>2</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>g_generic_button</TemplateName>
+            <Label>Accept</Label>
+            <onClickEvent>AlphaSettingsAccept</onClickEvent>
+        </ButtonDef>
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>64</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>g_generic_button</TemplateName>
+            <Label>Cancel</Label>
+            <onClickEvent>AlphaSettingsCancel</onClickEvent>
+        </ButtonDef>
+
+    </WindowTemplate>
+
+</Root_Element>

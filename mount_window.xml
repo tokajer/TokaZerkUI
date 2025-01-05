@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mount</Name>
+        <WindowId>Mount</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>235</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>235</Width>
+        <Height>354</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>235</Width>
+            <Height>354</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>235</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Mount</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>58</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>hr_tokajer</TemplateName>
+            <Width>120</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>235</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Silver</Data>
+            <Adapter>mount_name</Adapter>
+        </LabelDef>
+
+
+        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;HorizontalResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;5&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;37&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;paperdoll_back&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Width&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;225&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Width&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+		&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/HorizontalResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
+
+
+        <DynamicImageDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>52</Y>
+            </Position>
+            <TextureName>none</TextureName>
+            <Dimensions>
+                <X>200</X>
+                <Y>150</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!-- Socket Background -->
+
+
+        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;FullResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;g_window_background&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;50&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Width&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;225&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Width&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;5&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;210&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Alignment&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;GrowWidth&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;true&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/GrowWidth&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Alignment&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;			
+		&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/FullResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
+
+
+        <!-- Active Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>32</X>
+                <Y>213</Y>
+            </Position>
+            <TemplateName>g_icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>214</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>33</X>
+                <Y>248</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Active</Data>
+        </LabelDef>
+
+
+        <!-- Armor Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>102</X>
+                <Y>213</Y>
+            </Position>
+            <TemplateName>g_icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>103</X>
+                <Y>214</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>103</X>
+                <Y>248</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Armor</Data>
+        </LabelDef>
+
+
+        <!-- Barding Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>172</X>
+                <Y>213</Y>
+            </Position>
+            <TemplateName>g_icon_socket_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>214</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>171</X>
+                <Y>248</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Barding</Data>
+        </LabelDef>
+
+
+        <!-- Inventory Background -->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>5</X>
+                <Y>260</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>225</Width>
+            <Height>89</Height>
+        </FullResizeImageDef>
+
+
+        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;VerticalResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;209&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+				&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;261&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Y&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Position&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;bag_bg&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/TemplateName&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+			&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;87&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+		&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/VerticalResizeImageDef&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
+
+
+        <!-- Inventory slot 1 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>266</Y>
+            </Position>
+            <TemplateName>g_icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>267</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>268</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot One</Data>
+            <Adapter>mount_saddlebag_slot_1</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 2 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>286</Y>
+            </Position>
+            <TemplateName>g_icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>287</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>288</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Two</Data>
+            <Adapter>mount_saddlebag_slot_2</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 3 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>306</Y>
+            </Position>
+            <TemplateName>g_icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>307</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Three</Data>
+            <Adapter>mount_saddlebag_slot_3</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 4 -->
+
+
+        <ImageAreaDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>326</Y>
+            </Position>
+            <TemplateName>g_icon_socket_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>327</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>30</X>
+                <Y>328</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Four</Data>
+            <Adapter>mount_saddlebag_slot_4</Adapter>
+        </LabelDef>
+
+
+        <!-- Bag 1 -->
+
+
+        <ButtonDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>266</Y>
+            </Position>
+            <TemplateName>g_button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <!-- Bag 2 -->
+
+
+        <ButtonDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>285</Y>
+            </Position>
+            <TemplateName>g_button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <!-- Bag 3 -->
+
+
+        <ButtonDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>304</Y>
+            </Position>
+            <TemplateName>g_button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <!-- Bag 4 -->
+
+
+        <ButtonDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>210</X>
+                <Y>323</Y>
+            </Position>
+            <TemplateName>g_button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <!-- Encumberance -->
+
+
+        <LabelDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>199</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Enc</Data>
+            <Adapter>mount_encumbrance</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

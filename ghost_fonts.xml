@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <!--
+		ghost_tahoma9_shadowed.tga
+		ghost_tahoma10_shadowed.tga
+		ghost_tahoma11_shadowed.tga
+		ghost_tahoma12_shadowed.tga
+		ghost_tahoma14_shadowed.tga
+		ghost_verdana9_shadowed.tga
+		ghost_verdana10_shadowed.tga
+		ghost_verdana11_shadowed.tga
+		ghost_verdana12_shadowed.tga
+		ghost_verdana14_shadowed.tga
+		ghost_verdana14_bold_shadowed_normalized.tga
+	-->
+
+
+    <Font>
+        <Name>ghost_chat_font</Name>
+        <File>custom/ghost_verdana14_bold_shadowed_normalized.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>ghost_arial09</Name>
+        <File>custom/ghost_arial09.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>ghost_arial11b</Name>
+        <File>custom/ghost_arial11b.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>ghost_tahoma12</Name>
+        <File>custom/ghost_tahoma12.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>ghost_tahoma11</Name>
+        <File>custom/ghost_tahoma11.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>ghost_tahoma9</Name>
+        <File>custom/ghost_tahoma9.tga</File>
+    </Font>
+
+
+</Root_Element>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>merchant</Name>
+        <WindowId>Merchant</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>350</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>350</Width>
+        <Height>458</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>350</Width>
+            <Height>458</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>64</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>38</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>109</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>38</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>154</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>38</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>199</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>38</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>244</X>
+                <Y>360</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>38</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>81</X>
+                <Y>397</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Quantity</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>150</X>
+                <Y>396</Y>
+            </Position>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>60</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>75</X>
+                <Y>378</Y>
+            </Position>
+            <TemplateName>mithril_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>120</X>
+                <Y>378</Y>
+            </Position>
+            <TemplateName>platinum_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>165</X>
+                <Y>378</Y>
+            </Position>
+            <TemplateName>gold_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>210</X>
+                <Y>378</Y>
+            </Position>
+            <TemplateName>silver_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>255</X>
+                <Y>378</Y>
+            </Position>
+            <TemplateName>copper_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ListBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>21</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Width>330</Width>
+            <Height>334</Height>
+            <TemplateName>listbox_nobg</TemplateName>
+            <AdapterName>merchant_page0</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>350</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Merchant</Data>
+            <Adapter>merchant_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>220</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>240</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>BUY</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>SELL</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>150</X>
+                <Y>425</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>APPRAISE</Label>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>75</X>
+                <Y>360</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>M:999</Data>
+            <Adapter>merchant_mithril</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>118</X>
+                <Y>360</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>P:999</Data>
+            <Adapter>merchant_platinum</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>160</X>
+                <Y>360</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>G:999</Data>
+            <Adapter>merchant_gold</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>208</X>
+                <Y>360</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>S:999</Data>
+            <Adapter>merchant_silver</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>253</X>
+                <Y>360</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>C:999</Data>
+            <Adapter>merchant_copper</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>265</X>
+                <Y>426</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Page 1 of 1</Data>
+            <Adapter>merchant_page_display</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>220</X>
+                <Y>396</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>240</X>
+                <Y>396</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>155</X>
+                <Y>397</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>10 x 20</Data>
+            <Adapter>merchant_quantity</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>265</X>
+                <Y>398</Y>
+            </Position>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Keep Qty</Data>
+            <LabelWidth>65</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

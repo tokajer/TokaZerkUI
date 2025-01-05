@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <EditBoxTemplate>
+        <Name>generic_editbox</Name>
+        <LinePadding>0</LinePadding>
+        <BackgroundTemplate>chat_entry</BackgroundTemplate>
+        <TextOffset>
+            <X>10</X>
+            <Y>5</Y>
+        </TextOffset>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+        <ScrollbarOffset>
+            <X>3</X>
+            <Y>2</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>-4</Y>
+        </ScrollbarSizeOffset>
+    </EditBoxTemplate>
+
+
+    <WindowTemplate>
+        <Name>bazaar_query</Name>
+        <WindowId>BazaarQuery</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>390</TitleWidth>
+        <TitleHeight>24</TitleHeight>
+        <Width>390</Width>
+        <Height>420</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--background elements-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>390</Width>
+            <Height>400</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>390</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Player Market Search</Data>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>5</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>none</TemplateName>
+            <Width>380</Width>
+            <Height>340</Height>
+        </FullResizeImageDef>
+
+
+        <!--functional elements-->
+
+
+        <!--Accept-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>55</X>
+                <Y>373</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ACCEPT</Label>
+            <Width>75</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Reset-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>373</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>RESET</Label>
+            <Width>100</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Cancel-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>255</X>
+                <Y>373</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CANCEL</Label>
+            <Width>75</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Keyword-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>45</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>13</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Keyword</Data>
+        </LabelDef>
+
+
+        <ClickableEditBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>40</Y>
+            </Position>
+            <TemplateName>generic_editbox</TemplateName>
+            <Width>165</Width>
+            <Height>24</Height>
+            <MaxCharacters>32</MaxCharacters>
+        </ClickableEditBoxDef>
+
+
+        <!--Min Price-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>236</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>90</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Price</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>106</X>
+                <Y>236</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>90</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>1c</Data>
+        </LabelDef>
+
+
+        <!--Max Price-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>256</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Max Price</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>106</X>
+                <Y>256</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>90</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Don't Care</Data>
+        </LabelDef>
+
+
+        <!--Min Level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>280</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>90</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Level</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>120</X>
+                <Y>280</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>40</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>0</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>280</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>280</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Max Level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>300</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>90</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Max Level</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>120</X>
+                <Y>300</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>40</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>52+</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>300</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>300</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Min Quality-->
+
+
+        <LabelDef>
+            <Position>
+                <X>20</X>
+                <Y>320</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>90</Width>
+            <Height>13</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Quality</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>120</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>40</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>None</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>320</Y>
+            </Position>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>160</X>
+                <Y>320</Y>
+            </Position>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Crafted-->
+
+
+        <CheckBoxDef>
+            <ControlId>1040</ControlId>
+            <Position>
+                <X>240</X>
+                <Y>300</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Player-crafted Only</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--Visual Effects-->
+
+
+        <CheckBoxDef>
+            <ControlId>1041</ControlId>
+            <Position>
+                <X>240</X>
+                <Y>320</Y>
+            </Position>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Visual Effects</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--Armor Class-->
+
+
+        <LabelDef>
+            <Position>
+                <X>50</X>
+                <Y>180</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Armor Class</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>193</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Damage Type-->
+
+
+        <LabelDef>
+            <Position>
+                <X>50</X>
+                <Y>145</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>13</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Damage Type</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>158</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Item Abilities-->
+
+
+        <LabelDef>
+            <Position>
+                <X>50</X>
+                <Y>110</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Item Abilities</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>123</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Slot-->
+
+
+        <LabelDef>
+            <Position>
+                <X>50</X>
+                <Y>75</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Slot</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>88</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Number 3-->
+
+
+        <ComboBoxDef>
+            <ControlId>1034</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>215</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Type 3-->
+
+
+        <ComboBoxDef>
+            <ControlId>1035</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>195</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Number 2-->
+
+
+        <ComboBoxDef>
+            <ControlId>1032</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>160</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Type 2-->
+
+
+        <ComboBoxDef>
+            <ControlId>1033</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>140</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Number 1-->
+
+
+        <ComboBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>105</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+        <!--Bonus Type 1-->
+
+
+        <LabelDef>
+            <Position>
+                <X>250</X>
+                <Y>70</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>165</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Bonuses</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>235</X>
+                <Y>85</Y>
+            </Position>
+            <TemplateName>generic_combobox_scroll</TemplateName>
+        </ComboBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

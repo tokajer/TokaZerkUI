@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <VerticalResizeImageTemplate>
+        <Name>vault_blank</Name>
+        <Width>16</Width>
+        <TopHeight>1</TopHeight>
+        <RepeatHeight>18</RepeatHeight>
+        <BottomHeight>1</BottomHeight>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Top>
+                <X>186</X>
+                <Y>95</Y>
+            </Top>
+            <Repeat>
+                <X>186</X>
+                <Y>75</Y>
+            </Repeat>
+            <Bottom>
+                <X>186</X>
+                <Y>95</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <WindowTemplate>
+        <Name>vault_window</Name>
+        <WindowId>Vault</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>430</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableTwoWayWidth>8</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
+        <MinWidth>300</MinWidth>
+        <MinHeight>200</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>300</Width>
+            <Height>430</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>5</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>290</Width>
+            <Height>375</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>itemdrop_bg</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_blackflat</TemplateName>
+            <Width>258</Width>
+            <Height>360</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Storage Vault</Data>
+        </LabelDef>
+
+
+        <VerticalResizeImageDef>
+            <Position>
+                <X>11</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>vault_blank</TemplateName>
+            <Height>362</Height>
+        </VerticalResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>280</Width>
+            <Height>366</Height>
+            <TemplateName>listbox_nobg</TemplateName>
+            <AdapterName>vault_items</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>g_left_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>80</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>g_right_button</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>65</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Page Number</Data>
+            <Adapter>vault_page</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Pages</Label>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

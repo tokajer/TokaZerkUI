@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>main_menu_window</Name>
+        <WindowId>main_menu</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>225</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>225</Width>
+        <Height>250</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>ImageBackground</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>224</Width>
+            <Height>250</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>77</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>75</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>MAIN MENU</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>31</X>
+                <Y>123</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>IN-GAME OPTIONS</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>31</X>
+                <Y>152</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CONFIGURE KEYBOARD</Label>
+            <Width>160</Width>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>200</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>QUIT</Label>
+            <Width>160</Width>
+            <OnClickEvent>Quit</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>31</X>
+                <Y>65</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HELP</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>94</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>INTERFACE ELEMENTS</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom19_window</Name>
+        <WindowId>custom19_window</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>1048</TitleWidth>
+        <TitleHeight>20</TitleHeight>
+        <Width>1048</Width>
+        <Height>572</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>1045</Width>
+            <Height>605</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial14</FontName>
+            <Width>1024</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Eden commands and useful stuff</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>10</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>1024</Width>
+            <Height>516</Height>
+        </FullResizeImageDef>
+
+
+        <TabsDef>
+            <TemplateName>tokajer_tab_large</TemplateName>
+            <Position>
+                <X>4</X>
+                <Y>14</Y>
+            </Position>
+            <Width>1024</Width>
+            <Height>570</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>General</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>Commands</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>/moveitem</Name>
+        </Tab>
+        <Tab>
+            <Id>4</Id>
+            <Name>BG Leader</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1101</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1102</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1201</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1202</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1301</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1302</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1401</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1402</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1501</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>1502</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1601</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>1602</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>7</TabId>
+                <ControlId>1701</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>7</TabId>
+                <ControlId>1702</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <!--Start Tab1-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>1025</Width>
+            <Height>546</Height>
+        </FullResizeImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>52</Y>
+            </Position>
+            <TextureName>tokajer_command_general</TextureName>
+            <Dimensions>
+                <X>1021</X>
+                <Y>512</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!--TAB1 ENDe-->
+
+
+        <!--TAB2 Start-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1202</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>1025</Width>
+            <Height>546</Height>
+        </FullResizeImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1201</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>52</Y>
+            </Position>
+            <TextureName>tokajer_command_challenge</TextureName>
+            <Dimensions>
+                <X>1021</X>
+                <Y>512</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!--EndeTab2-->
+
+
+        <!--Start Tab3-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1302</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>1025</Width>
+            <Height>546</Height>
+        </FullResizeImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1301</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>52</Y>
+            </Position>
+            <TextureName>tokajer_command_gmoveitem</TextureName>
+            <Dimensions>
+                <X>1021</X>
+                <Y>512</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!--StartTAB4-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1402</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>1025</Width>
+            <Height>546</Height>
+        </FullResizeImageDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1401</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>52</Y>
+            </Position>
+            <TextureName>tokajer_command_bg</TextureName>
+            <Dimensions>
+                <X>1021</X>
+                <Y>512</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!--ENDE TAB4-->
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

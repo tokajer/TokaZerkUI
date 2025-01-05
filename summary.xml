@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <!--                            Exp Bubbles                            -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>exp_high</Name>
+        <Height>8</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>9</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>206</X>
+                <Y>29</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>exp_low</Name>
+        <Height>8</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>9</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>217</X>
+                <Y>29</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>exp_bubbles</Name>
+        <ForegroundHResizeTemplate>exp_high</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>exp_low</BackgroundHResizeTemplate>
+        <Height>8</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <!--                            Exp Bubbles                            -->
+
+
+    <!--                            Red Status Back                            -->
+
+
+    <VerticalResizeImageTemplate>
+        <Name>red_back</Name>
+        <Width>10</Width>
+        <TopHeight>0</TopHeight>
+        <RepeatHeight>100</RepeatHeight>
+        <BottomHeight>0</BottomHeight>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Top>
+                <X>122</X>
+                <Y>155</Y>
+            </Top>
+            <Repeat>
+                <X>122</X>
+                <Y>155</Y>
+            </Repeat>
+            <Bottom>
+                <X>122</X>
+                <Y>155</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <!--                            END Red Status Back                            -->
+
+
+    <!--                            Summary Window                            -->
+
+
+    <WindowTemplate>
+        <Name>summary</Name>
+        <WindowId>c_windowInvalid</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>10</Width>
+        <Height>10</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>-30</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_attackmode_status</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId>summary_targethp</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>-21</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_bar_target_bigblue2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>13</X>
+                <Y>-18</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11b</FontName>
+            <Width>22</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>38</X>
+                <Y>-18</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>150</Width>
+            <Height>14</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>summary_selfhp</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>floating_healthbar_23</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>13</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>22</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_hits</Adapter>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>summary_selfend</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>floating_targetbar_11</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>13</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>22</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>102</R>
+                <G>153</G>
+                <B>102</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_end</Adapter>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>summary_selfpower</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>floating_powerbar_11</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>13</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>22</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>notches</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>-2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>thicklong bar notches</TemplateName>
+            <Width>202</Width>
+            <Height>20</Height>
+        </FullResizeImageDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

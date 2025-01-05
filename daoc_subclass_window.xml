@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>daoc_subclass</Name>
+        <WindowId>DAoC_Subclass</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>9</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>250</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>255</Width>
+        <Height>360</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>250</MinWidth>
+        <MinHeight>360</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>255</Width>
+            <Height>360</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Subclassing Window</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>302</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Champion Points: 0 / 5</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>170</X>
+                <Y>330</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Cancel</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>330</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Buy</Label>
+            <OnClickEvent>Train</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>330</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>SubclassDelve</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--
+		ICONS: These aren't used except for references for positioning.
+		-->
+
+
+        <!-- Upperleft -->
+
+
+        <IconDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>30</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <!-- Upper Right-->
+
+
+        <IconDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>30</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <!--
+		ICONS: Tier 2
+		-->
+
+
+        <!-- Lower Left -->
+
+
+        <IconDef>
+            <ControlId>2021</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>89</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

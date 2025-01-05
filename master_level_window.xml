@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <ImageAreaTemplate>
+        <Name>master_title</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>79</X>
+            <Y>25</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>55</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>master_level</Name>
+        <WindowId>MasterLevel</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>200</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>200</Width>
+        <Height>200</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>200</MinWidth>
+        <MinHeight>200</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>200</Width>
+            <Height>200</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>master_title</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>-10</X>
+                <Y>13</Y>
+            </Position>
+            <TemplateName>top_endcap</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>-10</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>bottom_endcap</TemplateName>
+        </ImageAreaDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>-3</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>vstatus_red</TemplateName>
+            <AdapterName>master_rp</AdapterName>
+            <Height>150</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>-10</X>
+                <Y>13</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>top_endcap</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>-10</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>bottom_endcap</TemplateName>
+        </ImageAreaDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>-3</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>vstatus_blue</TemplateName>
+            <AdapterName>master_exp</AdapterName>
+            <Height>150</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <TextAreaDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>15</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>master_list</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>170</Width>
+            <Height>83</Height>
+        </TextAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>64</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Rank</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>65</X>
+                <Y>64</Y>
+            </Position>
+            <FontName>arial11</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>master_rank</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>48</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Title</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>65</X>
+                <Y>48</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>master_title</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>32</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>master_window_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>30</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>PREVIOUS</Label>
+            <OnClickEvent>MasterLevelPagePrevious</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>30</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>NEXT</Label>
+            <OnClickEvent>MasterLevelPageNext</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

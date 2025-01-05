@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>warmap_agramon</Name>
+        <File>maps/z163.dds</File>
+    </Texture>
+
+
+    <ImageAreaTemplate>
+        <Name>warmap_agramon</Name>
+        <TextureName>warmap_agramon</TextureName>
+        <Size>
+            <X>256</X>
+            <Y>256</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>realmwar_agramon</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>266</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>266</Width>
+        <Height>416</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>266</Width>
+            <Height>310</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>45</Y>
+            </Position>
+            <TemplateName>warmap_agramon</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>285</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Keep Name</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>301</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Realm</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>317</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Claimed by:</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>333</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Claiming Guild</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>349</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Under Siege</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>365</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>More Stuff Here</Data>
+            <ColorAdapter>realmwar_info_hib</ColorAdapter>
+            <Adapter>realmwar_info_hib5</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>15</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>realmwar_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Hibernia</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>realmwar_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Midgard</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>130</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>realmwar_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Albion</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>realmwar_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Agramon</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>2010</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>KEY</Label>
+            <OnClickEvent>ToggleWarmapKey</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>UPDATE</Label>
+            <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>135</X>
+                <Y>25</Y>
+            </Position>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>BONUSES</Label>
+            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <ControlId>2013</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>player_location</TemplateName>
+        </ImageAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

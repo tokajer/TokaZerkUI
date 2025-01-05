@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>stats_attributes</Name>
+        <WindowId>StatsAttributes</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>380</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;390&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>192</Width>
+            <Height>380</Height>
+        </FullResizeImageDef>
+
+
+        <!--name, level, realm points-->
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>48</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>164</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>stats_name</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Level</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>37</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Realm Points</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>70</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_realm_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--race, base class, profession, title-->
+
+
+        <LabelDef>
+            <Position>
+                <X>58</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>60</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>stats_race</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>120</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>80</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>stats_profession</Adapter>
+        </LabelDef>
+
+
+        <!--weapskill, hits, weapdam, AF-->
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>WeapSkill</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>62</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_weapon_skill</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>109</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>WeapDam</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>62</X>
+                <Y>109</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_weapon_damage</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Hit Points</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>159</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_hitpoints</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>109</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>ArmorFact</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>163</X>
+                <Y>109</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_armor_factor</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--stats area-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>3</X>
+                <Y>125</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>97</Width>
+            <Height>148</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>131</Y>
+            </Position>
+            <ToolTipID>1</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_strength</Adapter>
+            <ColorAdapter>stats_strength_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Strength</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>146</Y>
+            </Position>
+            <ToolTipID>3</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>146</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_constitution</Adapter>
+            <ColorAdapter>stats_constitution_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>146</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Constitution</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>161</Y>
+            </Position>
+            <ToolTipID>2</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>161</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_dexterity</Adapter>
+            <ColorAdapter>stats_dexterity_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>161</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Dexterity</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>176</Y>
+            </Position>
+            <ToolTipID>4</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>176</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_quickness</Adapter>
+            <ColorAdapter>stats_quickness_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>176</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Quickness</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>191</Y>
+            </Position>
+            <ToolTipID>5</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>191</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_intelligence</Adapter>
+            <ColorAdapter>stats_intelligence_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>191</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Intelligence</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>206</Y>
+            </Position>
+            <ToolTipID>7</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>206</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_empathy</Adapter>
+            <ColorAdapter>stats_empathy_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>206</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Empathy</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>221</Y>
+            </Position>
+            <ToolTipID>6</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>221</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_piety</Adapter>
+            <ColorAdapter>stats_piety_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>221</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Piety</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>236</Y>
+            </Position>
+            <ToolTipID>8</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>82</Width>
+        </HorizontalResizeImageDef>
+
+
+        <!-- charisma -->
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>12</X>
+                <Y>236</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_charisma</Adapter>
+            <ColorAdapter>stats_charisma_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>236</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Charisma</Data>
+        </LabelDef>
+
+
+        <!--additional info-->
+
+
+        <FullResizeImageDef>
+            <ControlId>additional bg</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>276</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>185</Width>
+            <Height>100</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <Position>
+                <X>10</X>
+                <Y>280</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Width>172</Width>
+            <Height>90</Height>
+            <TemplateName>g_listbox_nobg</TemplateName>
+            <AdapterName>stats_additional_info</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <!--buttons-->
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Command</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Options</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>125</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Manager</Label>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MiniStat</ControlId>
+            <Position>
+                <X>19</X>
+                <Y>253</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Mini Stat</Label>
+            <OnClickEvent>ToggleCustom6</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>125</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Title</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Mount</Label>
+            <OnClickEvent>Mount</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Social</Label>
+            <OnClickEvent>Community</OnClickEvent>
+        </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>resistbg</ControlId>
+            <Position>
+                <X>103</X>
+                <Y>125</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>85</Width>
+            <Height>148</Height>
+        </FullResizeImageDef>
+
+
+        <!-- resists area -->
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>131</Y>
+            </Position>
+            <ToolTipID>11</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>131</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <Adapter>stats_thrust</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>131</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Thrust</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>146</Y>
+            </Position>
+            <ToolTipID>9</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>146</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <Adapter>stats_crush</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>146</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>137</Width>
+            <Height>100</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Crush</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>161</Y>
+            </Position>
+            <ToolTipID>10</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>161</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <Adapter>stats_slash</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>161</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Slash</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>176</Y>
+            </Position>
+            <ToolTipID>12</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>176</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <Adapter>stats_heat</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>176</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Heat</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>191</Y>
+            </Position>
+            <ToolTipID>13</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>191</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <Adapter>stats_cold</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>191</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Cold</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>206</Y>
+            </Position>
+            <ToolTipID>14</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>206</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <Adapter>stats_matter</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>206</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Matter</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>221</Y>
+            </Position>
+            <ToolTipID>17</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>221</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <Adapter>stats_energy</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>221</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Energy</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>236</Y>
+            </Position>
+            <ToolTipID>16</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>236</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <Adapter>stats_spirit</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>236</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Spirit</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>251</Y>
+            </Position>
+            <ToolTipID>15</ToolTipID>
+            <TemplateName>g_smallfontbar_bg</TemplateName>
+            <Width>68</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>112</X>
+                <Y>251</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <Adapter>stats_body</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>147</X>
+                <Y>251</Y>
+            </Position>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Body</Data>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>toggle mini resists</ControlId>
+            <Position>
+                <X>103</X>
+                <Y>125</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom15</OnClickEvent>
+            <Width>85</Width>
+            <Height>148</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>45</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
+            <Width>188</Width>
+            <Height>30</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

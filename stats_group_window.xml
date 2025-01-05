@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>green_full_small</Name>
+        <Height>3</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>100</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Left>
+                <X>154</X>
+                <Y>237</Y>
+            </Left>
+            <Repeat>
+                <X>154</X>
+                <Y>237</Y>
+            </Repeat>
+            <Right>
+                <X>154</X>
+                <Y>237</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>green_back_small</Name>
+        <Height>3</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>100</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>page2</TextureName>
+            <Left>
+                <X>154</X>
+                <Y>240</Y>
+            </Left>
+            <Repeat>
+                <X>154</X>
+                <Y>240</Y>
+            </Repeat>
+            <Right>
+                <X>154</X>
+                <Y>240</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>green_status_small</Name>
+        <ForegroundHResizeTemplate>green_full_small</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>green_back_small</BackgroundHResizeTemplate>
+        <Height>3</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <WindowTemplate>
+        <Name>stats_group</Name>
+        <WindowId>StatsGroup</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>370</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--passive elements-->
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>192</Width>
+            <Height>62</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_window_background_transparent</TemplateName>
+            <Width>192</Width>
+            <Height>307</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>155</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>193</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>231</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>3</X>
+                <Y>269</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_member_graphic</TemplateName>
+        </ImageAreaDef>
+
+
+        <!--active elements-->
+
+
+        <!--group member 0-->
+
+
+        <StatusBarDef>
+            <ControlId>member_0_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>65</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>65</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_0_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>65</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level0</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_0icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 1-->
+
+
+        <StatusBarDef>
+            <ControlId>member_1_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_1_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level1</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_1icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>102</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 2-->
+
+
+        <StatusBarDef>
+            <ControlId>member_2_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_2_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>141</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level2</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_2icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>140</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 3-->
+
+
+        <StatusBarDef>
+            <ControlId>member_3_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>179</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>179</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_3_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>179</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>180</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level3</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>194</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_3icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>178</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 4-->
+
+
+        <StatusBarDef>
+            <ControlId>member_4_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>217</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>217</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_4_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>217</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level4</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_4icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>216</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 5-->
+
+
+        <StatusBarDef>
+            <ControlId>member_5_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>255</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>255</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_5_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>255</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2005</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level5</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_5icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>254</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 6-->
+
+
+        <StatusBarDef>
+            <ControlId>member_6_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>293</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>293</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_6_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>293</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2006</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>294</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level6</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_6icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>292</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--group member 7-->
+
+
+        <StatusBarDef>
+            <ControlId>member_7_health_frame</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>331</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_power_frame</ControlId>
+            <Position>
+                <X>104</X>
+                <Y>331</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Width>46</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>member_7_end_frame</ControlId>
+            <Position>
+                <X>151</X>
+                <Y>331</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Width>30</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_red</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>97</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>152</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_green</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Width>28</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>105</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+            <Width>44</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>24</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>77</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>107</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>40</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>2007</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>332</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>16</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level7</Adapter>
+        </ScalarLabelDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon0</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>23</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon1</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>41</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon2</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>59</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon3</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>77</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon4</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>95</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon5</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>113</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon6</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>131</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon7</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>149</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon8</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>167</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>group_7icon9</AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>330</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>185</Width>
+            <Height>35</Height>
+        </InvisibleButtonDef>
+
+
+        <!--buttons-->
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Invite</Label>
+            <OnClickEvent>GroupInvite</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Disband</Label>
+            <OnClickEvent>GroupDisband</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>64</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Mini</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Find</Label>
+            <OnClickEvent>GroupFind</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Set LFG</Label>
+            <OnClickEvent>GroupFind</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>CGF</Label>
+            <OnClickEvent>ToggleCasualGroupFinder</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>64</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Buffs</Label>
+            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>GroupHelper</ControlId>
+            <Position>
+                <X>64</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>Helper</Label>
+            <OnClickEvent>ToggleCustom7</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

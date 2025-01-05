@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>train</Name>
+        <WindowId>Train</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>450</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>450</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>300</Width>
+            <Height>450</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>89</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>TRAIN</Label>
+            <OnClickEvent>Train</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>153</X>
+                <Y>9</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tokajer_62x18</TemplateName>
+            <Label>INFO</Label>
+            <OnClickEvent>TrainInfo</OnClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Train</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>45</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Width>280</Width>
+            <Height>125</Height>
+            <TemplateName>g_listbox_nobg</TemplateName>
+            <AdapterName>train_skills</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ListBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>195</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>280</Width>
+            <Height>225</Height>
+            <TemplateName>g_listbox_nobg</TemplateName>
+            <AdapterName>train_realm</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>27</Y>
+            </Position>
+            <TemplateName>hr_tokajer</TemplateName>
+            <Width>124</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>16</X>
+                <Y>28</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>120</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Specializations</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>200</X>
+                <Y>27</Y>
+            </Position>
+            <TemplateName>hr_tokajer</TemplateName>
+            <Width>92</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>207</X>
+                <Y>28</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_skill_points</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>177</Y>
+            </Position>
+            <TemplateName>hr_tokajer</TemplateName>
+            <Width>124</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>16</X>
+                <Y>178</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>120</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Realm Skills</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>200</X>
+                <Y>177</Y>
+            </Position>
+            <TemplateName>hr_tokajer</TemplateName>
+            <Width>92</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>207</X>
+                <Y>178</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_realm_skill_points</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
