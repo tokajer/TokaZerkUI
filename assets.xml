@@ -17,77 +17,31 @@
     <Include>ghoststyles.xml</Include>
 
 
-    <Include>ghost_toolbar.xml</Include>
-
-
-    <Include>ghost_grouptoolbar.xml</Include>
-
-
-    <Include>ghost_horiz_group_window.xml</Include>
-
-
-    <Include>ghost_ministats.xml</Include>
-
-
-    <Include>ghost_miniresists.xml</Include>
-
-
-    <!-- &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;ghost_xp.xml&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; -->
-
-
-    <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;ghost_rp.xml&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; -->
-
-
-    <Include>ghost_rpchart.xml</Include>
-
-
-    <Include>ghost_targetwindow.xml</Include>
-
-
-    <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;ghost_concstatus.xml&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Include&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; -->
-
-
-    <Include>ghost_windowmanager.xml</Include>
-
-
-    <Include>ghost_chatfont.xml</Include>
-
-
-    <Include>ghost_pulse.xml</Include>
-
-
-    <Include>ghost_floating_power.xml</Include>
-
-
-    <Include>ghost_floating_endurance.xml</Include>
-
-
     <Include>ghost_targetbarcolor.xml</Include>
 
 
-    <Include>custom10_window.xml</Include>
 
 
-    <Include>custom11_window.xml</Include>
-
-
-    <Include>custom12_window.xml</Include>
-
-
-    <Include>custom13_window.xml</Include>
-
-
-    <Include>custom14_window.xml</Include>
-
-
+    <Include>custom0_window.xml</Include>
     <Include>custom1_window.xml</Include>
-
-
+    <Include>custom2_window.xml</Include>
+    <Include>custom3_window.xml</Include>
     <Include>custom4_window.xml</Include>
-
-
     <Include>custom5_window.xml</Include>
-
+    <Include>custom6_window.xml</Include>
+    <Include>custom7_window.xml</Include>
+    <Include>custom8_window.xml</Include>
+    <Include>custom9_window.xml</Include>
+    <Include>custom10_window.xml</Include>
+    <Include>custom11_window.xml</Include>
+    <Include>custom12_window.xml</Include>
+    <Include>custom13_window.xml</Include>
+    <Include>custom14_window.xml</Include>
+    <Include>custom15_window.xml</Include>
+    <Include>custom16_window.xml</Include>
+    <Include>custom17_window.xml</Include>
+    <Include>custom18_window.xml</Include>
+    <Include>custom19_window.xml</Include>
 
     <!--fonts-->
 
