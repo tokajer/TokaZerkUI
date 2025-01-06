@@ -121,6 +121,48 @@
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
     </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight9</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>9</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight10</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>10</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight11</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>11</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight12</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>12</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight13</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontLight14</Name>
+        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <Height>14</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
     <Font>
         <Name>button_small</Name>
         <File>custom/Assets/ghost/ghost_verdana9_shadowed_normalized.tga</File>
