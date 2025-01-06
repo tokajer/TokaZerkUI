@@ -2071,8 +2071,8 @@
             <X>5</X>
             <Y>0</Y>
         </Menuoffset>
-        <DownButtonTemplate></DownButtonTemplate>
-        <LabelButtonTemplate>combo_label</LabelButtonTemplate>
+        <DownButtonTemplate>button_down</DownButtonTemplate>
+        <LabelButtonTemplate>button_tokajer_82x18</LabelButtonTemplate>
         <MenuTemplate>generic_menu</MenuTemplate>
     </ComboBoxTemplate>
 
@@ -2284,14 +2284,14 @@
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>dlg_background_bcurve</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
