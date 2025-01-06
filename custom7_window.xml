@@ -147,7 +147,7 @@
             <ControlId>member_0_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>11</Y>
+                <Y>9</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -172,7 +172,7 @@
             <ControlId>class_0_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>21</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -197,7 +197,7 @@
             <ControlId>member_0_label_hp</ControlId>
             <Position>
                 <X>12</X>
-                <Y>16</Y>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -353,7 +353,7 @@
             <ControlId>member_1_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>60</Y>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -378,7 +378,7 @@
             <ControlId>member_1_class</ControlId>
             <Position>
                 <X>36</X>
-                <Y>69</Y>
+                <Y>67</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -403,7 +403,7 @@
             <ControlId>member_1_label_hp</ControlId>
             <Position>
                 <X>12</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -559,7 +559,7 @@
             <ControlId>member_2_label</ControlId>
             <Position>
                 <X>148</X>
-                <Y>11</Y>
+                <Y>9</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -584,7 +584,7 @@
             <ControlId>member_2_class</ControlId>
             <Position>
                 <X>148</X>
-                <Y>21</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -609,7 +609,7 @@
             <ControlId>member_2_label_hp</ControlId>
             <Position>
                 <X>124</X>
-                <Y>16</Y>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -765,7 +765,7 @@
             <ControlId>member_3_label</ControlId>
             <Position>
                 <X>148</X>
-                <Y>59</Y>
+                <Y>57</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -790,7 +790,7 @@
             <ControlId>member_3_class</ControlId>
             <Position>
                 <X>148</X>
-                <Y>68</Y>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -815,7 +815,7 @@
             <ControlId>member_3_label_hp</ControlId>
             <Position>
                 <X>124</X>
-                <Y>63</Y>
+                <Y>61</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -971,7 +971,7 @@
             <ControlId>member_4_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>11</Y>
+                <Y>9</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -996,7 +996,7 @@
             <ControlId>member_4_class</ControlId>
             <Position>
                 <X>260</X>
-                <Y>21</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1021,7 +1021,7 @@
             <ControlId>member_4_label_hp</ControlId>
             <Position>
                 <X>236</X>
-                <Y>16</Y>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1177,7 +1177,7 @@
             <ControlId>member_5_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>59</Y>
+                <Y>57</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1202,7 +1202,7 @@
             <ControlId>member_5_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>68</Y>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1227,7 +1227,7 @@
             <ControlId>member_5_label_hp</ControlId>
             <Position>
                 <X>236</X>
-                <Y>63</Y>
+                <Y>61</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1383,7 +1383,7 @@
             <ControlId>member_6_label</ControlId>
             <Position>
                 <X>372</X>
-                <Y>11</Y>
+                <Y>9</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1408,7 +1408,7 @@
             <ControlId>member_6_class</ControlId>
             <Position>
                 <X>372</X>
-                <Y>21</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1433,7 +1433,7 @@
             <ControlId>member_6_label_hp</ControlId>
             <Position>
                 <X>348</X>
-                <Y>16</Y>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1589,7 +1589,7 @@
             <ControlId>member_7_label</ControlId>
             <Position>
                 <X>375</X>
-                <Y>59</Y>
+                <Y>57</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1614,7 +1614,7 @@
             <ControlId>member_7_label</ControlId>
             <Position>
                 <X>375</X>
-                <Y>68</Y>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1639,7 +1639,7 @@
             <ControlId>member_7_label_hp</ControlId>
             <Position>
                 <X>348</X>
-                <Y>63</Y>
+                <Y>61</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

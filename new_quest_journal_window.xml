@@ -126,7 +126,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>272</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>
@@ -248,7 +248,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>300</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>

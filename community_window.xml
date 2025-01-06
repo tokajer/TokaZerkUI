@@ -859,7 +859,7 @@
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>5</Y>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -1231,7 +1231,7 @@
             <ControlId>1101</ControlId>
             <Position>
                 <X>27</X>
-                <Y>52</Y>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1284,7 +1284,7 @@
             <ControlId>1104</ControlId>
             <Position>
                 <X>27</X>
-                <Y>165</Y>
+                <Y>163</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1337,7 +1337,7 @@
             <ControlId>1107</ControlId>
             <Position>
                 <X>27</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1395,7 +1395,7 @@
             <ControlId>1200</ControlId>
             <Position>
                 <X>17</X>
-                <Y>50</Y>
+                <Y>48</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1415,7 +1415,7 @@
             <ControlId>1201</ControlId>
             <Position>
                 <X>50</X>
-                <Y>50</Y>
+                <Y>48</Y>
             </Position>
             <Color>
                 <R>56</R>
@@ -1435,7 +1435,7 @@
             <ControlId>1202</ControlId>
             <Position>
                 <X>215</X>
-                <Y>48</Y>
+                <Y>46</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1455,7 +1455,7 @@
             <ControlId>1203</ControlId>
             <Position>
                 <X>265</X>
-                <Y>50</Y>
+                <Y>48</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>100</Width>
@@ -1475,7 +1475,7 @@
             <ControlId>1204</ControlId>
             <Position>
                 <X>302</X>
-                <Y>50</Y>
+                <Y>48</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1495,7 +1495,7 @@
             <ControlId>1205</ControlId>
             <Position>
                 <X>333</X>
-                <Y>50</Y>
+                <Y>48</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>150</Width>
@@ -1514,8 +1514,8 @@
         <LabelDef>
             <ControlId>1206</ControlId>
             <Position>
-                <X>368</X>
-                <Y>50</Y>
+                <X>366</X>
+                <Y>48</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1553,7 +1553,7 @@
             <ControlId>1208</ControlId>
             <Position>
                 <X>510</X>
-                <Y>48</Y>
+                <Y>46</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1573,7 +1573,7 @@
             <ControlId>1209</ControlId>
             <Position>
                 <X>540</X>
-                <Y>48</Y>
+                <Y>46</Y>
             </Position>
             <Color>
                 <R>56</R>
@@ -1593,7 +1593,7 @@
             <ControlId>1210</ControlId>
             <Position>
                 <X>17</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1613,7 +1613,7 @@
             <ControlId>1211</ControlId>
             <Position>
                 <X>72</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>100</Width>
@@ -1633,7 +1633,7 @@
             <ControlId>1212</ControlId>
             <Position>
                 <X>109</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1653,7 +1653,7 @@
             <ControlId>1213</ControlId>
             <Position>
                 <X>182</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>150</Width>
@@ -1673,7 +1673,7 @@
             <ControlId>1214</ControlId>
             <Position>
                 <X>240</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <ToolTipID>135</ToolTipID>
             <Color>
@@ -1694,7 +1694,7 @@
             <ControlId>1215</ControlId>
             <Position>
                 <X>311</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <ToolTipID>135</ToolTipID>
             <FontName>tokafontbold10</FontName>
@@ -1714,8 +1714,8 @@
         <LabelDef>
             <ControlId>1216</ControlId>
             <Position>
-                <X>368</X>
-                <Y>64</Y>
+                <X>366</X>
+                <Y>62</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1735,7 +1735,7 @@
             <ControlId>1217</ControlId>
             <Position>
                 <X>434</X>
-                <Y>64</Y>
+                <Y>62</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -1888,7 +1888,7 @@
             <ControlId>1226</ControlId>
             <Position>
                 <X>513</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>25</Width>
@@ -1909,7 +1909,7 @@
             <ControlId>1227</ControlId>
             <Position>
                 <X>537</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1929,7 +1929,7 @@
             <ControlId>1228</ControlId>
             <Position>
                 <X>548</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>25</Width>
@@ -1977,7 +1977,7 @@
             <ControlId>1231</ControlId>
             <Position>
                 <X>99</X>
-                <Y>304</Y>
+                <Y>302</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -1997,7 +1997,7 @@
             <ControlId>1232</ControlId>
             <Position>
                 <X>174</X>
-                <Y>304</Y>
+                <Y>302</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2048,7 +2048,7 @@
             <ControlId>1300</ControlId>
             <Position>
                 <X>17</X>
-                <Y>56</Y>
+                <Y>54</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -2068,7 +2068,7 @@
             <ControlId>1301</ControlId>
             <Position>
                 <X>50</X>
-                <Y>56</Y>
+                <Y>54</Y>
             </Position>
             <Color>
                 <R>56</R>
@@ -2088,7 +2088,7 @@
             <ControlId>1304</ControlId>
             <Position>
                 <X>238</X>
-                <Y>56</Y>
+                <Y>54</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -2108,7 +2108,7 @@
             <ControlId>1305</ControlId>
             <Position>
                 <X>290</X>
-                <Y>56</Y>
+                <Y>54</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>100</Width>
@@ -2210,7 +2210,7 @@
             <ControlId>1313</ControlId>
             <Position>
                 <X>514</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>20</Width>
@@ -2231,7 +2231,7 @@
             <ControlId>1314</ControlId>
             <Position>
                 <X>535</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <Color>
                 <R>192</R>
@@ -2251,7 +2251,7 @@
             <ControlId>1315</ControlId>
             <Position>
                 <X>548</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <FontName>tokafontbold10</FontName>
             <Width>25</Width>
@@ -2286,7 +2286,7 @@
             <ControlId>1317</ControlId>
             <Position>
                 <X>15</X>
-                <Y>300</Y>
+                <Y>298</Y>
             </Position>
             <TemplateName>generic_textarea_sm</TemplateName>
             <AdapterName>alliance_motd</AdapterName>

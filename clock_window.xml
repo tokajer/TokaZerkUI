@@ -53,7 +53,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>70</Width>
             <Height>20</Height>
             <MaxCharacters>10</MaxCharacters>
@@ -73,7 +73,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>130</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>

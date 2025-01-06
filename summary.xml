@@ -164,7 +164,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11b</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>22</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -192,7 +192,7 @@
                 <B>0</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11b</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>150</Width>
             <Height>14</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -224,7 +224,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>22</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -258,19 +258,19 @@
         <ScalarLabelDef>
             <Position>
                 <X>13</X>
-                <Y>23</Y>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>22</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Color>
-                <R>102</R>
-                <G>153</G>
-                <B>102</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <Adapter>summary_player_end</Adapter>
@@ -297,19 +297,19 @@
         <ScalarLabelDef>
             <Position>
                 <X>13</X>
-                <Y>36</Y>
+                <Y>34</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>22</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>51</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <Adapter>summary_player_power</Adapter>

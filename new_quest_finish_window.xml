@@ -64,7 +64,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>270</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -111,7 +111,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>256</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -347,7 +347,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>256</Width>
             <Height>17</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -436,7 +436,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -455,7 +455,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -475,7 +475,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -495,7 +495,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -515,7 +515,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -545,7 +545,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>256</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -565,7 +565,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>95</Width>
             <Height>15</Height>
             <MaxCharacters>16</MaxCharacters>

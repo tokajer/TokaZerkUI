@@ -2072,8 +2072,8 @@
             <Y>0</Y>
         </Menuoffset>
         <DownButtonTemplate>button_down</DownButtonTemplate>
-        <LabelButtonTemplate>button_tokajer_82x18</LabelButtonTemplate>
-        <MenuTemplate>generic_menu</MenuTemplate>
+        <LabelButtonTemplate>button_tokajer_xlarge</LabelButtonTemplate>
+        <MenuTemplate>generic_menu_transparent</MenuTemplate>
     </ComboBoxTemplate>
 
 
@@ -2241,7 +2241,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2287,7 +2287,7 @@
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial11b</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2910,7 +2910,7 @@
 
     <ChatControlTemplate>
         <Name>chat</Name>
-        <FontName>tokafontbold10</FontName>
+        <FontName>tokafontregular10</FontName>
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <ScrollbarTemplate>chat_vscroll</ScrollbarTemplate>
     </ChatControlTemplate>
@@ -5064,7 +5064,7 @@
         <BackgroundTemplate>dlg_background_1px</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -10127,9 +10127,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
         </Font>
@@ -20853,6 +20853,42 @@
         <Name>compass2</Name>
         <Texture>compass2</Texture>
     </CompassControlTemplate>
+
+
+    <MenuTemplate>
+        <Name>generic_toka_menu</Name>
+        <Width>120</Width>
+        <Height>18</Height>
+        <LabelLength>200</LabelLength>
+        <Font>
+            <Name>tokafontbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+        </Font>
+        <Texture>
+            <TextureName>ui_tokajer_parts</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>35</Y>
+            </Normal>
+            <Highlit>
+                <X>0</X>
+                <Y>0</Y>
+            </Highlit>
+        </Texture>
+        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
+        <MaxVisibleItems>24</MaxVisibleItems>
+    </MenuTemplate>
 
 
 </Root_Element>

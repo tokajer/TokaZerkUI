@@ -79,9 +79,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>39</X>
-                <Y>10</Y>
+                <Y>8</Y>
             </Position>
-            <FontName>arial9ds</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -99,9 +99,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>56</X>
-                <Y>10</Y>
+                <Y>8</Y>
             </Position>
-            <FontName>arial9ds</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -119,12 +119,12 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>10</Y>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <FontName>arial9ds</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>32</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>

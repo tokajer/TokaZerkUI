@@ -206,7 +206,7 @@
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>2</Y>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -218,9 +218,9 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>title</FontName>
+            <FontName>tokafontbold14</FontName>
             <Width>270</Width>
-            <Height>15</Height>
+            <Height>18</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>MAP TITLE GOES HERE</Data>
             <Adapter>map_title</Adapter>
@@ -249,7 +249,7 @@
         <LabelDef>
             <Position>
                 <X>161</X>
-                <Y>339</Y>
+                <Y>337</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -257,7 +257,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>150</Width>
             <Height>11</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -278,7 +278,7 @@
         <LabelDef>
             <Position>
                 <X>29</X>
-                <Y>339</Y>
+                <Y>337</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -286,7 +286,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>110</Width>
             <Height>11</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -474,7 +474,7 @@
                 <B>196</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>45</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -494,7 +494,7 @@
                 <B>196</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11b</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>40</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>

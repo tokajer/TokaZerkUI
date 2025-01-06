@@ -14,7 +14,7 @@
             <Y>5</Y>
         </TextOffset>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -22,9 +22,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>255</R>
-                <G>255</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -166,7 +166,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>45</Y>
+                <Y>43</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -201,7 +201,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>236</Y>
+                <Y>234</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -221,7 +221,7 @@
             <ControlId>1012</ControlId>
             <Position>
                 <X>106</X>
-                <Y>236</Y>
+                <Y>234</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -243,7 +243,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>256</Y>
+                <Y>254</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -263,7 +263,7 @@
             <ControlId>1013</ControlId>
             <Position>
                 <X>106</X>
-                <Y>256</Y>
+                <Y>254</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -285,7 +285,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>280</Y>
+                <Y>278</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -305,7 +305,7 @@
             <ControlId>1022</ControlId>
             <Position>
                 <X>120</X>
-                <Y>280</Y>
+                <Y>278</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -350,7 +350,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>300</Y>
+                <Y>298</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -370,7 +370,7 @@
             <ControlId>1025</ControlId>
             <Position>
                 <X>120</X>
-                <Y>300</Y>
+                <Y>298</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -415,7 +415,7 @@
         <LabelDef>
             <Position>
                 <X>20</X>
-                <Y>320</Y>
+                <Y>318</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -435,7 +435,7 @@
             <ControlId>1016</ControlId>
             <Position>
                 <X>120</X>
-                <Y>320</Y>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -516,7 +516,7 @@
         <LabelDef>
             <Position>
                 <X>50</X>
-                <Y>180</Y>
+                <Y>178</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -548,7 +548,7 @@
         <LabelDef>
             <Position>
                 <X>50</X>
-                <Y>145</Y>
+                <Y>143</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -580,7 +580,7 @@
         <LabelDef>
             <Position>
                 <X>50</X>
-                <Y>110</Y>
+                <Y>108</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -612,7 +612,7 @@
         <LabelDef>
             <Position>
                 <X>50</X>
-                <Y>75</Y>
+                <Y>73</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -709,7 +709,7 @@
         <LabelDef>
             <Position>
                 <X>250</X>
-                <Y>70</Y>
+                <Y>68</Y>
             </Position>
             <Color>
                 <R>255</R>
