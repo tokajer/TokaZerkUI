@@ -1,124 +1,158 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Root_Element ID="DAOCUi">
-
-<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
-
-
+<Root_Element ID="DAOCUi"><!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+    <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
     <Include>ghoststyles.xml</Include>
-
-
     <Include>custom0_window.xml</Include>
-
-
     <Include>custom1_window.xml</Include>
-
-
     <Include>custom2_window.xml</Include>
-
-
     <Include>custom3_window.xml</Include>
-
-
     <Include>custom4_window.xml</Include>
-
-
     <Include>custom5_window.xml</Include>
-
-
     <Include>custom6_window.xml</Include>
-
-
     <Include>custom7_window.xml</Include>
-
-
     <Include>custom8_window.xml</Include>
-
-
     <Include>custom9_window.xml</Include>
-
-
     <Include>custom10_window.xml</Include>
-
-
     <Include>custom11_window.xml</Include>
-
-
     <Include>custom12_window.xml</Include>
-
-
     <Include>custom13_window.xml</Include>
-
-
     <Include>custom14_window.xml</Include>
-
-
     <Include>custom15_window.xml</Include>
-
-
     <Include>custom16_window.xml</Include>
-
-
     <Include>custom17_window.xml</Include>
-
-
     <Include>custom18_window.xml</Include>
-
-
     <Include>custom19_window.xml</Include>
-
-
     <!--fonts-->
-
-
+    <TTFFont>
+        <Name>TokaFontBold8</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>8</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold9</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>9</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold10</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>10</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold11</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>11</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold12</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>12</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold13</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontBold14</Name>
+        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <Height>14</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>    
+    <TTFFont>
+        <Name>TokaFontBold8</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>8</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular9</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>9</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular10</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>10</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular11</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>11</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular12</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>12</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular13</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+    <TTFFont>
+        <Name>TokaFontRegular14</Name>
+        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <Height>14</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
     <Font>
         <Name>button_small</Name>
         <File>custom/Assets/ghost/ghost_verdana9_shadowed_normalized.tga</File>
     </Font>
-
-
     <Font>
         <Name>button_large</Name>
         <File>custom/Assets/ghost/ghost_verdana11_shadowed_normalized.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial11b</Name>
         <File>custom/Assets/Fonts/arial11b.tga</File>
     </Font>
-
-
     <Font>
         <Name>Font_HHelperWidgets</Name>
         <File>custom/Assets/Fonts/HHelperWidgets.tga</File>
     </Font>
-
-
     <Font>
         <Name>chatfont_ds</Name>
         <File>custom/Assets/Fonts/overp_shadow.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial9ds</Name>
         <File>custom/Assets/Fonts/Arial09ds.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial11ds</Name>
         <File>custom/Assets/Fonts/Arial11ds2.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial9b</Name>
         <File>custom/Assets/Fonts/arial09b.tga</File>
     </Font>
-
-
     <TTFFont>
         <Name>chatfont</Name>
         <File>custom/Assets/Fonts/Overpass-Regular.ttf</File>
@@ -126,8 +160,6 @@
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
     </TTFFont>
-
-
     <TTFFont>
         <Name>minib</Name>
         <File>custom/Assets/Fonts/minifontsmini7extendedbold.ttf</File>
@@ -135,194 +167,130 @@
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
     </TTFFont>
-
-
     <Font>
         <Name>arial9</Name>
         <File>custom/Assets/Fonts/arial09_cl.tga</File>
     </Font>
-
-
     <Font>
         <Name>ubunt9b</Name>
         <File>custom/Assets/Fonts/ubunt10.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont14pxST</Name>
         <File>custom/Assets/Fonts/whatisthisfont14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont11pxDS</Name>
         <File>custom/Assets/Fonts/whatisthisfont11px.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont2</Name>
         <File>custom/Assets/Fonts/whatisthisfont2.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont3</Name>
         <File>custom/Assets/Fonts/whatisthisfont11px.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont4</Name>
         <File>custom/Assets/Fonts/whatisthisfont4.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont5</Name>
         <File>custom/Assets/Fonts/whatisthisfont5.tga</File>
     </Font>
-
-
     <Font>
         <Name>_whatisthisfont</Name>
         <File>custom/Assets/Fonts/whatisthisfont.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial14px</Name>
         <File>custom/Assets/Fonts/arial14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial16px</Name>
         <File>custom/Assets/Fonts/arial16px.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial16pxbold</Name>
         <File>custom/Assets/Fonts/arial16pxbold.tga</File>
     </Font>
-
-
     <Font>
         <Name>ArialBoldGG16px</Name>
         <File>custom/Assets/Fonts/ArialBoldGG16px.tga</File>
     </Font>
-
-
     <Font>
         <Name>Georgia14px</Name>
         <File>custom/Assets/Fonts/Georgia14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>GeorgiaBoltGG16px</Name>
         <File>custom/Assets/Fonts/GeorgiaBoltGG16px.tga</File>
     </Font>
-
-
     <Font>
         <Name>GeorgiaGG14px</Name>
         <File>custom/Assets/Fonts/GeorgiaGG14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>GilroyBoldGG14px</Name>
         <File>custom/Assets/Fonts/GilroyBoldGG14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>verdana16boldpx</Name>
         <File>custom/Assets/Fonts/verdana16boldpx.tga</File>
     </Font>
-
-
     <Font>
         <Name>verdana16px</Name>
         <File>custom/Assets/Fonts/verdana16px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaBoldGG11px</Name>
         <File>custom/Assets/Fonts/VerdanaBoldGG11px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaBoldGG12px</Name>
         <File>custom/Assets/Fonts/VerdanaBoldGG12px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaBoldGG13px</Name>
         <File>custom/Assets/Fonts/VerdanaBoldGG13px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaBoldGG14px</Name>
         <File>custom/Assets/Fonts/VerdanaBoldGG14px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaBoldGG16px</Name>
         <File>custom/Assets/Fonts/VerdanaBoldGG16px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaGG9px</Name>
         <File>custom/Assets/Fonts/VerdanaGG9px.tga</File>
     </Font>
-
-
     <Font>
         <Name>VerdanaGG11px</Name>
         <File>custom/Assets/Fonts/VerdanaGG11px.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial9</Name>
         <File>fonts/arial09.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial11</Name>
         <File>custom/Assets/Fonts/arial11b.tga</File>
     </Font>
-
-
     <Font>
         <Name>arial14</Name>
         <File>fonts/arial14.tga</File>
     </Font>
-
-
     <Font>
         <Name>title</Name>
         <File>fonts/title_24.tga</File>
     </Font>
-
-
     <Font>
         <Name>barb10</Name>
         <File>fonts/barbedor_10.tga</File>
     </Font>
-
-
     <TTFFont>
         <Name>chat_small</Name>
         <File>fonts/MyriadPro-Regular.ttf</File>
@@ -330,8 +298,6 @@
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
     </TTFFont>
-
-
     <TTFFont>
         <Name>chat_large</Name>
         <File>fonts/MyriadPro-Regular.ttf</File>
@@ -339,8 +305,6 @@
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
     </TTFFont>
-
-
     <TTFFont>
         <Name>myriadbold</Name>
         <File>fonts/MyriadPro-Semibold.ttf</File>
@@ -348,8 +312,6 @@
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
     </TTFFont>
-
-
     <TTFFont>
         <Name>minion</Name>
         <File>fonts/MinionPro-Regular.ttf</File>
@@ -357,560 +319,373 @@
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
     </TTFFont>
-
-
     <!--textures-->
-
-
     <!--
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page1&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_01.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page1&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_01.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-
-
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page2&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_02.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page2&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_02.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-
-
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-        &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_03.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;page3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;custom/Assets/ghost/_gh_o_atlantis_03.tga&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
     &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
 -->
-
-
     <Texture>
         <Name>page4</Name>
         <File>atlantis/atlantis_04.tga</File>
     </Texture>
-
-
-    <!--	&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-		&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;compass&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-		&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;isles/compass.bmp&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
-	&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
-
-
+    <!--
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;compass&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Name&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;isles/compass.bmp&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/File&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Texture&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
     <Texture>
         <Name>small_arrows</Name>
         <File>atlantis/smallarrows.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>selected_icon</Name>
         <File>atlantis/selected_icon.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>emoticons</Name>
         <File>atlantis/emoticons.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>navigation</Name>
         <File>custom/Assets/ghost/_gh_o_navigation.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page4b</Name>
         <File>custom/Assets/ghost/_gh_o_atlantis_04b.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_hh64.dds</Name>
         <File>custom/assets/gfx/tokajer_hh64.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_hh2</Name>
         <File>custom/assets/gfx/tokajer_hh64_v2.dds</File>
     </Texture>
-
-
     <Include>custom19_window.xml</Include>
-
-
     <Texture>
         <Name>compass2</Name>
         <File>custom/compass.bmp</File>
     </Texture>
-
-
     <Texture>
         <Name>xploot_hib</Name>
         <File>custom/assets/xploot_hib.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>ui_tokajer_parts</Name>
         <File>custom/Assets/Textures/tokajer_ui_parts.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_command_challenge</Name>
         <File>custom/assets/command_challenge.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_command_general</Name>
         <File>custom/assets/command_general.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_command_gmoveitem</Name>
         <File>custom/assets/command_moveitem.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>tokajer_command_bg</Name>
         <File>custom/assets/command_bg.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>xploot_alb</Name>
         <File>custom/assets/xploot_alb.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>xploot_mid</Name>
         <File>custom/assets/xploot_mid.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>resis_alb</Name>
         <File>custom/assets/resis_alb.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>resis_hib</Name>
         <File>custom/assets/resis_hib.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>resis_mid</Name>
         <File>custom/assets/resis_mid.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_emain</Name>
         <File>custom/warmap/hib/emain.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_mount</Name>
         <File>custom/warmap/hib/mount_col.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_breifine</Name>
         <File>custom/warmap/hib/breifine.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_cruachan</Name>
         <File>custom/warmap/hib/cruachan_gorge.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_yggdra</Name>
         <File>custom/warmap/mid/war_yggdra.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_jamland</Name>
         <File>custom/warmap/mid/war_jamland.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_uppland</Name>
         <File>custom/warmap/mid/war_uppland.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_odins</Name>
         <File>custom/warmap/mid/war_odins.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_forest_sauvage</Name>
         <File>custom/warmap/alb/war_sauvage.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_snow</Name>
         <File>custom/warmap/alb/war_snow.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_pennine</Name>
         <File>custom/warmap/alb/war_penni.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>war_hadarian</Name>
         <File>custom/warmap/alb/war_hada.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>map_icons_custom</Name>
         <File>custom/Assets/ghost/map_icons.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>status_effect_icon</Name>
         <File>custom/Assets/Textures/status_effect_icon.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>knapp</Name>
         <File>custom/Assets/Textures/knapp.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_bg_h</Name>
         <File>custom/Assets/Textures/b_bg_h.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_rrchart</Name>
         <File>custom/Assets/Textures/b_rrchart.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_reverse</Name>
         <File>custom/Assets/Textures/b_rreverse.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_hp_reverse</Name>
         <File>custom/Assets/Textures/b_rreverse2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>compass_3d</Name>
         <File>custom/Assets/Textures/b_comp.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>ConditionOverlay</Name>
         <File>custom/Assets/Textures/Overlay.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_craft_alc</Name>
         <File>custom/Assets/Textures/crafting_alchemy.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>map_gitter</Name>
         <File>custom/Maps/map_gitter.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_s</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_m.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_hhbar</Name>
         <File>custom/Assets/Textures/b_hhbar.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>uielements</Name>
         <File>custom/Assets/Textures/b_uielements.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>performance</Name>
         <File>custom/Assets/Textures/performance.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>realm_symbols</Name>
         <File>custom/Assets/Textures/realm_symb.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_l</Name>
         <File>custom/Assets/Textures/hh_statusicon_original.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page3</Name>
         <File>custom/Assets/Textures/atlantis_03.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page1</Name>
         <File>custom/Assets/Textures/atlantis_01.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hh_reverse_box</Name>
         <File>custom/Assets/Textures/hh_reverse_box.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>frames_win</Name>
         <File>custom/Assets/Textures/frames_win.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>status_effect_icon2</Name>
         <File>custom/Assets/Textures/status_effect_icon2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>g_hh_reverse2</Name>
         <File>custom/Assets/Textures/ghost_hh_reverse2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>g_hh_reverse</Name>
         <File>custom/Assets/Textures/ghost_hh_reverse.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>FloatingImages2</Name>
         <File>custom/Assets/Textures/FloatingBars2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>neca_upet_icons</Name>
         <File>custom/Assets/Textures/neca_upet_icons.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>neca_upet_status</Name>
         <File>custom/Assets/Textures/neca_upet_status.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>uielements2</Name>
         <File>custom/Assets/Textures/b_uielements2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_bsn</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_bysan.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>ConditionOverlay2</Name>
         <File>custom/Assets/Textures/Overlay2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_bsn2</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_bsn.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_bg_h2</Name>
         <File>custom/Assets/Textures/b_bg_h2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>ConditionOverlay3</Name>
         <File>custom/Assets/Textures/Overlay3.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_bsnb</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_bsnb.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>b_chat_bg</Name>
         <File>custom/Assets/Textures/b_chat_bg.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>compass_2d</Name>
         <File>custom/Assets/Textures/b_comp2d.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>g_hh_reverse3</Name>
         <File>custom/Assets/Textures/ghost_hh_reverse3.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>Floating_HealthBar</Name>
         <File>custom/Assets/Textures/Bars/HealthBar.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>Floating_TargetBar</Name>
         <File>custom/Assets/Textures/Bars/TargetBar.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>Floating_EndoBar</Name>
         <File>custom/Assets/Textures/Bars/EndoBar.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>Floating_PowerBar</Name>
         <File>custom/Assets/Textures/Bars/PowerBar.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>AttackMode</Name>
         <File>custom/Assets/Textures/CombatMode.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_bsnbig</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_bysbig.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>ConditionOverlay4</Name>
         <File>custom/Assets/Textures/Overlay4.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>hsi_bsn_colorblind</Name>
         <File>custom/Assets/Textures/hh_statusicon_original_colorblind.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>knapp2</Name>
         <File>custom/Assets/Textures/knapp2.tga</File>
     </Texture>
-
-
     <Font>
         <Name>overpass</Name>
         <File>custom/Assets/Fonts/overp_shadow.tga</File>
     </Font>
-
-
     <Texture>
         <Name>page4b</Name>
         <File>custom/Assets/Textures/atlantis_04b.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>performance2</Name>
         <File>custom/Assets/Textures/performance2.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>whatisthistexture</Name>
         <File>custom/Assets/Textures/whatisthis.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>_whatisthistexture</Name>
         <File>custom/Assets/Textures/whatisthis.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>_whatisthishh</Name>
         <File>custom/Assets/Textures/whatisthishh.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>_whatisthisstatuseffects</Name>
         <File>custom/Assets/Textures/whatisthisstatuseffects.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>_whatisthisrealmranks</Name>
         <File>custom/Assets/Textures/whatisthisrealmranks.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>FloatingImages</Name>
         <File>custom/Assets/Textures/FloatingBars.tga</File>
     </Texture>
-
-
 </Root_Element>
