@@ -18,7 +18,7 @@
         <TitleWidth>225</TitleWidth>
         <TitleHeight>16</TitleHeight>
         <Width>225</Width>
-        <Height>250</Height>
+        <Height>270</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -36,7 +36,7 @@
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>224</Width>
-            <Height>250</Height>
+            <Height>270</Height>
         </FullResizeImageDef>
 
 
@@ -61,12 +61,47 @@
             <Data>MAIN MENU</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>60</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HELP</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>31</X>
-                <Y>123</Y>
+                <X>30</X>
+                <Y>60</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HELP</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>90</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>INTERFACE ELEMENTS</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>120</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>IN-GAME OPTIONS</Label>
@@ -78,8 +113,8 @@
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>31</X>
-                <Y>152</Y>
+                <X>30</X>
+                <Y>150</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>CONFIGURE KEYBOARD</Label>
@@ -92,40 +127,26 @@
             <ControlId>20</ControlId>
             <Position>
                 <X>30</X>
-                <Y>200</Y>
+                <Y>180</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TOKA UI MANAGER</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>210</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>QUIT</Label>
             <Width>160</Width>
             <OnClickEvent>Quit</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <ControlId>20</ControlId>
-            <Position>
-                <X>31</X>
-                <Y>65</Y>
-            </Position>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>HELP</Label>
-            <Width>160</Width>
-            <OnClickEvent>ToggleHelp</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <ControlId>20</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>94</Y>
-            </Position>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>INTERFACE ELEMENTS</Label>
-            <Width>160</Width>
-            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
 
     </WindowTemplate>
 
