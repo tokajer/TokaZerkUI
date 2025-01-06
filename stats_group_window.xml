@@ -115,7 +115,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_window_background_transparent</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>192</Width>
             <Height>307</Height>
         </FullResizeImageDef>

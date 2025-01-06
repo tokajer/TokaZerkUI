@@ -20849,4 +20849,10 @@
     </HorizontalResizeImageTemplate>
 
 
+    <CompassControlTemplate>
+        <Name>compass2</Name>
+        <Texture>compass2</Texture>
+    </CompassControlTemplate>
+
+
 </Root_Element>

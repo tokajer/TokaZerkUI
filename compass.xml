@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>compass</Name>
-        <File>custom/shazcompass_modg.dds</File>
+        <File>custom/Assets/ghost/shazcompass_modg.tga</File>
     </Texture>
 
 

@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>compass</TemplateName>
+            <TemplateName>compass2</TemplateName>
             <AdapterName>compass_heading</AdapterName>
             <Width>64</Width>
             <Height>16</Height>
@@ -47,7 +47,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>compass</TemplateName>
+            <TemplateName>compass2</TemplateName>
             <AdapterName>compass_heading</AdapterName>
             <Width>128</Width>
             <Height>32</Height>

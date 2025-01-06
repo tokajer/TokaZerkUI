@@ -6,12 +6,6 @@
 
 
     <Texture>
-        <Name>realm_symbols</Name>
-        <File>isles/realm_symb.tga</File>
-    </Texture>
-
-
-    <Texture>
         <Name>map_icons</Name>
         <File>isles/map_icons.tga</File>
     </Texture>

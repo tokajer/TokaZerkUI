@@ -5,12 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <Texture>
-        <Name>emoticons</Name>
-        <File>atlantis/emoticons.tga</File>
-    </Texture>
-
-
     <ImageAreaTemplate>
         <Name>emote_button</Name>
         <TextureName>emoticons</TextureName>

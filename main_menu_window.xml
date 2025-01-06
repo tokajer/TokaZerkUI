@@ -61,17 +61,6 @@
             <Data>MAIN MENU</Data>
         </LabelDef>
 
-        <HorizontalResizeButtonDef>
-            <ControlId>20</ControlId>
-            <Position>
-                <X>30</X>
-                <Y>60</Y>
-            </Position>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>HELP</Label>
-            <Width>160</Width>
-            <OnClickEvent>ToggleHelp</OnClickEvent>
-        </HorizontalResizeButtonDef>
 
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
@@ -84,6 +73,20 @@
             <Width>160</Width>
             <OnClickEvent>ToggleHelp</OnClickEvent>
         </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>60</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HELP</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
 
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
@@ -96,6 +99,7 @@
             <Width>160</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
         </HorizontalResizeButtonDef>
+
 
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
@@ -147,6 +151,7 @@
             <Width>160</Width>
             <OnClickEvent>Quit</OnClickEvent>
         </HorizontalResizeButtonDef>
+
 
     </WindowTemplate>
 
