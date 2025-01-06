@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Root_Element ID="DAOCUi">
-
-<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
-
-
+<Root_Element ID="DAOCUi">    <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+    <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
     <WindowTemplate>
         <Name>main_menu_window</Name>
         <WindowId>main_menu</WindowId>
@@ -25,10 +21,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-        <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
+        <ContextTemplateName></ContextTemplateName>        <FullResizeImageDef>
             <ControlId>ImageBackground</ControlId>
             <Position>
                 <X>1</X>
@@ -38,8 +31,6 @@
             <Width>224</Width>
             <Height>270</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <Position>
                 <X>77</X>
@@ -54,14 +45,12 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11b</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>75</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>MAIN MENU</Data>
         </LabelDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -73,8 +62,6 @@
             <Width>160</Width>
             <OnClickEvent>ToggleHelp</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -86,8 +73,6 @@
             <Width>160</Width>
             <OnClickEvent>ToggleHelp</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -99,8 +84,6 @@
             <Width>160</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -112,8 +95,6 @@
             <Width>160</Width>
             <OnClickEvent>ToggleOptions</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -125,8 +106,6 @@
             <Width>160</Width>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -138,8 +117,6 @@
             <Width>160</Width>
             <OnClickEvent>ToggleCustom0</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
         <HorizontalResizeButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -151,9 +128,5 @@
             <Width>160</Width>
             <OnClickEvent>Quit</OnClickEvent>
         </HorizontalResizeButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>
