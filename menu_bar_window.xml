@@ -17,7 +17,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>800</Width>
+        <Width>606</Width>
         <Height>27</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -35,18 +35,18 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
-            <Width>800</Width>
+            <Width>606</Width>
             <Height>27</Height>
         </FullResizeImageDef>
 
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>754</X>
-                <Y>8</Y>
+                <X>498</X>
+                <Y>5</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>MENU</Label>
+            <Label>Menu</Label>
             <Width>40</Width>
             <OnClickEvent>ToggleMainMenu</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -54,11 +54,23 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>284</X>
-                <Y>8</Y>
+                <X>15</X>
+                <Y>5</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>JOURNAL</Label>
+            <Label>Warmap</Label>
+            <Width>55</Width>
+            <OnClickEvent>ShowWarMap</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>5</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Journal</Label>
             <Width>55</Width>
             <OnClickEvent>ToggleJournal</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -66,75 +78,11 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>376</X>
-                <Y>8</Y>
+                <X>128</X>
+                <Y>5</Y>
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>RELIC</Label>
-            <Width>60</Width>
-            <OnClickEvent>Relic</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <Position>
-                <X>656</X>
-                <Y>8</Y>
-            </Position>
-            <ToolTipID>23</ToolTipID>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>GROUP</Label>
-            <Width>45</Width>
-            <OnClickEvent>ToggleStatsGroup</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <Position>
-                <X>610</X>
-                <Y>8</Y>
-            </Position>
-            <ToolTipID>21</ToolTipID>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>STYLES</Label>
-            <Width>45</Width>
-            <OnClickEvent>ToggleStatsStyles</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <Position>
-                <X>564</X>
-                <Y>8</Y>
-            </Position>
-            <ToolTipID>22</ToolTipID>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>SPELLS</Label>
-            <Width>45</Width>
-            <OnClickEvent>ToggleStatsSpells</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <Position>
-                <X>521</X>
-                <Y>8</Y>
-            </Position>
-            <ToolTipID>20</ToolTipID>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>SKILLS</Label>
-            <Width>42</Width>
-            <OnClickEvent>ToggleStatsSkills</OnClickEvent>
-        </HorizontalResizeButtonDef>
-
-
-        <HorizontalResizeButtonDef>
-            <Position>
-                <X>340</X>
-                <Y>8</Y>
-            </Position>
-            <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>MAP</Label>
+            <Label>Map</Label>
             <Width>35</Width>
             <OnClickEvent>ToggleMap</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -142,12 +90,37 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>437</X>
-                <Y>8</Y>
+                <X>165</X>
+                <Y>5</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Social</Label>
+            <Width>60</Width>
+            <OnClickEvent>Community</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>227</X>
+                <Y>5</Y>
+            </Position>
+            <ToolTipID>23</ToolTipID>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Group</Label>
+            <Width>45</Width>
+            <OnClickEvent>ToggleStatsGroup</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>274</X>
+                <Y>5</Y>
             </Position>
             <ToolTipID>18</ToolTipID>
             <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>ATTRIB.</Label>
+            <Label>Attrib.</Label>
             <Width>50</Width>
             <OnClickEvent>ToggleStatsAttributes</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -155,12 +128,51 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>488</X>
-                <Y>8</Y>
+                <X>326</X>
+                <Y>5</Y>
+            </Position>
+            <ToolTipID>20</ToolTipID>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Skills</Label>
+            <Width>42</Width>
+            <OnClickEvent>ToggleStatsSkills</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>370</X>
+                <Y>5</Y>
+            </Position>
+            <ToolTipID>21</ToolTipID>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Styles</Label>
+            <Width>45</Width>
+            <OnClickEvent>ToggleStatsStyles</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>417</X>
+                <Y>5</Y>
+            </Position>
+            <ToolTipID>22</ToolTipID>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>Spells</Label>
+            <Width>45</Width>
+            <OnClickEvent>ToggleStatsSpells</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>464</X>
+                <Y>5</Y>
             </Position>
             <ToolTipID>19</ToolTipID>
             <TemplateName>hr_button_tokajer</TemplateName>
-            <Label>INV.</Label>
+            <Label>Inv.</Label>
             <Width>32</Width>
             <OnClickEvent>ToggleStatsInventory</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -169,8 +181,8 @@
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>703</X>
-                <Y>8</Y>
+                <X>543</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -183,8 +195,8 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>720</X>
-                <Y>8</Y>
+                <X>560</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -197,8 +209,8 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>737</X>
-                <Y>8</Y>
+                <X>577</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -206,197 +218,6 @@
             <TemplateName>performance_icon_small</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
-
-
-        <StatusBarDef>
-            <ControlId>1002</ControlId>
-            <Position>
-                <X>27</X>
-                <Y>10</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <ToolTipID>32</ToolTipID>
-            <TemplateName>exp_bubbles</TemplateName>
-            <AdapterName>summary_exp_coarse</AdapterName>
-            <Width>90</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <ControlId>1003</ControlId>
-            <Position>
-                <X>27</X>
-                <Y>19</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <ToolTipID>32</ToolTipID>
-            <TemplateName>blue_status</TemplateName>
-            <AdapterName>summary_exp_fine</AdapterName>
-            <Width>90</Width>
-        </StatusBarDef>
-
-
-        <ButtonDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>6</X>
-                <Y>8</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <ToolTipID>32</ToolTipID>
-            <TemplateName>button_nobg</TemplateName>
-            <Label>Exp</Label>
-            <OnClickEvent>MenuBarToggleExp</OnClickEvent>
-            <LabelAlignment>
-                <TopLeft>true</TopLeft>
-            </LabelAlignment>
-        </ButtonDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>258</X>
-                <Y>10</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial9</FontName>
-            <Width>27</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data> C:999</Data>
-            <Adapter>merchant_copper</Adapter>
-        </LabelDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>222</X>
-                <Y>10</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial9</FontName>
-            <Width>27</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>S:999</Data>
-            <Adapter>merchant_silver</Adapter>
-        </LabelDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>181</X>
-                <Y>10</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial9</FontName>
-            <Width>27</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>G:999</Data>
-            <Adapter>merchant_gold</Adapter>
-        </LabelDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>141</X>
-                <Y>10</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial9</FontName>
-            <Width>27</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>P:999</Data>
-            <Adapter>merchant_platinum</Adapter>
-        </LabelDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>245</X>
-                <Y>11</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>copper_decal</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>209</X>
-                <Y>11</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>silver_decal</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>168</X>
-                <Y>11</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>gold_decal</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>128</X>
-                <Y>11</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>platinum_decal</TemplateName>
-        </ImageAreaDef>
 
 
     </WindowTemplate>
