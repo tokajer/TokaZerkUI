@@ -54,7 +54,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>button_large</FontName>
+            <FontName>arial11b</FontName>
             <Width>75</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
