@@ -787,9 +787,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -1129,15 +1129,15 @@
     <ButtonTemplate>
         <Name>combo_label</Name>
         <Size>
-            <X>72</X>
-            <Y>16</Y>
+            <X>82</X>
+            <Y>18</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
@@ -1160,10 +1160,10 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>knapp</TextureName>
+            <TextureName>ui_tokajer_parts</TextureName>
             <Normal>
-                <X>3</X>
-                <Y>46</Y>
+                <X>0</X>
+                <Y>17</Y>
             </Normal>
             <Pressed>
                 <X>155</X>
@@ -20462,7 +20462,7 @@
         <Name>hr_button_tokajer</Name>
         <Height>18</Height>
         <Font>
-            <Name>arial9b</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>

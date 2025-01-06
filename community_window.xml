@@ -666,7 +666,7 @@
         <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
         <ScrollbarRightOffset>-3</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <HeaderHorizResizeTemplate>listbox_hrbutton</HeaderHorizResizeTemplate>
         <HeaderLeftOffset>3</HeaderLeftOffset>
@@ -1223,7 +1223,7 @@
                 <Y>50</Y>
             </Position>
             <TemplateName>dialog_inset</TemplateName>
-            <Width>120</Width>
+            <Width>140</Width>
         </HorizontalResizeImageDef>
 
 
@@ -1242,8 +1242,8 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>120</Width>
+            <FontName>arial9b</FontName>
+            <Width>135</Width>
             <Height>17</Height>
             <MaxCharacters>30</MaxCharacters>
             <Data>Realm vs Realm Global</Data>
@@ -1276,7 +1276,7 @@
                 <Y>163</Y>
             </Position>
             <TemplateName>dialog_inset</TemplateName>
-            <Width>120</Width>
+            <Width>140</Width>
         </HorizontalResizeImageDef>
 
 
@@ -1295,8 +1295,8 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>120</Width>
+            <FontName>arial9b</FontName>
+            <Width>135</Width>
             <Height>17</Height>
             <MaxCharacters>30</MaxCharacters>
             <Data>Realm vs Realm Local</Data>
@@ -1329,7 +1329,7 @@
                 <Y>281</Y>
             </Position>
             <TemplateName>dialog_inset</TemplateName>
-            <Width>95</Width>
+            <Width>140</Width>
         </HorizontalResizeImageDef>
 
 
@@ -1348,8 +1348,8 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>95</Width>
+            <FontName>arial9b</FontName>
+            <Width>135</Width>
             <Height>17</Height>
             <MaxCharacters>20</MaxCharacters>
             <Data>Player vs Enemy</Data>

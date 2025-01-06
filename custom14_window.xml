@@ -545,7 +545,7 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>combo_label</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>Cancel</Label>
             <OnClickEvent>Togglecustom14</OnClickEvent>
         </ButtonDef>
@@ -560,7 +560,7 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>combo_label</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>Eden Info</Label>
             <OnClickEvent>Togglecustom19</OnClickEvent>
         </ButtonDef>

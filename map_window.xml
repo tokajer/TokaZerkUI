@@ -249,7 +249,7 @@
         <LabelDef>
             <Position>
                 <X>161</X>
-                <Y>337</Y>
+                <Y>339</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -257,7 +257,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial9b</FontName>
             <Width>150</Width>
             <Height>11</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -278,7 +278,7 @@
         <LabelDef>
             <Position>
                 <X>29</X>
-                <Y>337</Y>
+                <Y>339</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -286,7 +286,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial9b</FontName>
             <Width>110</Width>
             <Height>11</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -476,7 +476,7 @@
             </Color>
             <FontName>arial11</FontName>
             <Width>45</Width>
-            <Height>10</Height>
+            <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Area</Data>
         </LabelDef>
@@ -494,9 +494,9 @@
                 <B>196</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
-            <Width>45</Width>
-            <Height>10</Height>
+            <FontName>arial11b</FontName>
+            <Width>40</Width>
+            <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Zone</Data>
         </LabelDef>
