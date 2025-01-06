@@ -209,10 +209,10 @@
         <ButtonDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>192</X>
+                <X>172</X>
                 <Y>377</Y>
             </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>CONTRACT</Label>
             <OnClickEvent>HookpointStoreContract</OnClickEvent>
         </ButtonDef>

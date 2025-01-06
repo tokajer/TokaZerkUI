@@ -2084,7 +2084,7 @@
             <Y>0</Y>
         </Menuoffset>
         <DownButtonTemplate>button_down</DownButtonTemplate>
-        <LabelButtonTemplate>combo_label</LabelButtonTemplate>
+        <LabelButtonTemplate>button_tokajer_xlarge</LabelButtonTemplate>
         <MenuTemplate>generic_menu_scroll</MenuTemplate>
     </ComboBoxTemplate>
 
@@ -2551,7 +2551,7 @@
 
     <TextAreaTemplate>
         <Name>generic_textarea</Name>
-        <BackgroundTemplate>dlg_background_0px</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <ScrollbarTemplate>chat_vscroll</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
@@ -2569,9 +2569,9 @@
         <Font>
             <Name>arial11b</Name>
             <ColorNormal>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
@@ -2998,15 +2998,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -3065,9 +3065,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -14349,7 +14349,7 @@
             <Y>0</Y>
         </Menuoffset>
         <DownButtonTemplate></DownButtonTemplate>
-        <LabelButtonTemplate>combo_label</LabelButtonTemplate>
+        <LabelButtonTemplate>button_tokajer_62x18</LabelButtonTemplate>
         <MenuTemplate>generic_menu_transparent</MenuTemplate>
     </ComboBoxTemplate>
 

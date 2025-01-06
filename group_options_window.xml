@@ -59,7 +59,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>175</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -82,11 +82,11 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>175</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
-            <Data>Looking for Private RvR group</Data>
+            <Data>Lf Private RvR Group</Data>
         </LabelDef>
 
 

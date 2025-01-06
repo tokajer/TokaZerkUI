@@ -8,13 +8,13 @@
     <EditBoxTemplate>
         <Name>generic_editbox</Name>
         <LinePadding>0</LinePadding>
-        <BackgroundTemplate>chat_entry</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <TextOffset>
             <X>10</X>
             <Y>5</Y>
         </TextOffset>
         <Font>
-            <Name>arial11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
