@@ -5,7 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-
     <WindowTemplate>
         <Name>ChatRename</Name>
         <WindowId>chatRenameWindow</WindowId>

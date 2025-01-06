@@ -21,20 +21,14 @@
 
 
     <Font>
-        <Name>ghost_chat_font</Name>
-        <File>custom/ghost_verdana14_bold_shadowed_normalized.tga</File>
-    </Font>
-
-
-    <Font>
         <Name>ghost_arial09</Name>
-        <File>custom/ghost_arial09.tga</File>
+        <File>custom/Assets/ghost/ghost_arial09.tga</File>
     </Font>
 
 
     <Font>
         <Name>ghost_arial11b</Name>
-        <File>custom/ghost_arial11b.tga</File>
+        <File>custom/Assets/Fonts/arial11b.tga</File>
     </Font>
 
 
@@ -46,13 +40,13 @@
 
     <Font>
         <Name>ghost_tahoma11</Name>
-        <File>custom/ghost_tahoma11.tga</File>
+        <File>custom/Assets/ghost/ghost_tahoma11.tga</File>
     </Font>
 
 
     <Font>
         <Name>ghost_tahoma9</Name>
-        <File>custom/ghost_tahoma9.tga</File>
+        <File>custom/Assets/ghost/ghost_tahoma9.tga</File>
     </Font>
 
 

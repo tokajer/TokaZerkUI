@@ -5,13 +5,4 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <TTFFont>
-        <Name>ghost_chat_font</Name>
-        <File>fonts/MyriadPro-Regular.ttf</File>
-        <Height>10</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
 </Root_Element>

@@ -5,12 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <Font>
-        <Name>ghost_mini_stats</Name>
-        <File>custom/ghost_verdana11_shadowed_normalized.tga</File>
-    </Font>
-
-
     <WindowTemplate>
         <Name>custom15_window</Name>
         <WindowId>custom15_window</WindowId>
