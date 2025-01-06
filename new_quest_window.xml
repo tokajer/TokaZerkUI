@@ -436,7 +436,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial9b</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -455,7 +455,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial9b</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -475,7 +475,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial9b</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -495,7 +495,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial9b</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -515,7 +515,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial9b</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

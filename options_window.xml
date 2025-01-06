@@ -83,7 +83,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>300</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -102,7 +102,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>300</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -309,7 +309,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -338,7 +338,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -367,7 +367,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -453,7 +453,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -482,7 +482,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -511,7 +511,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -540,7 +540,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>200</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -569,7 +569,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>200</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -598,7 +598,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>200</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -627,7 +627,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>arial11b</FontName>
             <Width>200</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -689,7 +689,7 @@
                 <A>255</A>
             </Color>
             <FontName>arial11</FontName>
-            <Width>100</Width>
+            <Width>115</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
             <Data>Spell Effect Icons</Data>
