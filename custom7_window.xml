@@ -147,7 +147,7 @@
             <ControlId>member_0_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>9</Y>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -158,7 +158,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -172,7 +172,7 @@
             <ControlId>class_0_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>19</Y>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -183,7 +183,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -197,12 +197,12 @@
             <ControlId>member_0_label_hp</ControlId>
             <Position>
                 <X>12</X>
-                <Y>14</Y>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -353,7 +353,7 @@
             <ControlId>member_1_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>57</Y>
+                <Y>60</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -364,7 +364,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -378,7 +378,7 @@
             <ControlId>member_1_class</ControlId>
             <Position>
                 <X>36</X>
-                <Y>66</Y>
+                <Y>69</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -389,7 +389,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -403,12 +403,12 @@
             <ControlId>member_1_label_hp</ControlId>
             <Position>
                 <X>12</X>
-                <Y>61</Y>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -559,7 +559,7 @@
             <ControlId>member_2_label</ControlId>
             <Position>
                 <X>148</X>
-                <Y>9</Y>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -570,7 +570,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -584,7 +584,7 @@
             <ControlId>member_2_class</ControlId>
             <Position>
                 <X>148</X>
-                <Y>19</Y>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -595,7 +595,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -609,12 +609,12 @@
             <ControlId>member_2_label_hp</ControlId>
             <Position>
                 <X>124</X>
-                <Y>14</Y>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -765,7 +765,7 @@
             <ControlId>member_3_label</ControlId>
             <Position>
                 <X>148</X>
-                <Y>57</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -776,7 +776,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -790,7 +790,7 @@
             <ControlId>member_3_class</ControlId>
             <Position>
                 <X>148</X>
-                <Y>66</Y>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -801,7 +801,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -815,12 +815,12 @@
             <ControlId>member_3_label_hp</ControlId>
             <Position>
                 <X>124</X>
-                <Y>61</Y>
+                <Y>63</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -971,7 +971,7 @@
             <ControlId>member_4_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>9</Y>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -982,7 +982,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -996,7 +996,7 @@
             <ControlId>member_4_class</ControlId>
             <Position>
                 <X>260</X>
-                <Y>19</Y>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1007,7 +1007,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1021,12 +1021,12 @@
             <ControlId>member_4_label_hp</ControlId>
             <Position>
                 <X>236</X>
-                <Y>14</Y>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1177,7 +1177,7 @@
             <ControlId>member_5_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>57</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1188,7 +1188,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1202,7 +1202,7 @@
             <ControlId>member_5_label</ControlId>
             <Position>
                 <X>260</X>
-                <Y>66</Y>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1213,7 +1213,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1227,12 +1227,12 @@
             <ControlId>member_5_label_hp</ControlId>
             <Position>
                 <X>236</X>
-                <Y>61</Y>
+                <Y>63</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1383,7 +1383,7 @@
             <ControlId>member_6_label</ControlId>
             <Position>
                 <X>372</X>
-                <Y>9</Y>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1394,7 +1394,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1408,7 +1408,7 @@
             <ControlId>member_6_class</ControlId>
             <Position>
                 <X>372</X>
-                <Y>19</Y>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1419,7 +1419,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1433,12 +1433,12 @@
             <ControlId>member_6_label_hp</ControlId>
             <Position>
                 <X>348</X>
-                <Y>14</Y>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1589,7 +1589,7 @@
             <ControlId>member_7_label</ControlId>
             <Position>
                 <X>375</X>
-                <Y>57</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1600,7 +1600,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1614,7 +1614,7 @@
             <ControlId>member_7_label</ControlId>
             <Position>
                 <X>375</X>
-                <Y>66</Y>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1625,7 +1625,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1639,12 +1639,12 @@
             <ControlId>member_7_label_hp</ControlId>
             <Position>
                 <X>348</X>
-                <Y>61</Y>
+                <Y>63</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>

@@ -1133,7 +1133,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -1999,7 +1999,7 @@
         <Height>16</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>arial9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2035,7 +2035,7 @@
         <Height>20</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2085,7 +2085,7 @@
         </Menuoffset>
         <DownButtonTemplate>button_down</DownButtonTemplate>
         <LabelButtonTemplate>button_tokajer_xlarge</LabelButtonTemplate>
-        <MenuTemplate>generic_menu_scroll</MenuTemplate>
+        <MenuTemplate>generic_menu_transparent</MenuTemplate>
     </ComboBoxTemplate>
 
 
@@ -2103,7 +2103,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>brit9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2149,7 +2149,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>brit9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2195,7 +2195,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2287,7 +2287,7 @@
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2333,7 +2333,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>brit9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2379,7 +2379,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2471,7 +2471,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2517,7 +2517,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2567,7 +2567,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontregular12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2602,7 +2602,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2880,7 +2880,7 @@
             <X>32</X>
             <Y>32</Y>
         </Size>
-        <FontName>TokaFontRegular11</FontName>
+        <FontName>arial11</FontName>
         <FontColor>
             <R>255</R>
             <G>255</G>
@@ -2910,7 +2910,7 @@
 
     <ChatControlTemplate>
         <Name>chat</Name>
-        <FontName>TokaFontBold12</FontName>
+        <FontName>tokafontbold10</FontName>
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <ScrollbarTemplate>chat_vscroll</ScrollbarTemplate>
     </ChatControlTemplate>
@@ -2923,7 +2923,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2990,7 +2990,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3191,7 +3191,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>arial11</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3519,7 +3519,7 @@
         <Name>generic_hr_button</Name>
         <Height>18</Height>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -3719,7 +3719,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>tokafontregular12</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -4030,7 +4030,7 @@
         <Name>tab_button</Name>
         <Height>25</Height>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4078,7 +4078,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>225</R>
                 <G>225</G>
@@ -4114,7 +4114,7 @@
         <Name>generic_hr_button_barb10</Name>
         <Height>18</Height>
         <Font>
-            <Name>barb10</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4152,7 +4152,7 @@
         <Name>generic_hr_button_arial9</Name>
         <Height>16</Height>
         <Font>
-            <Name>arial9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -5064,7 +5064,7 @@
         <BackgroundTemplate>dlg_background_1px</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -5359,7 +5359,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -10119,7 +10119,7 @@
         <Height>17</Height>
         <LabelLength>200</LabelLength>
         <Font>
-            <Name>arial9ds</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -14290,7 +14290,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -19157,7 +19157,7 @@
             <Y>-4</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>arial9</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -19286,7 +19286,7 @@
             <X>32</X>
             <Y>32</Y>
         </Size>
-        <FontName>TokaFontRegular11</FontName>
+        <FontName>arial11</FontName>
         <FontColor>
             <R>255</R>
             <G>255</G>
@@ -19519,7 +19519,7 @@
         <Name>context_hr_button_wtext</Name>
         <Height>16</Height>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>chatfont</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -19757,7 +19757,7 @@
         <Name>generic_hr_button_barb10</Name>
         <Height>16</Height>
         <Font>
-            <Name>barb10</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -19795,7 +19795,7 @@
         <Name>generic_hr_button_arial9</Name>
         <Height>16</Height>
         <Font>
-            <Name>barb10</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20323,7 +20323,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20382,7 +20382,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20462,7 +20462,7 @@
         <Name>hr_button_tokajer</Name>
         <Height>18</Height>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20512,7 +20512,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20571,7 +20571,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
