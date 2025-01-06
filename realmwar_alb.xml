@@ -179,7 +179,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -192,7 +192,7 @@
         <LabelDef>
             <Position>
                 <X>138</X>
-                <Y>312</Y>
+                <Y>314</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -200,7 +200,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -213,7 +213,7 @@
         <LabelDef>
             <Position>
                 <X>138</X>
-                <Y>328</Y>
+                <Y>330</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -221,7 +221,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -234,7 +234,7 @@
         <LabelDef>
             <Position>
                 <X>138</X>
-                <Y>344</Y>
+                <Y>346</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -242,7 +242,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -255,7 +255,7 @@
         <LabelDef>
             <Position>
                 <X>138</X>
-                <Y>360</Y>
+                <Y>362</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -263,7 +263,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -276,7 +276,7 @@
         <LabelDef>
             <Position>
                 <X>138</X>
-                <Y>376</Y>
+                <Y>378</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -284,7 +284,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
