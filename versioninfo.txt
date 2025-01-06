@@ -1,2 +1,2 @@
-Tokajer's Ghost UI Eden 2.0.1s
+Tokajer's and Zerkers DAOC UI Eden 2.0.2
 based on original GhostUI and Edens Byasan UI.
