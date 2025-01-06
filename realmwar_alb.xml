@@ -384,7 +384,7 @@
                 <X>173</X>
                 <Y>392</Y>
             </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>TELEPORT</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
         </ButtonDef>
