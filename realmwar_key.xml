@@ -18,17 +18,17 @@
             <Y>17</Y>
         </Size>
         <Font>
-            <Name>arial11</Name>
+            <Name>arial11b</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>

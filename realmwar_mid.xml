@@ -348,7 +348,7 @@
             <TemplateName>realmwar_tab</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Ellan Vannin</Data>
+            <Data>EV</Data>
             <LabelWidth>70</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
