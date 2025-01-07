@@ -15,8 +15,8 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>110</TitleWidth>
-        <TitleHeight>22</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>148</Width>
         <Height>22</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -26,21 +26,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <InvisibleButtonDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Label></Label>
-            <OnClickEvent>ToggleCustom3</OnClickEvent>
-            <Width>110</Width>
-            <Height>30</Height>
-        </InvisibleButtonDef>
 
 
         <!-- RP Window -->

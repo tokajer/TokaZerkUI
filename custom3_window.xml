@@ -352,63 +352,6 @@
         </StatusBarDef>
 
 
-        <ImageAreaDef>
-            <Position>
-                <X>185</X>
-                <Y>3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>g_xpbar_cap_left</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>483</X>
-                <Y>3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>g_xpbar_cap_right</TemplateName>
-        </ImageAreaDef>
-
-
-        <HorizontalResizeImageDef>
-            <ControlId>horizontal xp bar bg</ControlId>
-            <Position>
-                <X>187</X>
-                <Y>3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>g_xpbar_bg_resizable</TemplateName>
-            <Width>296</Width>
-        </HorizontalResizeImageDef>
-
-
-        <StatusBarDef>
-            <ControlId>rp coarse</ControlId>
-            <Position>
-                <X>185</X>
-                <Y>22</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>b_bar_9px_grey</TemplateName>
-            <AdapterName>realm_exp_coarse</AdapterName>
-            <Width>300</Width>
-        </StatusBarDef>
-
-
         <ScalarLabelDef>
             <ControlId>rps</ControlId>
             <Position>
@@ -432,6 +375,22 @@
             <Adapter>stats_realm_points</Adapter>
             <Data>Rp: </Data>
         </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>rp coarse</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>b_bar_9px_grey</TemplateName>
+            <AdapterName>realm_exp_coarse</AdapterName>
+            <Width>300</Width>
+        </StatusBarDef>
 
 
         <ScalarLabelDef>
@@ -487,7 +446,7 @@
         <LabelDef>
             <Position>
                 <X>317</X>
-                <Y>2</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -510,7 +469,7 @@
         <ScalarLabelDef>
             <Position>
                 <X>323</X>
-                <Y>2</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

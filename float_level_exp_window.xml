@@ -136,7 +136,7 @@
                 <Y>0</Y>
             </Position>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>ToggleCustom19</OnClickEvent>
             <Width>148</Width>
             <Height>22</Height>
         </InvisibleButtonDef>
