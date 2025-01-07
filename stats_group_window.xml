@@ -324,7 +324,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -347,7 +347,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -364,7 +364,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -647,7 +647,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -670,7 +670,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -687,7 +687,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -970,7 +970,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -993,7 +993,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1010,7 +1010,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1293,7 +1293,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1316,7 +1316,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1333,7 +1333,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1616,7 +1616,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1639,7 +1639,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1656,7 +1656,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1939,7 +1939,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1962,7 +1962,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1979,7 +1979,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -2262,7 +2262,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2285,7 +2285,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2302,7 +2302,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -2585,7 +2585,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2608,7 +2608,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>40</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2625,7 +2625,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>

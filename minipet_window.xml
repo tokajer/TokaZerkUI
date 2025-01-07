@@ -82,7 +82,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -108,7 +108,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

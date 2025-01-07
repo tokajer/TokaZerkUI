@@ -2910,7 +2910,7 @@
 
     <ChatControlTemplate>
         <Name>chat</Name>
-        <FontName>tokafontregular10</FontName>
+        <FontName>TokaFontRegular10</FontName>
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <ScrollbarTemplate>chat_vscroll</ScrollbarTemplate>
     </ChatControlTemplate>

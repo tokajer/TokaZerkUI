@@ -159,7 +159,7 @@
 			<AdapterName>stats_combat</AdapterName>
 		</TreeControlDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<OnClickEvent>ToggleQuiver</OnClickEvent>
 			<Label>QUIVER</Label>
 			<Position>

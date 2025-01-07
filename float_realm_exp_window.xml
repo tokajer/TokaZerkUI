@@ -81,7 +81,7 @@
                 <X>39</X>
                 <Y>8</Y>
             </Position>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -101,7 +101,7 @@
                 <X>56</X>
                 <Y>8</Y>
             </Position>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -124,7 +124,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <FontName>tokafontregular10</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>32</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
