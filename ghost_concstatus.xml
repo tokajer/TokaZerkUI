@@ -83,7 +83,7 @@
                 <B>153</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>95</Width>
             <Height>14</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -97,7 +97,7 @@
                 <X>18</X>
                 <Y>4</Y>
             </Position>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -125,7 +125,7 @@
                 <B>153</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -138,7 +138,7 @@
                 <X>53</X>
                 <Y>4</Y>
             </Position>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -163,7 +163,7 @@
                 <B>153</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

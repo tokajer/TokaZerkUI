@@ -499,7 +499,7 @@
                 <B>152</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>50</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -516,7 +516,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>ghost_tahoma9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>20</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
