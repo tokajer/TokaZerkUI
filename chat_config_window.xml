@@ -173,9 +173,7 @@
         </LabelDef>
 
 
-        <!-- Accept &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Cancel Buttons -->
-
-
+        
         <ButtonDef>
             <ControlId>2000</ControlId>
             <Position>
