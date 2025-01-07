@@ -2923,7 +2923,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2950,7 +2950,7 @@
             </ColorDisabled>
             <TextOffset>
                 <X>16</X>
-                <Y>2</Y>
+                <Y>0</Y>
             </TextOffset>
             <TextAlignment>
                 <TopLeft>true</TopLeft>

@@ -1260,7 +1260,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>generic_textarea_sm_nobg</TemplateName>
+            <TemplateName>toka_textarea</TemplateName>
             <AdapterName>news_rvr_global_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1313,7 +1313,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>generic_textarea_sm_nobg</TemplateName>
+            <TemplateName>toka_textarea</TemplateName>
             <AdapterName>news_rvr_local_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1366,7 +1366,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>generic_textarea_sm_nobg</TemplateName>
+            <TemplateName>toka_textarea</TemplateName>
             <AdapterName>news_pve_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1895,9 +1895,9 @@
             <Height>18</Height>
             <MaxCharacters>6</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <Adapter>guild_members_current_page</Adapter>
@@ -1936,9 +1936,9 @@
             <Height>18</Height>
             <MaxCharacters>6</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <Adapter>guild_members_total_pages</Adapter>
@@ -2000,9 +2000,9 @@
                 <Y>302</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -2032,7 +2032,7 @@
                 <X>15</X>
                 <Y>320</Y>
             </Position>
-            <TemplateName>generic_textarea_sm</TemplateName>
+            <TemplateName>toka_textarea</TemplateName>
             <AdapterName>guild_motd</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -2165,7 +2165,7 @@
             <ControlId>1310</ControlId>
             <Position>
                 <X>290</X>
-                <Y>284</Y>
+                <Y>282</Y>
             </Position>
             <TemplateName>generic_check</TemplateName>
             <AdapterName></AdapterName>
@@ -2217,9 +2217,9 @@
             <Height>18</Height>
             <MaxCharacters>5</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <Adapter>alliance_members_current_page</Adapter>
@@ -2258,9 +2258,9 @@
             <Height>18</Height>
             <MaxCharacters>10</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <Adapter>alliance_members_total_pages</Adapter>
