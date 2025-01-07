@@ -113,7 +113,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background_tokajer</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>266</Width>
             <Height>416</Height>
         </FullResizeImageDef>
