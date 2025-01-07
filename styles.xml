@@ -714,13 +714,13 @@
 
 
     <ButtonTemplate>
-        <Name>button_large</Name>
+        <Name>tokafontbold12</Name>
         <Size>
             <X>60</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -832,7 +832,7 @@
 
 
     <ButtonTemplate>
-        <Name>button_large_new</Name>
+        <Name>tokafontbold12</Name>
         <Size>
             <X>60</X>
             <Y>16</Y>
@@ -897,7 +897,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -956,7 +956,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1015,7 +1015,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1074,7 +1074,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>button_large</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3124,7 +3124,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>brit9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3132,9 +3132,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -4108,44 +4108,6 @@
                 <Y>16</Y>
             </IconSize>
     </ListBoxTemplate>
-
-
-    <HorizontalResizeButtonTemplate>
-        <Name>generic_hr_button_barb10</Name>
-        <Height>18</Height>
-        <Font>
-            <Name>tokafontbold10</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Normal>dialog_inset3</Normal>
-        <Pressed>dialog_inset3</Pressed>
-        <NormalHighlit>dialog_inset3</NormalHighlit>
-        <PressedHighlit>dialog_inset3</PressedHighlit>
-        <Disabled>generic_hr_image_pressed</Disabled>
-</HorizontalResizeButtonTemplate>
 
 
     <HorizontalResizeButtonTemplate>
@@ -14355,7 +14317,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_100</Name>
+        <Name>toka_bg_100</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
@@ -14405,7 +14367,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_90</Name>
+        <Name>toka_bg_90</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
@@ -14455,7 +14417,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_80</Name>
+        <Name>toka_bg_80</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
@@ -14505,13 +14467,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_big_bluefg</Name>
+        <Name>toka_statusbar_big_bluefg</Name>
         <Height>28</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -14529,13 +14491,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_big_bg</Name>
+        <Name>toka_statusbar_big_bg</Name>
         <Height>28</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -14553,9 +14515,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_big_blue</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_big_bluefg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_big_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_big_blue</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_big_bluefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_big_bg</BackgroundHResizeTemplate>
         <Height>28</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -14565,20 +14527,20 @@
 
 
     <ListBoxTemplate>
-        <Name>_witt_listbox_bg</Name>
+        <Name>toka_listbox_bg</Name>
         <LinePadding>1</LinePadding>
         <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>4</ScrollbarTopOffset>
         <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>_witt_bg_100</BackgroundTemplate>
+        <BackgroundTemplate>toka_bg_100</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -14611,13 +14573,13 @@
 
 
     <VerticalResizeImageTemplate>
-        <Name>_witt_vscroll_gutter</Name>
+        <Name>toka_vscroll_gutter</Name>
         <Width>15</Width>
         <TopHeight>1</TopHeight>
         <RepeatHeight>17</RepeatHeight>
         <BottomHeight>0</BottomHeight>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Top>
                 <X>988</X>
                 <Y>934</Y>
@@ -14635,13 +14597,13 @@
 
 
     <VerticalResizeImageTemplate>
-        <Name>_witt_vscroll_thumb</Name>
+        <Name>toka_vscroll_thumb</Name>
         <Width>13</Width>
         <TopHeight>1</TopHeight>
         <RepeatHeight>14</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Top>
                 <X>1009</X>
                 <Y>934</Y>
@@ -14659,13 +14621,13 @@
 
 
     <VerticalResizeImageTemplate>
-        <Name>_witt_vscroll_thumb_white</Name>
+        <Name>toka_vscroll_thumb_white</Name>
         <Width>13</Width>
         <TopHeight>1</TopHeight>
         <RepeatHeight>14</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Top>
                 <X>861</X>
                 <Y>935</Y>
@@ -14683,11 +14645,11 @@
 
 
     <VerticalScrollbarTemplate>
-        <Name>_witt_scroll_nobutton</Name>
+        <Name>toka_scroll_nobutton</Name>
         <UpButtonTemplate>none</UpButtonTemplate>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <ThumbVResizeTemplate>_witt_vscroll_thumb</ThumbVResizeTemplate>
-        <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
+        <ThumbVResizeTemplate>toka_vscroll_thumb</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>toka_vscroll_gutter</GutterVResizeTemplate>
         <Width>9</Width>
         <UpButtonOffset>
             <X>0</X>
@@ -14709,11 +14671,11 @@
 
 
     <VerticalScrollbarTemplate>
-        <Name>_witt_scroll_nobutton_white</Name>
+        <Name>toka_scroll_nobutton_white</Name>
         <UpButtonTemplate>none</UpButtonTemplate>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <ThumbVResizeTemplate>_witt_vscroll_thumb_white</ThumbVResizeTemplate>
-        <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
+        <ThumbVResizeTemplate>toka_vscroll_thumb_white</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>toka_vscroll_gutter</GutterVResizeTemplate>
         <Width>9</Width>
         <UpButtonOffset>
             <X>0</X>
@@ -14735,11 +14697,11 @@
 
 
     <VerticalScrollbarTemplate>
-        <Name>_witt_scroll_button</Name>
-        <UpButtonTemplate>_witt_scroll_up</UpButtonTemplate>
+        <Name>toka_scroll_button</Name>
+        <UpButtonTemplate>toka_scroll_up</UpButtonTemplate>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <ThumbVResizeTemplate>_witt_vscroll_thumb</ThumbVResizeTemplate>
-        <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
+        <ThumbVResizeTemplate>toka_vscroll_thumb</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>toka_vscroll_gutter</GutterVResizeTemplate>
         <Width>9</Width>
         <UpButtonOffset>
             <X>-1</X>
@@ -14767,7 +14729,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -14802,7 +14764,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>817</X>
                 <Y>957</Y>
@@ -14834,7 +14796,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -14869,7 +14831,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>922</X>
                 <Y>957</Y>
@@ -14901,7 +14863,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -14936,7 +14898,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>992</X>
                 <Y>957</Y>
@@ -14968,7 +14930,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15003,7 +14965,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>887</X>
                 <Y>957</Y>
@@ -15035,7 +14997,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15070,7 +15032,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>852</X>
                 <Y>957</Y>
@@ -15102,7 +15064,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15137,7 +15099,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>782</X>
                 <Y>957</Y>
@@ -15169,7 +15131,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15204,7 +15166,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>957</X>
                 <Y>957</Y>
@@ -15230,7 +15192,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_scroll_up</Name>
+        <Name>toka_scroll_up</Name>
         <Size>
             <X>8</X>
             <Y>7</Y>
@@ -15263,7 +15225,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>946</X>
                 <Y>937</Y>
@@ -15289,12 +15251,12 @@
 
 
     <TreeControlTemplate>
-        <Name>_witt_listbox_noscroll</Name>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
-        <CheckBoxTemplate>_witt_checkbox_inverted</CheckBoxTemplate>
+        <Name>toka_listbox_noscroll</Name>
+        <BackgroundTemplate>toka_bg_80</BackgroundTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
+        <CheckBoxTemplate>toka_checkbox_inverted</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>_whatisthisfont11pxds</FontName>
+        <FontName>tokafontbold12</FontName>
         <FontColor>
             <R>255</R>
             <G>255</G>
@@ -15315,7 +15277,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15342,7 +15304,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>782</X>
                 <Y>957</Y>
@@ -15368,13 +15330,13 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_checkbox</Name>
+        <Name>toka_checkbox</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15409,7 +15371,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>984</X>
                 <Y>913</Y>
@@ -15435,13 +15397,13 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_checkbox_inverted</Name>
+        <Name>toka_checkbox_inverted</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15476,7 +15438,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>1006</X>
                 <Y>913</Y>
@@ -15502,13 +15464,13 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_button_normal</Name>
+        <Name>toka_button_normal</Name>
         <Size>
             <X>62</X>
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15535,7 +15497,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>927</X>
                 <Y>5</Y>
@@ -15561,13 +15523,13 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_button_red</Name>
+        <Name>toka_button_red</Name>
         <Size>
             <X>62</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>0</G>
@@ -15594,7 +15556,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>927</X>
                 <Y>5</Y>
@@ -15620,7 +15582,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_button_left</Name>
+        <Name>toka_button_left</Name>
         <Size>
             <X>9</X>
             <Y>9</Y>
@@ -15653,7 +15615,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>925</X>
                 <Y>896</Y>
@@ -15679,7 +15641,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_button_right</Name>
+        <Name>toka_button_right</Name>
         <Size>
             <X>9</X>
             <Y>9</Y>
@@ -15712,7 +15674,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>966</X>
                 <Y>896</Y>
@@ -15738,25 +15700,25 @@
 
 
     <TabsTemplate>
-        <Name>_witt_tab_normal</Name>
-        <ControlAreaFullResizeImageTemplate>_witt_bg_80</ControlAreaFullResizeImageTemplate>
-        <TabButtonTemplate>_witt_buttons_tab</TabButtonTemplate>
+        <Name>toka_tab_normal</Name>
+        <ControlAreaFullResizeImageTemplate>toka_bg_80</ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>toka_buttons_tab</TabButtonTemplate>
         <TabXOffset>1</TabXOffset>
         <TabYOffset>0</TabYOffset>
     </TabsTemplate>
 
 
     <TabsTemplate>
-        <Name>_witt_tab_transparent</Name>
+        <Name>toka_tab_transparent</Name>
         <ControlAreaFullResizeImageTemplate>none</ControlAreaFullResizeImageTemplate>
-        <TabButtonTemplate>_witt_buttons_tab</TabButtonTemplate>
+        <TabButtonTemplate>toka_buttons_tab</TabButtonTemplate>
         <TabXOffset>1</TabXOffset>
         <TabYOffset>0</TabYOffset>
     </TabsTemplate>
 
 
     <ButtonTemplate>
-        <Name>_witt_button_right_filled</Name>
+        <Name>toka_button_right_filled</Name>
         <Size>
             <X>9</X>
             <Y>9</Y>
@@ -15789,7 +15751,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>885</X>
                 <Y>897</Y>
@@ -15815,7 +15777,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_button_left_filled</Name>
+        <Name>toka_button_left_filled</Name>
         <Size>
             <X>9</X>
             <Y>9</Y>
@@ -15848,7 +15810,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>839</X>
                 <Y>897</Y>
@@ -15874,21 +15836,21 @@
 
 
     <HorizontalSliderTemplate>
-        <Name>_witt_hslider_normal</Name>
-        <ImageAreaTemplate>_witt_hslider_gutter</ImageAreaTemplate>
-        <BackgroundHResizeTemplate>_witt_hslider_buttons</BackgroundHResizeTemplate>
+        <Name>toka_hslider_normal</Name>
+        <ImageAreaTemplate>toka_hslider_gutter</ImageAreaTemplate>
+        <BackgroundHResizeTemplate>toka_hslider_buttons</BackgroundHResizeTemplate>
         <Height>13</Height>
     </HorizontalSliderTemplate>
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_hslider_buttons</Name>
+        <Name>toka_hslider_buttons</Name>
         <Height>15</Height>
         <LeftWidth>15</LeftWidth>
         <RepeatWidth>1</RepeatWidth>
         <RightWidth>15</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>837</X>
                 <Y>894</Y>
@@ -15906,8 +15868,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_hslider_gutter</Name>
-        <TextureName>_whatisthistexture</TextureName>
+        <Name>toka_hslider_gutter</Name>
+        <TextureName>toka_texture</TextureName>
         <Size>
             <X>18</X>
             <Y>15</Y>
@@ -15920,16 +15882,16 @@
 
 
     <VerticalSliderTemplate>
-        <Name>_witt_vslider_nobutton</Name>
-        <ImageAreaTemplate>_witt_vslider_gutter</ImageAreaTemplate>
-        <BackgroundVResizeTemplate>_witt_vscroll_gutter</BackgroundVResizeTemplate>
+        <Name>toka_vslider_nobutton</Name>
+        <ImageAreaTemplate>toka_vslider_gutter</ImageAreaTemplate>
+        <BackgroundVResizeTemplate>toka_vscroll_gutter</BackgroundVResizeTemplate>
         <Width>13</Width>
     </VerticalSliderTemplate>
 
 
     <ImageAreaTemplate>
-        <Name>_witt_vslider_gutter</Name>
-        <TextureName>_whatisthistexture</TextureName>
+        <Name>toka_vslider_gutter</Name>
+        <TextureName>toka_texture</TextureName>
         <Size>
             <X>15</X>
             <Y>18</Y>
@@ -15942,13 +15904,13 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_buttons_tab</Name>
+        <Name>toka_buttons_tab</Name>
         <Size>
             <X>64</X>
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -15975,7 +15937,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>925</X>
                 <Y>68</Y>
@@ -16001,10 +15963,10 @@
 
 
     <HorizontalResizeButtonTemplate>
-        <Name>_witt_hr_button</Name>
+        <Name>toka_hr_button</Name>
         <Height>18</Height>
         <Font>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -16030,22 +15992,22 @@
                 <A>255</A>
             </ColorDisabled>
         </Font>
-        <Normal>_witt_hr_normal</Normal>
-        <Pressed>_witt_hr_pressed</Pressed>
-        <NormalHighlit>_witt_hr_pressed</NormalHighlit>
-        <PressedHighlit>_witt_hr_highlight</PressedHighlit>
+        <Normal>toka_hr_normal</Normal>
+        <Pressed>toka_hr_pressed</Pressed>
+        <NormalHighlit>toka_hr_pressed</NormalHighlit>
+        <PressedHighlit>toka_hr_highlight</PressedHighlit>
         <Disabled>none</Disabled>
 </HorizontalResizeButtonTemplate>
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_hr_normal</Name>
+        <Name>toka_hr_normal</Name>
         <Height>18</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>927</X>
                 <Y>5</Y>
@@ -16063,13 +16025,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_hr_pressed</Name>
+        <Name>toka_hr_pressed</Name>
         <Height>16</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>927</X>
                 <Y>47</Y>
@@ -16087,13 +16049,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_hr_highlight</Name>
+        <Name>toka_hr_highlight</Name>
         <Height>16</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>927</X>
                 <Y>26</Y>
@@ -16111,9 +16073,9 @@
 
 
     <TextAreaTemplate>
-        <Name>_witt_textarea</Name>
+        <Name>toka_textarea</Name>
         <BackgroundTemplate>none</BackgroundTemplate>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
             <X>10</X>
@@ -16146,13 +16108,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_big_redfg</Name>
+        <Name>toka_statusbar_big_redfg</Name>
         <Height>28</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16170,9 +16132,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_big_red</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_big_redfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_big_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_big_red</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_big_redfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_big_bg</BackgroundHResizeTemplate>
         <Height>28</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16182,13 +16144,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_medium_bg</Name>
+        <Name>toka_statusbar_medium_bg</Name>
         <Height>10</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16206,13 +16168,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_medium_greenfg</Name>
+        <Name>toka_statusbar_medium_greenfg</Name>
         <Height>10</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16230,9 +16192,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_medium_green</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_medium_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_medium_green</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_medium_greenfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_medium_bg</BackgroundHResizeTemplate>
         <Height>10</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16242,13 +16204,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_medium_redfg</Name>
+        <Name>toka_statusbar_medium_redfg</Name>
         <Height>10</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16266,9 +16228,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_medium_red</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_medium_redfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_medium_red</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_medium_redfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_medium_bg</BackgroundHResizeTemplate>
         <Height>10</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16278,13 +16240,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_medium_yellowfg</Name>
+        <Name>toka_statusbar_medium_yellowfg</Name>
         <Height>10</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16302,9 +16264,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_medium_yellow</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_medium_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_medium_yellow</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_medium_yellowfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_medium_bg</BackgroundHResizeTemplate>
         <Height>10</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16314,13 +16276,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_medium_bluefg</Name>
+        <Name>toka_statusbar_medium_bluefg</Name>
         <Height>10</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16338,9 +16300,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_medium_blue</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_medium_bluefg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_medium_blue</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_medium_bluefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_medium_bg</BackgroundHResizeTemplate>
         <Height>10</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16350,13 +16312,13 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_combo_label</Name>
+        <Name>toka_combo_label</Name>
         <Size>
             <X>76</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -16383,7 +16345,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>848</X>
                 <Y>5</Y>
@@ -16409,12 +16371,12 @@
 
 
     <MenuTemplate>
-        <Name>_witt_combo_menu</Name>
+        <Name>toka_combo_menu</Name>
         <Width>76</Width>
         <Height>17</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -16429,7 +16391,7 @@
             </ColorHighlit>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>848</X>
                 <Y>25</Y>
@@ -16439,31 +16401,31 @@
                 <Y>25</Y>
             </Highlit>
         </Texture>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <MaxVisibleItems>15</MaxVisibleItems>
     </MenuTemplate>
 
 
     <ComboBoxTemplate>
-        <Name>_witt_combo</Name>
+        <Name>toka_combo</Name>
         <Menuoffset>
             <X>-5</X>
             <Y>1</Y>
         </Menuoffset>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <LabelButtonTemplate>_witt_combo_label</LabelButtonTemplate>
-        <MenuTemplate>_witt_combo_menu</MenuTemplate>
+        <LabelButtonTemplate>toka_combo_label</LabelButtonTemplate>
+        <MenuTemplate>toka_combo_menu</MenuTemplate>
     </ComboBoxTemplate>
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_xp_bluefg</Name>
+        <Name>toka_statusbar_xp_bluefg</Name>
         <Height>7</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16481,13 +16443,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_xp_yellowfg</Name>
+        <Name>toka_statusbar_xp_yellowfg</Name>
         <Height>7</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16505,13 +16467,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_xp_redfg</Name>
+        <Name>toka_statusbar_xp_redfg</Name>
         <Height>7</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16529,13 +16491,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_xp_greenfg</Name>
+        <Name>toka_statusbar_xp_greenfg</Name>
         <Height>7</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16553,13 +16515,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_xp_bg</Name>
+        <Name>toka_statusbar_xp_bg</Name>
         <Height>9</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>0</X>
                 <Y>0</Y>
@@ -16577,9 +16539,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_xp_blue</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_xp_bluefg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_xp_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_xp_blue</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_xp_bluefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_xp_bg</BackgroundHResizeTemplate>
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16589,9 +16551,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_xp_red</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_xp_redfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_xp_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_xp_red</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_xp_redfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_xp_bg</BackgroundHResizeTemplate>
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16601,9 +16563,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_xp_yellow</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_xp_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_xp_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_xp_yellow</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_xp_yellowfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_xp_bg</BackgroundHResizeTemplate>
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16613,9 +16575,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_xp_green</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_xp_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_xp_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_xp_green</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_xp_greenfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_xp_bg</BackgroundHResizeTemplate>
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16625,13 +16587,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_tiny_bluefg</Name>
+        <Name>toka_statusbar_tiny_bluefg</Name>
         <Height>5</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>47</X>
                 <Y>0</Y>
@@ -16649,13 +16611,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_tiny_redfg</Name>
+        <Name>toka_statusbar_tiny_redfg</Name>
         <Height>5</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>47</X>
                 <Y>0</Y>
@@ -16673,13 +16635,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_tiny_yellowfg</Name>
+        <Name>toka_statusbar_tiny_yellowfg</Name>
         <Height>5</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>47</X>
                 <Y>0</Y>
@@ -16697,13 +16659,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_tiny_greenfg</Name>
+        <Name>toka_statusbar_tiny_greenfg</Name>
         <Height>5</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>47</X>
                 <Y>0</Y>
@@ -16721,13 +16683,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_tiny_bg</Name>
+        <Name>toka_statusbar_tiny_bg</Name>
         <Height>5</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>27</X>
                 <Y>29</Y>
@@ -16745,9 +16707,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_tiny_blue</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_tiny_bluefg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_tiny_blue</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_tiny_bluefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16757,9 +16719,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_tiny_red</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_tiny_redfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_tiny_red</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_tiny_redfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16769,9 +16731,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_tiny_green</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_tiny_green</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16781,9 +16743,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_tiny_yellow</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_tiny_yellow</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -16793,8 +16755,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_reward_frame</Name>
-        <TextureName>_whatisthistexture</TextureName>
+        <Name>toka_reward_frame</Name>
+        <TextureName>toka_texture</TextureName>
         <Size>
             <X>33</X>
             <Y>33</Y>
@@ -16807,8 +16769,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_reward_frame_16</Name>
-        <TextureName>_whatisthistexture</TextureName>
+        <Name>toka_reward_frame_16</Name>
+        <TextureName>toka_texture</TextureName>
         <Size>
             <X>18</X>
             <Y>18</Y>
@@ -16821,8 +16783,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_vslider_gutter_white</Name>
-        <TextureName>_whatisthistexture</TextureName>
+        <Name>toka_vslider_gutter_white</Name>
+        <TextureName>toka_texture</TextureName>
         <Size>
             <X>11</X>
             <Y>17</Y>
@@ -16835,23 +16797,23 @@
 
 
     <VerticalSliderTemplate>
-        <Name>_witt_vslider_nobutton_white</Name>
-        <ImageAreaTemplate>_witt_vslider_gutter_white</ImageAreaTemplate>
-        <BackgroundVResizeTemplate>_witt_vscroll_gutter</BackgroundVResizeTemplate>
+        <Name>toka_vslider_nobutton_white</Name>
+        <ImageAreaTemplate>toka_vslider_gutter_white</ImageAreaTemplate>
+        <BackgroundVResizeTemplate>toka_vscroll_gutter</BackgroundVResizeTemplate>
         <Width>13</Width>
     </VerticalSliderTemplate>
 
 
     <EditBoxTemplate>
-        <Name>_witt_editbox</Name>
+        <Name>toka_editbox</Name>
         <LinePadding>0</LinePadding>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
+        <BackgroundTemplate>toka_bg_80</BackgroundTemplate>
         <TextOffset>
             <X>3</X>
             <Y>1</Y>
         </TextOffset>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -16877,7 +16839,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_50</Name>
+        <Name>toka_bg_50</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
@@ -16885,7 +16847,7 @@
         <MiddleWidth>5</MiddleWidth>
         <RightWidth>5</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <TopLeft>
                 <X>992</X>
                 <Y>96</Y>
@@ -16927,20 +16889,20 @@
 
 
     <ListBoxTemplate>
-        <Name>_witt_listbox_80</Name>
+        <Name>toka_listbox_80</Name>
         <LinePadding>1</LinePadding>
         <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>4</ScrollbarTopOffset>
         <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
+        <BackgroundTemplate>toka_bg_80</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -16973,20 +16935,20 @@
 
 
     <ListBoxTemplate>
-        <Name>_witt_listbox_90</Name>
+        <Name>toka_listbox_90</Name>
         <LinePadding>1</LinePadding>
         <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>4</ScrollbarTopOffset>
         <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>true</Sorting>
-        <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
+        <BackgroundTemplate>toka_bg_90</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17019,9 +16981,9 @@
 
 
     <TextAreaTemplate>
-        <Name>_witt_textarea_80</Name>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <Name>toka_textarea_80</Name>
+        <BackgroundTemplate>toka_bg_80</BackgroundTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
             <X>6</X>
@@ -17036,7 +16998,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont2</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17054,9 +17016,9 @@
 
 
     <TextAreaTemplate>
-        <Name>_witt_textarea_bg</Name>
-        <BackgroundTemplate>_witt_bg_100</BackgroundTemplate>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <Name>toka_textarea_bg</Name>
+        <BackgroundTemplate>toka_bg_100</BackgroundTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
             <X>6</X>
@@ -17071,7 +17033,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17089,24 +17051,24 @@
 
 
     <ComboBoxTemplate>
-        <Name>_witt_combo2</Name>
+        <Name>toka_combo2</Name>
         <Menuoffset>
             <X>1</X>
             <Y>1</Y>
         </Menuoffset>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <LabelButtonTemplate>_witt_combo_label</LabelButtonTemplate>
-        <MenuTemplate>_witt_combo_menu_w</MenuTemplate>
+        <LabelButtonTemplate>toka_combo_label</LabelButtonTemplate>
+        <MenuTemplate>toka_combo_menu_w</MenuTemplate>
     </ComboBoxTemplate>
 
 
     <MenuTemplate>
-        <Name>_witt_combo_menu_w</Name>
+        <Name>toka_combo_menu_w</Name>
         <Width>100</Width>
         <Height>16</Height>
         <LabelLength>96</LabelLength>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17121,7 +17083,7 @@
             </ColorHighlit>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>824</X>
                 <Y>67</Y>
@@ -17131,14 +17093,14 @@
                 <Y>47</Y>
             </Highlit>
         </Texture>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <MaxVisibleItems>15</MaxVisibleItems>
     </MenuTemplate>
 
 
     <ImageAreaTemplate>
-        <Name>_witt_IEL</Name>
-        <TextureName>_whatisthisie</TextureName>
+        <Name>toka_IEL</Name>
+        <TextureName>toka_ie</TextureName>
         <Size>
             <X>341</X>
             <Y>50</Y>
@@ -17151,13 +17113,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_mediumbig_redfg</Name>
+        <Name>toka_statusbar_mediumbig_redfg</Name>
         <Height>26</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>4</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>74</X>
                 <Y>0</Y>
@@ -17175,13 +17137,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_mediumbig_bluefg</Name>
+        <Name>toka_statusbar_mediumbig_bluefg</Name>
         <Height>26</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>4</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>74</X>
                 <Y>0</Y>
@@ -17199,13 +17161,13 @@
 
 
     <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbar_mediumbig_bg</Name>
+        <Name>toka_statusbar_mediumbig_bg</Name>
         <Height>26</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>3</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Left>
                 <X>36</X>
                 <Y>29</Y>
@@ -17223,9 +17185,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_mediumbig_red</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_mediumbig_redfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_mediumbig_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_mediumbig_red</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_mediumbig_redfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_mediumbig_bg</BackgroundHResizeTemplate>
         <Height>26</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17235,9 +17197,9 @@
 
 
     <StatusBarTemplate>
-        <Name>_witt_statusbar_mediumbig_blue</Name>
-        <ForegroundHResizeTemplate>_witt_statusbar_mediumbig_bluefg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_mediumbig_bg</BackgroundHResizeTemplate>
+        <Name>toka_statusbar_mediumbig_blue</Name>
+        <ForegroundHResizeTemplate>toka_statusbar_mediumbig_bluefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>toka_statusbar_mediumbig_bg</BackgroundHResizeTemplate>
         <Height>26</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17247,13 +17209,13 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_combo_label_nobg</Name>
+        <Name>toka_combo_label_nobg</Name>
         <Size>
             <X>90</X>
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17280,7 +17242,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>687</X>
                 <Y>963</Y>
@@ -17306,23 +17268,23 @@
 
 
     <ComboBoxTemplate>
-        <Name>_witt_combo_nobg</Name>
+        <Name>toka_combo_nobg</Name>
         <Menuoffset>
             <X>1</X>
             <Y>1</Y>
         </Menuoffset>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <LabelButtonTemplate>_witt_combo_label_nobg</LabelButtonTemplate>
-        <MenuTemplate>_witt_combo_menu_w</MenuTemplate>
+        <LabelButtonTemplate>toka_combo_label_nobg</LabelButtonTemplate>
+        <MenuTemplate>toka_combo_menu_w</MenuTemplate>
     </ComboBoxTemplate>
 
 
     <ListBoxTemplate>
-        <Name>_witt_listbox_nobg</Name>
+        <Name>toka_listbox_nobg</Name>
         <LinePadding>1</LinePadding>
         <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>4</ScrollbarTopOffset>
         <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
@@ -17331,7 +17293,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>tokafontbold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17364,8 +17326,8 @@
 
 
     <StatusIconTemplate>
-        <Name>_witt_hh_standard</Name>
-        <TextureName>_whatisthishh</TextureName>
+        <Name>toka_hh_standard</Name>
+        <TextureName>toka_hh</TextureName>
         <TextureStart>
             <X>0</X>
             <Y>82</Y>
@@ -17378,7 +17340,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_hh_standard_buttons</Name>
+        <Name>toka_hh_standard_buttons</Name>
         <Size>
             <X>93</X>
             <Y>46</Y>
@@ -17411,7 +17373,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthishh</TextureName>
+            <TextureName>toka_hh</TextureName>
             <Normal>
                 <X>2606</X>
                 <Y>0</Y>
@@ -17437,8 +17399,8 @@
 
 
     <StatusIconTemplate>
-        <Name>_witt_statuseffects_diz</Name>
-        <TextureName>_whatisthisstatuseffects</TextureName>
+        <Name>toka_statuseffects_diz</Name>
+        <TextureName>toka_statuseffects</TextureName>
         <TextureStart>
             <X>0</X>
             <Y>16</Y>
@@ -17451,8 +17413,8 @@
 
 
     <StatusIconTemplate>
-        <Name>_witt_statuseffects_mez</Name>
-        <TextureName>_whatisthisstatuseffects</TextureName>
+        <Name>toka_statuseffects_mez</Name>
+        <TextureName>toka_statuseffects</TextureName>
         <TextureStart>
             <X>0</X>
             <Y>0</Y>
@@ -17465,8 +17427,8 @@
 
 
     <StatusIconTemplate>
-        <Name>_witt_statuseffects_ns</Name>
-        <TextureName>_whatisthisstatuseffects</TextureName>
+        <Name>toka_statuseffects_ns</Name>
+        <TextureName>toka_statuseffects</TextureName>
         <TextureStart>
             <X>0</X>
             <Y>48</Y>
@@ -17479,8 +17441,8 @@
 
 
     <StatusIconTemplate>
-        <Name>_witt_statuseffects_psn</Name>
-        <TextureName>_whatisthisstatuseffects</TextureName>
+        <Name>toka_statuseffects_psn</Name>
+        <TextureName>toka_statuseffects</TextureName>
         <TextureStart>
             <X>0</X>
             <Y>32</Y>
@@ -17493,7 +17455,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_aggro</Name>
+        <Name>toka_pet_aggro</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17534,7 +17496,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>34</X>
                 <Y>991</Y>
@@ -17560,7 +17522,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_defense</Name>
+        <Name>toka_pet_defense</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17601,7 +17563,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>51</X>
                 <Y>991</Y>
@@ -17627,7 +17589,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_passive</Name>
+        <Name>toka_pet_passive</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17668,7 +17630,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>17</X>
                 <Y>991</Y>
@@ -17694,7 +17656,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_follow</Name>
+        <Name>toka_pet_follow</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17735,7 +17697,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>102</X>
                 <Y>991</Y>
@@ -17761,7 +17723,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_here</Name>
+        <Name>toka_pet_here</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17802,7 +17764,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>85</X>
                 <Y>991</Y>
@@ -17828,7 +17790,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_stay</Name>
+        <Name>toka_pet_stay</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17869,7 +17831,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>68</X>
                 <Y>991</Y>
@@ -17895,7 +17857,7 @@
 
 
     <CheckBoxTemplate>
-        <Name>_witt_pet_goto</Name>
+        <Name>toka_pet_goto</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17936,7 +17898,7 @@
             <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>0</X>
                 <Y>991</Y>
@@ -17962,7 +17924,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_pet_release</Name>
+        <Name>toka_pet_release</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -17995,7 +17957,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>119</X>
                 <Y>1008</Y>
@@ -18021,7 +17983,7 @@
 
 
     <ButtonTemplate>
-        <Name>_witt_pet_attack</Name>
+        <Name>toka_pet_attack</Name>
         <Size>
             <X>16</X>
             <Y>16</Y>
@@ -18054,7 +18016,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Normal>
                 <X>136</X>
                 <Y>1008</Y>
@@ -18189,14 +18151,14 @@
     <ChatControlTemplate>
         <Name>chat3</Name>
         <FontName>font_chat</FontName>
-        <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
+        <BackgroundTemplate>toka_bg_90</BackgroundTemplate>
         <ScrollbarTemplate>vscroll_no_gutter2</ScrollbarTemplate>
     </ChatControlTemplate>
 
 
     <ImageAreaTemplate>
-        <Name>_witt_rr_realmranks</Name>
-        <TextureName>_whatisthisrealmranks</TextureName>
+        <Name>toka_rr_realmranks</Name>
+        <TextureName>toka_realmranks</TextureName>
         <Size>
             <X>451</X>
             <Y>254</Y>
@@ -18209,8 +18171,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_rr_realmtitles</Name>
-        <TextureName>_whatisthisrealmranks</TextureName>
+        <Name>toka_rr_realmtitles</Name>
+        <TextureName>toka_realmranks</TextureName>
         <Size>
             <X>418</X>
             <Y>183</Y>
@@ -18223,8 +18185,8 @@
 
 
     <ImageAreaTemplate>
-        <Name>_witt_rr_realmresistances</Name>
-        <TextureName>_whatisthisrealmranks</TextureName>
+        <Name>toka_rr_realmresistances</Name>
+        <TextureName>toka_realmranks</TextureName>
         <Size>
             <X>312</X>
             <Y>199</Y>
@@ -18243,7 +18205,7 @@
         <RepeatHeight>16</RepeatHeight>
         <BottomHeight>3</BottomHeight>
         <Texture>
-            <TextureName>_whatisthistexture</TextureName>
+            <TextureName>toka_texture</TextureName>
             <Top>
                 <X>878</X>
                 <Y>934</Y>
@@ -19314,73 +19276,6 @@
     </IconTemplate>
 
 
-    <CheckBoxTemplate>
-        <Name>narrow_font_check</Name>
-        <Size>
-            <X>12</X>
-            <Y>12</Y>
-        </Size>
-        <Font>
-            <Name>brit9</Name>
-            <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>128</A>
-            </ColorDisabled>
-            <TextOffset>
-                <X>14</X>
-                <Y>-1</Y>
-            </TextOffset>
-            <TextAlignment>
-                <TopLeft>true</TopLeft>
-            </TextAlignment>
-            <ChangeFontColor>true</ChangeFontColor>
-        </Font>
-        <Texture>
-            <TextureName>page1</TextureName>
-            <Normal>
-                <X>76</X>
-                <Y>241</Y>
-            </Normal>
-            <Pressed>
-                <X>63</X>
-                <Y>241</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>102</X>
-                <Y>241</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>89</X>
-                <Y>241</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>76</X>
-                <Y>241</Y>
-            </Disabled>
-        </Texture>
-    </CheckBoxTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>hr_image_normal</Name>
         <Height>20</Height>
@@ -19678,44 +19573,6 @@
 
 
     <HorizontalResizeButtonTemplate>
-        <Name>context_hr_button_wtext_barb10</Name>
-        <Height>16</Height>
-        <Font>
-            <Name>barb10</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Normal></Normal>
-        <Pressed></Pressed>
-        <NormalHighlit>context_hr_image_highlit</NormalHighlit>
-        <PressedHighlit></PressedHighlit>
-        <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
-
-
-    <HorizontalResizeButtonTemplate>
         <Name>generic_hr_button_title</Name>
         <Height>23</Height>
         <Font>
@@ -19750,44 +19607,6 @@
         <NormalHighlit>hr_image_highlit</NormalHighlit>
         <PressedHighlit>hr_image_pressed</PressedHighlit>
         <Disabled>generic_hr_image_disabled</Disabled>
-</HorizontalResizeButtonTemplate>
-
-
-    <HorizontalResizeButtonTemplate>
-        <Name>generic_hr_button_barb10</Name>
-        <Height>16</Height>
-        <Font>
-            <Name>tokafontbold10</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Normal>dialog_inset</Normal>
-        <Pressed>generic_hr_image_pressed</Pressed>
-        <NormalHighlit>generic_hr_image_normalhighlight</NormalHighlit>
-        <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
-        <Disabled>generic_hr_image_pressed</Disabled>
 </HorizontalResizeButtonTemplate>
 
 
@@ -19827,124 +19646,6 @@
         <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
         <Disabled></Disabled>
 </HorizontalResizeButtonTemplate>
-
-
-    <ButtonTemplate>
-        <Name>button_wide_barb10</Name>
-        <Size>
-            <X>100</X>
-            <Y>16</Y>
-        </Size>
-        <Font>
-            <Name>barb10</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page3</TextureName>
-            <Normal>
-                <X>155</X>
-                <Y>189</Y>
-            </Normal>
-            <Pressed>
-                <X>155</X>
-                <Y>239</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>155</X>
-                <Y>205</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>155</X>
-                <Y>239</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>155</X>
-                <Y>239</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
-
-
-    <ButtonTemplate>
-        <Name>button_barb10</Name>
-        <Size>
-            <X>60</X>
-            <Y>17</Y>
-        </Size>
-        <Font>
-            <Name>barb10</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page3</TextureName>
-            <Normal>
-                <X>91</X>
-                <Y>204</Y>
-            </Normal>
-            <Pressed>
-                <X>91</X>
-                <Y>238</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>91</X>
-                <Y>221</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>91</X>
-                <Y>238</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>91</X>
-                <Y>238</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
 
 
     <HorizontalResizeImageTemplate>
@@ -20323,7 +20024,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20382,7 +20083,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20462,7 +20163,7 @@
         <Name>hr_button_tokajer</Name>
         <Height>18</Height>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20571,7 +20272,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>

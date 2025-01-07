@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
     <TextAreaTemplate>
         <Name>map_textarea</Name>
         <BackgroundTemplate>none</BackgroundTemplate>
@@ -36,63 +39,6 @@
         </Font>
     </TextAreaTemplate>
 
-    <ButtonTemplate>
-        <Name>button_wide</Name>
-        <Size>
-            <X>100</X>
-            <Y>16</Y>
-        </Size>
-        <Font>
-            <Name>button_large</Name>
-            <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page3</TextureName>
-            <Normal>
-                <X>155</X>
-                <Y>222</Y>
-            </Normal>
-            <Pressed>
-                <X>155</X>
-                <Y>239</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>155</X>
-                <Y>205</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>155</X>
-                <Y>239</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>155</X>
-                <Y>222</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
 
     <WindowTemplate>
         <Name>map_window</Name>
@@ -116,6 +62,7 @@
         <MinHeight>44</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
+
         <FullResizeImageDef>
             <Position>
                 <X>-2</X>
@@ -128,6 +75,7 @@
             <Width>516</Width>
             <Height>44</Height>
         </FullResizeImageDef>
+
 
         <LabelDef>
             <Position>
@@ -149,30 +97,30 @@
             <MaxCharacters>128</MaxCharacters>
             <Adapter>map_info0</Adapter>
         </LabelDef>
+
+
         <ButtonDef>
             <ControlId>1006</ControlId>
             <Position>
                 <X>3</X>
                 <Y>24</Y>
             </Position>
-            <Alignment>
-                <OffsetLeft>true</OffsetLeft>
-            </Alignment>
             <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Follow</Label>
         </ButtonDef>
+
+
         <ButtonDef>
             <ControlId>1009</ControlId>
             <Position>
                 <X>73</X>
                 <Y>24</Y>
             </Position>
-            <Alignment>
-                <OffsetLight>true</OffsetLight>
-            </Alignment>
             <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>Quest NPC</Label>
         </ButtonDef>
+
+
         <DynamicImageDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -193,7 +141,9 @@
             </TextureCoords>
         </DynamicImageDef>
 
+
         <!-- The waypoint image areas -->
+
 
         <ImageAreaDef>
             <ControlId>1050</ControlId>
@@ -204,6 +154,7 @@
             <TemplateName>quest_waypoint</TemplateName>
         </ImageAreaDef>
 
+
         <ImageAreaDef>
             <ControlId>1051</ControlId>
             <Position>
@@ -212,6 +163,7 @@
             </Position>
             <TemplateName>quest_giver</TemplateName>
         </ImageAreaDef>
+
 
         <ImageAreaDef>
             <ControlId>1100</ControlId>
@@ -225,6 +177,7 @@
             <TemplateName>group_location1</TemplateName>
         </ImageAreaDef>
 
+
         <ImageAreaDef>
             <ControlId>1101</ControlId>
             <Position>
@@ -236,6 +189,7 @@
             </Alignment>
             <TemplateName>group_location2</TemplateName>
         </ImageAreaDef>
+
 
         <ImageAreaDef>
             <ControlId>1102</ControlId>
@@ -249,6 +203,7 @@
             <TemplateName>group_location3</TemplateName>
         </ImageAreaDef>
 
+
         <ImageAreaDef>
             <ControlId>1103</ControlId>
             <Position>
@@ -260,6 +215,7 @@
             </Alignment>
             <TemplateName>group_location4</TemplateName>
         </ImageAreaDef>
+
 
         <ImageAreaDef>
             <ControlId>1104</ControlId>
@@ -273,6 +229,7 @@
             <TemplateName>group_location5</TemplateName>
         </ImageAreaDef>
 
+
         <ImageAreaDef>
             <ControlId>1105</ControlId>
             <Position>
@@ -284,6 +241,7 @@
             </Alignment>
             <TemplateName>group_location6</TemplateName>
         </ImageAreaDef>
+
 
         <ImageAreaDef>
             <ControlId>1106</ControlId>
@@ -297,6 +255,7 @@
             <TemplateName>group_location7</TemplateName>
         </ImageAreaDef>
 
+
         <ImageAreaDef>
             <ControlId>1107</ControlId>
             <Position>
@@ -308,6 +267,7 @@
             </Alignment>
             <TemplateName>group_location8</TemplateName>
         </ImageAreaDef>
+
 
         <ImageAreaDef>
             <ControlId>1004</ControlId>
@@ -321,6 +281,7 @@
             <TemplateName>player_location2</TemplateName>
         </ImageAreaDef>
 
+
         <ComboBoxDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -333,6 +294,7 @@
             <TemplateName>generic_combobox</TemplateName>
         </ComboBoxDef>
 
+
         <ComboBoxDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -344,5 +306,9 @@
             </Alignment>
             <TemplateName>generic_combobox</TemplateName>
         </ComboBoxDef>
+
+
     </WindowTemplate>
+
+
 </Root_Element>

@@ -390,7 +390,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>brit9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -1143,7 +1143,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<ControlId>1001</ControlId>
 			<Label>OPTIONS</Label>
 			<Position>
@@ -1152,7 +1152,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
             		<ControlId></ControlId>
 			<Label>BIND</Label>
             		<Position>
@@ -1162,19 +1162,19 @@
             		<onClickEvent>Bind</onClickEvent>
         	</ButtonDef>
         	<ButtonDef>
-            		<TemplateName>button_large</TemplateName>
+            		<TemplateName>button_tokajer_62x18</TemplateName>
             		<ControlId></ControlId>
             		<Label>PRAY</Label>
             		<Position>
                 		<X>127</X>
                 		<Y>377</Y>
            		</Position>
-            		<TemplateName>button_large</TemplateName>
+            		<TemplateName>button_tokajer_62x18</TemplateName>
             		<Label>PRAY</Label>
             		<onClickEvent>Pray</onClickEvent>
         	</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<ControlId>1029</ControlId>
 			<Label>SOCIAL</Label>
 			<OnClickEvent>Community</OnClickEvent>
@@ -1184,7 +1184,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<ControlId>1030</ControlId>
 			<Label>MOUNT</Label>
 			<OnClickEvent>Mount</OnClickEvent>

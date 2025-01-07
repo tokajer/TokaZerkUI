@@ -97,7 +97,7 @@
         <LabelDef>
             <Position>
                 <X>81</X>
-                <Y>397</Y>
+                <Y>395</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -279,7 +279,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>brit9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -299,7 +299,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>brit9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -319,7 +319,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>brit9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -339,7 +339,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>brit9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -359,7 +359,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>brit9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -411,7 +411,7 @@
         <LabelDef>
             <Position>
                 <X>155</X>
-                <Y>397</Y>
+                <Y>395</Y>
             </Position>
             <Color>
                 <R>255</R>

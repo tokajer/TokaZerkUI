@@ -5,65 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <ButtonTemplate>
-        <Name>button_large_tab</Name>
-        <Size>
-            <X>100</X>
-            <Y>16</Y>
-        </Size>
-        <Font>
-            <Name>TokaFontRegular10</Name>
-            <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page3</TextureName>
-            <Normal>
-                <X>155</X>
-                <Y>222</Y>
-            </Normal>
-            <Pressed>
-                <X>155</X>
-                <Y>239</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>155</X>
-                <Y>205</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>155</X>
-                <Y>222</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>155</X>
-                <Y>222</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
-
-
     <TabsTemplate>
         <Name>large_tabs</Name>
         <ControlAreaFullResizeImageTemplate>g_window_background</ControlAreaFullResizeImageTemplate>
@@ -2485,7 +2426,7 @@
                 <X>80</X>
                 <Y>220</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -2496,7 +2437,7 @@
                 <X>222</X>
                 <Y>220</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 
@@ -2787,7 +2728,7 @@
                 <X>80</X>
                 <Y>300</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -2798,7 +2739,7 @@
                 <X>222</X>
                 <Y>300</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 
@@ -3089,7 +3030,7 @@
                 <X>80</X>
                 <Y>380</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -3100,7 +3041,7 @@
                 <X>222</X>
                 <Y>380</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 
@@ -3391,7 +3332,7 @@
                 <X>80</X>
                 <Y>460</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -3402,7 +3343,7 @@
                 <X>222</X>
                 <Y>460</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 

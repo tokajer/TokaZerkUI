@@ -36,7 +36,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
 
@@ -55,7 +55,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -72,7 +72,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -103,7 +103,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -120,7 +120,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -145,7 +145,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -170,7 +170,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -195,7 +195,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
@@ -208,7 +208,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
@@ -221,7 +221,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
@@ -234,7 +234,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
@@ -244,7 +244,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember0</OnClickEvent>
         </ButtonDef>
 
@@ -257,7 +257,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
 
@@ -276,7 +276,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -293,7 +293,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -324,7 +324,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -341,7 +341,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -366,7 +366,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -391,7 +391,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -416,7 +416,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status1</AdapterName>
         </StatusIconDef>
 
@@ -429,7 +429,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status1</AdapterName>
         </StatusIconDef>
 
@@ -442,7 +442,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status1</AdapterName>
         </StatusIconDef>
 
@@ -455,7 +455,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status1</AdapterName>
         </StatusIconDef>
 
@@ -465,7 +465,7 @@
                 <X>94</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember1</OnClickEvent>
         </ButtonDef>
 
@@ -478,7 +478,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
 
@@ -497,7 +497,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -514,7 +514,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -545,7 +545,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -562,7 +562,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -587,7 +587,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -612,7 +612,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -637,7 +637,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status2</AdapterName>
         </StatusIconDef>
 
@@ -650,7 +650,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status2</AdapterName>
         </StatusIconDef>
 
@@ -663,7 +663,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status2</AdapterName>
         </StatusIconDef>
 
@@ -676,7 +676,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status2</AdapterName>
         </StatusIconDef>
 
@@ -686,7 +686,7 @@
                 <X>188</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember2</OnClickEvent>
         </ButtonDef>
 
@@ -699,7 +699,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
 
@@ -718,7 +718,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -735,7 +735,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -766,7 +766,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -783,7 +783,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -808,7 +808,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -833,7 +833,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -858,7 +858,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status3</AdapterName>
         </StatusIconDef>
 
@@ -871,7 +871,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status3</AdapterName>
         </StatusIconDef>
 
@@ -884,7 +884,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status3</AdapterName>
         </StatusIconDef>
 
@@ -897,7 +897,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status3</AdapterName>
         </StatusIconDef>
 
@@ -907,7 +907,7 @@
                 <X>282</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember3</OnClickEvent>
         </ButtonDef>
 
@@ -920,7 +920,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
 
@@ -939,7 +939,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -956,7 +956,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -987,7 +987,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -1004,7 +1004,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1029,7 +1029,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1054,7 +1054,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1079,7 +1079,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status4</AdapterName>
         </StatusIconDef>
 
@@ -1092,7 +1092,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status4</AdapterName>
         </StatusIconDef>
 
@@ -1105,7 +1105,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status4</AdapterName>
         </StatusIconDef>
 
@@ -1118,7 +1118,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status4</AdapterName>
         </StatusIconDef>
 
@@ -1128,7 +1128,7 @@
                 <X>0</X>
                 <Y>47</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember4</OnClickEvent>
         </ButtonDef>
 
@@ -1141,7 +1141,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
 
@@ -1160,7 +1160,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -1177,7 +1177,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -1208,7 +1208,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -1225,7 +1225,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1250,7 +1250,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1275,7 +1275,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1300,7 +1300,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status5</AdapterName>
         </StatusIconDef>
 
@@ -1313,7 +1313,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status5</AdapterName>
         </StatusIconDef>
 
@@ -1326,7 +1326,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status5</AdapterName>
         </StatusIconDef>
 
@@ -1339,7 +1339,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status5</AdapterName>
         </StatusIconDef>
 
@@ -1349,7 +1349,7 @@
                 <X>94</X>
                 <Y>47</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember5</OnClickEvent>
         </ButtonDef>
 
@@ -1362,7 +1362,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
 
@@ -1381,7 +1381,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -1398,7 +1398,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -1429,7 +1429,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -1446,7 +1446,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1471,7 +1471,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1496,7 +1496,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1521,7 +1521,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status6</AdapterName>
         </StatusIconDef>
 
@@ -1534,7 +1534,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status6</AdapterName>
         </StatusIconDef>
 
@@ -1547,7 +1547,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status6</AdapterName>
         </StatusIconDef>
 
@@ -1560,7 +1560,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status6</AdapterName>
         </StatusIconDef>
 
@@ -1570,7 +1570,7 @@
                 <X>188</X>
                 <Y>47</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember6</OnClickEvent>
         </ButtonDef>
 
@@ -1583,7 +1583,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
+            <TemplateName>toka_hh_standard</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
 
@@ -1602,7 +1602,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>31</MaxCharacters>
@@ -1619,7 +1619,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>3</MaxCharacters>
@@ -1650,7 +1650,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>60</Width>
             <Height>15</Height>
             <MaxCharacters>8</MaxCharacters>
@@ -1667,7 +1667,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1692,7 +1692,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1717,7 +1717,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>32</Width>
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -1742,7 +1742,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <TemplateName>toka_statuseffects_diz</TemplateName>
             <AdapterName>group_status7</AdapterName>
         </StatusIconDef>
 
@@ -1755,7 +1755,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>toka_statuseffects_mez</TemplateName>
             <AdapterName>group_status7</AdapterName>
         </StatusIconDef>
 
@@ -1768,7 +1768,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
+            <TemplateName>toka_statuseffects_ns</TemplateName>
             <AdapterName>group_status7</AdapterName>
         </StatusIconDef>
 
@@ -1781,7 +1781,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>toka_statuseffects_psn</TemplateName>
             <AdapterName>group_status7</AdapterName>
         </StatusIconDef>
 
@@ -1791,7 +1791,7 @@
                 <X>282</X>
                 <Y>47</Y>
             </Position>
-            <TemplateName>_witt_hh_standard_buttons</TemplateName>
+            <TemplateName>toka_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember7</OnClickEvent>
         </ButtonDef>
 

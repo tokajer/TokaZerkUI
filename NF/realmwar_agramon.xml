@@ -213,7 +213,7 @@
 		</CheckBoxDef>
 		
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<OnClickEvent>ToggleWarmapKey</OnClickEvent>
 			<ControlId>2010</ControlId>
 			<Label>KEY</Label>
@@ -223,7 +223,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<OnClickEvent>WarmapUpdateBattles</OnClickEvent>
 			<ControlId>2011</ControlId>
 			<Label>UPDATE</Label>
@@ -233,7 +233,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<OnClickEvent>WarmapTeleportRequest</OnClickEvent>
 			<ControlId>2012</ControlId>
 			<Label>TELEPORT</Label>
@@ -243,7 +243,7 @@
 			</Position>
 		</ButtonDef>
 		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
+			<TemplateName>button_tokajer_62x18</TemplateName>
 			<OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
 			<Label>BONUSES</Label>
 			<Position>
