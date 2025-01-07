@@ -494,9 +494,9 @@
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <Color>
-                <R>152</R>
-                <G>152</G>
-                <B>152</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
