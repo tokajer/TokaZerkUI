@@ -64,7 +64,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>25</Width>
             <Height>11</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -95,7 +95,7 @@
                 <B>0</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>118</Width>
             <Height>12</Height>
             <MaxCharacters>32</MaxCharacters>

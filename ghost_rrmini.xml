@@ -66,7 +66,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -825,7 +825,7 @@
                 <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Adapter></Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>200</Width>

@@ -53,7 +53,7 @@
         <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>arial9b</FontName>
+        <FontName>TokaFontBold10</FontName>
         <FontColor>
             <R>192</R>
             <G>192</G>

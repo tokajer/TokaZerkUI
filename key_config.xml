@@ -19,7 +19,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -118,7 +118,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>300</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -140,7 +140,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>64</Width>
             <Height>15</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -185,7 +185,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>64</Width>
             <Height>15</Height>
             <MaxCharacters>32</MaxCharacters>

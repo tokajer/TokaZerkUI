@@ -12,7 +12,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -78,7 +78,7 @@
         <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>arial9</FontName>
+        <FontName>TokaFontRegular10</FontName>
         <FontColor>
             <R>192</R>
             <G>192</G>

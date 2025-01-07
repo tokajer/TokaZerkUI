@@ -11,7 +11,7 @@
         <Height>16</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -107,7 +107,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1312,7 +1312,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>104</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -1383,7 +1383,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>104</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

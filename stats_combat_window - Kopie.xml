@@ -6,7 +6,7 @@
 		<CheckBoxTemplate>tree_check</CheckBoxTemplate>
 		<IconTemplate>plain_icon_small</IconTemplate>
 		<ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
-		<FontName>arial9</FontName>
+		<FontName>TokaFontRegular10</FontName>
 		<FontColor>
 			<R>192</R>
 			<G>192</G>
@@ -24,7 +24,7 @@
 		<CheckBoxTemplate>tree_check</CheckBoxTemplate>
 		<IconTemplate>plain_icon_small</IconTemplate>
 		<ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
-		<FontName>arial9</FontName>
+		<FontName>TokaFontRegular10</FontName>
 		<FontColor>
 			<R>192</R>
 			<G>192</G>
@@ -51,7 +51,7 @@
 		<BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
 		<IconTemplate>plain_icon_small</IconTemplate>
 		<TextFont>
-			<Name>arial9</Name>
+			<Name>TokaFontRegular10</Name>
 			<TextLeftOffset>6</TextLeftOffset>
 			<TextTopOffset>6</TextTopOffset>
 			<ColorNormal>
@@ -129,7 +129,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial11</FontName>
+			<FontName>TokaFontBold12</FontName>
 			<Width>164</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>

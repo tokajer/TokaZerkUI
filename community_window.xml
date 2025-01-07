@@ -184,7 +184,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -235,7 +235,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -286,7 +286,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -337,7 +337,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -388,7 +388,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -439,7 +439,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -490,7 +490,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -541,7 +541,7 @@
             </Highlit>
         </Texture>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -623,7 +623,7 @@
         <SelectedRowName>listbox_selected_bg</SelectedRowName>
         <SelectedRowOffset>-2</SelectedRowOffset>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -870,7 +870,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>605</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1443,7 +1443,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>

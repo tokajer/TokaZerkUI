@@ -19,7 +19,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>

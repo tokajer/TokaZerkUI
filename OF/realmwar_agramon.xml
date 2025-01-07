@@ -2,7 +2,7 @@
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+<!-- @@ Kostenloser Download erhï¿½ltlich auf http://www.bradtownsend.com/daoced -->
 
 
     <Texture>
@@ -84,7 +84,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -105,7 +105,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -126,7 +126,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -147,7 +147,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -168,7 +168,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -189,7 +189,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

@@ -49,7 +49,7 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Adapter></Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>112</Width>
@@ -77,7 +77,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Adapter></Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>112</Width>
@@ -131,7 +131,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Adapter>window_alpha</Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>34</Width>
@@ -160,7 +160,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Adapter></Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>112</Width>
@@ -214,7 +214,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>TokaFontRegular10</FontName>
             <Adapter>font_alpha</Adapter>
             <ColorAdapter></ColorAdapter>
             <Width>34</Width>

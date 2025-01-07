@@ -12,7 +12,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1407,7 +1407,7 @@
                 <X>330</X>
                 <Y>205</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2266,7 +2266,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2281,7 +2281,7 @@
                 <X>150</X>
                 <Y>165</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2302,7 +2302,7 @@
                 <X>230</X>
                 <Y>165</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2507,7 +2507,7 @@
                 <X>160</X>
                 <Y>222</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2527,7 +2527,7 @@
                 <X>175</X>
                 <Y>222</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2568,7 +2568,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2583,7 +2583,7 @@
                 <X>150</X>
                 <Y>245</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2604,7 +2604,7 @@
                 <X>230</X>
                 <Y>245</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2809,7 +2809,7 @@
                 <X>160</X>
                 <Y>302</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2829,7 +2829,7 @@
                 <X>175</X>
                 <Y>302</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2870,7 +2870,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2885,7 +2885,7 @@
                 <X>150</X>
                 <Y>325</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -2906,7 +2906,7 @@
                 <X>230</X>
                 <Y>325</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3111,7 +3111,7 @@
                 <X>160</X>
                 <Y>382</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3131,7 +3131,7 @@
                 <X>175</X>
                 <Y>382</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3172,7 +3172,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3187,7 +3187,7 @@
                 <X>150</X>
                 <Y>405</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3208,7 +3208,7 @@
                 <X>230</X>
                 <Y>405</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3413,7 +3413,7 @@
                 <X>160</X>
                 <Y>462</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3433,7 +3433,7 @@
                 <X>175</X>
                 <Y>462</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3483,7 +3483,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3525,7 +3525,7 @@
                 <X>280</X>
                 <Y>180</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3546,7 +3546,7 @@
                 <X>300</X>
                 <Y>180</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3576,7 +3576,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3618,7 +3618,7 @@
                 <X>280</X>
                 <Y>201</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3639,7 +3639,7 @@
                 <X>300</X>
                 <Y>201</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3669,7 +3669,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3711,7 +3711,7 @@
                 <X>280</X>
                 <Y>222</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3732,7 +3732,7 @@
                 <X>300</X>
                 <Y>222</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3762,7 +3762,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3804,7 +3804,7 @@
                 <X>280</X>
                 <Y>243</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3825,7 +3825,7 @@
                 <X>300</X>
                 <Y>243</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3855,7 +3855,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3897,7 +3897,7 @@
                 <X>280</X>
                 <Y>264</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3918,7 +3918,7 @@
                 <X>300</X>
                 <Y>264</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3948,7 +3948,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3990,7 +3990,7 @@
                 <X>280</X>
                 <Y>285</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4011,7 +4011,7 @@
                 <X>300</X>
                 <Y>285</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4041,7 +4041,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4083,7 +4083,7 @@
                 <X>280</X>
                 <Y>306</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4104,7 +4104,7 @@
                 <X>300</X>
                 <Y>306</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4134,7 +4134,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4176,7 +4176,7 @@
                 <X>280</X>
                 <Y>327</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4197,7 +4197,7 @@
                 <X>300</X>
                 <Y>327</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4227,7 +4227,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4269,7 +4269,7 @@
                 <X>280</X>
                 <Y>348</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4290,7 +4290,7 @@
                 <X>300</X>
                 <Y>348</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4320,7 +4320,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4362,7 +4362,7 @@
                 <X>280</X>
                 <Y>369</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4383,7 +4383,7 @@
                 <X>300</X>
                 <Y>369</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4413,7 +4413,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4455,7 +4455,7 @@
                 <X>280</X>
                 <Y>390</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4476,7 +4476,7 @@
                 <X>300</X>
                 <Y>390</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4506,7 +4506,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4548,7 +4548,7 @@
                 <X>280</X>
                 <Y>411</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4569,7 +4569,7 @@
                 <X>300</X>
                 <Y>411</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4599,7 +4599,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4641,7 +4641,7 @@
                 <X>280</X>
                 <Y>432</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4662,7 +4662,7 @@
                 <X>300</X>
                 <Y>432</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4692,7 +4692,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>165</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4734,7 +4734,7 @@
                 <X>280</X>
                 <Y>453</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -4755,7 +4755,7 @@
                 <X>300</X>
                 <Y>453</Y>
             </Position>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>

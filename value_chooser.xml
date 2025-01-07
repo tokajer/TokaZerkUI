@@ -123,7 +123,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9b</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>34</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>

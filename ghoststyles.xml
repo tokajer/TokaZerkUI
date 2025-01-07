@@ -60,7 +60,7 @@
 
 
     <Font>
-        <Name>ghost_arial11b</Name>
+        <Name>ghost_TokaFontBold12</Name>
         <File>custom/Assets/Fonts/arial09b.tga</File>
     </Font>
 
@@ -450,7 +450,7 @@
             <Y>64</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -1047,7 +1047,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -1490,7 +1490,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1549,7 +1549,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1607,7 +1607,7 @@
         <Height>20</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2130,7 +2130,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2200,7 +2200,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2718,7 +2718,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2780,7 +2780,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2842,7 +2842,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2901,7 +2901,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2963,7 +2963,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3022,7 +3022,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3214,7 +3214,7 @@
         <ScrollbarTemplate>g_vscrollbar</ScrollbarTemplate>
         <CheckBoxTemplate>g_generic_checkbox</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>arial9</FontName>
+        <FontName>TokaFontRegular10</FontName>
         <FontColor>
             <R>192</R>
             <G>192</G>
@@ -3245,7 +3245,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3291,7 +3291,7 @@
         <BackgroundTemplate>g_window_background</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial11</Name>
+            <Name>TokaFontBold12</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3333,7 +3333,7 @@
             <Y>14</Y>
         </Size>
         <Font>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3997,7 +3997,7 @@
             <Y>46</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4056,7 +4056,7 @@
             <Y>46</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4140,7 +4140,7 @@
             <Y>400</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4202,7 +4202,7 @@
             <Y>110</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4264,7 +4264,7 @@
             <Y>200</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -5626,7 +5626,7 @@
             <Y>14</Y>
         </Size>
         <Font>
-            <Name>arial9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>

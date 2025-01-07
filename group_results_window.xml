@@ -19,7 +19,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>arial9b</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -143,7 +143,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>365</Width>
             <Height>16</Height>
             <MaxCharacters>200</MaxCharacters>
@@ -161,7 +161,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -180,7 +180,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -199,7 +199,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -218,7 +218,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -237,7 +237,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -256,7 +256,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -275,7 +275,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

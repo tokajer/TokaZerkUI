@@ -32,7 +32,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>Arial11</FontName>
+			<FontName>TokaFontBold12</FontName>
 			<Width>164</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -50,7 +50,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -75,7 +75,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -92,7 +92,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>70</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -117,7 +117,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -134,7 +134,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -159,7 +159,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -176,7 +176,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -201,7 +201,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -218,7 +218,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -243,7 +243,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -260,7 +260,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -285,7 +285,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -324,7 +324,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -343,7 +343,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -371,7 +371,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -418,7 +418,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -437,7 +437,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -465,7 +465,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -484,7 +484,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -512,7 +512,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -531,7 +531,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -559,7 +559,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -578,7 +578,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -606,7 +606,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -625,7 +625,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -653,7 +653,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -672,7 +672,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -700,7 +700,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>Arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>80</Width>
 			<Height>17</Height>
 			<MaxCharacters>20</MaxCharacters>
@@ -730,7 +730,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -748,7 +748,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -775,7 +775,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -793,7 +793,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -820,7 +820,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -838,7 +838,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -865,7 +865,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -883,7 +883,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -910,7 +910,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -928,7 +928,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -955,7 +955,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -973,7 +973,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -1000,7 +1000,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -1018,7 +1018,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -1045,7 +1045,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -1063,7 +1063,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
@@ -1090,7 +1090,7 @@
 				<B>255</B>
 				<A>255</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
@@ -1108,7 +1108,7 @@
 				<B>200</B>
 				<A>200</A>
 			</Color>
-			<FontName>arial9</FontName>
+			<FontName>TokaFontRegular10</FontName>
 			<Width>64</Width>
 			<Height>18</Height>
 			<MaxCharacters>32</MaxCharacters>
