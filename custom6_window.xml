@@ -5,12 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <Font>
-        <Name>ghost_mini_stats</Name>
-        <File>custom/Assets/ghost/ghost_verdana11_shadowed_normalized.tga</File>
-    </Font>
-
-
     <WindowTemplate>
         <Name>custom6_window</Name>
         <WindowId>custom6_window</WindowId>
@@ -53,7 +47,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -72,7 +66,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -102,7 +96,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -121,7 +115,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -152,7 +146,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -171,7 +165,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -201,7 +195,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -220,7 +214,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -250,7 +244,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -269,7 +263,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -299,7 +293,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -318,7 +312,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -348,7 +342,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -367,7 +361,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -397,7 +391,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -416,7 +410,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -446,7 +440,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -464,7 +458,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -493,7 +487,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -511,7 +505,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -540,7 +534,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>50</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -558,7 +552,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>ghost_mini_stats</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
