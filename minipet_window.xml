@@ -53,7 +53,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thicklong_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>mini_pet_life</AdapterName>
             <Width>202</Width>
         </StatusBarDef>
@@ -67,7 +67,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_red_status</TemplateName>
+            <TemplateName>floating_healthbar_21</TemplateName>
             <AdapterName>mini_pet_life</AdapterName>
             <Width>200</Width>
         </StatusBarDef>
@@ -77,12 +77,12 @@
             <ControlId>pet life percentage</ControlId>
             <Position>
                 <X>5</X>
-                <Y>4</Y>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -100,7 +100,7 @@
         <LabelDef>
             <Position>
                 <X>32</X>
-                <Y>4</Y>
+                <Y>2</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -108,7 +108,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
