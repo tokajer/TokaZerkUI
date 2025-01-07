@@ -18,7 +18,7 @@
         <TitleWidth>300</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>400</Width>
-        <Height>500</Height>
+        <Height>550</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -35,7 +35,7 @@
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>400</Width>
-            <Height>500</Height>
+            <Height>550</Height>
         </FullResizeImageDef>
 
 
@@ -87,7 +87,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>240</Y>
+                <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -156,21 +156,6 @@
 
 
         <ButtonDef>
-            <ControlId>floatingendurance</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>416</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Resists</Label>
-            <OnClickEvent>ToggleCustom12</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
             <ControlId>floatingpower</ControlId>
             <Position>
                 <X>96</X>
@@ -201,8 +186,8 @@
 
         <LabelDef>
             <Position>
-                <X>13</X>
-                <Y>127</Y>
+                <X>10</X>
+                <Y>144</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -225,7 +210,7 @@
             <ControlId>ghost toolbar</ControlId>
             <Position>
                 <X>32</X>
-                <Y>142</Y>
+                <Y>154</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -240,7 +225,7 @@
             <ControlId>group toolbar</ControlId>
             <Position>
                 <X>32</X>
-                <Y>161</Y>
+                <Y>173</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -254,7 +239,7 @@
         <ImageAreaDef>
             <Position>
                 <X>157</X>
-                <Y>145</Y>
+                <Y>157</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -266,7 +251,7 @@
         <ImageAreaDef>
             <Position>
                 <X>157</X>
-                <Y>163</Y>
+                <Y>175</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -278,7 +263,7 @@
         <LabelDef>
             <Position>
                 <X>13</X>
-                <Y>188</Y>
+                <Y>207</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -300,7 +285,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>202</Y>
+                <Y>221</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -314,7 +299,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>221</Y>
+                <Y>240</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -328,7 +313,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>240</Y>
+                <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -342,7 +327,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>259</Y>
+                <Y>278</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -356,7 +341,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>278</Y>
+                <Y>297</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -370,7 +355,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>297</Y>
+                <Y>316</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -385,7 +370,7 @@
             <ControlId>pulse</ControlId>
             <Position>
                 <X>32</X>
-                <Y>316</Y>
+                <Y>335</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -399,7 +384,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>335</Y>
+                <Y>354</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -413,7 +398,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>355</Y>
+                <Y>374</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -427,7 +412,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>375</Y>
+                <Y>394</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -441,7 +426,7 @@
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>395</Y>
+                <Y>414</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -453,9 +438,24 @@
 
 
         <ButtonDef>
+            <ControlId>floatingendurance</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>435</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tokajer_xlarge</TemplateName>
+            <Label>Mini Resists</Label>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
             <Position>
                 <X>154</X>
-                <Y>444</Y>
+                <Y>463</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -469,7 +469,7 @@
         <ImageAreaDef>
             <Position>
                 <X>157</X>
-                <Y>198</Y>
+                <Y>213</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -597,7 +597,7 @@
         <LabelDef>
             <Position>
                 <X>225</X>
-                <Y>127</Y>
+                <Y>144</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -619,7 +619,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>141</Y>
+                <Y>158</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -633,7 +633,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>160</Y>
+                <Y>177</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -647,7 +647,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>136</Y>
+                <Y>153</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -659,7 +659,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>156</Y>
+                <Y>173</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -671,7 +671,7 @@
         <LabelDef>
             <Position>
                 <X>225</X>
-                <Y>188</Y>
+                <Y>207</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -693,7 +693,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>202</Y>
+                <Y>221</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -707,7 +707,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>221</Y>
+                <Y>240</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -721,7 +721,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>196</Y>
+                <Y>217</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -733,7 +733,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>217</Y>
+                <Y>238</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -745,7 +745,7 @@
         <LabelDef>
             <Position>
                 <X>225</X>
-                <Y>270</Y>
+                <Y>283</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -767,7 +767,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>286</Y>
+                <Y>297</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -781,7 +781,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>305</Y>
+                <Y>316</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -795,7 +795,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>324</Y>
+                <Y>335</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -809,7 +809,7 @@
         <ButtonDef>
             <Position>
                 <X>244</X>
-                <Y>343</Y>
+                <Y>355</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -824,7 +824,7 @@
             <ControlId>rrchart</ControlId>
             <Position>
                 <X>244</X>
-                <Y>362</Y>
+                <Y>375</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -839,7 +839,7 @@
             <ControlId>social</ControlId>
             <Position>
                 <X>243</X>
-                <Y>381</Y>
+                <Y>395</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -854,7 +854,7 @@
             <ControlId>ArmorResists</ControlId>
             <Position>
                 <X>243</X>
-                <Y>401</Y>
+                <Y>416</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -868,7 +868,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>281</Y>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -880,7 +880,7 @@
         <ImageAreaDef>
             <Position>
                 <X>362</X>
-                <Y>234</Y>
+                <Y>255</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -888,10 +888,11 @@
             <TemplateName>g_icon_friends</TemplateName>
         </ImageAreaDef>
 
+
         <LabelDef>
             <Position>
                 <X>1</X>
-                <Y>19</Y>
+                <Y>34</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -914,7 +915,7 @@
         <LabelDef>
             <Position>
                 <X>1</X>
-                <Y>4</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

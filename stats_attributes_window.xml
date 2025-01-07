@@ -28,7 +28,6 @@
         <ContextTemplateName></ContextTemplateName>
 
 
-    
         <FullResizeImageDef>
             <ControlId>BackgroundImage</ControlId>
             <Position>
@@ -912,7 +911,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Cmd</Label>
+            <Label>Commands</Label>
         </ButtonDef>
 
 

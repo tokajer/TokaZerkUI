@@ -1968,7 +1968,7 @@
             </Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>DEPLOY</Label>
-            <Width>70</Width>
+            <Width>75</Width>
             <OnClickEvent>ComGuildBannerDeploy</OnClickEvent>
         </HorizontalResizeButtonDef>
 
