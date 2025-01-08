@@ -8,8 +8,8 @@
     <ButtonTemplate>
         <Name>chat_scale</Name>
         <Size>
-            <X>16</X>
-            <Y>16</Y>
+            <X>14</X>
+            <Y>14</Y>
         </Size>
         <Font>
             <Name>none</Name>
@@ -39,26 +39,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>navigation</TextureName>
             <Normal>
-                <X>135</X>
-                <Y>114</Y>
+                <X>0</X>
+                <Y>43</Y>
             </Normal>
             <Pressed>
-                <X>154</X>
-                <Y>114</Y>
+                <X>14</X>
+                <Y>43</Y>
             </Pressed>
             <NormalHighlit>
-                <X>173</X>
-                <Y>114</Y>
+                <X>0</X>
+                <Y>43</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>154</X>
-                <Y>114</Y>
+                <X>28</X>
+                <Y>43</Y>
             </PressedHighlit>
             <Disabled>
-                <X>97</X>
-                <Y>114</Y>
+                <X>0</X>
+                <Y>43</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -832,7 +832,7 @@
 
 
     <ButtonTemplate>
-        <Name>tokafontbold12</Name>
+        <Name>tokafontbold10</Name>
         <Size>
             <X>60</X>
             <Y>16</Y>
