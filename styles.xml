@@ -4028,9 +4028,9 @@
 
     <HorizontalResizeButtonTemplate>
         <Name>tab_button</Name>
-        <Height>25</Height>
+        <Height>17</Height>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -20529,22 +20529,22 @@
     <HorizontalResizeImageTemplate>
         <Name>hr_toka</Name>
         <Height>18</Height>
-        <LeftWidth>20</LeftWidth>
-        <RepeatWidth>10</RepeatWidth>
-        <RightWidth>10</RightWidth>
+        <LeftWidth>9</LeftWidth>
+        <RepeatWidth>9</RepeatWidth>
+        <RightWidth>11</RightWidth>
         <Texture>
             <TextureName>ui_tokajer_parts</TextureName>
             <Left>
                 <X>0</X>
-                <Y>60</Y>
+                <Y>0</Y>
             </Left>
             <Repeat>
-                <X>27</X>
-                <Y>60</Y>
+                <X>26</X>
+                <Y>0</Y>
             </Repeat>
             <Right>
-                <X>102</X>
-                <Y>60</Y>
+                <X>52</X>
+                <Y>0</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
