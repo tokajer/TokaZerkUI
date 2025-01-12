@@ -669,15 +669,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -787,9 +787,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -846,9 +846,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -905,9 +905,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -964,9 +964,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -1023,15 +1023,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -1889,9 +1889,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
         </Font>
@@ -1925,9 +1925,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
         </Font>
@@ -1993,9 +1993,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2039,9 +2039,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2131,9 +2131,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2177,9 +2177,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2223,9 +2223,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2269,9 +2269,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2315,9 +2315,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2361,9 +2361,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2407,9 +2407,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -2457,9 +2457,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -2492,9 +2492,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -2813,15 +2813,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -3275,9 +3275,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -3409,15 +3409,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -3447,9 +3447,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -3550,15 +3550,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -3609,15 +3609,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -3748,9 +3748,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -3968,9 +3968,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -4004,9 +4004,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -4916,9 +4916,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -4962,9 +4962,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -5211,9 +5211,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -6605,9 +6605,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -8712,7 +8712,7 @@
             <Y>15</Y>
         </Size>
         <Font>
-            <Name>tahoma11</Name>
+            <Name>tokafontbold11</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -8720,15 +8720,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -12949,15 +12949,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -13339,7 +13339,7 @@
         <Name>toka_scroll_nobutton_white</Name>
         <UpButtonTemplate>none</UpButtonTemplate>
         <DownButtonTemplate>none</DownButtonTemplate>
-        <ThumbVResizeTemplate>toka_vscroll_thumb_white</ThumbVResizeTemplate>
+        <ThumbVResizeTemplate>scroll_thumb_no_gutter</ThumbVResizeTemplate>
         <GutterVResizeTemplate>toka_vscroll_gutter</GutterVResizeTemplate>
         <Width>9</Width>
         <UpButtonOffset>
@@ -14143,15 +14143,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -14202,15 +14202,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -14575,15 +14575,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -14631,15 +14631,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -14755,9 +14755,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -14983,15 +14983,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -15041,9 +15041,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
         </Font>
@@ -15456,9 +15456,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -15641,9 +15641,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -15676,9 +15676,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
         </Font>
@@ -15823,15 +15823,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -16704,15 +16704,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -18184,9 +18184,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -18222,9 +18222,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>

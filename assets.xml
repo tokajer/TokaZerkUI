@@ -271,6 +271,7 @@
 
     <!--textures-->
 
+
     <Texture>
         <Name>small_arrows</Name>
         <File>atlantis/smallarrows.dds</File>
@@ -287,7 +288,6 @@
         <Name>navigation</Name>
         <File>custom/Assets/ghost/_gh_o_navigation.tga</File>
     </Texture>
-
 
 
     <Texture>
@@ -535,15 +535,18 @@
         <File>custom/Assets/Textures/atlantis_03.tga</File>
     </Texture>
 
+
     <Texture>
         <Name>page4</Name>
         <File>custom/Assets/Textures/atlantis_04.tga</File>
     </Texture>
 
+
     <Texture>
         <Name>page4b</Name>
         <File>custom/Assets/ghost/_gh_o_atlantis_04b.tga</File>
     </Texture>
+
 
     <Texture>
         <Name>hh_reverse_box</Name>
@@ -555,7 +558,6 @@
         <Name>frames_win</Name>
         <File>custom/Assets/Textures/frames_win.tga</File>
     </Texture>
-
 
 
     <Texture>
@@ -629,6 +631,7 @@
         <File>custom/Assets/Textures/b_comp2d.tga</File>
     </Texture>
 
+
     <Texture>
         <Name>g_hh_reverse3</Name>
         <File>custom/Assets/ghost/ghost_hh_reverse3.tga</File>
@@ -657,7 +660,6 @@
         <Name>Floating_PowerBar</Name>
         <File>custom/Assets/Textures/Bars/PowerBar.tga</File>
     </Texture>
-
 
 
     <Texture>
