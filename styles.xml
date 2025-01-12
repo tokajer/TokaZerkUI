@@ -3233,7 +3233,7 @@
     <TabsTemplate>
         <Name>generic_tabs</Name>
         <ControlAreaFullResizeImageTemplate>g_window_background_tokajer</ControlAreaFullResizeImageTemplate>
-        <TabButtonTemplate>button_tab</TabButtonTemplate>
+        <TabButtonTemplate>button_tokajer_82x18</TabButtonTemplate>
         <TabXOffset>-1</TabXOffset>
         <TabYOffset>3</TabYOffset>
     </TabsTemplate>

@@ -882,7 +882,7 @@
 
 
         <TabsDef>
-            <TemplateName>tokajer_tab_large</TemplateName>
+            <TemplateName>generic_tabs</TemplateName>
             <ControlId>1002</ControlId>
             <Position>
                 <X>5</X>
