@@ -597,18 +597,6 @@
 
 
     <Texture>
-        <Name>neca_upet_icons</Name>
-        <File>custom/Assets/Textures/neca_upet_icons.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>neca_upet_status</Name>
-        <File>custom/Assets/Textures/neca_upet_status.tga</File>
-    </Texture>
-
-
-    <Texture>
         <Name>uielements2</Name>
         <File>custom/Assets/Textures/b_uielements2.tga</File>
     </Texture>
