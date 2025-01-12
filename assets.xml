@@ -5,9 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <Include>ghoststyles.xml</Include>
-
-
     <Include>custom0_window.xml</Include>
 
 
@@ -251,48 +248,6 @@
     </TTFFont>
 
 
-    <Font>
-        <Name>button_small</Name>
-        <File>custom/Assets/ghost/ghost_verdana9_shadowed_normalized.tga</File>
-    </Font>
-
-
-    <Font>
-        <Name>Font_HHelperWidgets</Name>
-        <File>custom/Assets/Fonts/HHelperWidgets.tga</File>
-    </Font>
-
-
-    <Font>
-        <Name>chatfont_ds</Name>
-        <File>custom/Assets/Fonts/overp_shadow.tga</File>
-    </Font>
-
-
-    <TTFFont>
-        <Name>chatfont</Name>
-        <File>custom/Assets/Fonts/Overpass-Regular.ttf</File>
-        <Height>12</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>minib</Name>
-        <File>custom/Assets/Fonts/minifontsmini7extendedbold.ttf</File>
-        <Height>7</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <Font>
-        <Name>title</Name>
-        <File>fonts/title_24.tga</File>
-    </Font>
-
-
     <TTFFont>
         <Name>chat_small</Name>
         <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
@@ -310,23 +265,6 @@
         <Hint>2</Hint>
     </TTFFont>
 
-
-    <TTFFont>
-        <Name>myriadbold</Name>
-        <File>fonts/MyriadPro-Semibold.ttf</File>
-        <Height>13</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>minion</Name>
-        <File>fonts/MinionPro-Regular.ttf</File>
-        <Height>16</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
 
 
     <!--textures-->
@@ -388,13 +326,6 @@
         <File>custom/compass.bmp</File>
     </Texture>
 
-
-    <Texture>
-        <Name>xploot_hib</Name>
-        <File>custom/assets/xploot_hib.dds</File>
-    </Texture>
-
-
     <Texture>
         <Name>ui_tokajer_parts</Name>
         <File>custom/Assets/Textures/tokajer_ui_parts.dds</File>
@@ -423,19 +354,6 @@
         <Name>tokajer_command_bg</Name>
         <File>custom/assets/command_bg.dds</File>
     </Texture>
-
-
-    <Texture>
-        <Name>xploot_alb</Name>
-        <File>custom/assets/xploot_alb.dds</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>xploot_mid</Name>
-        <File>custom/assets/xploot_mid.dds</File>
-    </Texture>
-
 
     <Texture>
         <Name>resis_alb</Name>
@@ -801,12 +719,6 @@
         <Name>knapp2</Name>
         <File>custom/Assets/Textures/knapp2.tga</File>
     </Texture>
-
-
-    <Font>
-        <Name>overpass</Name>
-        <File>custom/Assets/Fonts/overp_shadow.tga</File>
-    </Font>
 
 
     <Texture>
