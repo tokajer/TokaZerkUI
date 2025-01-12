@@ -271,22 +271,9 @@
 
     <!--textures-->
 
-
-    <Texture>
-        <Name>page4</Name>
-        <File>atlantis/atlantis_04.tga</File>
-    </Texture>
-
-
     <Texture>
         <Name>small_arrows</Name>
         <File>atlantis/smallarrows.dds</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>selected_icon</Name>
-        <File>atlantis/selected_icon.tga</File>
     </Texture>
 
 
@@ -301,11 +288,6 @@
         <File>custom/Assets/ghost/_gh_o_navigation.tga</File>
     </Texture>
 
-
-    <Texture>
-        <Name>page4b</Name>
-        <File>custom/Assets/ghost/_gh_o_atlantis_04b.tga</File>
-    </Texture>
 
 
     <Texture>
@@ -471,14 +453,14 @@
 
 
     <Texture>
-        <Name>b_reverse</Name>
-        <File>custom/Assets/Textures/b_rreverse.tga</File>
+        <Name>b_rrchart</Name>
+        <File>custom/Assets/Textures/b_rrchart.tga</File>
     </Texture>
 
 
     <Texture>
-        <Name>b_hp_reverse</Name>
-        <File>custom/Assets/Textures/b_rreverse2.tga</File>
+        <Name>b_reverse</Name>
+        <File>custom/Assets/Textures/b_rreverse.tga</File>
     </Texture>
 
 
@@ -553,6 +535,15 @@
         <File>custom/Assets/Textures/atlantis_03.tga</File>
     </Texture>
 
+    <Texture>
+        <Name>page4</Name>
+        <File>custom/Assets/Textures/atlantis_04.tga</File>
+    </Texture>
+
+    <Texture>
+        <Name>page4b</Name>
+        <File>custom/Assets/ghost/_gh_o_atlantis_04b.tga</File>
+    </Texture>
 
     <Texture>
         <Name>hh_reverse_box</Name>
@@ -566,21 +557,16 @@
     </Texture>
 
 
-    <Texture>
-        <Name>status_effect_icon2</Name>
-        <File>custom/Assets/Textures/status_effect_icon2.tga</File>
-    </Texture>
-
 
     <Texture>
         <Name>g_hh_reverse2</Name>
-        <File>custom/Assets/Textures/ghost_hh_reverse2.tga</File>
+        <File>custom/Assets/ghost/ghost_hh_reverse2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_hh_reverse</Name>
-        <File>custom/Assets/Textures/ghost_hh_reverse.tga</File>
+        <File>custom/Assets/ghost/ghost_hh_reverse.tga</File>
     </Texture>
 
 
@@ -643,10 +629,9 @@
         <File>custom/Assets/Textures/b_comp2d.tga</File>
     </Texture>
 
-
     <Texture>
         <Name>g_hh_reverse3</Name>
-        <File>custom/Assets/Textures/ghost_hh_reverse3.tga</File>
+        <File>custom/Assets/ghost/ghost_hh_reverse3.tga</File>
     </Texture>
 
 
@@ -672,6 +657,7 @@
         <Name>Floating_PowerBar</Name>
         <File>custom/Assets/Textures/Bars/PowerBar.tga</File>
     </Texture>
+
 
 
     <Texture>
@@ -701,12 +687,6 @@
     <Texture>
         <Name>page4b</Name>
         <File>custom/Assets/Textures/atlantis_04b.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>performance2</Name>
-        <File>custom/Assets/Textures/performance2.tga</File>
     </Texture>
 
 

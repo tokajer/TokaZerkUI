@@ -1,0 +1,55 @@
+4-6   Rotting Hog Tail - Camelot Hills;Zombie Boars and Sows 28k 32k
+8-11  Boulder Imp Head - Black Mtn South;Rock Imps 42k 42k
+5-8   Bandit’s Ear	-	 Camelot Hills;Bandits (30k 32k & 40k 34k)
+15-25 Bwgan Eye		- Lyn Barfog;Bwgans 30k 21k
+18-28 Silver Bucca Mirror -  Cornwall;Bucca; (38k 35k)
+18-28 Afanc Hatchling Tongue -  Lyn Barfog;Afanc Hatchlings (18k 38k OJ to 24)
+18-28 Drakoran Marauder Helmet - Avalon Isle -  Drakoran Marauder (45k 40k & 35k 50k)
+18-28 Cornish Hen Tail - Cornwall;on the road near Cornwall Station
+20-30 Stolen Signet Ring - Salisbury Plains; Mercenary Tomb Raider (east and west zone walls)
+20-30 Grim Scrap	- Snowdonia; Faint Grim (47k 54k & 55k 55k)
+22-32 Faerie Frog Eye - Pennine Mtns or Snowdonia; Faerie Frog (Snow;38k 47k,29k 56k)
+25-35 Drakoran Leech Hand - Avalon Isle; Drakoran leeches (11k 41k & 8k 32k random spawn, kill all to get leeches to spawn)
+25-35 Mottled Apple Fly Wings - Avalon Isle; Apply Fly (45k 55k & 35k 40k)
+25-35 Dried Monk Skull - Lyn Barfog; Skeletal Monks (55k 6k)
+25-35 Glowing Soul Gem - Cornwall; Moor Boogey (40k 35k & 28k 20k)
+25-35 Key of the Lost - Lyonesse; Townsmen (50k 30k)
+25-35 Gem of the Despoiled - Caverns od Cadova; (Centurio Manipurlarus , right near the entrance. Red and Grape to 25)
+28-38 Sack of Grain - Lyonesse; Sheppards (50k 30k)
+30-40 Decorative Arrows - Pennine Mtns; (freybugs 27k 57k)
+30-40 Giant Lizard Sinew - Lyonesse;	Giant Lizard (55k 20k)
+30-40 Dunter Head		- Lyonesse; Dunter (55k 58k & 60k 45k)
+30-40 Danaoin Poison - Lyonesse; Danaoin Clerk (32k 12k & 44k 20k
+33-43 Enchanted Metal Studs - Stonehenge; (Grave Goblin shamans, share respawn with rest)	
+33-43 Peallaidh Hide - Lyonesse; Peallaidh (50k 49k & 51k 45k & 50k 12k)
+34-44 Giant Boar Claw -  Snowdonia; Giant boars (50k 55k)
+35-39 Fell Creature Teeth - Snowdonia; Bwca (20k 22k)
+35-45 Danaoin Fishing Fly - Lyonesse; Danaoin Fishermen (31k 15k )
+38-44 Ever-burning Ember - Stonehenge; Fiend (45k 14k) or Pennine Mtns; Fiend (16k 37k & 45k 14k)
+40-46 Pictish Warrior Ring - Hadrian's Wall; Pictish Warrior (12k 63k)
+40-46 Ghoulic Viper Fang -  Stonehenge; ghoulic viper
+40-46 Bloody Cyclops Eye - Lyonesse; Cyclops (60k 35k)
+40-44 Unused Arrowheads - Snowdonia; Twyleth Teg Rovers (48k 5k & 13k 4k)
+41-50 Ancient Granite Stone - Dartmoor; 54k, 9k (yellow to a 42 or Granite Giant Herdsman 43k 19k)
+42-47 Scaled Fiend Heart - Stonehenge; Scaled Fiend
+42-47 Jeweled Polished Skull - Stonehenge; Creeping Ooze
+42-47 Pristine Cockatrice Feather - Pennine Mtns; Cockatrice (9k 22k & 13k 12k)
+42-47 Deep Goblin Hair - Stonehenge; Grave goblin, grave goblin shaman, deep gobli
+42-47 Great Boar Hide - Pennine Mtns; Great Boar (13k 32k & 26k 52k & 21k 51k)
+42-47 Cliff Crawler Leg - Pennine Mtns; Cliff Crawlers (21k 51k & 36k 65k)
+43-47 Tylwyth Teg Huntress Wristband - Snowdonia; Tylwyth Teg Huntress (48k 5k & 13k 4k)
+43-47 Crystallized Darkfire - Stonehenge; Dark Fires
+44-48 Dark Urchin Spines - Plains of Gwyddneau; Urchin Pilferer (53k 41k & 53k 53k) 
+45-49 Bottle of Ellyll Wine - Snowdonia; Ellyll (53k 59k) or Pennine Mtns; (13k 52k)
+46-50 Spotted Orc Lure Ear - Aldland; Orc Lure (54k 51k)
+46-49 Shredded Footman’s Cloak - Dales of Devwy; Headless Footman (14k 60k)
+46-49 Orc Tracking Hound Paw - Aldland; Orc Tracking Hound (18k 34k & 54k 51k)
+46-48 Sleeping Kitten - Pennine Mtns; Boggart- surrounding Sursbrook
+46-49 Bronze Thrawn Ogre Thresher Spear Tip - Aldland; Ogre Threshers (10k 30k)
+47-49 Drake Claw - Pennine Mtns; Young Brown Drake (36k 33k yellow to 48)
+48-50 Skin Cream - Lyonesse; Moorlich (40k 13k & 20k 22k & 30k 28k & 40k 38k)
+48-50 Bursting Pustule - Caldey; Gangrenous Mass (20k 6k and all along the coastline)
+48-50 Blackened Staff of the Minion - Caldey; Ecto Minion, Phantom Magi ( 63k 30k & 63k 40k)
+48-50 Shimmering Water Orb - Greater Water Elemental ( 8k 18k)
+49-50 Cyhraeth Cloak - Snowdonia; Cyhraeth (45k, 43k & 38k 39k)
+49-50 Basilisk Feathers - Pennine Mtns; Western Basilisk /youth - (8k 31k)

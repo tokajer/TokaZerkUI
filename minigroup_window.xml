@@ -5,12 +5,6 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <Texture>
-        <Name>g_hh_reverse</Name>
-        <File>custom/Assets/Textures/ghost_hh_reverse.tga</File>
-    </Texture>
-
-
     <StatusIconTemplate>
         <Name>g_reverse_red_bar</Name>
         <TextureName>g_hh_reverse</TextureName>
