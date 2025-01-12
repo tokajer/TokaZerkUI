@@ -889,7 +889,7 @@
                 <Y>15</Y>
             </Position>
             <Width>585</Width>
-            <Height>370</Height>
+            <Height>365</Height>
         <Tab>
             <Id>1</Id>
             <Name>News</Name>
@@ -1264,8 +1264,8 @@
             <AdapterName>news_rvr_global_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>585</Width>
-            <Height>80</Height>
+            <Width>583</Width>
+            <Height>95</Height>
         </TextAreaDef>
 
 
@@ -1317,8 +1317,8 @@
             <AdapterName>news_rvr_local_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>585</Width>
-            <Height>80</Height>
+            <Width>583</Width>
+            <Height>98</Height>
         </TextAreaDef>
 
 
@@ -1370,8 +1370,8 @@
             <AdapterName>news_pve_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>585</Width>
-            <Height>80</Height>
+            <Width>583</Width>
+            <Height>101</Height>
         </TextAreaDef>
 
 
