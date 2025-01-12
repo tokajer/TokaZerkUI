@@ -471,12 +471,6 @@
 
 
     <Texture>
-        <Name>b_rrchart</Name>
-        <File>custom/Assets/Textures/b_rrchart.tga</File>
-    </Texture>
-
-
-    <Texture>
         <Name>b_reverse</Name>
         <File>custom/Assets/Textures/b_rreverse.tga</File>
     </Texture>
@@ -677,12 +671,6 @@
     <Texture>
         <Name>Floating_PowerBar</Name>
         <File>custom/Assets/Textures/Bars/PowerBar.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>AttackMode</Name>
-        <File>custom/Assets/Textures/CombatMode.tga</File>
     </Texture>
 
 

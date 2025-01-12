@@ -53,24 +53,6 @@
     <!--fonts -->
 
 
-    <Font>
-        <Name>ghost_tahoma12</Name>
-        <File>custom/Assets/ghost/ghost_tahoma12.tga</File>
-    </Font>
-
-
-    <Font>
-        <Name>ghost_tahoma11</Name>
-        <File>custom/Assets/ghost/ghost_tahoma11.tga</File>
-    </Font>
-
-
-    <Font>
-        <Name>ghost_verdana14bold</Name>
-        <File>custom/Assets/ghost/ghost_verdana14_bold_shadowed_normalized.tga</File>
-    </Font>
-
-
     <!-- templates -->
 
 
