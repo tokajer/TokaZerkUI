@@ -865,9 +865,9 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>
@@ -1237,9 +1237,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>200</R>
-                <G>200</G>
-                <B>200</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -1260,7 +1260,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>toka_textarea</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>news_rvr_global_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1290,9 +1290,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>200</R>
-                <G>200</G>
-                <B>200</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -1313,7 +1313,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>toka_textarea</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>news_rvr_local_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1343,9 +1343,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>200</R>
-                <G>200</G>
-                <B>200</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -1366,7 +1366,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>toka_textarea</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>news_pve_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -2032,7 +2032,7 @@
                 <X>15</X>
                 <Y>320</Y>
             </Position>
-            <TemplateName>toka_textarea</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>guild_motd</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -2286,9 +2286,9 @@
             <ControlId>1317</ControlId>
             <Position>
                 <X>15</X>
-                <Y>298</Y>
+                <Y>299</Y>
             </Position>
-            <TemplateName>generic_textarea_sm</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>alliance_motd</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
