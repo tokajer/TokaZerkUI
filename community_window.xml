@@ -192,9 +192,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -243,9 +243,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -294,9 +294,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -345,9 +345,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -396,9 +396,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -447,9 +447,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -498,9 +498,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -549,9 +549,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -581,14 +581,14 @@
         <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
         <ScrollbarRightOffset>-3</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <HeaderHorizResizeTemplate>listbox_hrbutton</HeaderHorizResizeTemplate>
+        <HeaderHorizResizeTemplate>hr_button_tokajer</HeaderHorizResizeTemplate>
         <HeaderLeftOffset>3</HeaderLeftOffset>
         <HeaderRightOffset>3</HeaderRightOffset>
         <HeaderTopOffset>2</HeaderTopOffset>
         <HeaderHeight>39</HeaderHeight>
-        <HeaderBackgroundTemplate>listbox_header_background</HeaderBackgroundTemplate>
+        <HeaderBackgroundTemplate>g_window_background_tokajer</HeaderBackgroundTemplate>
         <HeaderControl>
             <Column>1</Column>
             <TemplateName>listboxheader_name</TemplateName>
@@ -617,7 +617,7 @@
             <Column>7</Column>
             <TemplateName>listboxheader_note</TemplateName>
         </HeaderControl>
-        <AlternateRowName>listbox_row_bg</AlternateRowName>
+        <AlternateRowName>listbox_selected_bg</AlternateRowName>
         <DisplayAlternateRow>true</DisplayAlternateRow>
         <AlternateRowOffset>-2</AlternateRowOffset>
         <SelectedRowName>listbox_selected_bg</SelectedRowName>
@@ -631,9 +631,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -668,12 +668,12 @@
         <Sorting>false</Sorting>
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <HeaderHorizResizeTemplate>listbox_hrbutton</HeaderHorizResizeTemplate>
+        <HeaderHorizResizeTemplate>hr_button_tokajer</HeaderHorizResizeTemplate>
         <HeaderLeftOffset>3</HeaderLeftOffset>
         <HeaderRightOffset>3</HeaderRightOffset>
         <HeaderTopOffset>2</HeaderTopOffset>
         <HeaderHeight>39</HeaderHeight>
-        <HeaderBackgroundTemplate>listbox_header_background</HeaderBackgroundTemplate>
+        <HeaderBackgroundTemplate>g_window_background_tokajer</HeaderBackgroundTemplate>
         <HeaderControl>
             <Column>1</Column>
             <TemplateName>listboxheader_name</TemplateName>
@@ -698,7 +698,7 @@
             <Column>6</Column>
             <TemplateName>listboxheader_banner</TemplateName>
         </HeaderControl>
-        <AlternateRowName>listbox_row_bg</AlternateRowName>
+        <AlternateRowName>listbox_selected_bg</AlternateRowName>
         <DisplayAlternateRow>true</DisplayAlternateRow>
         <AlternateRowOffset>-2</AlternateRowOffset>
         <SelectedRowName>listbox_selected_bg</SelectedRowName>
@@ -712,9 +712,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -747,14 +747,14 @@
         <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
         <ScrollbarRightOffset>-3</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
+        <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <HeaderHorizResizeTemplate>listbox_hrbutton</HeaderHorizResizeTemplate>
+        <HeaderHorizResizeTemplate>hr_button_tokajer</HeaderHorizResizeTemplate>
         <HeaderLeftOffset>3</HeaderLeftOffset>
         <HeaderRightOffset>3</HeaderRightOffset>
         <HeaderTopOffset>2</HeaderTopOffset>
         <HeaderHeight>39</HeaderHeight>
-        <HeaderBackgroundTemplate>listbox_header_background</HeaderBackgroundTemplate>
+        <HeaderBackgroundTemplate>g_window_background_tokajer</HeaderBackgroundTemplate>
         <HeaderControl>
             <Column>1</Column>
             <TemplateName>listboxheader_name</TemplateName>
@@ -779,7 +779,7 @@
             <Column>6</Column>
             <TemplateName>listboxheader_banner</TemplateName>
         </HeaderControl>
-        <AlternateRowName>listbox_row_bg</AlternateRowName>
+        <AlternateRowName>listbox_selected_bg</AlternateRowName>
         <DisplayAlternateRow>true</DisplayAlternateRow>
         <AlternateRowOffset>-2</AlternateRowOffset>
         <SelectedRowName>listbox_selected_bg</SelectedRowName>
@@ -793,9 +793,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>212</R>
+                <G>175</G>
+                <B>55</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
