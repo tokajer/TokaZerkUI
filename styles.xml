@@ -714,65 +714,6 @@
 
 
     <ButtonTemplate>
-        <Name>tokafontbold12</Name>
-        <Size>
-            <X>60</X>
-            <Y>16</Y>
-        </Size>
-        <Font>
-            <Name>tokafontbold12</Name>
-            <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page1</TextureName>
-            <Normal>
-                <X>0</X>
-                <Y>223</Y>
-            </Normal>
-            <Pressed>
-                <X>0</X>
-                <Y>240</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>0</X>
-                <Y>206</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>0</X>
-                <Y>240</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>0</X>
-                <Y>223</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
-
-
-    <ButtonTemplate>
         <Name>button_checkbox</Name>
         <Size>
             <X>16</X>
@@ -826,65 +767,6 @@
             <Disabled>
                 <X>97</X>
                 <Y>114</Y>
-            </Disabled>
-        </Texture>
-    </ButtonTemplate>
-
-
-    <ButtonTemplate>
-        <Name>tokafontbold10</Name>
-        <Size>
-            <X>60</X>
-            <Y>16</Y>
-        </Size>
-        <Font>
-            <Name>chat_large</Name>
-            <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorPressed>
-            <ColorHighlit>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>255</A>
-            </ColorDisabled>
-        </Font>
-        <Texture>
-            <TextureName>page1</TextureName>
-            <Normal>
-                <X>0</X>
-                <Y>223</Y>
-            </Normal>
-            <Pressed>
-                <X>0</X>
-                <Y>240</Y>
-            </Pressed>
-            <NormalHighlit>
-                <X>0</X>
-                <Y>206</Y>
-            </NormalHighlit>
-            <PressedHighlit>
-                <X>0</X>
-                <Y>240</Y>
-            </PressedHighlit>
-            <Disabled>
-                <X>0</X>
-                <Y>223</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -5543,132 +5425,6 @@
         <TopLeft>
             <X>8</X>
             <Y>801</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_alc</Name>
-        <TextureName>b_craft_alc</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_arm</Name>
-        <TextureName>b_craft_armor</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_fle</Name>
-        <TextureName>b_craft_fletching</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>12</X>
-            <Y>3</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_gen</Name>
-        <TextureName>b_craft_general</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_sal</Name>
-        <TextureName>b_craft_salvage</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_tai</Name>
-        <TextureName>b_craft_tailor</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>11</X>
-            <Y>10</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_wep</Name>
-        <TextureName>b_craft_weapon</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>398</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>b_craft_spe</Name>
-        <TextureName>b_craft_spellcraft</TextureName>
-        <Size>
-            <X>584</X>
-            <Y>379</Y>
-        </Size>
-        <TopLeft>
-            <X>9</X>
-            <Y>5</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <ImageAreaTemplate>
-        <Name>bysan</Name>
-        <TextureName>bysan</TextureName>
-        <Size>
-            <X>398</X>
-            <Y>284</Y>
-        </Size>
-        <TopLeft>
-            <X>0</X>
-            <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
@@ -14620,30 +14376,6 @@
     </VerticalResizeImageTemplate>
 
 
-    <VerticalResizeImageTemplate>
-        <Name>toka_vscroll_thumb_white</Name>
-        <Width>13</Width>
-        <TopHeight>1</TopHeight>
-        <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>1</BottomHeight>
-        <Texture>
-            <TextureName>toka_texture</TextureName>
-            <Top>
-                <X>861</X>
-                <Y>935</Y>
-            </Top>
-            <Repeat>
-                <X>861</X>
-                <Y>936</Y>
-            </Repeat>
-            <Bottom>
-                <X>861</X>
-                <Y>950</Y>
-            </Bottom>
-        </Texture>
-    </VerticalResizeImageTemplate>
-
-
     <VerticalScrollbarTemplate>
         <Name>toka_scroll_nobutton</Name>
         <UpButtonTemplate>none</UpButtonTemplate>
@@ -15881,14 +15613,6 @@
     </ImageAreaTemplate>
 
 
-    <VerticalSliderTemplate>
-        <Name>toka_vslider_nobutton</Name>
-        <ImageAreaTemplate>toka_vslider_gutter</ImageAreaTemplate>
-        <BackgroundVResizeTemplate>toka_vscroll_gutter</BackgroundVResizeTemplate>
-        <Width>13</Width>
-    </VerticalSliderTemplate>
-
-
     <ImageAreaTemplate>
         <Name>toka_vslider_gutter</Name>
         <TextureName>toka_texture</TextureName>
@@ -16782,28 +16506,6 @@
     </ImageAreaTemplate>
 
 
-    <ImageAreaTemplate>
-        <Name>toka_vslider_gutter_white</Name>
-        <TextureName>toka_texture</TextureName>
-        <Size>
-            <X>11</X>
-            <Y>17</Y>
-        </Size>
-        <TopLeft>
-            <X>863</X>
-            <Y>935</Y>
-        </TopLeft>
-    </ImageAreaTemplate>
-
-
-    <VerticalSliderTemplate>
-        <Name>toka_vslider_nobutton_white</Name>
-        <ImageAreaTemplate>toka_vslider_gutter_white</ImageAreaTemplate>
-        <BackgroundVResizeTemplate>toka_vscroll_gutter</BackgroundVResizeTemplate>
-        <Width>13</Width>
-    </VerticalSliderTemplate>
-
-
     <EditBoxTemplate>
         <Name>toka_editbox</Name>
         <LinePadding>0</LinePadding>
@@ -16978,41 +16680,6 @@
                 <Y>16</Y>
             </IconSize>
     </ListBoxTemplate>
-
-
-    <TextAreaTemplate>
-        <Name>toka_textarea_80</Name>
-        <BackgroundTemplate>toka_bg_80</BackgroundTemplate>
-        <ScrollbarTemplate>toka_scroll_nobutton</ScrollbarTemplate>
-        <LinePadding>0</LinePadding>
-        <TextOffset>
-            <X>6</X>
-            <Y>5</Y>
-        </TextOffset>
-        <ScrollbarOffset>
-            <X>0</X>
-            <Y>1</Y>
-        </ScrollbarOffset>
-        <ScrollbarSizeOffset>
-            <X>0</X>
-            <Y>0</Y>
-        </ScrollbarSizeOffset>
-        <Font>
-            <Name>tokafontbold12</Name>
-            <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorActive>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
-                <A>255</A>
-            </ColorActive>
-        </Font>
-    </TextAreaTemplate>
 
 
     <TextAreaTemplate>

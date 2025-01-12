@@ -50,7 +50,7 @@
     <TreeControlTemplate>
         <Name>quest_tree_control</Name>
         <BackgroundTemplate>none</BackgroundTemplate>
-        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
+        <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <FontName>TokaFontBold10</FontName>
@@ -143,7 +143,7 @@
             <Alignment>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>492</Width>
             <Height>176</Height>
         </FullResizeImageDef>
@@ -167,42 +167,6 @@
             <Column2Width>355</Column2Width>
             <Column2Offset>125</Column2Offset>
         </TreeControlDef>
-
-
-        <ImageAreaDef>
-            <ControlId>1002</ControlId>
-            <Position>
-                <X>25</X>
-                <Y>4</Y>
-            </Position>
-            <TemplateName>quest_title_right</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <ControlId>1003</ControlId>
-            <Position>
-                <X>25</X>
-                <Y>4</Y>
-            </Position>
-            <Alignment>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>quest_title_left</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <ControlId>1004</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>quest_title</TemplateName>
-        </ImageAreaDef>
 
 
         <ButtonDef>

@@ -5,6 +5,9 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
+    <Include>TokaZerkStyles.xml</Include>
+
+
     <Include>custom0_window.xml</Include>
 
 
@@ -266,7 +269,6 @@
     </TTFFont>
 
 
-
     <!--textures-->
 
 
@@ -318,13 +320,11 @@
     </Texture>
 
 
-    <Include>custom19_window.xml</Include>
-
-
     <Texture>
         <Name>compass2</Name>
         <File>custom/compass.bmp</File>
     </Texture>
+
 
     <Texture>
         <Name>ui_tokajer_parts</Name>
@@ -354,6 +354,7 @@
         <Name>tokajer_command_bg</Name>
         <File>custom/assets/command_bg.dds</File>
     </Texture>
+
 
     <Texture>
         <Name>resis_alb</Name>
@@ -500,12 +501,6 @@
 
 
     <Texture>
-        <Name>b_craft_alc</Name>
-        <File>custom/Assets/Textures/crafting_alchemy.tga</File>
-    </Texture>
-
-
-    <Texture>
         <Name>map_gitter</Name>
         <File>custom/Maps/map_gitter.dds</File>
     </Texture>
@@ -548,14 +543,20 @@
 
 
     <Texture>
-        <Name>page3</Name>
-        <File>custom/Assets/Textures/atlantis_03.tga</File>
+        <Name>page1</Name>
+        <File>custom/Assets/Textures/atlantis_01.tga</File>
     </Texture>
 
 
     <Texture>
-        <Name>page1</Name>
-        <File>custom/Assets/Textures/atlantis_01.tga</File>
+        <Name>page2</Name>
+        <File>custom/Assets/Textures/atlantis_02.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page3</Name>
+        <File>custom/Assets/Textures/atlantis_03.tga</File>
     </Texture>
 
 

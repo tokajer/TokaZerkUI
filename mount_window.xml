@@ -99,6 +99,7 @@
             <Adapter>mount_name</Adapter>
         </LabelDef>
 
+
         <DynamicImageDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -118,6 +119,7 @@
 
 
         <!-- Socket Background -->
+
 
         <!-- Active Socket -->
 
@@ -257,6 +259,7 @@
             <Width>225</Width>
             <Height>89</Height>
         </FullResizeImageDef>
+
 
         <!-- Inventory slot 1 -->
 

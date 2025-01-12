@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <FullResizeImageTemplate>
+        <Name>g_window_background_tokajer</Name>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>8</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>5</LeftWidth>
+        <MiddleWidth>105</MiddleWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>ui_tokajer_parts</TextureName>
+            <TopLeft>
+                <X>0</X>
+                <Y>60</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>3</X>
+                <Y>60</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>107</X>
+                <Y>60</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>0</X>
+                <Y>67</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>3</X>
+                <Y>66</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>107</X>
+                <Y>66</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>0</X>
+                <Y>79</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>3</X>
+                <Y>79</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>107</X>
+                <Y>79</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <Texture>
+        <Name>g_rrchart</Name>
+        <File>custom/Assets/ghost/ghost_rrchart.dds</File>
+    </Texture>
+
+
+</Root_Element>
