@@ -2,13 +2,7 @@
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erh�ltlich auf http://www.bradtownsend.com/daoced -->
-
-
-    <Texture>
-        <Name>realm_symbols</Name>
-        <File>isles/realm_symb.tga</File>
-    </Texture>
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
     <Texture>
@@ -26,15 +20,15 @@
         <Font>
             <Name>TokaFontBold12</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>

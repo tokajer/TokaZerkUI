@@ -2,7 +2,7 @@
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erh�ltlich auf http://www.bradtownsend.com/daoced -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
     <Texture>
@@ -113,7 +113,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background_tokajer</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>266</Width>
             <Height>416</Height>
         </FullResizeImageDef>
@@ -168,11 +168,10 @@
         </ImageAreaDef>
 
 
-
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>296</Y>
+                <Y>298</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -180,7 +179,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>tokafontregular12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -193,7 +192,7 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>312</Y>
+                <Y>314</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -214,7 +213,7 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>328</Y>
+                <Y>330</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -235,7 +234,7 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>344</Y>
+                <Y>346</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -256,7 +255,7 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>360</Y>
+                <Y>362</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -277,7 +276,7 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>376</Y>
+                <Y>378</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -385,7 +384,7 @@
                 <X>40</X>
                 <Y>392</Y>
             </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>TELEPORT</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
         </ButtonDef>

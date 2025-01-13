@@ -2,7 +2,7 @@
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erh�ltlich auf http://www.bradtownsend.com/daoced -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
     <Texture>
@@ -113,7 +113,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background_tokajer</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>394</Width>
             <Height>288</Height>
         </FullResizeImageDef>
@@ -179,7 +179,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -348,7 +348,7 @@
             <TemplateName>realmwar_tab</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Ellan Vannin</Data>
+            <Data>EV</Data>
             <LabelWidth>70</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
@@ -384,7 +384,7 @@
                 <X>296</X>
                 <Y>131</Y>
             </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
+            <TemplateName>button_tokajer_82x18</TemplateName>
             <Label>TELEPORT</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
         </ButtonDef>
