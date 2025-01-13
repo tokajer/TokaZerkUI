@@ -1,0 +1,5489 @@
+; regions.dat
+; 
+; This file contains the information used to make the player's location
+; pip appear in the correct place on the region map.  Basically, each
+; region map (by number) contains a listing of the zones that are in
+; it and a sequence of numbers corresponding to their placement in the
+; region map image and their size in pixels.  The map window will be
+; smart enough to place the pip in the correct location given this
+; information.  If information is not found, 50 is the default zone
+; width/height and 0, 0 is the default offset.
+;
+; A more precise grammar:
+; [region%3d]             region number
+; zone_count=%d           number of zones in the region (helps parsing)
+; zone_width=%d           zone width in pixels
+; zone_height=%d          zone height in pixels
+; zone0_number=%d         zone number for zone 0
+; zone0_left=%d           left offset in pixels on the region map
+; zone0_top=%d            top offset in pixels on the region map
+; zone1_number=%d
+; zone1_left=%d
+; zone1_top=%d
+; ...
+
+
+;
+; Albion
+;
+[region001]
+zone_count=10
+zone_width=38
+zone_height=38
+;region_desc=The center of culture and government in Albion is the city of Camelot, the former seat of the throne of Arthur. From there stretch the forests and plains of the Realm: to the west of Camelot lie huge plains, deep dark forests, trackless swamps, and haunted hills. To the north loom the mountains of Snowdonia and the frontier lands, which are both dangerous and unpredictable. 
+; camelot hills
+zone0_number=0
+zone0_left=176
+zone0_top=84
+zone0_desc=Nestled by the majestic City of Camelot, the Village of Cotswold offers adventurers between levels 10 and 14 both training and leveling opportunities. Those of 15th to 19th seasons would find Prydwen Keep to the south more suited to their abilities. The dungeons of Darkness Falls, an RvR dungeon, and Mithra’s Tomb, a low-level dungeon, can both be found in Camelot Hills as well. Far to the north, Castle Sauvage guards the gateway into Forest Sauvage and the Albion Frontier.
+; salisbury plains
+zone1_number=1
+zone1_left=176
+zone1_top=122
+zone1_desc=The wide expanse of Salisbury Plains is home to the legendary Stonehenge. Rolling hills spread over the plains where different creatures dwell. Adventurers’ level 12 through 25 will find excellent hunting here. Within the circles of Stonehenge lies the entrance to the Stonehenge Barrows, a tomb haunted by the undead that only the most skilled warriors should dare to enter.
+; black mountains south
+zone2_number=2
+zone2_left=138
+zone2_top=56
+zone2_desc=Nestled in the Black South Mountains are the two small villages Ludlow and Humberton.  Young players will find great hunting in the hills surrounding the villages.  To the south lies the glorious city of Camelot.
+; black mountains north
+zone3_number=3
+zone3_left=138
+zone3_top=18
+zone3_desc=Black Mountains North is home to Snowdownia Station, a small haven of rest in an area surrounded by towering mountains.  Young adventurers can find much to learn here. The road from the station leads to the northern reaches of the frontier and Snowdonia Fortress.
+; dartmoor
+zone4_number=4
+zone4_left=62
+zone4_top=206
+zone4_desc=Dartmoor,the very name strikes fear into the heart of young and old alike, for in this valley lies the home of Golestandt the Dragon. The untamed Dartmoor ponies and the giants walk this land freely. Only the most skilled warriors have dared to venture here.
+; cornwall
+zone5_number=6
+zone5_left=62
+zone5_top=168
+zone5_desc=Cornwall is a region haunted by the warriors of the past.  From the Ghostly Church to the ruins of the Roman Fort, the area is one of the memories echoing another time.  Heroes around level 30 can seek adventure and riches around and inside the Catacombs of Cardova, while higher level heroes may find challenges further to the west.
+; llyn barfog
+zone6_number=7
+zone6_left=100
+zone6_top=18
+zone6_desc=Legends surround this mysterious lake. The shores are populated with powerful creatures ranging from level 25 through 50 and beyond.  Some monsters have even gained epic status for the very valor it takes to face them.  Groups of the most skilled warriors should be wary near these shores.
+; campacorentin forest
+zone7_number=8
+zone7_left=138
+zone7_top=141
+zone7_desc=This dense and sprawling forest lying south of Salisbury Plains holds many secrets. Hidden deep within the forest is the outpost of Caer Ulfwych where adventurers of 20th to 24th seasons can seek challenges appropriate to their experience. Campacorentin Station and the legendary Lethantis Association offer adventurers between the levels of 25 and 29 additional opportunities in the northwest of the forest. The dungeon of Keltoi Fogou lies to the southeast for those between levels 15 and 20 to explore.
+; avalon marsh
+zone8_number=9
+zone8_left=100
+zone8_top=159
+zone8_desc=Located in the southern region of Albion, the festering marsh is infested with vile creatures which lurk in the shadows. It is also home to Adribard’s Retreat, appropriate for adventurers between their 30th and 35th seasons to learn, train, and adventure.
+; lyonesse
+zone9_number=10
+zone9_left=24
+zone9_top=168
+zone9_desc=The southernmost region of Albion is Lyonesse. Once a thriving settlement, the ocean reclaimed the land, and the flood waters still linger. The land is covered in mist, and powerful creatures from both land and sea have found a home within the ruins of the partially submerged dwellings of yesteryear.  Only the most Skilled adventurers may travel here and live to tell of it.
+
+;
+; Albion Housing
+;
+[region002]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; caerwent
+zone0_number=13
+zone0_left=171
+zone0_top=85
+zone0_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; old sarum
+zone1_number=16
+zone1_left=171
+zone1_top=170
+zone1_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; rilan
+zone2_number=17
+zone2_left=171
+zone2_top=0
+zone2_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; dalton
+zone3_number=18
+zone3_left=86
+zone3_top=85
+zone3_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; brisworthy
+zone4_number=20
+zone4_left=86
+zone4_top=0
+zone4_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; aylesbury
+zone5_number=64
+zone5_left=86
+zone5_top=170
+zone5_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; chiltern
+zone6_number=260
+zone6_left=0
+zone6_top=85
+zone6_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; sherborne
+zone7_number=261
+zone7_left=0
+zone7_top=170
+zone7_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; stoneleigh
+zone8_number=262
+zone8_left=0
+zone8_top=0
+zone8_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+
+;Albion Classic Dungeons
+
+;Stonehenge Barrow
+[region020]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=019
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16622
+zone0_offsety=13583
+zone0_width=12694
+zone0_height=12694
+zone0_desc=Located beneath the sparse soils of Salisbury plains, the Stonehenge Barrows are the great tombs of lost kings and princes. At the heart of this vast complex of meandering tunnels and barrows is the majestic Barrow of Merlin.  Only the very strongest and bravest adventurers plunder its depths and return to see the light of day.
+
+;Tomb of Mithra
+[region021]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=021
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12412
+zone0_offsety=17710
+zone0_width=13766
+zone0_height=13766
+zone0_desc=Mithraism is one of the many cults that the Romans introduced from the east.  Its emphasis on truth, honor, courage, and discipline soon led to Mithra becoming a god of soldiers and traders.  No one knows the truth of his birth, his life, or his death, but it is known that his Tomb is home to a number of horrors and visitors should exercise the utmost of caution.
+
+;Druid Barrow
+[region022]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=022
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21729
+zone0_offsety=19734
+zone0_width=7808
+zone0_height=7808
+zone0_desc=The druidic sect of the Keltoi live in underground caverns called fogous that are used as their spiritual centers for ceremony, initiation and teaching.  Birth and death rituals are conducted here because the fogous are seen as a transitional zone between this world and the next.  The whole site is considered a sacred space and its design is not so much to keep invaders out as to keep certain forces in.
+
+;Roman Catacomb
+
+[region023]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=023
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15007
+zone0_offsety=20143
+zone0_width=17233
+zone0_height=17233
+zone0_desc=A dank dangerous crypt of clearly Roman design.  Although there is no record of an emperor dying or being buried in Cornwall, the few expeditions that have returned indicate that the roman legion laid an emperor to rest there.  Locals refuse to return to the area, claiming it to be haunted by ancient ghosts.  Adventurers should be wary as the past often doesn't stay buried for long.
+
+;Goblin Cave
+[region024]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=024
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20390
+zone0_offsety=16323
+zone0_width=10969
+zone0_height=10969
+zone0_desc=A savage force of goblins in the Black Mountains captured this mine from the surrounding townsfolk.  The goblins are led by a fierce and notorious goblin named Tepok and they now make their home within the mine.
+
+
+
+;
+; Atlantis Remnant Zone (Midgard)
+;
+[region071]
+zone_count=1
+; ruinerar av atlantis
+zone0_number=71
+zone0_left=0
+zone0_top=0
+zone0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+
+;
+; Atlantis (Midgard)
+;
+[region030]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+; oceanus hesperos
+zone0_number=30
+zone0_left=25
+zone0_top=105
+zone0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+; Mesothalassa
+zone1_number=31
+zone1_left=71
+zone1_top=105
+zone1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+; Oceanus Boreal
+zone2_number=32
+zone2_left=71
+zone2_top=59
+zone2_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+; Oceanus Notos
+zone3_number=33
+zone3_left=71
+zone3_top=151
+zone3_desc= Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+; Oceanus Anatole
+zone4_number=34
+zone4_left=117
+zone4_top=105
+zone4_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+; Stygian Delta
+zone5_number=38
+zone5_left=47
+zone5_top=13
+zone5_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+; Land of Atum
+zone6_number=39
+zone6_left=1
+zone6_top=13
+zone6_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+; Typhon's Reach
+zone7_number=41
+zone7_left=163
+zone7_top=105
+zone7_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+; Ashen Isles
+zone8_number=42
+zone8_left=209
+zone8_top=105
+zone8_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+; Green Glades
+zone9_number=43
+zone9_left=94
+zone9_top=197
+zone9_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+; Arbor Glen
+zone10_number=44
+zone10_left=140
+zone10_top=197
+zone10_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+
+;
+; Albion SI (Avalon)
+;
+[region051]
+zone_count=7
+zone_width=46
+zone_width=46
+region_desc=Albion has long been plagued by the evil forces led by Morgana. Now, she's gone one step further and forged an alliance with the Drakoran, a race of dragon-men. The Drakoran, rumored to be led by a real dragon of fearsome size and strength, have laid waste to the island of Avalon, ruining its beautiful capital city, the center of learning for all of Albion.
+; Isle of Glass
+zone0_number=51
+zone0_left=204
+zone0_top=156
+zone0_desc=This beautiful isle provides perfect hunting for younger adventurers.  Home to Caer Gothwaite, the majestic keep looms over the harbor offering safety and assurance. Travel to the main lands and to Atlantis are available in the harbor.
+; Avalon Isle
+zone1_number=52
+zone1_left=158
+zone1_top=121
+zone1_desc=Once a thriving orchard of magic and peace, Avalon Isle has been claimed by the vile Drakorans.  The small hamlet Wearyall is the only bastion inhabited by men in this area.  Even fair Avalon city has fallen to these invaders.  The realm calls upon its most skilled warriors to free the once glorious city.
+; Dales of Devwy
+zone2_number=53
+zone2_left=123
+zone2_top=75
+zone2_desc=In the Dales of Devwy, towering trees give the forest an aura of heavy, eerie quietness. Many adventurers have stated that the trees hide secrets and shelter monsters of the darkest imagination. All travelers are advised to stay close to the forest path.  Fort Gwyntell offers safety, supplies and training to the few who survive to reach it.
+; Caldey
+zone3_number=54
+zone3_left=77
+zone3_top=68
+zone3_desc=This land is filled with many dangers and over shadowing it all upon a high mountain is the dungeon of Caer Sidi. Once a proud and glorious hall where men and women from the realm gathered, it now lays in ruin, inhabited by the most powerful of Morgana’s undead horde.  Only the strongest or the foolish fight to reclaim this stronghold.
+; Gwyddneau
+zone4_number=55
+zone4_left=66
+zone4_top=114
+zone4_desc=A river flows through Gwyddneau to the sea between through a towering canyon.  An ancient race of beings make their homes in these cliffs and guard it furiously.  Along the coastline dwell marooned Vikings whose ships crashed upon these dangerous rock lined shores.
+; Aldland
+zone5_number=56
+zone5_left=112
+zone5_top=147
+zone5_desc=Aldland is a land inhabited with strange creatures of both land and air. Caer Diogel offers the only friendly outpost in the region for supplies and training. In the northern part of this wild land is the Ogre citadel Krondon. Many skilled warriors have dared to enter here, few have returned to tell the tale.
+; Inishail Island
+zone6_number=57
+zone6_left=20
+zone6_top=117
+zone6_desc=Inishail Island is a foggy marshland torn between the Lammia and Orcs.  The feuding factions are not the only dangers here in the marsh, adventurers should be wary of slimes and sinkholes.
+
+;
+; Atlantis Remnant Zone (Albion)
+;
+[region070]
+zone_count=1
+; ruins of atlantis
+zone0_number=70
+zone0_left=0
+zone0_top=0
+zone0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+
+;
+; Atlantis (Albion)
+;
+[region073]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+; Oceanus Hesperos
+zone0_number=73
+zone0_left=25
+zone0_top=105
+zone0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+; Mesothalassa
+zone1_number=74
+zone1_left=71
+zone1_top=105
+zone1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+; Oceanus Boreal
+zone2_number=75
+zone2_left=71
+zone2_top=59
+zone2_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+; Oceanus Notos
+zone3_number=76
+zone3_left=71
+zone3_top=151
+zone3_desc=Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+; Oceanus Anatole
+zone4_number=77
+zone4_left=117
+zone4_top=105
+zone4_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+; Stygian Delta
+zone5_number=81
+zone5_left=47
+zone5_top=13
+zone5_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+; Land of Atum
+zone6_number=82
+zone6_left=1
+zone6_top=13
+zone6_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+; Typhon's Reach
+zone7_number=84
+zone7_left=163
+zone7_top=105
+zone7_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+; Ashen Isles
+zone8_number=85
+zone8_left=209
+zone8_top=105
+zone8_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+; Green Glades
+zone9_number=86
+zone9_left=94
+zone9_top=197
+zone9_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+; Arbor Glen
+zone10_number=87
+zone10_left=140
+zone10_top=197
+zone10_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+
+;
+; Midgard
+;
+[region100]
+zone_count=10
+zone_width=38
+zone_height=38
+region_desc=Midgard is made of low, swampy marshlands, deep evergreen forests, flat areas dotted by glacial lakes, soaring snow-capped mountains, and icy wastes. Centered around the capital city of Jordheim, the various races and creatures of Midgard have a diverse geography in which to adventure and explore.
+; Vale of Mularn
+zone0_number=100
+zone0_left=141
+zone0_top=35
+zone0_desc=Within the shadow of the City of Jordheim, the town of Mularn offers those of 10th to 14th seasons both training and leveling opportunities. Those of 15th to 19th seasons would find Fort Veldon to the north more suited to their abilities. The dungeons of Darkness Falls, an RvR dungeon, and the Vendo Caverns, suitable for levels 18 to 30, can both be found in the Vale of Mularn. Finally, Svasud Faste guards the gateway to Uppland and the Midgard frontier.
+; East Svealand
+zone1_number=101
+zone1_left=122
+zone1_top=73
+zone1_desc=East Svealand has two major towns: Vasudheim, which lies just outside the gates to the capital city of Jordheim, and Audliten, which offers opportunities to adventurers between their 20th and 24th seasons. This area is also home to the dungeon Nisse’s Lair, which will provide challenges to adventurers between levels 8 and 20.
+; West Svealand
+zone2_number=102
+zone2_left=84
+zone2_top=73
+zone2_desc=West Svealand is an area dominated by the Blodfelag, though adventurers can find refuge at the town of Huginfel, which also provides leveling opportunities for those between levels 25 and 29. To the west lies the entrance to the frozen wastes of Raumarik and far to the north stands Vindsaul Faste which guards the gateway to Yggdra Forest and the Midgard Frontier.
+; Gotar
+zone3_number=103
+zone3_left=122
+zone3_top=111
+zone3_desc=Gotar is crowned by the city of Fort Atla and is ideal for adventurers between their 30th and 35th seasons. On the eastern edge of land, lies the Cursed Tomb, a dungeon which caters to adventurers between the levels 15 and 24.
+; Muspelheim
+zone4_number=104
+zone4_left=179
+zone4_top=17
+zone4_desc=Home of the fire giants, Muspelheim is a charred land with pits of bubbling lava.  Adventurers in their 20s to 30s can find monsters a plenty to hunt here.  Be careful of angering the Dverge, who make their homes here because your trainer may send you to perform tasks for them in pursuit of magical arms and armor.
+; Myrkwood Forest
+zone5_number=105
+zone5_left=142
+zone5_top=149
+zone5_desc=Dark and foreboding, Myrkwood Forest is home to two towns and the most challenging dungeon in old world Midgard, Spindelhalla.  The area around the city of Galplen has monsters appropriate to adventurers’ levels 25 to 30.  Across the lake, the town of Gna Faste is home to a number of trainers not found in Galplen, but beware the creature Njessi who calls the lake its home.
+; Skona Ravine
+zone6_number=106
+zone6_left=104
+zone6_top=169
+zone6_desc=In the shadow of Myrkwood Forest, Skona Ravine is a haven for werewolves, who provide good battles for adventurers 20 to mid 30s.  The Varulvhamn dungeon is their home and provides challenges to adventurers in their 30s to 40s.
+; Vanern Swamp
+zone7_number=107
+zone7_left=66
+zone7_top=150
+zone7_desc=Dank and foggy, Vanern is home to monsters that will challenge adventurers between 30 and 45.  Beware both the Jotuns and Hagbui can be fearsome opponents if caught unprepared.
+; Raumarik
+zone8_number=108
+zone8_left=46
+zone8_top=73
+zone8_desc=Raumarik is strictly a high level land with monsters challenging to adventurers from 40 to 50.  This area is home to the Wretches of Winter, who can be a challenge to even the most senior group.   The monsters of Raumarik are notoriously aggressive so be on your guard.
+; Malmohus
+zone9_number=116;
+zone9_left=104
+zone9_top=207
+zone9_desc=Malmohus is home to the dragon Gjalpinulva and her underlings.  High level servants wander the area constantly and the dragon periodically flies over her domain patrolling for intruders. It is a very high-level area and should be traveled through carefully with a group.
+
+;
+; Midgard Housing
+;
+[region102]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Erikstaad
+zone0_number=114
+zone0_left=0
+zone0_top=85
+zone0_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Arothi
+zone1_number=117
+zone1_left=0
+zone1_top=0
+zone1_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Carlingford
+zone2_number=118
+zone2_left=86
+zone2_top=85
+zone2_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Wyndham
+zone3_number=119
+zone3_left=0
+zone3_top=170
+zone3_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Frisia
+zone4_number=121
+zone4_left=86
+zone4_top=170
+zone4_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Kaupang
+zone5_number=122
+zone5_left=86
+zone5_top=0
+zone5_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Holmestrand
+zone6_number=266
+zone6_left=171
+zone6_top=85
+zone6_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Nittedal
+zone7_number=267
+zone7_left=171
+zone7_top=170
+zone7_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Stavgaard
+zone8_number=268
+zone8_left=171
+zone8_top=0
+zone8_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+
+;Midgard Classic Dungeons
+
+;Arachite Caves
+[region125]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=125
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18600
+zone0_offsety=18046
+zone0_width=10733
+zone0_height=10733
+zone0_desc=A series of twisting caverns, Spindelhalla is inhabited by the arachites; a race of spider-like creatures that prefer to dwell in dark underground regions or deep forests.  Adventurers should be cautious as the arachites are not the only danger within these caves as the arachites keep svartalfar slaves to care for the spiders, harvest their silk, and fight on their behalf.
+
+;Vendo
+[region126]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=126
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17307
+zone0_offsety=20027
+zone0_width=8041
+zone0_height=8041
+zone0_desc=The central lair of the aggressive Vendo clan, these caverns serve as lodging, shelter, and thanks to the occasional careless adventurer, sport.
+
+;werewolf
+[region127]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=127
+zone0_left=0
+zone0_top=0
+zone0_offsetx=7676
+zone0_offsety=11157
+zone0_width=19880
+zone0_height=19880
+zone0_desc=Varulvhamn is the underground lair of the werewolves.  Host to young and old alike, these caves serve as a meeting place for the werewolf nobles.  Despite some open-minded elders, known as the Wolfaur, adventurers who intrude upon their lair should expect a fierce, frantic, and furry greeting.
+
+;burial halls
+
+[region128]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=128
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21729
+zone0_offsety=19734
+zone0_width=7808
+zone0_height=7808
+zone0_desc=The Cursed Tomb is the final resting place of dishonored warriors and kings of Midgard who deserted in the midst of battle, betrayed their comrades, let greed and vice get in the way of honor, or died in less than heroic circumstances.  The gods will never allow their entry to Valhalla, so they spend their afterlife haunting this tomb and attempting to entice visitors to join them.
+
+;tomte
+
+[region129]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=129
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17244
+zone0_offsety=19507
+zone0_width=14282
+zone0_height=14282
+zone0_desc=Nisse's Lair is the underground home of the Tomte and their leader, Nisse.  It is also home to a small but powerful lair of spiders that has take over part of the the lair from the Tomte.  Adventurers should take caution to not find them trapped in the middle of these two powerful forces.
+
+
+
+;
+; Atlantis Remnant Zone (Hibernia)
+;
+[region072]
+zone_count=1
+; scrios de atlantis
+zone0_number=72
+zone0_left=0
+zone0_top=0
+zone0_desc=Who were the Atlanteans? What power did they possess? The answers to these questions and more can be discovered by stepping through the glowing portal inside the Hall of Heroes.  The researchers and learned people working on this excavation site can sell you supplies you may find useful on your journey.
+
+;
+; Hibernia Atlantis
+;
+[region130]
+zone_count=11
+zone_width=46
+zone_height=46
+region_desc=The wise people of Atlantis wished to share their knowledge but understood the need for it to be earned.  So they devised an obstacle course of Trials to be overcome.  Although most of their civilization was destroyed, the trials were left primarily intact but many have been twisted by the surviving races once subjugated. Now it's up to you uncover the magic and power left behind. 
+; Oceanus Hesperos
+zone0_number=130
+zone0_left=25
+zone0_top=105
+zone0_desc=Home to Oceanus haven, this is the launching point for explorations into the ruins of Atlantis. Various islands break the oceans surface and many mysteries await beneath the cold waters.
+; Mesothalassa
+zone1_number=131
+zone1_left=71
+zone1_top=105
+zone1_desc=The Ocean of Mesothalassa is home to the legendary sea monster Cetus and the ancient Library of Atlantis.  If you venture beneath the waves, beware of the Tritons who have claimed vast areas for their own purposes.
+; Oceanus Boreal
+zone2_number=132
+zone2_left=71
+zone2_top=59
+zone2_desc=The ruins of Sobekite Eternal tower majestically over the waters of Boreal.  Many islands, which contain treasures and challenges for even the bravest of adventurers, dot the crystaline blue of the vast waters.
+; Oceanus Notos
+zone3_number=133
+zone3_left=71
+zone3_top=151
+zone3_desc=Located in the deep south, the waters of Notos contain many treasures but untold dangers. Wicked harpies, ancient artifacts of power, and Medusa's Temple of Twilight are only some of the wonders to be discovered.
+; Oceanus Anatole
+zone4_number=134
+zone4_left=117
+zone4_top=105
+zone4_desc=The Anatole Ocean reaches to the farthest eastern edge of the Atlantean  empire.  Here you can discover the Haven of  Volcanus, battle living  statues, and dive to an Atlantean shipwreck.
+; Stygian Delta
+zone5_number=138
+zone5_left=47
+zone5_top=13
+zone5_desc=The Stygian Delta is a searing ocean of sand.  Scorpions, crocodile, and the evil Setians are only some of the dangers that await you.  Temples and tombs left from the Atlantean legacy are slowly being reclaimed by the shifting sands.
+; Land of Atum
+zone6_number=139
+zone6_left=1
+zone6_top=13
+zone6_desc=Deep into the desert, the Land of Atum holds both wonders and terrors alike.  The colossal Atlantean pyramid that reaches to the sky, the Temple of Storms, and the entrance to the land of the dead - the Halls of Ma'ati, are only few of the adventures that await you.
+; Typhon's Reach
+zone7_number=141
+zone7_left=163
+zone7_top=105
+zone7_desc=A land of fiery lava flows, violent eruptions, and a blasted landscape, Typhon's Reach is not for the faint of heart.  The hulking Taur have made this land their home and they guard it with fierce intensity.
+; Ashen Isles
+zone8_number=142
+zone8_left=209
+zone8_top=105
+zone8_desc=Deep into the charred and blasted land of Volcanus lies the Ashen Isle. Located in the heart of a live volcano, the entry to the Titan Typhon is located here.  The isle is also home to the mighty three headed Chimera.
+; Green Glades
+zone9_number=143
+zone9_left=94
+zone9_top=197
+zone9_desc=The giant redwoods of the Glen are home to the race of Centaur. Through this dense wood and the foothills of the Aerus mountains, adventurers may discover the ruins of the Atlantean's ancient architecture and encounter the caretakers of this beautiful but deadly land.
+; Arbor Glen
+zone10_number=144
+zone10_left=140
+zone10_top=197
+zone10_desc=Once pristine forests on the mountain slopes, the Glen was the pinnacle of Atlantean civilization.  Here they perfected the art of suspending cities in the sky.  After the fall, pieces of the Aerus sky city began to fall to the land below.  Whole chunks of the lost city, some still hovering slightly, can be found scattered across the land.
+
+;
+; Midgard SI (Aegir)
+; 
+[region151]
+zone_count=7
+zone_width=46
+zone_height=46
+region_desc=Troll and Kobold myths tell of the Troll Fathers, a race of ancient and wise creatures who were the precursors to both of these underground races. Then one day, out of the pages of myth, a lone warrior brought  disturbing news of  a race of prehistoric savages, the Morvalt,  who swept across Aegir, destroying all in their path. The people of Aegir call upon all of Midgard to aid them.
+; Aegir's Landing
+zone0_number=151
+zone0_left=23
+zone0_top=101
+zone0_desc=Aegir's Landing is home to the capital city, Aegirhamn, which contains trainers as well as portals to both Old Midgard and Atlantis.  Monsters in this land are suited to young players.  Dyrfjell, the other town in this area undergoes periodic sieges by Morvalt forces.  Both Morvalt and Neanderthal factions fight over this land, so choose your side carefully.
+; Gripklosa Mountains
+zone1_number=152
+zone1_left=46
+zone1_top=55
+zone1_desc=The mountains and valleys of Gripklosa shelter the town of Bjarken as the only refuge in this snow covered land.  From the Morvalt controlled city of Trollheim to the hidden Redcap town of Iss, adventurers from 30 to 50 will find foes to challenge them.  In the northern reaches of the land, you may discover Mammoth Valley and see the Old Matriarch herself.
+; Delling Crater
+zone2_number=153
+zone2_left=92
+zone2_top=67
+zone2_desc=Delling Crater is best suited for high level adventurers in their upper 40s.  In the northeastern corner of the land, you will find the entrance to Tuscarian Glacier, the epic dungeon of Aegir.   If you are friendly with the People of Dellingstad, you may rest and trade in their town otherwise you should steer clear as they do not like intruders.
+; Faraheim
+zone3_number=154
+zone3_left=104
+zone3_top=113
+zone3_desc=Faraheim is a dangerous place to travel at anytime of day or night, because the monsters here challenge even the highest level of adventurers.  The town of Hagall provides the only refuge and the only safe passage to the island of Modernagrav.  A small group of Iarn Dwarves have made a colony here on as well, but be wary as they and their griffon mounts do not take kindly to strangers.
+; Munin Sound
+zone4_number=155
+zone4_left=58
+zone4_top=147
+zone4_desc=Munin Sound is meant to be explored by adventurers from 10 to 40.  The town of Knarr provides a place for the weary traveler to sell and a base to explore this area.
+; Iarnwood
+zone5_number=156
+zone5_left=127
+zone5_top=159
+zone5_desc=Iarnwood is an extremely dangerous area to venture into even for the most senior adventurer.  This area hosts the entrance to the challenging dungeon of Iarnvidiur, which is best explored by well organized groups only.  In the northeast, you will find another settlement of Iarn Dwarves, but make sure you are friendly to them before getting too close.
+; Modernagrav
+zone6_number=158
+zone6_left=170
+zone6_top=113
+zone6_desc=Modernagrav is an island located off of the eastern coast of Faraheim that has monsters fit for adventurers from 35 to 50.  Both the Sjoalf and Redcaps can provide challenges to small groups of adventurers.  Undead populate the middle of the island and only the very brave challenge them in their redoubts.
+
+;
+; New Frontier
+;
+[region163]
+zone_count=14
+zone_width=42
+zone_height=42
+region_desc=Land of legendary battles and defeat, the Frontiers are home to the unstable outposts of the realms.  Hibernia, Albion, and Midgard wage constant war here, in effort to push borders to their own advantage, and gain keeps and relics to empower their own countrymen.  Laden with unknown creatures and miles of wild and untamed lands, the Frontiers offer great challenge and opportunity for fame and glory.
+; Ellan Vannin
+zone0_number=163
+zone0_top=86 
+zone0_left=97
+zone0_desc=Ellan Vannin is an ancient island originally controlled by the Manx people and their ruler, Manannan mac Lir. The island was once a bastion of Arthur’s reign where all three realms lived in harmony. After his death its war-torn shores were abandoned and lost to time… until now. The rulers of the Otherworlds remembered this ancient place. Each have returned with the aim of controlling this once great land and the formidable underground keep, Knoc Meayll, for their realm!
+; Irish Sea
+zone1_number=164
+zone1_top=128
+zone1_left=97
+zone1_desc=The calm, clear waters of the Irish sea stretch out in all directions.  Without a compass and a map, many ocean farers have found themselves hopelessly lost in its vastness.  Though the waters may seem inviting, enemy battles await by sea. The coast of Albion lies to the east, far from the Hibernian coast in the west.  
+; Odin's Gate
+zone2_number=167
+zone2_top=44
+zone2_left=118
+zone2_desc=Odin’s Gate is Midgard’s front line for repelling foreign invaders.  Bledmeer Faste protects both the coast and the realm’s river access.  Nottmoor Faste protects the north western coast.  To the east, a series of rope bridges suspended high over canyon walls provides excellent defense for attacking armies marching deep into Midgard’s frontier.
+; Jamtland Mountains
+zone3_number=168
+zone3_top=44
+zone3_left=160
+zone3_desc=Blendrake Faste protects the southern coast of these snow-covered mountains, while the marshy keep Hlidskialf Faste defends the southeast’s watery borders.  The entrance to the Passage of Conflict opens here, to the south of Glenlock Faste. Ruins of an ancient city can be explored in the center of these lands, and further to the northwest the island keep Glenlock Faste protects river access into Midgard.
+; Yggdra Forest
+zone4_number=169
+zone4_top=44
+zone4_left=202
+zone4_desc=The looming, dark trees of Yggdra Forest offer safe cover for Arvakr Faste in the southeast.  This mighty Keep is the resting place of the Horn of Valhalla, Midgard’s power relic.  Deep in the northeast, the border keep Vindsaul Faste protects Midgard’s homeland from invaders.  South of Arvakr Faste, a frontier village offers supplies and training to the weary defender.
+; Uppland
+zone5_number=170
+zone5_top=2
+zone5_left=160
+zone5_desc=Located in the northernmost section of Midgard’s frontier, Uppland is home to Thor’s Hammer. This strength relic is housed by Fensalir Faste deep in the north.  In the east, the border keep Svasud Faste is the gateway to Midgard’s inner realm. A frontier village stands ready with supplies for restocking and trainers to aid in learning new skills, just across the river from Mjollner Faste.
+; Emain Macha
+zone6_number=171
+zone6_top=128
+zone6_left=55
+zone6_desc=Emain Macha is Hibernia’s front line for repelling invaders from the foreign lands of Albion and Midgard.  Dun Crauchon not only protects the North Sea’s coast, but also acts as a sentinel for river access. Dun Crimthainn keeps vigil over the northern border, while Dun Bolg safeguards the swampy waters in the southeast.  The ruins of an ancient city offer mysterious adventure in the south west.
+; Breifine
+zone7_number=172
+zone7_top=170
+zone7_left=55
+zone7_desc=In the depths of Hibernia’s frontier, the island keep of Dun na Ged keeps careful watch over nearby river traffic, while Dun da Behnn protects the Irish Sea’s coast.  Suspended rope bridges stretch high across valleys in the southeast, providing excellent defense against invading armies attempting to flank  the outlaying outposts and keeps.  The Passage of Conflict’s entrance can be found deep in the woods, to the  south of nGed.
+; Cruachon Gorge
+zone8_number=173
+zone8_top=170
+zone8_left=13
+zone8_desc=Hidden amidst a thick forest of lush trees, Dun Ailinne guards the very heart of the Hibernian frontier.   In the south of the Gorge, Druim Ligen keeps vigil over Hibernia with its massive,  stout walls.  Further north, Dun Ailinne shelters Lug’s Spear,  Hibernia’s  strength relic.  Weary defenders can find solace in the frontier village deep in the northwest, where training and supplies are readily available.
+; Mount Collory
+zone9_number=174
+zone9_top=212
+zone9_left=55
+zone9_desc=Home to Hibernia’s power relic, the Cauldron of Dagda, Dun Scathaig towers over the south. In the southwest, the border keep Druim Cain protects the mainland.  A frontier village in the southeast offers supplies and training to brave defenders not wishing make the long trip home.
+; Snowdonia
+zone10_number=175
+zone10_top=212
+zone10_left=139
+zone10_desc=Snowdonia is the southern most region of Albion’s frontier.  Here, the relic Keep Caer Hurbury is home to Merlin’s Staff, Albion’s famed power relic. To the southwest, the frontier village allows for restocking supplies and training.  The inner realm is heavily guarded by Snowdonia Fortress, Albion’s border keep.
+; Forest Sauvage
+zone11_number=176
+zone11_top=170
+zone11_left=181
+zone11_desc=Forest Sauvage is home to Albion’s strength relic Keep, Caer Renaris wherein lies the resting place of the Scabbard of Excalibur. Deep in the south, Castle Sauvage is the final defense between attackers in the frontier and Albion’s heartlands. 
+; Pennine Mountains
+zone12_number=177
+zone12_top=170
+zone12_left=139
+zone12_desc=The island keep of Caer Boldiam protects the realm’s inner river access.  To the northwest lie the ruins of an ancient monastery.  Along the river to the east, the entrance to the Passage of Conflict can be found.    Rope bridges closing the steep valley gaps offer easy passage to Caer Sursbrooke from the south.
+; Hadrian's Wall
+zone13_number=178
+zone13_top=128
+zone13_left=139
+zone13_desc=The northernmost frontier of Albion, Hadrian’s Wall is flanked in the west by both the North Sea and the Irish Sea.  Twin sentinels on the westerly sea’s borders, the island keep, Caer Benowyc, and the marshy keep, Caer Erasleigh, stand vigil together against enemy invaders.   Caer Berkstead stands a constant vigil against likely Midgard invasions from the north.
+
+;
+; New battlegrounds
+;
+
+; proving grounds
+[region234]
+zone_count=1
+zone0_number=234
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+
+; lions den
+[region235]
+zone_count=1
+zone0_number=235
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 5-9 only.  The center keep can be claimed once per level for experience
+
+; hills of claret
+[region236]
+zone_count=1
+zone0_number=236
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 10-14 only.  The center keep can be claimed once per level for experience
+
+; killaloe
+[region237]
+zone_count=1
+zone0_number=237
+zone0_left=0
+zone0_top=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 15-19 only.  The center keep can be claimed once per level for experience
+
+; thidranki
+[region238]
+zone_count=1
+zone0_number=238
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 20-24 only.  The center keep can be claimed once per level for experience
+
+; braemar
+[region239]
+zone_count=1
+zone0_number=239
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 25-29 only.  The center keep can be claimed once per level for experience
+
+; wilton
+[region240]
+zone_count=1
+zone0_number=240
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 30-34 only.  The center keep can be claimed once per level for experience
+
+; molvik
+[region241]
+zone_count=1
+zone0_number=241
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 35-39 only.  The center keep can be claimed once per level for experience
+
+; leirvik
+[region242]
+zone_count=1
+zone0_number=254
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor!  This region is for levels 40-44 only.  The center keep can be claimed once per level for experience
+
+; Cathal Valley
+[region165]
+zone_count=1
+zone0_number=165
+zone0_top=0
+zone0_left=0
+zone0_desc=Defend your realm’s honor! This region is for levels 45-49 only. 
+
+; Caledonia
+[region166]
+zone_count=1
+zone0_number=250
+zone0_top=0
+zone0_left=0
+zone0_desc= An ancient Battleground where unseasoned fighters of three realms fought to test their mettle and hone their skills. Scholars researching the recent Pictish incursion had dismissed the Medallion's they all wore as a mere token of their heathen Gods...until they discovered their true purpose.
+
+
+;
+; Hibernia SI (Hybrasil)
+;
+[region181]
+zone_count=7
+zone_width=46
+zone_height=46
+region_desc=The island of HyBrasil was generally considered to be a long-lost myth enclosed in the depths of time. For generations, folklore told around the campfires of the Realm spoke of the beautiful wooded paradise of Hy Brasil, homeland to the Sylvan.. The Sylvan emissaries brought a tale of invasion by a race of creatures called Fomorians, who seek to destroy the Sylvan
+; Domnann
+zone0_number=181
+zone0_left=152
+zone0_top=191
+zone0_desc=Domnann, a thick, hilly forest, is home to the sylvan capital and the gateway to all of Hy Brasil. Young adventurers will find plenty of hunting here. The Grove of Domnann in the south is an enchanting city of massive trees.  The portal to the Hibernia’s mainlands lies just outside of the Grove.
+; Caillte Garran
+zone1_number=182
+zone1_left=106
+zone1_top=168
+zone1_desc=The lands of Caillte Garran have one safe stronghold in the southeast known as Droighaid.  The rest of these lands have been scourged by the dread Fomor.  The large population of Fomorian here offers a great challenge to the most learned adventurer.  If a dungeon is what you seek, the entrance to Fomora City lies to the north.
+; Vale of Balor
+zone2_number=183
+zone2_left=60
+zone2_top=145
+zone2_desc=The Vale holds one safe binding area at the Grove of Aalid Feie. Highly skilled adventurers will find hunting in the open fields and Fomorian villages, or in Tur Suil, a dungeon located in the southern area of the land.
+; Cothrom Gorge
+zone3_number=184
+zone3_left=71
+zone3_top=99
+zone3_desc=Be wary traveling through Cothrom Gorge.  These lands hold great challenge even for groups of the highest skill.  The obscure faction of sylvan living in the Outlander settlement to the east may be your only allies among the ravenous forest creatures that reside here.
+; World's End
+zone4_number=185
+zone4_left=117
+zone4_top=76
+zone4_desc=World's End is a very dangerous land to journey alone.  The creatures lurking in this heavily wooded area could end the life of even the most experienced adventurer with little effort.  Travel cautiously east to Galladoria, for a dungeon adventure of epic proportions!
+; Vigilant Rock
+zone5_number=186
+zone5_left=141
+zone5_top=122
+zone5_desc=The most skilled Hibernian will find the lands of Vigilant Rock a welcome challenge in exploration.  Necht, its single outpost on the eastern shore, provides players with a last-chance stopping point for binding, training, and horse rides before heading into the high level dungeons to the north.
+; Allta Fearann
+zone6_number=187
+zone6_left=118
+zone6_top=20
+zone6_desc=Located off of the northern coast of World’s End is the long forgotten island Allta Fearann.  Recently discovered, this island’s occupants and encounters remain mysterious to all but the most inquisitive explorer.
+
+;
+; Hibernia
+;
+[region200]
+zone_count=10
+zone_width=43
+zone_height=43
+region_desc=From the capital city of Tir na Nog, located in the heart of the Realm, the lands of Hibernia stretch away to the north and south. Hibernia is made of rolling hills, lakes, and rivers. Far away from the civilized sections of the Realm lie deep forests, more mountainous hills, and deadly creatures.
+; Lough Derg
+zone0_number=200
+zone0_left=99
+zone0_top=53
+zone0_desc=A sparkling lake divides the rolling hills of Lough Derg. Here adventures may find Mag Mell settled in the shadow of Hibernia’s enchanted capital city of Tir na Nog. Mag Mell offers adventures and training to those between their 10th and 14th seasons. On the road south can be found the ancient city of Tir na mBeo where adventurers of seasons 15 to 19 may seek their training. Other notable locations are the Parthanan Farm across the lake and a secluded island, home to the Siabra known as the Dergans.
+; Silvermine Mountains
+zone1_number=201
+zone1_left=99
+zone1_top=96
+zone1_desc=The Silvermine Mountains are home to the strongholds of Ardagh and Howth. The coastal town of Ardagh offers adventurers between the seasons of 20 and 24 opportunities to advance while further to the south, Howth is best suited to those between their 25th and 29th seasons. The entrance to the Spraggon Den can also be found here, enticing those between 20 and 25 to adventure and explore.
+; Shannon Estuary
+zone2_number=202
+zone2_left=78
+zone2_top=139
+zone2_desc=Shannon Estuary boasts the charming coastal village of Connla, which offers adventuring opportunities for those between seasons 30 and 34. The settlement of Cennai can be found to the south and offers a haven for those traveling the road to Innis Carthag. Be wary traveling the southern paths at night, for the Siabra patrol the area and passage can be quite treacherous.
+; Cliffs of Moher
+zone3_number=203
+zone3_left=35
+zone3_top=10
+zone3_desc=A cliff face stretches the expanse of the westernmost part of these lands and plunges to the sea.  The Cliff Dwellers residing on the shore there pose more of a threat than the cliffs’ steep drop.  A cluster of forest in the south hides Koalinth Caverns, a much safer choice for the mid-skilled adventurer.
+; Lough Gur
+zone4_number=204
+zone4_left=78
+zone4_top=182
+zone4_desc=The mid-range dungeon known as Treibh Caillte is tucked in a valley of trees far to the west of Lough Gur.  The Gurite Settlement in the southwest corner and the melancholy fairies to the south are perfect spots for a well-seasoned group of adventurers.  Innis Carthaig in the east and Culraid in the northwest are the only friendly strongholds in these highly aggressive lands.
+; Bog of Cullen
+zone5_number=205
+zone5_left=121
+zone5_top=202
+zone5_desc=The Bog of Cullen is home to the Siabran Queen, Cliodna and is prime hunting for those between the levels 30 through 50.  Venture not alone here unless you’re skilled, for the Gemstone Tower is heavily guarded by the queen’s loyal subjects. Friends can be found in the southeast corner in the settlement known as Alainn Bin.
+; Valley of Bri Leith
+zone6_number=206
+zone6_left=142
+zone6_top=53
+zone6_desc=Adventurers between the levels of 10 and 20 will find a challenge in this magical valley.  If you seek the thrill of a dungeon, travel northwest to the mouth of the Coruscating Mines, the mainlands most dangerous dungeon.
+; Connacht
+zone7_number=207
+zone7_left=78
+zone7_top=10
+zone7_desc=The capital city Tir na Nog, nestled here in Connacht, is heavily protected by Druim Ligen border keep to the north. This expanse of green fields and hillsides is also home to the beginners dungeon Muire Tomb.   Across the river from Druim Ligen is the entrance portal to Darkness Falls.  Adventurers will find plenty of monsters to hunt in the area surrounding the established town of Ardee.
+; Cursed Forest
+zone8_number=208
+zone8_left=185
+zone8_top=53
+zone8_desc=This grand thicket of trees and brush is home to monsters far beyond the skill of any single Hibernian.  Legendary creatures lurk in this dark wood.  The Faerie Court is rumored to wander its depths, and one fell step could land you face to face with the terror known as Juggernaut.  No doubt adventure awaits in mist of the forest, though venturing alone is sure to prove fatal.
+; Sheeroe Hills
+zone9_number=216
+zone9_left=121
+zone9_top=159
+zone9_desc=Shrouded in eternal twilight, Sheeroe Hills is infested with the magical Glimmerlings.  Should you and your experienced companions manage to get through their defenses, your journey has only just begun.  These lands are a maze of winding valleys heavily guarded by Glimmers and Azures.  A wrong turn could find you in the lair of Cuuldurach the Glimmer King, Hibernia’s mighty dragon.
+
+;
+; Hibernia Housing
+;
+[region202]
+zone_count=9
+zone_width=85
+zone_height=85
+region_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Meath
+zone0_number=213
+zone0_left=85
+zone0_top=0
+zone0_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Dunshire
+zone1_number=215
+zone1_left=0
+zone1_top=0
+zone1_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Torrylin
+zone2_number=217
+zone2_left=85
+zone2_top=86
+zone2_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Kilcullen
+zone3_number=218
+zone3_left=170
+zone3_top=0
+zone3_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Saeranthal
+zone4_number=219
+zone4_left=0
+zone4_top=86
+zone4_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Aberillan
+zone5_number=225
+zone5_left=170
+zone5_top=86
+zone5_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Tullamore
+zone6_number=272
+zone6_left=85
+zone6_top=171
+zone6_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; MoyCullen
+zone7_number=273
+zone7_left=0
+zone7_top=171
+zone7_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+; Broughshane
+zone8_number=274
+zone8_left=170
+zone8_top=171
+zone8_desc=Here the good people of the land make their homes and enjoy the quiet of the country.  You can browse player sold items at the Market Explorer in each housing market area.
+
+;Hibernia Classic Dungeons
+
+;hibernian mine
+[region220]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=220
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17885
+zone0_offsety=13632
+zone0_width=13427
+zone0_height=13427
+zone0_desc=Riches and dangers abound in the coruscating mines as a variety of townfolk from across Hibernia have found out when they have come under its spell and found themselves trapped within the mines.  In thrall to the Unseelie, they are policed by gemclickers and silvermine sentries always on the lookout for more slaves for their mines.
+
+;spraggon lair
+[region222]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=222
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17913
+zone0_offsety=17347
+zone0_width=12154
+zone0_height=12154
+zone0_desc=Located in the Silvermine Mountains, the Spraggon’s Den is the underground home of the wily Spraggon. Many a careless adventurer has met his end in these tunnels, dismissing the Spraggon as merely mischievous fae. The Den’s inhabitants do not take kindly to intruders and will call upon their skill at arms and magic to defend their territory.
+
+;undead halls
+[region221]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=221
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19546
+zone0_offsety=18475
+zone0_width=11783
+zone0_height=11783
+zone0_desc=The tale of the Muire family is one of excess, tragedy, and madness by turns. All that remains of the house of Muire is their neglected tomb, populated by the tortured ghosts of Quillan Muire and his victims.
+
+;koalinth caves
+[region223]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=223
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16610
+zone0_offsety=16296
+zone0_width=15157
+zone0_height=15157
+zone0_desc=The Koalinth are a coastal species of hobgoblins that migrated from their homeland under the sea under the coast and taken up residence in these ancient tunnels near the Cliffs of Moher.  From here, they can stage raids on nearby settlements and lure adventurers to their doom in these caves.
+
+;ursine lair
+[region224]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=224
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17452
+zone0_offsety=16125
+zone0_width=11664
+zone0_height=11664
+zone0_desc=A naturally formed cavern set in the hills of Lough gur, Triebh Caillte is inhabited by a small tribe of creatures locally known as ursine dwellers. Little is known of the reclusive clan except that they are hostile to outsiders. Those that seek answers within Triebh Caillte often don't return.
+
+
+
+;
+; Catacombs
+;
+
+; Mid Und Forest
+[region058]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=58
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2782
+zone0_offsety=3286
+zone0_width=40075
+zone0_height=40075
+zone0_desc=A connecting realm with passages to the surface, the Kobolds maintain a presence in this strange underground grove.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Glashtin Forge
+[region059]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=59
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11952
+zone0_offsety=9111
+zone0_width=25459
+zone0_height=25459
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Roman Aqueducts
+[region063]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=63
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5711
+zone0_offsety=7644
+zone0_width=30629
+zone0_height=30629
+zone0_desc=Built by the Romans during their rule, the Aqueducts are now occupied by the shunned followers of Pluto.  There they have revived the worship of Arawn alongside their own god.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Inconnu Crypt
+[region065]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=65
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9061
+zone0_offsety=16949
+zone0_width=27838
+zone0_height=27838
+zone0_desc=Built by the Inconnu in service of their Lord Arawn, the Crypt serves as a homeland and waystation on the way to escorting the souls of the dead to the Underworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Und Forest
+[region066]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=66
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3125
+zone0_offsety=4271
+zone0_width=39870
+zone0_height=39870
+zone0_desc=Originally a secret entrance into the Lower Crypt, its discovery led to the destruction of the Crypt itself.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Deadlands
+[region067]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=67
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8070
+; rawk!
+zone0_offsety=5150
+zone0_width=30515
+zone0_height=30515
+zone0_desc=The souls of the fallen dwell here, and their Lord Arawn ruled until they were possessed to rise against him.  Now Albion must battle to keep these renegade souls in check.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Lower Crypt
+[region068]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=68
+zone0_left=0
+zone0_top=0
+zone0_offsetx=6007
+zone0_offsety=7138
+zone0_width=25218
+zone0_height=25218
+zone0_desc=Intended to guard the Cauldron of Arawn, the lower crypt was invaded and destroyed by one who desired its power.  Now it lies in ruin and holds dangers untold.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Dark Spire
+[region069]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=69
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Veil Rift
+[region092]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=92
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13706
+zone0_offsety=5391
+zone0_width=39019
+zone0_height=39019
+zone0_desc=The Rift is a magical barrier that separates the magical world from the natural one.  “Created” by the elves, it now serves as the entry point to the mysterious Shar homeworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Shar Labyrinth
+[region093]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=93
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13698
+zone0_offsety=13461
+zone0_width=14363
+zone0_height=14363
+zone0_desc=Using the magic obtained from their time in the Veil, the Shar half-grew, half-built a magnificent city to be their seat of power.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Queen's Labyrinth
+[region094]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=94
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17223
+zone0_offsety=11147
+zone0_width=22745
+zone0_height=22745
+zone0_desc=Built as a temple for proper communication with the Shar god, its proximity to the magical forces of the Otherworld enabled it to be used as an instrument of great deception.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Hib Frontlines
+[region095]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=95
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4860
+zone0_offsety=7037
+zone0_width=36240
+zone0_height=36240
+zone0_desc=A cavernous area on the outskirts of Hibernian control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Hib Und Forest
+[region096]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=96
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3126
+zone0_offsety=3529
+zone0_width=39732
+zone0_height=39732
+zone0_desc=Discovered around the Queen’s Labyrinth, it led to the great deception that has haunted the Shar for years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Hib Deadlands
+[region097]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=97
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4353
+zone0_offsety=-1104
+zone0_width=28769
+zone0_height=28769
+zone0_desc=A land intended for the souls of the Hibernia fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Hibernia's enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+
+; Hib Dark Spire
+[region098]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=98
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Hib Glashtin Forest
+[region099]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=99
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10452
+zone0_offsety=7974
+zone0_width=28038
+zone0_height=28038
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Hibernia.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Frontlines
+[region109]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=109
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3238
+zone0_offsety=1164
+zone0_width=41943
+zone0_height=41943
+zone0_desc=A cavernous area on the outskirts of Albion control, the Frontlines are a treacherous place filled with dangerous creatures and many of the enthralled souls of Albion.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Frontlines
+[region148]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=148
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1958
+zone0_offsety=8772
+zone0_width=35658
+zone0_height=35658
+zone0_desc=A cavernous mid-point between the Undercity and Nyttheim, the Frontlines have now become a battleground for control of the Kobold world and Midgard above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Nyttheim
+[region149]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=149
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9665
+zone0_offsety=7094
+zone0_width=27919
+zone0_height=27919
+zone0_desc=Originally a settlement of Kobolds unwilling to welcome others to their city, Nyttheim is now a nightmare – a land filled with possessed Kobolds serving an unknown lord.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Mid Deadlands
+[region162]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=162
+zone0_left=0
+zone0_top=0
+zone0_offsetx=4385
+zone0_offsety=-1104
+zone0_width=28769
+zone0_height=28769
+zone0_desc=A land intended for the souls of the Midgard fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Midgard’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Mid Dark Spire
+[region188]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=188
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3426
+zone0_offsety=13397
+zone0_width=24193
+zone0_height=24193
+zone0_desc=Located deep within the earth at a nexus point of magical ley lines, this ominous fortress is home to a terrible evil power that threatens the world above.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Mid Glashtin Forge
+[region189]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=189
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11703
+zone0_offsety=9735
+zone0_width=25708
+zone0_height=25708
+zone0_desc=An ashen, decrepit place of poisonous fumes and choking smoke, the glashtin have turned this once-beautiful cavern into a wasteland, all to outfit and armor the enemies of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+
+
+; Mid Otherworld
+[region195]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=195
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11291
+zone0_offsety=4059
+zone0_width=38187
+zone0_height=38187
+zone0_desc=A magical land, the Otherworld is a region of violent magical maelstroms beyond the Veil.  Here, the Midgard possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Otherworld
+[region196]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=196
+zone0_left=0
+zone0_top=0
+zone0_offsetx=14979
+zone0_offsety=6107
+zone0_width=30347
+zone0_height=30347
+zone0_desc=A magical land, the Otherworld is a region of violent magical maelstroms beyond the Veil.  Here, the Hibernian possessed exist in torment.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Otherworld
+[region197]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=197
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9113
+zone0_offsety=6979
+zone0_width=34444
+zone0_height=34444
+zone0_desc=The magical land where the Shar city was created, the Otherworld is a region of powerful and dangerous magical maelstroms, both empowering and threatening.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Mid Ab Mines
+[region226]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=226
+zone0_left=0
+zone0_top=0
+zone0_offsetx=952
+zone0_offsety=4903
+zone0_width=41705
+zone0_height=41705
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Midgard to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Alb Ab Mines
+[region227]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=227
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3066
+zone0_offsety=4232
+zone0_width=43656
+zone0_height=43656
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Albion to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Hib Ab Mines
+[region228]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=228
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2056
+zone0_offsety=1665
+zone0_width=42333
+zone0_height=42333
+zone0_desc=Deserted eons ago, the great Abandoned Mines stretch from one end of Hibernia to the other, connecting all dungeons in the realm with rideable mine carts.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+
+; Burial Grounds
+[region229]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=229
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11719
+zone0_offsety=2541
+zone0_width=35665
+zone0_height=35665
+zone0_desc=Beneath the city of Jordheim lie the Burial Grounds, a great cavern used for generations not only to bury, but also to honor, the fallen of Midgard.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+; Kobold Undercity
+[region243]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=243
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12536
+zone0_offsety=11852
+zone0_width=27217
+zone0_height=27217
+zone0_desc=Built in the same series of caves that gave birth to the Burial Grounds, the Kobold Undercity remained a secret from the surface for hundreds of years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+
+;tepok kt6
+[region256]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=256
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19267
+zone0_offsety=22767
+zone0_width=7163
+zone0_height=7163
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;tepok kt7
+[region257]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=257
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16631
+zone0_offsety=23235
+zone0_width=9850
+zone0_height=9850
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;tepok kt8
+[region258]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=258
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20647
+zone0_offsety=23235
+zone0_width=10324
+zone0_height=10324
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Nisse's KT6
+[region278]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=278
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20208
+zone0_offsety=16476
+zone0_width=7909
+zone0_height=7909
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT7
+[region279]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=279
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22014
+zone0_offsety=18336
+zone0_width=6048
+zone0_height=6049
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT8
+[region280]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=280
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20130
+zone0_offsety=18579
+zone0_width=5805
+zone0_height=5805
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Cursed Tomb KT6
+[region281]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=281
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16380
+zone0_offsety=17730
+zone0_width=6664
+zone0_height=6664
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT7
+[region282]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=282
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15775
+zone0_offsety=19021
+zone0_width=7269
+zone0_height=7269
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT8
+[region283]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=283
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16158
+zone0_offsety=19639
+zone0_width=6885
+zone0_height=6885
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Mithra KT6
+[region293]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=293
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18014
+zone0_offsety=15277
+zone0_width=6301
+zone0_height=6301
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Mithra  KT7
+[region294]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=294
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20540
+zone0_offsety=19200
+zone0_width=6144
+zone0_height=6144
+zone0_desc=Burial Tomb: Task Dungeon
+
+
+;Mithra KT8
+[region295]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=295
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17788
+zone0_offsety=16448
+zone0_width=6528
+zone0_height=6528
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Keltoi KT6
+[region296]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=296
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20128
+zone0_offsety=21244
+zone0_width=4616
+zone0_height=4616
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+
+;Keltoi KT7
+[region297]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=297
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20798
+zone0_offsety=20560
+zone0_width=7183
+zone0_height=7183
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Keltoi KT8
+[region298]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=298
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20075
+zone0_offsety=20816
+zone0_width=4759
+zone0_height=4759
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Nisse's KT1
+[region300]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=300
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23260
+zone0_offsety=20305
+zone0_width=4758
+zone0_height=4758
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT2
+[region301]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=301
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17407
+zone0_offsety=16278
+zone0_width=7764
+zone0_height=7764
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT3
+[region302]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=302
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19207
+zone0_offsety=21835
+zone0_width=6106
+zone0_height=6106
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT4
+[region303]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=303
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21548
+zone0_offsety=22012
+zone0_width=5544
+zone0_height=5544
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Nisse's KT5
+[region304]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=304
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21133
+zone0_offsety=20188
+zone0_width=4581
+zone0_height=4581
+zone0_desc=Damp Cavern: Task Dungeon
+
+;Cursed Tomb KT1
+[region305]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=305
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22780
+zone0_offsety=22257
+zone0_width=3080
+zone0_height=3080
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT2
+[region306]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=306
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21402
+zone0_offsety=21453
+zone0_width=3797
+zone0_height=3797
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT3
+[region307]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=307
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21402
+zone0_offsety=21981
+zone0_width=4586
+zone0_height=4586
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT4
+[region308]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=308
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22268
+zone0_offsety=21761
+zone0_width=3492
+zone0_height=3492
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Cursed Tomb KT5
+[region309]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=309
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20602
+zone0_offsety=20840
+zone0_width=4167
+zone0_height=4167
+zone0_desc=Forgotten Sepulchre: Task Dungeon
+
+;Nisse's AW1
+[region345]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=345
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15712
+zone0_offsety=22831
+zone0_width=15100
+zone0_height=15100
+zone0_desc=Tomte Prison: Adventure Wing off Nisse's Lair
+
+;Nisse's AW2
+[region346]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=346
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15167
+zone0_offsety=19274
+zone0_width=11214
+zone0_height=11214
+zone0_desc=Nisse's Retreat: Adventure Wing off Nisse's Lair
+
+;History Repeats Itself
+[region371]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=371
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20351
+zone0_offsety=21341
+zone0_width=5113
+zone0_height=5113
+zone0_desc=History Repeats Itself: Instance
+
+;Hounds of Arawn
+[region372]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=372
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19451
+zone0_offsety=22103
+zone0_width=6013
+zone0_height=6013
+zone0_desc=Hounds of Arawn: Instance
+
+;Tepok's Mine AW1
+[region376]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=376
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16941
+zone0_offsety=23652
+zone0_width=17608
+zone0_height=17608
+zone0_desc=Goblin's Cookery: Adventure wing off Tepok's Mine
+
+;Tepok's Mine AW2
+[region377]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=377
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17011
+zone0_offsety=22467
+zone0_width=20090
+zone0_height=20090
+zone0_desc=The Beastmaster's Den: Adventure wing off Tepok's Mine
+
+;Cardova KT6
+[region379]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=379
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18560
+zone0_offsety=20674
+zone0_width=6272
+zone0_height=6272
+zone0_desc=Level 31-40 kill task dungeon
+
+;Cardova AW1
+[region380]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=380
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15458
+zone0_offsety=6137
+zone0_width=17706
+zone0_height=17706
+zone0_desc=Lair of Doom: Adventure wing off Catacombs of Cardova
+
+;Cardova AW2
+[region381]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=381
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23258
+zone0_offsety=14372
+zone0_width=17492
+zone0_height=17492
+zone0_desc=The Arena: Adventure wing off Catacombs of Cardova
+
+;Cardova KT7
+[region382]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=382
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19200
+zone0_offsety=22829
+zone0_width=4773
+zone0_height=4773
+zone0_desc=Level 31-40 kill task dungeon
+
+;Cardova KT8
+[region383]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=383
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19072
+zone0_offsety=19821
+zone0_width=4901
+zone0_height=4901
+zone0_desc=Level 31-40 kill task dungeon
+
+;Keltoi AW1
+[region384]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=384
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22196
+zone0_offsety=17898
+zone0_width=12603
+zone0_height=12603
+zone0_desc=The Ritual Hall: Adventure wing off of Keltoi Fogou
+
+;Keltoi AW2
+[region385]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=385
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20092
+zone0_offsety=20048
+zone0_width=9140
+zone0_height=9140
+zone0_desc=The Betrayer's Den: Adventure wing off of Keltoi Fogou
+
+;Stonehenge KT6
+[region386]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=386
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22595
+zone0_offsety=20864
+zone0_width=5862
+zone0_height=5862
+zone0_desc=the Sundered Tombs: Task Dungeon
+
+;Stonehenge KT7
+[region387]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=387
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17066
+zone0_offsety=17311
+zone0_width=7253
+zone0_height=7253
+zone0_desc=the Sundered Tombs: Task Dungeon
+
+;Stonehenge KT8
+[region388]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=388
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19526
+zone0_offsety=14992
+zone0_width=5975
+zone0_height=5975
+zone0_desc=the Sundered Tombs: Task Dungeon
+
+;Alb AbMines AW2
+[region389]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=389
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19618
+zone0_offsety=15314
+zone0_width=17179
+zone0_height=17179
+zone0_desc=Shafts of the Tenebrae: Adventure wing off Abandoned Mines
+
+;Alb AbMines AW3
+[region390]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=390
+zone0_left=0
+zone0_top=0
+zone0_offsetx=24952
+zone0_offsety=21751
+zone0_width=13820
+zone0_height=13820
+zone0_desc=Lair of the Exiled: Adventure wing off Abandoned Mines
+
+;Tomb of Mithra AW1
+[region392]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=392
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20447
+zone0_offsety=16770
+zone0_width=9376
+zone0_height=9376
+zone0_desc=The Hall of Reawakening: Adventure wing off the Tomb of Mithra
+
+;Tomb of Mithra AW2
+[region393]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=393
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16735
+zone0_offsety=17920
+zone0_width=9120
+zone0_height=9120
+zone0_desc=The Hidden Crypt: Adventure wing off the Tomb of Mithra
+
+;Lower Crypt AW
+[region396]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=396
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17855
+zone0_offsety=18942
+zone0_width=10572
+zone0_height=10572
+zone0_desc=Depths of Despair: Adventure wing off Lower Crypt
+
+;Lower Crypt AW
+[region397]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=397
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19845
+zone0_offsety=17897
+zone0_width=13623
+zone0_height=13623
+zone0_desc=The Realm of the Damned: Adventure wing off Lower Crypt
+
+;Mithra KT1
+[region400]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=400
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20279
+zone0_offsety=18176
+zone0_width=5795
+zone0_height=5795
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Mithra KT2
+[region401]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=401
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21055
+zone0_offsety=21453
+zone0_width=3695
+zone0_height=3695
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Mithra KT3
+[region402]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=402
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21526
+zone0_offsety=22543
+zone0_width=3569
+zone0_height=3569
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Mithra KT4
+[region403]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=403
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22764
+zone0_offsety=22578
+zone0_width=3385
+zone0_height=3385
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Mithra KT5
+[region404]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=404
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22268
+zone0_offsety=21917
+zone0_width=4451
+zone0_height=4451
+zone0_desc=Burial Tomb: Task Dungeon
+
+;Keltoi KT1
+[region405]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=405
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20010
+zone0_offsety=21328
+zone0_width=4532
+zone0_height=4532
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Keltoi KT2
+[region406]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=406
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22620
+zone0_offsety=20560
+zone0_width=4873
+zone0_height=4873
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+
+;Keltoi KT3
+[region407]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=407
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20432
+zone0_offsety=21275
+zone0_width=3871
+zone0_height=3871
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Keltoi KT4
+[region408]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=408
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22795
+zone0_offsety=21917
+zone0_width=4430
+zone0_height=4430
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Keltoi KT5
+[region409]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=409
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22497
+zone0_offsety=22644
+zone0_width=4731
+zone0_height=4731
+zone0_desc=Desecrated Grounds: Task Dungeon
+
+;Tepok KT1
+[region410]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=410
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19957
+zone0_offsety=22884
+zone0_width=6361
+zone0_height=6361
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Tepok KT2
+[region411]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=411
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22073
+zone0_offsety=21604
+zone0_width=6105
+zone0_height=6105
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Tepok KT3
+[region412]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=412
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20476
+zone0_offsety=21942
+zone0_width=5855
+zone0_height=5855
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Tepok KT4
+[region413]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=413
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21646
+zone0_offsety=23856
+zone0_width=3659
+zone0_height=3659
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Tepok KT5
+[region414]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=414
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23187
+zone0_offsety=22467
+zone0_width=5498
+zone0_height=5498
+zone0_desc=Forgotten Mines: Task Dungeon
+
+;Cardova KT1
+[region415]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=415
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22512
+zone0_offsety=20608
+zone0_width=5248
+zone0_height=5248
+zone0_desc=The Funerary Hall: Task Dungeon
+
+;Cardova KT2
+[region416]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=416
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19968
+zone0_offsety=21805
+zone0_width=4005
+zone0_height=4005
+zone0_desc=The Funerary Hall: Task Dungeon
+
+;Cardova KT3
+[region417]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=417
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23164
+zone0_offsety=21383
+zone0_width=3295
+zone0_height=3295
+zone0_desc=The Funerary Hall: Task Dungeon
+
+;Cardova KT4
+[region418]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=418
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21116
+zone0_offsety=19410
+zone0_width=5632
+zone0_height=5632
+zone0_desc=The Funerary Hall: Task Dungeon
+
+;Cardova KT5
+[region419]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=419
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20753
+zone0_offsety=21504
+zone0_width=4224
+zone0_height=4224
+zone0_desc=The Funerary Hall: Task Dungeon
+
+;Stonehenge KT1
+[region420]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=420
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23543
+zone0_offsety=23201
+zone0_width=3449
+zone0_height=3449
+zone0_desc=The Sundered Tombs: Task Dungeon
+
+;Stonehenge KT2
+[region421]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=421
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19801
+zone0_offsety=19591
+zone0_width=4650
+zone0_height=4650
+zone0_desc=The Sundered Tombs: Task Dungeon
+
+;Stonehenge KT3
+[region422]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=422
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22733
+zone0_offsety=19700
+zone0_width=5068
+zone0_height=5068
+zone0_desc=The Sundered Tombs: Task Dungeon
+
+;Stonehenge KT4
+[region423]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=423
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21622
+zone0_offsety=21248
+zone0_width=5376
+zone0_height=5376
+zone0_desc=The Sundered Tombs: Task Dungeon
+
+;Stonehenge KT5
+[region424]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=424
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22426
+zone0_offsety=22181
+zone0_width=4326
+zone0_height=4326
+zone0_desc=The Sundered Tombs: Task Dungeon
+
+;Stonehenge AW1
+[region425]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=425
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9464
+zone0_offsety=14598
+zone0_width=14727
+zone0_height=14727
+zone0_desc=The Lost Wing: Adventure wing off Stonehenge Barrows
+
+;Stonehenge AW2
+[region426]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=426
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8156
+zone0_offsety=14052
+zone0_width=16256
+zone0_height=16256
+zone0_desc=Deliah's Sanctuary: Adventure wing off Stonehenge Barrows
+
+;Muire KT6
+[region427]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=427
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19708
+zone0_offsety=21200
+zone0_width=4959
+zone0_height=4959
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Muire KT7
+[region428]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=428
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19456
+zone0_offsety=21376
+zone0_width=4864
+zone0_height=4864
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Snyblem's Lair: Aqueduct Aw1
+[region429]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=429
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15018
+zone0_offsety=17137
+zone0_width=15065
+zone0_height=15065
+zone0_desc=Synblem's Lair
+
+;Plutonian Shore: Aqueduct AW2
+[region430]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=430
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15018
+zone0_offsety=18075
+zone0_width=15779
+zone0_height=15779
+zone0_desc=The Plutonian Shore
+
+;Muire KT8
+[region431]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=431
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19968
+zone0_offsety=21074
+zone0_width=5723
+zone0_height=5723
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Nyttheim Alb Awq
+[region433]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=433
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12182
+zone0_offsety=11555
+zone0_width=26904
+zone0_height=26904
+zone0_desc=Snarg's Grotto
+
+;Queen's Lab Alb Aw1
+[region434]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=434
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11791
+zone0_offsety=20998
+zone0_width=15413
+zone0_height=15413
+zone0_desc=Maze of Tribulation
+
+;Forge AW1 -alb
+[region435]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=435
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20966
+zone0_offsety=20374
+zone0_width=9981
+zone0_height=9981
+zone0_desc=The Smelting Pot
+
+;Forge AW2 -alb
+[region436]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=436
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20039
+zone0_offsety=18537
+zone0_width=10316
+zone0_height=10316
+zone0_desc=Forges of Flame
+
+;Muire AW1
+[region442]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=442
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13696
+zone0_offsety=18304
+zone0_width=11008
+zone0_height=11008
+zone0_desc=The Steward's Crypt: Adventure wing off Muire Tomb
+
+;Muire AW2
+[region443]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=443
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18522
+zone0_offsety=23772
+zone0_width=10315
+zone0_height=10315
+zone0_desc=Serf's Folly: Adventure wing off Muire Tomb
+
+;Muire KT1
+[region450]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=450
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20377
+zone0_offsety=21504
+zone0_width=4199
+zone0_height=4199
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Muire KT2
+[region451]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=451
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21274
+zone0_offsety=20763
+zone0_width=3942
+zone0_height=3942
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Muire KT3
+[region452]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=452
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20806
+zone0_offsety=22012
+zone0_width=3847
+zone0_height=3847
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Muire KT4
+[region453]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=453
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21643
+zone0_offsety=21533
+zone0_width=3078
+zone0_height=3078
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Muire KT5
+[region454]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=454
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21134
+zone0_offsety=21277
+zone0_width=4323
+zone0_height=4323
+zone0_desc=The Cursed Barrow: Task Dungeon
+
+;Cursed Tomb AW1
+[region349]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=349
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20161
+zone0_offsety=22092
+zone0_width=8144
+zone0_height=8144
+zone0_desc=Lio's Eternal Rest: Adventure wing off Cursed Tomb
+
+;Cursed Tomb AW2
+[region350]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=350
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18975
+zone0_offsety=20276
+zone0_width=11621
+zone0_height=11621
+zone0_desc=Liche's Unrest: Adventure wing off Cursed Tomb
+
+
+
+; Tutorial Region
+[region027]
+zone_count=3
+zone_width=256
+zone_height=256
+; Albion Tutorial Zone
+zone0_number=27
+zone0_left=0
+zone0_top=0
+zone0_desc=This rustic region is named after the current sovereign of Albion, King Constantine. It is said that Constantine was raised in the village of Holtham and began his training as a paladin within Caer Stamford. Today proud parents and supporters of the King send their children here for schooling and training.
+zone0_realm=1
+; Midgard Tutorial Zone
+zone1_number=28
+zone1_left=0
+zone1_top=0
+zone1_desc=This fabled land is where the first Viking clan landed upon the Midgard motherland. Here Clan Grenlock settled a bustling village named Hafheim and erected a formidable fortress that they called Thorsa Faste. The proud Vikings have never forgotten their roots and continue to protect this land.
+zone1_realm=2
+; Hibernia Tutorial Zone
+zone2_number=29
+zone2_left=0
+zone2_top=0
+zone2_desc=This lush country is steeped in the legends of the Elven King, Lug Lamfhota. It is upon these shores that myths speak of King Lamfhota being gifted with the magical blade Fragarach by his foster father Manannan. The people of the village Fintain and the guardians of Dun Cormyra revere the legends to this day.
+zone2_realm=3
+
+; Darkness Rising Chapter 3 Dungeons
+[region249]
+zone_count=4
+zone_width=256
+zone_height=256
+; Albion Chapter 3
+zone0_number=339
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1738
+zone0_offsety=-3856
+zone0_width=45443
+zone0_height=45443
+zone0_desc=These fiery halls are home to horrors never before glimpsed by mortals from the world above. Amid the grotesque pillars and glowing embers dwells a demon host led by Azazel and his trusted Circle of Five.
+zone0_realm=0
+; Midgard Chapter 3
+zone1_number=340
+zone1_left=0
+zone1_top=0
+zone1_offsetx=4479
+zone1_offsety=1452
+zone1_width=34115
+zone1_height=34115
+zone1_desc=The frozen Halls of Helgardh exist in a state of eternal winter far more cruel than any known in Midgard. Ceaseless snowfall, expansive ice, and fearsome foes greet all who would dare to challenge mighty Utgard-Lok and his Circle of Five in their lair.
+zone1_realm=0
+; Hibernia Chapter 3
+zone2_number=341
+zone2_left=0
+zone2_top=0
+zone2_offsetx=4373
+zone2_offsety=4140
+zone2_width=39408
+zone2_height=39408
+zone2_desc=This legendary gateway to the Otherworld has been tainted by the influence of Crom Cruiach. Corruption, disease, and demonic influence run rampant throughout these caves where the demon lord and his Circle of Five lieutenants thrive.
+zone0_realm=0
+; Darkness Falls
+zone3_number=249
+zone3_left=0
+zone3_top=0
+zone3_offsetx=46
+zone3_offsety=797
+zone3_width=43414
+zone3_height=43414
+zone3_desc=Darkness Falls is the demonic domain of Legion and his vast array of servants and followers.  Legion feeds on the warfare, bloodshed, strife, and misery.  Baited promises of power and riches lead many mortals astray and, inevitably, to their doom.
+
+; Albion Chapter 2 Demonic Prison
+[region336]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=336
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19292
+zone0_offsety=11488
+zone0_width=29174
+zone0_height=29174
+zone0_desc=Before Geryon's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Geryon and aid him in guarding the captive demonologist Anataeus.
+
+
+; Midgard Chapter 2 Demonic Prison
+[region337]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=337
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16422
+zone0_offsety=5752
+zone0_width=34913
+zone0_height=34913
+zone0_desc=Before Rugak's conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Rugak and aid him in guarding the captive Keeper Iraeda.
+
+; Hibernia Chapter 2 Demonic Prison
+[region338]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=338
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2684
+zone0_offsety=5120
+zone0_width=41911
+zone0_height=41911
+zone0_desc=Before Bres' conquest, this wing of Darkness Falls was ruled by three powerful demonic brothers. Two of the brothers swore fealty to Bres and aid him in guarding the captive Keeper Garran and the Lia Fail.
+
+
+; Baron's Gaol
+[region348]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=348
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1002
+zone0_offsety=11712
+zone0_width=12260
+zone0_height=12260
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Eddington Keep has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the Keep, much to the Baron's regret.
+
+; Nephraal's Gaol
+[region351]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=351
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22281
+zone0_offsety=16352
+zone0_width=8172
+zone0_height=8172
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Ei-Forr Keep has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the Keep, much to Nephraal's regret.
+
+; Morfesa's Gaol
+[region352]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=352
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15771
+zone0_offsety=16166
+zone0_width=9674
+zone0_height=9674
+zone0_desc=A remnant from a less civilized age, the Gaol beneath Dun Chaoin has not held prisoners in a generation. The tunnels still serve as an alternate entrance to the castle, much to Morfesa's regret.
+
+; Darkness Rising Throne Rooms
+[region360]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=360
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21188
+zone0_offsety=22143
+zone0_width=5907
+zone0_height=5907
+zone0_desc=Visitors to the halls of King Eirik are greeted by brightly glowing braziers and magnificent statues. The newly-crowned ruler of Midgard holds court with Athr Hasetti Theyr, the Royal Illuminator, Quartermaster Dreiki, and the Weaponmasters of the Visindakona, beneath banners of the realm.
+
+; Darkness Rising Throne Rooms
+[region394]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=394
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21863
+zone0_offsety=23428
+zone0_width=4554
+zone0_height=4554
+zone0_desc=Once the seat of Arthur, the throne room of King Constantine sits deep within Camelot Castle.  Amid impressive statuary and tapestries, King Constantine struggles to restore Albion to greatness with the help of Chamberlain Harlen, Quartermaster Mills, the Weaponmasters, the Royal Illuminator, Sir Norcross and Advisor Wacian.
+
+; Darkness Rising Throne Rooms
+[region395]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=395
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21954
+zone0_offsety=23438
+zone0_width=4375
+zone0_height=4375
+zone0_desc=The Elven King's opulent throne room is lined with statues of Hibernian heroes and banners of the realm. Here, King Lug Lamfhota meets with his closest advisors, including Seneschal Desmond, Quartermaster Kindrey, the Weaponmasters of the paths, and his Royal Illuminator.
+
+; Trials of Atlantis Dungeons
+[region079]
+zone_count=1
+zone_width=256
+zone_height=256
+; Sobekite Eternal Alb
+zone0_number=079
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8257
+zone0_offsety=1731
+zone0_width=36596
+zone0_height=36596
+zone0_desc=Welcome to Sobekite Eternal, where sudden death lurks in every shadow. Hear the echos of valiant adventurers past who have come before you and died. Make your way from the flooded halls of the Triton Chiefs through the temple itself and then into lair of the imposter. Defeat Runihara and lead your followers to victory.
+
+; Trials of Atlantis Dungeons
+[region036]
+zone_count=1
+zone_width=256
+zone_height=256
+; Sobekite Eternal Mid
+zone0_number=036
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8257
+zone0_offsety=1731
+zone0_width=36596
+zone0_height=36596
+zone0_desc=Welcome to Sobekite Eternal, where sudden death lurks in every shadow. Hear the echos of valiant adventurers past who have come before you and died. Make your way from the flooded halls of the Triton Chiefs through the temple itself and then into lair of the imposter. Defeat Runihara and lead your followers to victory.
+
+; Trials of Atlantis Dungeons
+[region136]
+zone_count=1
+zone_width=256
+zone_height=256
+; Sobekite Eternal Hib
+zone0_number=136
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8257
+zone0_offsety=1731
+zone0_width=36596
+zone0_height=36596
+zone0_desc=Welcome to Sobekite Eternal, where sudden death lurks in every shadow. Hear the echos of valiant adventurers past who have come before you and died. Make your way from the flooded halls of the Triton Chiefs through the temple itself and then into lair of the imposter. Defeat Runihara and lead your followers to victory.
+
+; Trials of Atlantis Dungeons
+[region089]
+zone_count=1
+zone_width=256
+zone_height=256
+; Deep Volcanus
+zone0_number=089
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8812
+zone0_offsety=-1840
+zone0_width=40378
+zone0_height=40378
+zone0_desc=You have entered fiery Deep Volcanus, where the blistering flame is enough to burn you to a crisp with a single flicker. Make sure you have what you need to cross the bridge of fire or your adventure will be short indeed. Once you pass the challenge of the four, you will be well on your way to your final meeting with Typhon.
+
+; Trials of Atlantis Dungeons
+[region046]
+zone_count=1
+zone_width=256
+zone_height=256
+; Deep Volcanus Mid
+zone0_number=046
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8812
+zone0_offsety=-1840
+zone0_width=40378
+zone0_height=40378
+zone0_desc=You have entered fiery Deep Volcanus, where the blistering flame is enough to burn you to a crisp with a single flicker. Make sure you have what you need to cross the bridge of fire or your adventure will be short indeed. Once you pass the challenge of the four, you will be well on your way to your final meeting with Typhon.
+
+; Trials of Atlantis Dungeons
+[region146]
+zone_count=1
+zone_width=256
+zone_height=256
+; Deep Volcanus Mid
+zone0_number=146
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8812
+zone0_offsety=-1840
+zone0_width=40378
+zone0_height=40378
+zone0_desc=You have entered fiery Deep Volcanus, where the blistering flame is enough to burn you to a crisp with a single flicker. Make sure you have what you need to cross the bridge of fire or your adventure will be short indeed. Once you pass the challenge of the four, you will be well on your way to your final meeting with Typhon.
+
+; Trials of Atlantis Dungeons
+[region078]
+zone_count=1
+zone_width=256
+zone_height=256
+; Cetus' Pit
+zone0_number=078
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17718
+zone0_offsety=21741
+zone0_width=11101
+zone0_height=11101
+zone0_desc=Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+
+; Trials of Atlantis Dungeons
+[region035]
+zone_count=1
+zone_width=256
+zone_height=256
+; Cetus' Pit Mid
+zone0_number=035
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17718
+zone0_offsety=21741
+zone0_width=11101
+zone0_height=11101
+zone0_desc=The Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+
+; Trials of Atlantis Dungeons
+[region135]
+zone_count=1
+zone_width=256
+zone_height=256
+; Cetus' Pit Hib
+zone0_number=135
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17718
+zone0_offsety=21741
+zone0_width=11101
+zone0_height=11101
+zone0_desc=The Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+
+; Trials of Atlantis Dungeons
+[region080]
+zone_count=1
+zone_width=256
+zone_height=256
+; Temple of Twilight
+zone0_number=080
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17786
+zone0_offsety=392
+zone0_width=44265
+zone0_height=44265
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
+
+; Trials of Atlantis Dungeons
+[region037]
+zone_count=1
+zone_width=256
+zone_height=256
+; Temple of Twilight Mid
+zone0_number=037
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17786
+zone0_offsety=392
+zone0_width=44265
+zone0_height=44265
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
+
+; Trials of Atlantis Dungeons
+[region137]
+zone_count=1
+zone_width=256
+zone_height=256
+; Temple of Twilight Hib
+zone0_number=137
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17786
+zone0_offsety=392
+zone0_width=44265
+zone0_height=44265
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
+
+; Trials of Atlantis Dungeons
+[region083]
+zone_count=1
+zone_width=256
+zone_height=256
+; Halls of Ma'ati
+zone0_number=083
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3680
+zone0_offsety=12244
+zone0_width=40247
+zone0_height=40247
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+
+; Trials of Atlantis Dungeons
+[region040]
+zone_count=1
+zone_width=256
+zone_height=256
+; Halls of Ma'ati Mid
+zone0_number=040
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3680
+zone0_offsety=12244
+zone0_width=40247
+zone0_height=40247
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+
+; Trials of Atlantis Dungeons
+[region140]
+zone_count=1
+zone_width=256
+zone_height=256
+; Halls of Ma'ati Hib
+zone0_number=140
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3680
+zone0_offsety=12244
+zone0_width=40247
+zone0_height=40247
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+
+
+; Trials of Atlantis Dungeons
+[region090]
+zone_count=1
+zone_width=256
+zone_height=256
+; Aerus City
+zone0_number=090
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5948
+zone0_offsety=728
+zone0_width=45181
+zone0_height=45181
+zone0_desc=You have reached the beautiful Aerus City where few mortals have walked since the beginning of time. Whispering ancient dead voices can still be heard in the warm gentle breezes around these floating lands. The last guardian awaits you, not imprisoned, but instead bound by duty to give its life to protect the most powerful secrets of Atlantis from misuse by those deemed unworthy. Are you worthy?
+
+; Trials of Atlantis Dungeons
+[region047]
+zone_count=1
+zone_width=256
+zone_height=256
+; Aerus City Mid
+zone0_number=047
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5948
+zone0_offsety=728
+zone0_width=45181
+zone0_height=45181
+zone0_desc=You have reached the beautiful Aerus City where few mortals have walked since the beginning of time. Whispering ancient dead voices can still be heard in the warm gentle breezes around these floating lands. The last guardian awaits you, not imprisoned, but instead bound by duty to give its life to protect the most powerful secrets of Atlantis from misuse by those deemed unworthy. Are you worthy?
+
+; Trials of Atlantis Dungeons
+[region147]
+zone_count=1
+zone_width=256
+zone_height=256
+; Aerus City Mid Hib
+zone0_number=147
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5948
+zone0_offsety=728
+zone0_width=45181
+zone0_height=45181
+zone0_desc=You have reached the beautiful Aerus City where few mortals have walked since the beginning of time. Whispering ancient dead voices can still be heard in the warm gentle breezes around these floating lands. The last guardian awaits you, not imprisoned, but instead bound by duty to give its life to protect the most powerful secrets of Atlantis from misuse by those deemed unworthy. Are you worthy?
+
+;Mini Darkness Falls Map
+[region489]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=489
+zone0_left=0
+zone0_top=0
+zone0_offsetx=5225
+zone0_offsety=20217
+zone0_width=27836
+zone0_height=27836
+zone0_desc=
+
+;Shrouded Isles
+; Mini-Fomor - Hibernia - Shrouded Isles
+[region180]
+zone_count=1
+zone_width=256
+zone_height=256
+; Fomor
+zone0_number=180
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16135
+zone0_offsety=13034
+zone0_width=18040
+zone0_height=18040
+zone0_desc=Fomor City is home to the grotesque, malformed, and malevolent race of giants known as the Fomorians.
+
+
+;Mini Caer sidi
+; Caer Sidi - Albion - Shrouded Isles
+[region060]
+zone_count=1
+zone_width=256
+zone_height=256
+; Caer Sidi
+zone0_number=060
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13277
+zone0_offsety=15772
+zone0_width=20195
+zone0_height=20195
+zone0_desc=Straddling the lines that connect our world with Annwn, Caer Sidi is prison to countless restless souls, souls trapped there until the day when Apocalypse brings his wrath down upon the land of the living.
+
+;Mini Krondon Map
+; Krondon - Albion - Shrouded Isles
+[region061]
+zone_count=1
+zone_width=256
+zone_height=256
+; Krondon
+zone0_number=061
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1929
+zone0_offsety=9579
+zone0_width=53365
+zone0_height=53365
+zone0_desc=Krondon is the home of the Thrawn Ogres and ruled by a warrior queen.
+
+;Mini Trollheim Map
+; Trollheim - Midgard - Shrouded Isles
+[region150]
+zone_count=1
+zone_width=256
+zone_height=256
+; Trollheim
+zone0_number=150
+zone0_left=0
+zone0_top=0
+zone0_offsetx=3025
+zone0_offsety=-350
+zone0_width=46240
+zone0_height=46240
+zone0_desc=Trollheim was once the secluded home city of the Trolls.  In recent times, it has been overrun by the tyrannical and savage morvalt.
+
+;Mini Tur Suil Map
+; Tur Suil - Hibernia - Shrouded Isles
+[region190]
+zone_count=1
+zone_width=256
+zone_height=256
+; Tur Suil
+zone0_number=190
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11062
+zone0_offsety=6378
+zone0_width=24617
+zone0_height=24617
+zone0_desc=Tur Suil is the stronghold of Balor, one of the fomorian kings.  Beware the eye of Balor.
+
+;Mini Galladoria Map
+; Galladoria - Hibernia - Shrouded Isles
+[region191]
+zone_count=1
+zone_width=256
+zone_height=256
+; Galladoria
+zone0_number=191
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9793
+zone0_offsety=18125
+zone0_width=40702
+zone0_height=40702
+zone0_desc=In an age long past, the titan Olcasgean was banished to the ends of the world where it could do no harm to man nor threaten the powers-that-be.  Ignorant of how the times had changed, this wayward child of Gaea seethed in anger for many millennia, plotting to exact its revenged upon those who no longer existed.  With its limited, though significant power, Olcasgean spread its roots out beneath soil of Hy Brasil, tainting much of the life that lived there.
+
+;Mini Tuscaran Glacier Map
+; Tuscaran Glacier - Midgard - Shrouded Isles
+[region160]
+zone_count=1
+zone_width=256
+zone_height=256
+; Tuscaran Glacier
+zone0_number=160
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1317
+zone0_offsety=4139
+zone0_width=53125
+zone0_height=53125
+zone0_desc=With a citadel built over the bones of an ancient dragon, the mighty Ice Queen of the Hrimthursa rules over her frost giant society with a heavy hand.
+
+
+;Mini Iarnvidiur's Lair Map
+; Iarnvidiur's Lair - Midgard - Shrouded Isles
+[region161]
+zone_count=1
+zone_width=256
+zone_height=256
+; Iarnvidiur's Lair
+zone0_number=161
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2714
+zone0_offsety=-561
+zone0_width=34211
+zone0_height=34211
+zone0_desc=You are in the Lair of Iarnvidiur, deep within the heart of the Iarnwood Forest.  Iarnvidiur is a hideous giantess known for breeding two-headed wolves and other abominations of nature.
+
+;Mini Concealed Guardhouse Map - Vendo - KT8
+; Vendo - KT8 - Midgard - Catacombs
+[region286]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=286
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20046
+zone0_offsety=20476
+zone0_width=5477
+zone0_height=5477
+zone0_desc=You are in a kill task region of the vendo caverns.
+
+
+;Mini Concealed Guardhouse Map - Vendo - KT1
+; Vendo - KT1 - Midgard - Catacombs
+[region310]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=310
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19582
+zone0_offsety=19712
+zone0_width=6320
+zone0_height=6320
+zone0_desc=You are in a kill task region of the vendo caverns.
+
+
+;Mini Concealed Guardhouse Map - Vendo - KT2
+; Vendo - KT2 - Midgard - Catacombs
+[region311]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=311
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20981
+zone0_offsety=20816
+zone0_width=3863
+zone0_height=3863
+zone0_desc=The Concealed Guardhouse: Task Dungeon.
+
+;Mini Concealed Guardhouse Map - Vendo - KT3
+; Vendo - KT3 - Midgard - Catacombs
+[region312]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=312
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19918
+zone0_offsety=20732
+zone0_width=5221
+zone0_height=5221
+zone0_desc=The Concealed Guardhouse: Task Dungeon.
+
+;Mini Den of Bones Map - Vendo - AW 1
+; Vendo - AW1 - Midgard - Catacombs
+[region353]
+zone_count=1
+zone_width=256
+zone_height=256
+; Den of Bones
+zone0_number=353
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19148
+zone0_offsety=23185
+zone0_width=13535
+zone0_height=13535
+zone0_desc=You are in an adventure wing within the vendo caverns.
+
+;Mini Concealed Guardhouse Map - Vendo - KT6
+; Vendo - KT6 - Midgard - Catacombs
+[region284]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=284
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20214
+zone0_offsety=20992
+zone0_width=5040
+zone0_height=5040
+zone0_desc=You are in a kill task region of the vendo caverns.
+
+;Mini Concealed Guardhouse Map - Vendo - KT7
+; Vendo - KT7 - Midgard - Catacombs
+[region285]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=285
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21372
+zone0_offsety=19820
+zone0_width=5892
+zone0_height=5892
+zone0_desc=You are in a kill task region of the vendo caverns.
+
+;Mini Concealed Guardhouse Map - Vendo - KT5
+; Vendo - KT5 - Midgard - Catacombs
+[region314]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=314
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22810
+zone0_offsety=22773
+zone0_width=4499
+zone0_height=4499
+zone0_desc=You are in a kill task region of the vendo caverns.
+
+;Mini Lost Burrow Map - Vendo - AW2
+; Vendo - AW2 - Midgard - Catacombs
+[region354]
+zone_count=1
+zone_width=256
+zone_height=256
+; Lost Burrow
+zone0_number=354
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22417
+zone0_offsety=11644
+zone0_width=20095
+zone0_height=20095
+zone0_desc=You are in an adventure wing within the vendo caverns.
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT6
+; Varulvhamn - KT6 - Midgard - Catacombs
+[region287]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=287
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19597
+zone0_offsety=19744
+zone0_width=8421
+zone0_height=8421
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT7
+; Varulvhamn - KT7 - Midgard - Catacombs
+[region288]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=288
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21893
+zone0_offsety=22335
+zone0_width=6196
+zone0_height=6196
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT8
+; Varulvhamn - KT8 - Midgard - Catacombs
+[region289]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=289
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19684
+zone0_offsety=22335
+zone0_width=5537
+zone0_height=5537
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT1
+; Varulvhamn - KT1 - Midgard - Catacombs
+[region315]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=315
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21123
+zone0_offsety=21341
+zone0_width=5348
+zone0_height=5348
+zone0_desc=Gossamer Grotto: Task Dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT2
+; Varulvhamn - KT2 - Midgard - Catacombs
+[region316]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=316
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21035
+zone0_offsety=22335
+zone0_width=5605
+zone0_height=5605
+zone0_desc=Gossamer Grotto: Task Dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT3
+; Varulvhamn - KT3 - Midgard - Catacombs
+[region317]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=317
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20956
+zone0_offsety=22108
+zone0_width=5448
+zone0_height=5448
+zone0_desc=Gossamer Grotto: Task Dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT4
+; Varulvhamn - KT4 - Midgard - Catacombs
+[region318]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=318
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19978
+zone0_offsety=19148
+zone0_width=6891
+zone0_height=6891
+zone0_desc=Gossamer Grotto: Task Dungeon
+
+;Mini Gossamer Grotto Map - Varulvhamn - KT5
+; Varulvhamn - KT5 - Midgard - Catacombs
+[region319]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gossamer Grotto
+zone0_number=319
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20989
+zone0_offsety=18464
+zone0_width=8019
+zone0_height=8019
+zone0_desc=Gossamer Grotto: Task Dungeon
+
+;Mini The Cursed Lair Map - Varulvhamn - AW1
+; Varulvhamn - AW1 - Midgard - Catacombs
+[region357]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Cursed Lair
+zone0_number=357
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19676
+zone0_offsety=17445
+zone0_width=9732
+zone0_height=9732
+zone0_desc=You are in an adventure wing within Varulvhamn.
+
+;Mini The Burrow Map - Varulvhamn - AW2
+; Varulvhamn - AW2 - Midgard - Catacombs
+[region358]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Burrow
+zone0_number=358
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17284
+zone0_offsety=18012
+zone0_width=9367
+zone0_height=9367
+zone0_desc=You are in an adventure wing within Varulvhamn.
+
+;Mini Concealed Guardhouse Map - Vendo - KT4
+; Vendo - KT4 - Midgard - Catacombs
+[region313]
+zone_count=1
+zone_width=256
+zone_height=256
+; Concealed Guardhouse
+zone0_number=313
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20989
+zone0_offsety=18464
+zone0_width=8019
+zone0_height=8019
+zone0_desc=Concealed Guardhouse: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT6
+; Spindelhalla - KT6 - Midgard - Catacombs
+[region290]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=290
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19806
+zone0_offsety=23388
+zone0_width=6033
+zone0_height=6033
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT7
+; Spindelhalla - KT7 - Midgard - Catacombs
+[region291]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=291
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22235
+zone0_offsety=22176
+zone0_width=5912
+zone0_height=5912
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT8
+; Spindelhalla - KT8 - Midgard - Catacombs
+[region292]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=292
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21183
+zone0_offsety=19381
+zone0_width=7104
+zone0_height=7104
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT1
+; Spindelhalla - KT1 - Midgard - Catacombs
+[region320]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=320
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19191
+zone0_offsety=22942
+zone0_width=6224
+zone0_height=6224
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT2
+; Spindelhalla - KT2 - Midgard - Catacombs
+[region321]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=321
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21719
+zone0_offsety=22813
+zone0_width=5918
+zone0_height=5918
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT3
+; Spindelhalla - KT3 - Midgard - Catacombs
+[region322]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=322
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19954
+zone0_offsety=18898
+zone0_width=7821
+zone0_height=7821
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT4
+; Spindelhalla - KT4 - Midgard - Catacombs
+[region323]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=323
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23516
+zone0_offsety=21229
+zone0_width=4327
+zone0_height=4327
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Underground Tunnel Map - Spindelhalla - KT5
+; Spindelhalla - KT5 - Midgard - Catacombs
+[region324]
+zone_count=1
+zone_width=256
+zone_height=256
+; Underground Tunnel
+zone0_number=324
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21625
+zone0_offsety=18652
+zone0_width=6155
+zone0_height=6155
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Arachnid's Labyrinth Map - Spindelhalla - AW1
+; Spindelhalla - AW1 - Midgard - Catacombs
+[region361]
+zone_count=1
+zone_width=256
+zone_height=256
+; Arachnid's Labyrinth
+zone0_number=361
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17191
+zone0_offsety=20317
+zone0_width=16651
+zone0_height=16651
+zone0_desc=You are in an adventure wing within Spindelhalla.
+
+;Mini The Master's Lair Map - Spindelhalla - AW2
+; Spindelhalla - AW2 - Midgard - Catacombs
+[region362]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Master's Lair
+zone0_number=362
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21217
+zone0_offsety=22149
+zone0_width=10764
+zone0_height=10764
+zone0_desc=Underground Tunnel: Task Dungeon
+
+;Mini Caverns of Madness Map - Nyttheim - AW1
+; Nyttheim - AW1 - Midgard - Catacombs
+[region327]
+zone_count=1
+zone_width=256
+zone_height=256
+; Caverns of Madness
+zone0_number=327
+zone0_left=0
+zone0_top=0
+zone0_offsetx=11491
+zone0_offsety=14825
+zone0_width=15455
+zone0_height=15455
+zone0_desc=You are in an adventure wing within Nytthiem.
+
+;Mini Jarslberg Hideout Map - Burial Grounds - AW1
+; Burial Grounds - AW1 - Midgard - Catacombs
+[region329]
+zone_count=1
+zone_width=256
+zone_height=256
+; Jarslberg Hideout
+zone0_number=329
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20540
+zone0_offsety=14691
+zone0_width=16465
+zone0_height=16465
+zone0_desc=You are in an adventure wing within the Burial Grounds.
+
+;Mini The Thieve's Den Map - Burial Grounds - AW2
+; Burial Grounds - AW2 - Midgard - Catacombs
+[region331]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Thieve's Den
+zone0_number=331
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12291
+zone0_offsety=8291
+zone0_width=21433
+zone0_height=21433
+zone0_desc=You are in an adventure wing within the Burial Grounds.
+
+;Mini Rebel Half Orc Lair Map - Abandoned Mines - AW1
+; Abandoned Mines - AW1 - Midgard - Catacombs
+[region332]
+zone_count=1
+zone_width=256
+zone_height=256
+; Rebel Half Orc Lair
+zone0_number=332
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10537
+zone0_offsety=13642
+zone0_width=17449
+zone0_height=17449
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
+
+;Mini Haunted Halls Map - Abandoned Mines - AW2
+; Abandoned Mines - AW2 - Midgard - Catacombs
+[region333]
+zone_count=1
+zone_width=256
+zone_height=256
+; Rebel Half Orc Lair
+zone0_number=333
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21193
+zone0_offsety=18004
+zone0_width=17580
+zone0_height=17580
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
+
+;Mini Passage of Echoes Map - Nyttheim - AW2
+; Nyttheim - AW2 - Midgard - Catacombs
+[region373]
+zone_count=1
+zone_width=256
+zone_height=256
+; Passage of Echoes
+zone0_number=373
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22942
+zone0_offsety=18595
+zone0_width=18005
+zone0_height=18005
+zone0_desc=You are in an adventure wing within Nytthiem.
+
+;Mini Lower Crypt Map - Mid Deadlands - AW1
+; Mid Deadlands - AW1 - Midgard - Catacombs
+[region374]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Unrestful Tomb
+zone0_number=374
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18800
+zone0_offsety=17652
+zone0_width=11878
+zone0_height=11878
+zone0_desc=You are in an adventure wing within the Deadlands.
+
+;Mini Lost Passages Map - Mid Otherworld - AW1
+; Mid Otherworld - AW1 - Midgard - Catacombs
+[region375]
+zone_count=1
+zone_width=256
+zone_height=256
+; Lost Passages
+zone0_number=375
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10456
+zone0_offsety=21434
+zone0_width=25817
+zone0_height=25817
+zone0_desc=You are in an adventure wing within the Otherworld.
+
+;Mini Wolak Crucible Map - Glashtin Forge - AW1
+; Glashtin Forge - AW1 - Midgard - Catacombs
+[region439]
+zone_count=1
+zone_width=256
+zone_height=256
+; Wolak Crucible
+zone0_number=439
+zone0_left=0
+zone0_top=0
+zone0_offsetx=16678
+zone0_offsety=17374
+zone0_width=12982
+zone0_height=12982
+zone0_desc=You are in an adventure wing within Glashtin Forge.
+
+;Mini Marik's Workroom Map - Glashtin Forge - AW2
+; Glashtin Forge - AW1 - Midgard - Catacombs
+[region440]
+zone_count=1
+zone_width=256
+zone_height=256
+; Marik's Workroom
+zone0_number=440
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18692
+zone0_offsety=20260
+zone0_width=8733
+zone0_height=8733
+zone0_desc=You are in an adventure wing within Glashtin Forge.
+
+;Mini Dismal Grotto Map - Spraggon Den - KT6
+; Spraggon Den - KT6 - Hibernia - Catacombs
+[region432]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=432
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20397
+zone0_offsety=23235
+zone0_width=6129
+zone0_height=6129
+zone0_desc=You are in a kill task region of the Spraggon Den.
+
+;Mini Dismal Grotto Map - Spraggon Den - KT7
+; Spraggon Den - KT7 - Hibernia - Catacombs
+[region441]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=441
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20140
+zone0_offsety=22813
+zone0_width=7968
+zone0_height=7968
+zone0_desc=The Dismal Grotto.
+
+;Mini Dismal Grotto Map - Spraggon Den - KT8
+; Spraggon Den - KT8 - Hibernia - Catacombs
+[region444]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=444
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20128
+zone0_offsety=22813
+zone0_width=7456
+zone0_height=7456
+zone0_desc=The Dismal Grotto. 
+
+;Mini Dismal Grotto Map - Spraggon Den - KT1
+; Spraggon Den - KT1 - Hibernia - Catacombs
+[region455]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=455
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21548
+zone0_offsety=22813
+zone0_width=5920
+zone0_height=5920
+zone0_desc=The Dismal Grotto. Task Dungeon 1
+
+;Mini Dismal Grotto Map - Spraggon Den - KT2
+; Spraggon Den - KT2 - Hibernia - Catacombs
+[region456]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=456
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23292
+zone0_offsety=21261
+zone0_width=4289
+zone0_height=4289
+zone0_desc=The Dismal Grotto. 
+
+;Mini Dismal Grotto Map - Spraggon Den - KT3
+; Spraggon Den - KT3 - Hibernia - Catacombs
+[region457]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=457
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20883
+zone0_offsety=19812
+zone0_width=5337
+zone0_height=5337
+zone0_desc=The Dismal Grotto. 
+
+;Mini Dismal Grotto Map - Spraggon Den - KT4
+; Spraggon Den - KT4 - Hibernia - Catacombs
+[region458]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=458
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22383
+zone0_offsety=20914
+zone0_width=4337
+zone0_height=4337
+zone0_desc=The Dismal Grotto. 
+
+;Mini Dismal Grotto Map - Spraggon Den - KT5
+; Spraggon Den - KT8 - Hibernia - Catacombs
+[region459]
+zone_count=1
+zone_width=256
+zone_height=256
+; Dismal Grotto
+zone0_number=459
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19637
+zone0_offsety=22813
+zone0_width=5911
+zone0_height=5911
+zone0_desc=The Dismal Grotto. 
+
+;Mini Rise of the Spraggons Map - Spraggon Den - AW1
+; Spraggon Den - AW1 - Hibernia - Catacombs
+[region475]
+zone_count=1
+zone_width=256
+zone_height=256
+; Rise of the Spraggons
+zone0_number=475
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19504
+zone0_offsety=21149
+zone0_width=9120
+zone0_height=9120
+zone0_desc=You are in an adventure wing within the Spraggon Den.
+
+;Mini The Warrens Map - Spraggon Den - AW2
+; Spraggon Den - AW2 - Hibernia - Catacombs
+[region476]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Warrens
+zone0_number=476
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18549
+zone0_offsety=22273
+zone0_width=7958
+zone0_height=7958
+zone0_desc=You are in an adventure wing within the Spraggon Den.
+
+;Mini Unused Mines Map - Coruscating Mine - KT2
+; Coruscating Mine - KT2 - Hibernia - Catacombs
+[region471]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=471
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22688
+zone0_offsety=21699
+zone0_width=5014
+zone0_height=5014
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT3
+; Coruscating Mine - KT3 - Hibernia - Catacombs
+[region472]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=472
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19826
+zone0_offsety=21443
+zone0_width=5242
+zone0_height=5242
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT4
+; Coruscating Mine - KT4 - Hibernia - Catacombs
+[region473]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=473
+zone0_left=0
+zone0_top=0
+zone0_offsetx=23578
+zone0_offsety=22804
+zone0_width=5923
+zone0_height=5923
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT5
+; Coruscating Mine - KT5 - Hibernia - Catacombs
+[region474]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=474
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21752
+zone0_offsety=21200
+zone0_width=5257
+zone0_height=5257
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT6
+; Coruscating Mine - KT6 - Hibernia - Catacombs
+[region482]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=482
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18819
+zone0_offsety=21059
+zone0_width=7674
+zone0_height=7674
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT7
+; Coruscating Mine - KT7 - Hibernia - Catacombs
+[region485]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=485
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21179
+zone0_offsety=21699
+zone0_width=7252
+zone0_height=7252
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini Unused Mines Map - Coruscating Mine - KT8
+; Coruscating Mine - KT8 - Hibernia - Catacombs
+[region486]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=486
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22595
+zone0_offsety=20915
+zone0_width=7705
+zone0_height=7705
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini The Pit of Despair Map - Coruscating Mine - AW1
+; Coruscating Mine - AW1 - Hibernia - Catacombs
+[region487]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Pit of Despair
+zone0_number=487
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10131
+zone0_offsety=22756
+zone0_width=25817
+zone0_height=25817
+zone0_desc=You are in an adventure wing within the Coruscating Mine.
+
+;Mini The Forgotten Vein Map - Coruscating Mine - AW2
+; Coruscating Mine - AW2 - Hibernia - Catacombs
+[region488]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Forgotten Vein
+zone0_number=488
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22467
+zone0_offsety=17914
+zone0_width=11789
+zone0_height=11789
+zone0_desc=You are in an adventure wing within the Coruscating Mine.
+
+;Mini Hugak's Smithy Map - Glashtin Forge - AW1
+; Glashtin Forge - AW1 - Hibernia - Catacombs
+[region437]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gnoll Dens
+zone0_number=437
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21760
+zone0_offsety=20798
+zone0_width=10317
+zone0_height=10317
+zone0_desc=You are in an adventure wing within the Glashtin Forge.
+
+;Mini The Goblin Workshop Map - Glashtin Forge - AW2
+; Glashtin Forge - AW2 - Hibernia - Catacombs
+[region438]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gnoll Dens
+zone0_number=438
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21760
+zone0_offsety=17260
+zone0_width=11595
+zone0_height=11595
+zone0_desc=You are in an adventure wing within the Glashtin Forge.
+
+;Mini Gnoll Dens Map - Abandoned Mines - AW1
+; Abandoned Mines - AW1 - Hibernia - Catacombs
+[region494]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gnoll Dens
+zone0_number=494
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22730
+zone0_offsety=19400
+zone0_width=15145
+zone0_height=15145
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
+
+;Mini Inner Sanctum Map - Lower Crypt - AW1
+; Lower Crypt - AW1 - Hibernia - Catacombs
+[region495]
+zone_count=1
+zone_width=256
+zone_height=256
+; Inner Sanctum
+zone0_number=495
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18150
+zone0_offsety=19531
+zone0_width=9983
+zone0_height=9983
+zone0_desc=You are in an adventure wing within the Deadlands.
+
+;Mini The Dark Caverns Map - Koalinth - KT6
+; Koalinth - KT6 - Hibernia - Catacombs
+[region445]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=445
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19168
+zone0_offsety=21433
+zone0_width=7310
+zone0_height=7310
+zone0_desc=The Dark Caverns. 
+
+;Mini The Dark Caverns Map - Koalinth - KT7
+; Koalinth - KT7 - Hibernia - Catacombs
+[region448]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=448
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21884
+zone0_offsety=22071
+zone0_width=4868
+zone0_height=4868
+zone0_desc=The Dark Caverns. Task Dungeon 7
+
+;Mini The Dark Caverns Map - Koalinth - KT8
+; Koalinth - KT8 - Hibernia - Catacombs
+[region449]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=449
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20711
+zone0_offsety=19487
+zone0_width=8017
+zone0_height=8017
+zone0_desc=The Dark Caverns
+
+;Mini The Dark Caverns Map - Koalinth - KT1
+; Koalinth - KT1 - Hibernia - Catacombs
+[region465]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=465
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21747
+zone0_offsety=22759
+zone0_width=3889
+zone0_height=3889
+zone0_desc=The Dark Caverns
+
+;Mini The Dark Caverns Map - Koalinth - KT2
+; Koalinth - KT2 - Hibernia - Catacombs
+[region466]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=466
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22170
+zone0_offsety=22214
+zone0_width=4502
+zone0_height=4502
+zone0_desc=The Dark Caverns. 
+
+;Mini The Dark Caverns Map - Koalinth - KT3
+; Koalinth - KT3 - Hibernia - Catacombs
+[region467]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=467
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22417
+zone0_offsety=22532
+zone0_width=3806
+zone0_height=3806
+zone0_desc=The Dark Caverns. 
+
+;Mini The Dark Caverns Map - Koalinth - KT4
+; Koalinth - KT4 - Hibernia - Catacombs
+[region468]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=468
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20722
+zone0_offsety=21768
+zone0_width=5169
+zone0_height=5169
+zone0_desc=The Dark Caverns. 
+
+;Mini The Dark Caverns Map - Koalinth - KT5
+; Koalinth - KT5 - Hibernia - Catacombs
+[region469]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=469
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21173
+zone0_offsety=21133
+zone0_width=5172
+zone0_height=5172
+zone0_desc=The Dark Caverns. 
+
+;Mini The Brawler's Den Map - Koalinth - AW1
+; Koalinth - AW1 - Hibernia - Catacombs
+[region483]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Brawler's Den
+zone0_number=483
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18667
+zone0_offsety=13824
+zone0_width=10983
+zone0_height=10983
+zone0_desc=You are in an adventure wing within the Koalinth Caverns.
+
+;Mini Felena's Sorrow Map - Koalinth - AW2
+; Koalinth - AW2 - Hibernia - Catacombs
+[region484]
+zone_count=1
+zone_width=256
+zone_height=256
+; Felena's Sorrow
+zone0_number=484
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15433
+zone0_offsety=22813
+zone0_width=11015
+zone0_height=11015
+zone0_desc=You are in an adventure wing within the Koalinth Caverns.
+
+;Mini Accursed Caves Map - Triebh - KT1
+; Triebh - KT1 - Hibernia - Catacombs
+[region460]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=460
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22810
+zone0_offsety=20859
+zone0_width=5642
+zone0_height=5642
+zone0_desc=The Accursed Caves. 
+
+;Mini Accursed Caves Map - Triebh - KT2
+; Triebh - KT2 - Hibernia - Catacombs
+[region461]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=461
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22244
+zone0_offsety=20920
+zone0_width=5215
+zone0_height=5215
+zone0_desc=The Accursed Caves. 
+
+;Mini Accursed Caves Map - Triebh - KT3
+; Triebh - KT3 - Hibernia - Catacombs
+[region462]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=462
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21979
+zone0_offsety=21201
+zone0_width=5960
+zone0_height=5960
+zone0_desc=The Accursed Caves. 
+
+;Mini Accursed Caves Map - Triebh - KT4
+; Triebh - KT4 - Hibernia - Catacombs
+[region463]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=463
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18525
+zone0_offsety=21567
+zone0_width=4246
+zone0_height=4246
+zone0_desc=The Accursed Caves. 
+
+;Mini Accursed Caves Map - Triebh - KT5
+; Triebh - KT5 - Hibernia - Catacombs
+[region464]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=464
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20159
+zone0_offsety=21771
+zone0_width=6959
+zone0_height=6959
+zone0_desc=The Accursed Caves. 
+
+;Mini Accursed Caves Map - Triebh - KT6
+; Triebh - KT6 - Hibernia - Catacombs
+[region477]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=477
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20700
+zone0_offsety=20734
+zone0_width=4680
+zone0_height=4680
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Accursed Caves Map - Triebh - KT7
+; Triebh - KT7 - Hibernia - Catacombs
+[region478]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=478
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22170
+zone0_offsety=21684
+zone0_width=6361
+zone0_height=6361
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Ancient's Retreat - Triebh - AW1
+; Triebh - AW1 - Hibernia - Catacombs
+[region479]
+zone_count=1
+zone_width=256
+zone_height=256
+; Ancient's Retreat
+zone0_number=479
+zone0_left=0
+zone0_top=0
+zone0_offsetx=17262
+zone0_offsety=14429
+zone0_width=11199
+zone0_height=11199
+zone0_desc=You are in an adventure wing within Triebh Caillte.
+
+;Mini The Shaman's Inner Sanctum Map - Triebh - AW2
+; Triebh - AW2 - Hibernia - Catacombs
+[region480]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Shaman's Inner Sanctum
+zone0_number=480
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15679
+zone0_offsety=19407
+zone0_width=10933
+zone0_height=10933
+zone0_desc=You are in an adventure wing within Triebh Caillte.
+
+;Mini Accursed Caves Map - Triebh - KT8
+; Triebh - KT8 - Hibernia - Catacombs
+[region481]
+zone_count=1
+zone_width=256
+zone_height=256
+; Accursed Caves
+zone0_number=481
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20109
+zone0_offsety=21002
+zone0_width=6830
+zone0_height=6830
+zone0_desc=Level 31-40 kill task dungeon
+
+;Mini Blathnait's Refuge Sanctum Map - Veil Rift - AW1
+; Veil Rift - AW1 - Hibernia - Catacombs
+[region446]
+zone_count=1
+zone_width=256
+zone_height=256
+; Blathnait's Refuge
+zone0_number=446
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2721
+zone0_offsety=1449
+zone0_width=31679
+zone0_height=31679
+zone0_desc=You are in an adventure wing within the Veil Rift.
+
+;Mini Broken Mirrors Sanctum Map - Veil Rift - AW2
+; Veil Rift - AW2 - Hibernia - Catacombs
+[region447]
+zone_count=1
+zone_width=256
+zone_height=256
+; Broken Mirrors
+zone0_number=447
+zone0_left=0
+zone0_top=0
+zone0_offsetx=2158
+zone0_offsety=714
+zone0_width=27312
+zone0_height=27312
+zone0_desc=You are in an adventure wing within the Veil Rift.
+
+;Mini Maze of Madness Map - Queen's Labrynth - AW1
+; Queen's Labyrnth - AW1 - Hibernia - Catacombs
+[region491]
+zone_count=1
+zone_width=256
+zone_height=256
+; Maze of Madness
+zone0_number=491
+zone0_left=0
+zone0_top=0
+zone0_offsetx=14174
+zone0_offsety=20326
+zone0_width=16818
+zone0_height=16818
+zone0_desc=You are in an adventure wing within the Queen's Labrynth.
+
+;Mini Shattered Lands Map - Queen's Labrynth - AW2
+; Queen's Labyrnth - AW2 - Hibernia - Catacombs
+[region492]
+zone_count=1
+zone_width=256
+zone_height=256
+; Shattered Lands
+zone0_number=492
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13304
+zone0_offsety=23234
+zone0_width=20417
+zone0_height=20417
+zone0_desc=You are in an adventure wing within the Queen's Labrynth.
+
+;Mini Unused Mines Map - Abandoned Mines - AW1
+; Abandoned Mines - AW1 - Hibernia - Catacombs
+[region049]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=049
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21215
+zone0_offsety=13367
+zone0_width=19335
+zone0_height=19335
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
+
+;Mini Half Orc Command Post Map - Hibernia - Quest
+; Abandoned Mines - Hibernia - Catacombs
+[region470]
+zone_count=1
+zone_width=256
+zone_height=256
+; Half Orc Command Post
+zone0_number=470
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=You are within a Half Orc Command Post.
+
+;Mini Unused Mines Map - Coruscating Mine - KT1
+; Coruscating Mine - KT1 - Hibernia - Catacombs
+[region048]
+zone_count=1
+zone_width=256
+zone_height=256
+; Unused Mines
+zone0_number=048
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18337
+zone0_offsety=20722
+zone0_width=7452
+zone0_height=7452
+zone0_desc=You are in a kill task region of the Coruscating Mine.
+
+;Mini The Deep Map - Nyttheim - AW1
+; Nyttheim - AW1 - Hibernia - Catacombs
+[region496]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Deep
+zone0_number=496
+zone0_left=0
+zone0_top=0
+zone0_offsetx=25070
+zone0_offsety=14408
+zone0_width=18277
+zone0_height=18277
+zone0_desc=You are in an adventuring wing within Nyttheim.
+
+;Mini The Great Pyramid Map - Stygia Boss
+; Stygia Boss - Stygia - Atlantis
+[region045]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Great Pyramid
+zone0_number=045
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20046
+zone0_offsety=19583
+zone0_width=7525
+zone0_height=7525
+zone0_desc=You are within the Great Pyramid.
+
+;Mini Celestius Map - Master Level 10
+; Celestius - Atlantis
+[region091]
+zone_count=1
+zone_width=256
+zone_height=256
+; Celestius
+zone0_number=091
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19843
+zone0_offsety=19844
+zone0_width=7929
+zone0_height=7929
+zone0_desc=You have entered the heavenly body of the sky, a place protected by a particularly powerful guardian.
+
+;Mini The Great Pyramid Map - Stygia Boss
+; Stygia Boss - Stygia - Atlantis
+[region145]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Great Pyramid
+zone0_number=145
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20046
+zone0_offsety=19583
+zone0_width=7525
+zone0_height=7525
+zone0_desc=You are within the Great Pyramid.
+
+;Mini The Great Pyramid Map - Stygia Boss
+; Stygia Boss - Stygia - Atlantis
+[region088]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Great Pyramid
+zone0_number=088
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20046
+zone0_offsety=19583
+zone0_width=7525
+zone0_height=7525
+zone0_desc=You are within the Great Pyramid.
+
+;Mini Hib 30 Epic Dungeon Map - Epic Revamp
+; Hib 30 Epic Dungeon Map - Epic Revamp
+[region325]
+zone_count=1
+zone_width=256
+zone_height=256
+; Forgotten Tunnels
+zone0_number=325
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1067
+zone0_offsety=1160
+zone0_width=12498
+zone0_height=12498
+zone0_desc=The Forgotten Tunnels
+
+;Mini Alb 30 Epic Dungeon Map - Epic Revamp
+; Alb 30 Epic Dungeon Map - Epic Revamp
+[region326]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Hidden Lair
+zone0_number=326
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19070
+zone0_offsety=19153
+zone0_width=13302
+zone0_height=13302
+zone0_desc=The Hidden Lair
+
+;Mini Mid 30 Epic Dungeon Map - Epic Revamp
+; Mid35-45 Epic Dungeon Map - Epic Revamp
+[region328]
+zone_count=1
+zone_width=256
+zone_height=256
+; Mid 30 Epic Dungeon
+zone0_number=328
+zone0_left=0
+zone0_top=0
+zone0_offsetx=8866
+zone0_offsety=14997
+zone0_width=19235
+zone0_height=19235
+zone0_desc=The Hidden Lair
+
+;Mini Hib 35-45 Epic Dungeon Map - Epic Revamp
+; Hib 35-45 Epic Dungeon Map - Epic Revamp
+[region355]
+zone_count=1
+zone_width=256
+zone_height=256
+; Tethra's Stronghold
+zone0_number=355
+zone0_left=0
+zone0_top=0
+zone0_offsetx=15031
+zone0_offsety=12894
+zone0_width=12684
+zone0_height=12684
+zone0_desc=Tethra's Stronghold
+
+;Mini Alb 35-45 Epic Dungeon Map - Epic Revamp
+; Alb 35-45 Epic Dungeon Map - Epic Revamp
+[region356]
+zone_count=1
+zone_width=256
+zone_height=256
+; Barrow of Restless Dead
+zone0_number=356
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20724
+zone0_offsety=23726
+zone0_width=10172
+zone0_height=10172
+zone0_desc=Barrow of Restless Dead
+
+;Mini Mid 35-45 Epic Dungeon Map - Epic Revamp
+; Mid 35-45 Epic Dungeon Map - Epic Revamp
+[region359]
+zone_count=1
+zone_width=256
+zone_height=256
+; Red Dagger Hideout
+zone0_number=359
+zone0_left=0
+zone0_top=0
+zone0_offsetx=12488
+zone0_offsety=8879
+zone0_width=16718
+zone0_height=16718
+zone0_desc=Red Dagger Hideout
+
+;Mini Summoner's Hall Map - Frontiers Dungeon
+; Summoner's Hall Map - Frontier
+[region233]
+zone_count=1
+zone_width=256
+zone_height=256
+; Summoner's Hall
+zone0_number=233
+zone0_left=0
+zone0_top=0
+zone0_offsetx=13562
+zone0_offsety=15091
+zone0_width=23938
+zone0_height=23938
+zone0_desc=Dark and dank, the Summoner's Hall proves to be an uninviting domain.
+
+;Mini Passage of Conflict Map - Frontiers Dungeon
+; Passage of Conflict Map - Frontier
+[region244]
+zone_count=1
+zone_width=256
+zone_height=256
+; Passage of Conflict
+zone0_number=244
+zone0_left=0
+zone0_top=0
+zone0_offsetx=6022
+zone0_offsety=5176
+zone0_width=42340
+zone0_height=42340
+zone0_desc=No corner is safe within the Passage of Conflict.  Your enemies may lurk beyond any turn.
+
+;Mini The Great Pyramid Map - Stygia Boss
+; Stygia Boss - Stygia - Atlantis
+[region045]
+zone_count=1
+zone_width=256
+zone_height=256
+; The Great Pyramid
+zone0_number=045
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20046
+zone0_offsety=19583
+zone0_width=7525
+zone0_height=7525
+zone0_desc=You are within the Great Pyramid.
+
+;Mini Crystal Cave Map - Avalon
+; Crystal Cave Map - Albion - Shrouded Isles
+[region062]
+zone_count=1
+zone_width=256
+zone_height=256
+; Crystal Cave
+zone0_number=062
+zone0_left=0
+zone0_top=0
+zone0_offsetx=19334
+zone0_offsety=21177
+zone0_width=7410
+zone0_height=7410
+zone0_desc=You find yourself in a large cave beneath the city of Avalon.  Unique crystalline structures grow from the floor, walls, and ceiling.  It is rumored that a two-headed dragon has claimed this place as its lair.
+
+;Mini Bandits Lair Map - Midgard - Quest
+; Abandoned Mines - Midgard - Catacombs
+[region365]
+zone_count=1
+zone_width=256
+zone_height=256
+; Bandits Lair
+zone0_number=365
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Bandits Lair
+
+;Mini Gnolls Lair Map - Midgard - Quest
+; Abandoned Mines - Midgard - Catacombs
+[region366]
+zone_count=1
+zone_width=256
+zone_height=256
+; Gnolls Lair
+zone0_number=366
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Gnolls Lair
+
+;Mini Vandrs Bane Map - Midgard - Quest
+; Burial Grounds - Midgard - Catacombs
+[region367]
+zone_count=1
+zone_width=256
+zone_height=256
+; Vandrs Bane
+zone0_number=367
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22810
+zone0_offsety=21952
+zone0_width=3716
+zone0_height=3716
+zone0_desc=Vandrs Bane
+
+;Mini Past and Present Map - Albion - Quest
+; Sewers - Albion - Catacombs
+[region368]
+zone_count=1
+zone_width=256
+zone_height=256
+; Past and Present
+zone0_number=368
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22058
+zone0_offsety=23118
+zone0_width=3489
+zone0_height=3489
+zone0_desc=Past and Present
+
+;Mini Half Orc Camp Map - Midgard - Quest
+; Nyttheim - Midgard - Catacombs
+[region369]
+zone_count=1
+zone_width=256
+zone_height=256
+; Half Orc Camp
+zone0_number=369
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20492
+zone0_offsety=20522
+zone0_width=5055
+zone0_height=5055
+zone0_desc=You are within a Half Orc Camp.
+
+;Mini Brutal Realization Map - Albion - Quest
+; Abandoned Mines - Albion - Catacombs
+[region370]
+zone_count=1
+zone_width=256
+zone_height=256
+; Brutal Realization
+zone0_number=370
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21965
+zone0_offsety=21752
+zone0_width=4649
+zone0_height=4649
+zone0_desc=Brutal Realization
+
+;Mini Camelot Map -Albion
+; Camelot - Albion
+[region010]
+zone_count=1
+zone_width=256
+zone_height=256
+; Camelot
+zone0_number=026
+zone0_left=0
+zone0_top=0
+zone0_offsetx=21900
+zone0_offsety=13350
+zone0_width=11200
+zone0_height=11200
+zone0_desc=You are in the grand city of Camelot, capital city of Albion.
+
+;Mini Avalon City Map - Albion
+; Avalon City - Albion - Shrouded Isles
+[region050]
+zone_count=1
+zone_width=256
+zone_height=256
+; Avalon City
+zone0_number=050
+zone0_left=0
+zone0_top=0
+zone0_offsetx=10130
+zone0_offsety=11915
+zone0_width=28840
+zone0_height=28840
+zone0_desc=The once beautiful city of Avalon has been reduced to smoldering rubble as a result of the Drakoran invasion.
+
+;Mini Jordheim Map -Midgard
+; Jordheim - Midgard
+[region101]
+zone_count=1
+zone_width=256
+zone_height=256
+; Jordheim
+zone0_number=120
+zone0_left=0
+zone0_top=0
+zone0_offsetx=18580
+zone0_offsety=17917
+zone0_width=11455
+zone0_height=11455
+zone0_desc=You are in the glorious city of Jordheim, the capital city of Midgard.
+
+;Mini Tir na Nog Map - Hibernia
+; Tir na Nog - Hibernia
+[region201]
+zone_count=1
+zone_width=256
+zone_height=256
+; Tir Na Nog
+zone0_number=209
+zone0_left=0
+zone0_top=0
+zone0_offsetx=9900
+zone0_offsety=15750
+zone0_width=17400
+zone0_height=17400
+zone0_desc=You are in the brilliant city of Tir na Nog, the capital city of Hibernia.
+
+; Labyrinth Expansion Dungeon
+[region245]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth of the Minotaur
+zone0_number=245
+zone0_left=0
+zone0_top=0
+zone0_offsetx=1641
+zone0_offsety=1157
+zone0_width=62582
+zone0_height=62582
+zone0_desc=This immense complex has served many purposes in its lifetime, acting as home, capitol, fortress and prison to the Minotaur race. Much of its architecture was shaped by the Relics, first designed for their protection and later twisted by their dark power.  Sealed for centuries, corruption and chaos now rule these echoing halls.
+zone0_realm=0
+
+; Labyrinth Albion Tower Instance
+[region391]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Albion Tower Instance
+zone0_number=391
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20001
+zone0_offsety=20529
+zone0_width=4574
+zone0_height=4574
+zone0_desc=
+zone0_realm=0
+
+; Labyrinth Midgard Tower Instance
+[region398]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Midgard Tower Instance
+zone0_number=398
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20208
+zone0_offsety=20711
+zone0_width=4367
+zone0_height=4367
+zone0_desc=
+zone0_realm=0
+
+; Labyrinth Hibernia Tower Instance
+[region399]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Hibernia Tower Instance
+zone0_number=399
+zone0_left=0
+zone0_top=0
+zone0_offsetx=20729
+zone0_offsety=20970
+zone0_width=3883
+zone0_height=3883
+zone0_desc=
+zone0_realm=0
+
+; Labyrinth Albion Cave Instance
+[region192]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Albion Cave Instance
+zone0_number=192
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
+zone0_realm=0
+
+; Labyrinth Midgard Cave Instance
+[region193]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Midgard Cave Instance
+zone0_number=193
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
+zone0_realm=0
+
+; Labyrinth Hibernia Cave Instance
+[region194]
+zone_count=1
+zone_width=256
+zone_height=256
+; Labyrinth Hibernia Cave Instance
+zone0_number=194
+zone0_left=0
+zone0_top=0
+zone0_offsetx=22788
+zone0_offsety=21546
+zone0_width=4717
+zone0_height=4717
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
+zone0_realm=0
+
+;Thidranki
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=252
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Thidranki - BG Level 20-24.
+
+;Murdaigean
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=253
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Murdaigean - BG Level 26-30.
+
+;Caledonia
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=250
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Caledonia - BG Level 30-34.
+
+;Thidranki
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=252
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Thidranki - BG Level 20-24.
+
+;Murdaigean
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=253
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Abermenai - BG Level 25-29.
+
+;Caledonia
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=250
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Caledonia - BG Level 30-34.
