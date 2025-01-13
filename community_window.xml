@@ -865,9 +865,9 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>
@@ -885,11 +885,11 @@
             <TemplateName>generic_tabs</TemplateName>
             <ControlId>1002</ControlId>
             <Position>
-                <X>5</X>
+                <X>4</X>
                 <Y>15</Y>
             </Position>
-            <Width>585</Width>
-            <Height>365</Height>
+            <Width>590</Width>
+            <Height>368</Height>
         <Tab>
             <Id>1</Id>
             <Name>News</Name>
@@ -1237,9 +1237,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -1290,9 +1290,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
@@ -1343,9 +1343,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>200</A>
             </Color>
             <FontName>tokafontbold10</FontName>
