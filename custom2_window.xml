@@ -60,7 +60,7 @@
         <ScalarLabelDef>
             <Position>
                 <X>16</X>
-                <Y>4</Y>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -85,7 +85,7 @@
         <LabelDef>
             <Position>
                 <X>38</X>
-                <Y>4</Y>
+                <Y>2</Y>
             </Position>
             <Color>
                 <R>255</R>

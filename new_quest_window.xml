@@ -103,7 +103,7 @@
         <LabelDef>
             <Position>
                 <X>15</X>
-                <Y>221</Y>
+                <Y>218</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -556,7 +556,7 @@
         <LabelDef>
             <Position>
                 <X>15</X>
-                <Y>316</Y>
+                <Y>313</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -564,7 +564,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold13</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>256</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -576,7 +576,7 @@
         <LabelDef>
             <Position>
                 <X>200</X>
-                <Y>316</Y>
+                <Y>313</Y>
             </Position>
             <Color>
                 <R>255</R>
