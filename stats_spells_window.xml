@@ -12,7 +12,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>tokafontbold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -20,15 +20,15 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -80,9 +80,9 @@
         <IconTemplate>plain_icon_small</IconTemplate>
         <FontName>TokaFontRegular10</FontName>
         <FontColor>
-            <R>192</R>
-            <G>192</G>
-            <B>192</B>
+            <R>204</R>
+            <G>204</G>
+            <B>204</B>
             <A>255</A>
         </FontColor>
         <LinePadding>1</LinePadding>
@@ -153,7 +153,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_tree_control</TemplateName>
+            <TemplateName>generic_tree_control</TemplateName>
             <AdapterName>stats_spells</AdapterName>
             <Width>171</Width>
             <Height>355</Height>
@@ -173,10 +173,10 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>192</A>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
             <Width>164</Width>

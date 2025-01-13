@@ -220,6 +220,25 @@
         </LabelDef>
 
 
+        <LabelDef>
+            <Position>
+                <X>183</X>
+                <Y>5</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>tokafontbold12</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Quest Journal</Data>
+        </LabelDef>
+
+
     </WindowTemplate>
 
 

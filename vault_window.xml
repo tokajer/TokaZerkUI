@@ -76,7 +76,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background_transparent</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>290</Width>
             <Height>375</Height>
         </FullResizeImageDef>
@@ -92,7 +92,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background_blackflat</TemplateName>
+            <TemplateName>dlg_background_vaultdrop</TemplateName>
             <Width>258</Width>
             <Height>360</Height>
         </FullResizeImageDef>

@@ -66,10 +66,10 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>192</A>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
             <Width>164</Width>
@@ -88,7 +88,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_tree_control</TemplateName>
+            <TemplateName>generic_tree_control</TemplateName>
             <AdapterName>stats_combat</AdapterName>
             <Width>171</Width>
             <Height>355</Height>

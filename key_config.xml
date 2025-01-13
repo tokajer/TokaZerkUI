@@ -159,7 +159,7 @@
             </Alignment>
             <Width>280</Width>
             <Height>275</Height>
-            <TemplateName>keyconfig_listbox</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>key_config</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -288,7 +288,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_checkbox</TemplateName>
+            <TemplateName>generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>CTRL Key as Modifier</Data>
@@ -306,7 +306,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_checkbox</TemplateName>
+            <TemplateName>generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ALT Key as Modifier</Data>

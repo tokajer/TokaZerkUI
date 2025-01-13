@@ -52,12 +52,12 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>tokafontbold14</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

@@ -620,7 +620,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>140</Width>
             <Height>250</Height>
             <MaxCharacters>128</MaxCharacters>

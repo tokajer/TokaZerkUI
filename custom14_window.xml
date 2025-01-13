@@ -291,12 +291,12 @@
                 <Y>11</Y>
             </Position>
             <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular14</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>630</Width>
             <Height>17</Height>
             <MaxCharacters>15</MaxCharacters>

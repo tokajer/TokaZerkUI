@@ -183,9 +183,9 @@
                 <Y>25</Y>
             </Position>
             <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
@@ -215,9 +215,9 @@
                 <Y>57</Y>
             </Position>
             <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>
@@ -307,7 +307,7 @@
             </Position>
             <Width>159</Width>
             <Height>100</Height>
-            <TemplateName>g_listbox_nobg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>siege_ammo</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>

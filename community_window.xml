@@ -575,7 +575,7 @@
         <LinePadding>4</LinePadding>
         <CellPadding>5</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
+        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>2</ScrollbarTopOffset>
         <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
@@ -631,9 +631,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -660,7 +660,7 @@
         <LinePadding>4</LinePadding>
         <CellPadding>5</CellPadding>
         <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
+        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>2</ScrollbarTopOffset>
         <ScrollbarBottomOffset>2</ScrollbarBottomOffset>
@@ -712,9 +712,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -793,9 +793,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>212</R>
-                <G>175</G>
-                <B>55</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>

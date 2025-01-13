@@ -19,7 +19,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaFontBold10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -114,7 +114,7 @@
             </Alignment>
             <Width>178</Width>
             <Height>100</Height>
-            <TemplateName>listbox_green_bg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>stats_specs</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -152,7 +152,7 @@
             </Alignment>
             <Width>178</Width>
             <Height>115</Height>
-            <TemplateName>listbox_green_bg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>stats_abil</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -190,7 +190,7 @@
             </Alignment>
             <Width>178</Width>
             <Height>96</Height>
-            <TemplateName>listbox_green_bg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>stats_trades</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>

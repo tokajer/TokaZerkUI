@@ -45,8 +45,8 @@
 
         <LabelDef>
             <Position>
-                <X>115</X>
-                <Y>20</Y>
+                <X>105</X>
+                <Y>19</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -55,7 +55,7 @@
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
-            <Width>135</Width>
+            <Width>155</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>INTERFACE ELEMENTS</Data>
@@ -419,9 +419,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
@@ -441,9 +441,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
@@ -463,9 +463,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
@@ -485,9 +485,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>
@@ -507,9 +507,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
                 <A>255</A>
             </Color>
             <FontName>tokafontbold12</FontName>

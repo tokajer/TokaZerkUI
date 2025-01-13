@@ -49,12 +49,12 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold14</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>300</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -891,13 +891,9 @@
 
         <LabelDef>
             <Position>
-                <X>1</X>
-                <Y>34</Y>
+                <X>95</X>
+                <Y>505</Y>
             </Position>
-            <Alignment>
-                <OffsetBottom>true</OffsetBottom>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
             <Color>
                 <R>56</R>
                 <G>165</G>
@@ -914,13 +910,9 @@
 
         <LabelDef>
             <Position>
-                <X>1</X>
-                <Y>19</Y>
+                <X>78</X>
+                <Y>518</Y>
             </Position>
-            <Alignment>
-                <OffsetBottom>true</OffsetBottom>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
             <Color>
                 <R>56</R>
                 <G>165</G>
@@ -928,10 +920,10 @@
                 <A>255</A>
             </Color>
             <FontName>tokafontbold10</FontName>
-            <Width>240</Width>
+            <Width>250</Width>
             <Height>10</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>based on GhostUI and BysanUI by Tokajer (2025)</Data>
+            <Data>based on GhostUI and BysanUI by Tokajer &amp; Zerker (2025)</Data>
         </LabelDef>
 
 

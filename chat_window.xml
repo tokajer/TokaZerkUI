@@ -123,9 +123,9 @@
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>

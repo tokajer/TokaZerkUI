@@ -110,7 +110,7 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>30</X>
-                <Y>15</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -124,7 +124,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>94</X>
-                <Y>15</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -171,11 +171,11 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold14</FontName>
+            <FontName>tokafontbold12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>QuestJournal</Data>
+            <Data>Quest Journal</Data>
         </LabelDef>
 
 
