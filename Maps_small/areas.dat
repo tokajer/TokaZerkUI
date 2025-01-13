@@ -1,0 +1,366 @@
+; areas.dat
+; 
+; This file contains the information used to display maps for specified area 
+; within a zone.
+;
+; Area textures and named the same as zone textures, but they have a two 
+; digit area number appended to the name. So where zone 200's texture is...
+;
+;	z200.dds
+;
+; ...zone 200 area 0 would be 
+;
+;	z200_00.dds
+;	
+; ...zone 200 area 1 would be 
+;
+;	z200_01.dds
+;
+; precise grammar for this file:
+; [zone%3d]				zone number
+; area_count=%d			number of areas in the zone (helps parsing)
+; area0_left=%d			left side of the area in word units
+; area0_top=%d			top of the area in word units
+; area0_z=%d			"ceiling" of the area in word units (optional)
+; area0_width=%d		width of the area in word units
+; area0_height=%d		height of the area in word units
+; area0_depth=%d		depth of the area in word units (optional)
+; area0_name=%s			name of this area (optional)
+; area0_desc=%s			description of this area (optional)
+; area1_left=%d       
+; area1_top=%d      
+; area1_width=%d      
+; ...
+
+;[zone200]
+;area_count=1
+;area0_left=24611
+;area0_top=5321
+;area0_width=5034
+;area0_height=3885
+;area0_name=Mag Mell
+;area0_desc=This is Mag Mell. Its a great place. Really.
+
+
+[zone027]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Caer Stamford
+area0_desc=This rustic region is named after the current sovereign of Albion, King Constantine. It is said that Constantine was raised in the village of Holtham and began his training as a paladin within Caer Stamford. Today proud parents and supporters of the King send their children here for schooling and training.
+
+
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Holtham
+area1_desc=This rustic region is named after the current sovereign of Albion, King Constantine. It is said that Constantine was raised in the village of Holtham and began his training as a paladin within Caer Stamford. Today proud parents and supporters of the King send their children here for schooling and training.
+
+
+[zone028]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Thorsa Faste
+area0_desc=This fabled land is where the first Viking clan landed upon the Midgard motherland. Here Clan Grenlock settled a bustling village named Hafheim and erected a formidable fortress that they called Thorsa Faste. The proud Vikings have never forgotten their roots and continue to protect this land.
+
+
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Hafheim
+area1_desc=This fabled land is where the first Viking clan landed upon the Midgard motherland. Here Clan Grenlock settled a bustling village named Hafheim and erected a formidable fortress that they called Thorsa Faste. The proud Vikings have never forgotten their roots and continue to protect this land.
+
+[zone029]
+area_count=2
+area0_left=26000
+area0_top=29600
+area0_width=8192
+area0_height=8192
+area0_name=Dun Cormyra
+area0_desc=This lush country is steeped in the legends of the Elven King, Lug Lamfhota. It is upon these shores that myths speak of King Lamfhota being gifted with the magical blade Fragarach by his foster father Manannan. The people of the village Fintain and the guardians of Dun Cormyra revere the legends to this day.
+
+
+area1_left=26000
+area1_top=21408
+area1_width=8192
+area1_height=8192
+area1_name=Fintain
+area1_desc=This lush country is steeped in the legends of the Elven King, Lug Lamfhota. It is upon these shores that myths speak of King Lamfhota being gifted with the magical blade Fragarach by his foster father Manannan. The people of the village Fintain and the guardians of Dun Cormyra revere the legends to this day.
+
+[zone489]
+area_count=2
+area0_left=0
+area0_top=0
+area0_z=25000
+area0_width=27836
+area0_height=27836
+area0_depth=4000
+area0_name=Balban's Breach
+area0_desc=Designed for adventurers level 5-10, Balban's Breach is accessible by all three realms 
+making this an excellent crash course in realm vs. realm combat.
+area1_left=0
+area1_top=0
+area1_z=13500
+area1_width=27836
+area1_height=27836
+area1_depth=4000
+area1_name=Nergal's Breach
+area1_desc=Designed for adventurers level 1-4, Nergal's Breach is accessible by all three realms 
+making this an excellent crash course in realm vs. realm combat.
+
+[zone019]
+area_count=2
+area0_left=0
+area0_top=0
+area0_z=15399
+area0_width=12694
+area0_height=12694
+area0_depth=2206
+area0_name=Upper Barrows
+area0_desc=The upper portion of the Stonehenge Barrows.
+area1_left=0
+area1_top=0
+area1_z=13399
+area1_width=12694
+area1_height=12694
+area1_depth=2000
+area1_name=Lower Barrows
+area1_desc=The lower portion of the Stonehenge Barrows.
+
+[zone125]
+area_count=2
+area0_left=0
+area0_top=0
+area0_z=15653
+area0_width=10733
+area0_height=10733
+area0_depth=4000
+area0_name=Upper Spindelhalla
+area0_desc=The upper portion of Spindelhalla.
+area1_left=0
+area1_top=0
+area1_z=14151
+area1_width=10733
+area1_height=10733
+area1_depth=1502
+area1_name=Lower Spindelhalla
+area1_desc=The lower portion of Spindelhalla.
+
+[zone060]
+area_count=5
+area0_left=0
+area0_top=0
+area0_z=17500
+area0_width=20195
+area0_height=20195
+area0_depth=1350
+area0_name=Entry Level
+area0_desc=You are in the entry level of Caer Sidi.
+area1_left=0
+area1_top=0
+area1_z=16000
+area1_width=20195
+area1_height=20195
+area1_depth=1500
+area1_name=Sublevel One
+area1_desc=You are on the first sublevel of Caer Sidi, one level down from the entrance.
+area2_left=0
+area2_top=0
+area2_z=14800
+area2_width=20195
+area2_height=20195
+area2_depth=1200
+area2_name=Sublevel Two
+area2_desc=You are in the second sublevel of Caer Sidi, two levels down from the entrance.
+area3_left=0
+area3_top=0
+area3_z=13000
+area3_width=20195
+area3_height=20195
+area3_depth=1800
+area3_name=Sublevel Three
+area3_desc=You are in the lowest reaches of Caer Sidi, three levels below the entry level.
+area4_left=0
+area4_top=0
+area4_z=18850
+area4_width=20195
+area4_height=20195
+area4_depth=3150
+area4_name=Top Level
+area4_desc=You are in the highest levels of Caer Sidi, in or near the Chamber of Apocalypse.
+
+[zone150]
+area_count=2
+area0_left=0
+area0_top=0
+area0_z=13700
+area0_width=46240
+area0_height=46240
+area0_depth=2700
+area0_name=Main Floor
+area0_desc=You are on the main level of Trollheim.  Here you will find living spaces, shops, and an assortment of other places where the Trolls once lived, worked, and played.
+area1_left=0
+area1_top=0
+area1_z=16400
+area1_width=46240
+area1_height=46240
+area1_depth=3100
+area1_name=Temple of War
+area1_desc=The Temple of War is where the trolls once gathered to pay tribute to their war gods and practiced their combat skills, and where generals discussed tactics and strategy.
+
+[zone190]
+area_count=4
+area0_left=0
+area0_top=0
+area0_z=11150
+area0_width=24617
+area0_height=24617
+area0_depth=1350
+area0_name=Sublevel
+area0_desc=You are in the sublevel of Tur Suil, one level down from the entrance.
+area1_left=0
+area1_top=0
+area1_z=12500
+area1_width=24617
+area1_height=24617
+area1_depth=1450
+area1_name=Entry Level
+area1_desc=You are on the entry level of Tur Suil.
+area2_left=0
+area2_top=0
+area2_z=13950
+area2_width=24617
+area2_height=24617
+area2_depth=1400
+area2_name=Level Two
+area2_desc=You are on the second level of Tur Suil, one level above the entrance.
+area3_left=0
+area3_top=0
+area3_z=15350
+area3_width=24617
+area3_height=24617
+area3_depth=1750
+area3_name=Level Three
+area3_desc=You are in the highest reaches of Tur Suil, two levels above the entrance.
+
+
+[zone161]
+area_count=2
+area0_left=0
+area0_top=0
+area0_z=15750
+area0_width=34211
+area0_height=34211
+area0_depth=5050
+area0_name=Main Tunnels
+area0_desc=Iarnvidiur's Lair is a maze of twisting, turning tunnels.  Everything about this place feels unnatural.
+area1_left=0
+area1_top=0
+area1_z=12600
+area1_width=34211
+area1_height=34211
+area1_depth=3150
+area1_name=Lower Tunnels
+area1_desc=You head downwards, finding yourself in yet another series of winding tunnels.
+
+[zone245]
+area_count=5
+area0_left=0
+area0_top=0
+area0_z=29930
+area0_width=62582
+area0_height=62582
+area0_depth=4131
+area0_name=Entry Level
+area0_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area1_left=0
+area1_top=0
+area1_z=28885
+area1_width=62582
+area1_height=62582
+area1_depth=1045
+area1_name=Hub Level 1
+area1_desc=Ancient devices of clockwork and dark magic maintain this portion of the Labyrinth, making constant repairs and guarding against intruders.  The Minotaur Construct is the greatest of these, maintaining unblinking watch over the Relics it was created to protect.  
+area2_left=0
+area2_top=0
+area2_z=27400
+area2_width=62582
+area2_height=62582
+area2_depth=1485
+area2_name=Hub Level 2
+area2_desc=In these halls are the remnants of what was once a great city.  Destroyed in the sealing of the labyrinth, time and the movement of earth have contributed further to the ruin of the old Minotaur capital. Lost Relics may be buried in the rubble, perhaps the cause of the cataclysm can be found there as well.
+area3_left=0
+area3_top=0
+area3_z=25250
+area3_width=62582
+area3_height=62582
+area3_depth=2150
+area3_name=Hub Level 3
+area3_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic. 
+area4_left=0
+area4_top=0
+area4_z=20900
+area4_width=62582
+area4_height=62582
+area4_depth=4350
+area4_name=Hub Level 4
+area4_desc=In the deepest tunnels flooding has been rampant. Here the whirring of clockwork is absent, instead the hiss of falling sand and dripping of water is audible everywhere.  The smell of decay grows thicker as you descend.  Somewhere in the depths the Dracolich waits and guards its treasured Relic.
+
+[zone249]
+area_count=6
+area0_left=0
+area0_top=0
+area0_z=20801
+area0_width=43414
+area0_height=43414
+area0_depth=3549
+area0_name=Map 1
+area0_desc=
+area1_left=0
+area1_top=0
+area1_z=19126
+area1_width=43414
+area1_height=43414
+area1_depth=1675
+area1_name=Map 2
+area1_desc=
+area2_left=0
+area2_top=0
+area2_z=17901
+area2_width=43414
+area2_height=43414
+area2_depth=1225
+area2_name=Map 3
+area2_desc=
+area3_left=0
+area3_top=0
+area3_z=16701
+area3_width=43414
+area3_height=43414
+area3_depth=1200
+area3_name=Map 4
+area3_desc=
+area4_left=0
+area4_top=0
+area4_z=14901
+area4_width=43414
+area4_height=43414
+area4_depth=1800
+area4_name=Map 5
+area4_desc=
+area5_left=0
+area5_top=0
+area5_z=12800
+area5_width=43414
+area5_height=43414
+area5_depth=2101
+area5_name=Map 6
+area5_desc=
+
