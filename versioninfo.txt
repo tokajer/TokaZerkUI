@@ -1,2 +1,7 @@
-Tokajer's and Zerkers DAOC UI Eden 2.0.2
+Tokajer's and Zerkers DAOC UI Eden 2.0.69
 based on original GhostUI and Edens Byasan UI.
+
+
+Colors
+38A59D -> eden teal
+C0C0C0 -> grey
