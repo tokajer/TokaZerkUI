@@ -117,18 +117,18 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>6</X>
-                <Y>1</Y>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontRegular12</FontName>
             <Width>337</Width>
             <Height>16</Height>
             <MaxCharacters>1024</MaxCharacters>

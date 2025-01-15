@@ -132,20 +132,16 @@
         <LabelDef>
             <ControlId>title_label</ControlId>
             <Position>
-                <X>0</X>
+                <X>270</X>
                 <Y>5</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>200</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -362,7 +358,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>tokafontbold10</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>100</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -403,7 +399,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>tokafontbold10</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>110</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -428,7 +424,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>tokafontbold10</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>110</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>

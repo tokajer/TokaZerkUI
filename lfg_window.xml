@@ -333,7 +333,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -1270,7 +1270,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>75</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -1341,7 +1341,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>75</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -1437,7 +1437,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_checkbox</TemplateName>
+            <TemplateName>small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Looking For Players</Data>
@@ -1455,7 +1455,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_checkbox</TemplateName>
+            <TemplateName>small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Not Looking</Data>
@@ -1473,7 +1473,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_checkbox</TemplateName>
+            <TemplateName>small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Battlegroup</Data>
@@ -1499,7 +1499,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>75</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -1534,7 +1534,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>75</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

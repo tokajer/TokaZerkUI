@@ -12,17 +12,17 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular11</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorPressed>
                 <R>56</R>
                 <G>165</G>
                 <B>157</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -39,7 +39,7 @@
             </ColorDisabled>
             <TextOffset>
                 <X>14</X>
-                <Y>0</Y>
+                <Y>-1</Y>
             </TextOffset>
             <TextAlignment>
                 <TopLeft>true</TopLeft>
@@ -178,7 +178,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>164</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>

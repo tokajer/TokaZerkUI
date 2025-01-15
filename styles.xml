@@ -897,7 +897,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -1015,7 +1015,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -1881,7 +1881,7 @@
         <Height>16</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -1985,7 +1985,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2031,7 +2031,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2077,7 +2077,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold12</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2123,7 +2123,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2169,7 +2169,7 @@
         <BackgroundTemplate>g_window_background_tokajer</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2215,7 +2215,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2261,7 +2261,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2307,7 +2307,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>225</R>
                 <G>225</G>
@@ -2353,7 +2353,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2399,7 +2399,7 @@
         <BackgroundTemplate>dlg_interior_large</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold12</Name>
+            <Name>tokafontregular12</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2449,7 +2449,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2484,7 +2484,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2805,7 +2805,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -2872,7 +2872,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaFontRegular11</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -2939,7 +2939,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3073,7 +3073,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3140,7 +3140,7 @@
             <Y>16</Y>
         </Size>
         <Font>
-            <Name></Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3267,7 +3267,7 @@
         <Name>listbox_hrbutton</Name>
         <Height>16</Height>
         <Font>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -3401,7 +3401,7 @@
         <Name>generic_hr_button</Name>
         <Height>18</Height>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>208</R>
                 <G>228</G>
@@ -3912,7 +3912,7 @@
         <Name>tab_button</Name>
         <Height>17</Height>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3960,7 +3960,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>225</R>
                 <G>225</G>
@@ -4908,7 +4908,7 @@
         <BackgroundTemplate>dlg_background_1px</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -4954,7 +4954,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -5203,7 +5203,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -5863,7 +5863,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_large</IconTemplate>
         <TextFont>
-            <Name></Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -7300,7 +7300,7 @@
         <BackgroundTemplate></BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name></Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -8770,7 +8770,7 @@
         <Height>17</Height>
         <LabelLength>200</LabelLength>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -9093,7 +9093,7 @@
 
     <ChatControlTemplate>
         <Name>chat2</Name>
-        <FontName>font_chat</FontName>
+        <FontName>tokafontbold10</FontName>
         <BackgroundTemplate>dlg_background_transparent</BackgroundTemplate>
         <ScrollbarTemplate>chat_vscroll</ScrollbarTemplate>
     </ChatControlTemplate>
@@ -16750,7 +16750,7 @@
 
     <ChatControlTemplate>
         <Name>chat3</Name>
-        <FontName>font_chat</FontName>
+        <FontName>tokafontbold10</FontName>
         <BackgroundTemplate>toka_bg_90</BackgroundTemplate>
         <ScrollbarTemplate>vscroll_no_gutter2</ScrollbarTemplate>
     </ChatControlTemplate>
@@ -17952,7 +17952,7 @@
         <Name>hr_button</Name>
         <Height>20</Height>
         <Font>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18014,7 +18014,7 @@
         <Name>context_hr_button_wtext</Name>
         <Height>16</Height>
         <Font>
-            <Name>chatfont</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18052,7 +18052,7 @@
         <Name>context_hr_button</Name>
         <Height>16</Height>
         <Font>
-            <Name></Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18624,7 +18624,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold9</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18683,7 +18683,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18763,7 +18763,7 @@
         <Name>hr_button_tokajer</Name>
         <Height>18</Height>
         <Font>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -18872,7 +18872,7 @@
             <Y>18</Y>
         </Size>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaFontRegular10</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>

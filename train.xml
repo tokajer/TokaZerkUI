@@ -108,7 +108,7 @@
             </Alignment>
             <Width>280</Width>
             <Height>125</Height>
-            <TemplateName>g_listbox_nobg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>train_skills</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -132,7 +132,7 @@
             </Alignment>
             <Width>280</Width>
             <Height>225</Height>
-            <TemplateName>g_listbox_nobg</TemplateName>
+            <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>train_realm</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -165,7 +165,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -195,7 +195,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>96</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -225,7 +225,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -255,7 +255,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>96</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

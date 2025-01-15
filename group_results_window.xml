@@ -19,7 +19,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold10</Name>
+            <Name>tokafontregular10</Name>
             <ColorNormal>
                 <R>192</R>
                 <G>192</G>
@@ -161,7 +161,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -180,7 +180,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -199,7 +199,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -218,7 +218,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -237,7 +237,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -256,7 +256,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -275,7 +275,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

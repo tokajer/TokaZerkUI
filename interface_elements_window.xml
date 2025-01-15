@@ -54,7 +54,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>155</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -424,7 +424,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -446,7 +446,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -468,7 +468,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -490,7 +490,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -512,7 +512,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>120</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>

@@ -53,7 +53,7 @@
         <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>TokaFontBold10</FontName>
+        <FontName>TokaFontRegular10</FontName>
         <FontColor>
             <R>192</R>
             <G>192</G>
@@ -62,7 +62,7 @@
         </FontColor>
         <LinePadding>0</LinePadding>
         <OffsetX>0</OffsetX>
-        <OffsetY>0</OffsetY>
+        <OffsetY>5</OffsetY>
         <TextOffset>2</TextOffset>
     </TreeControlTemplate>
 
@@ -126,7 +126,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontRegular11</FontName>
             <Width>272</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>
@@ -201,7 +201,7 @@
             <ControlId>1005</ControlId>
             <Position>
                 <X>99</X>
-                <Y>8</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -212,7 +212,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontRegular11</FontName>
             <Width>300</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>
@@ -222,7 +222,7 @@
 
         <LabelDef>
             <Position>
-                <X>183</X>
+                <X>209</X>
                 <Y>5</Y>
             </Position>
             <Color>
@@ -231,7 +231,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

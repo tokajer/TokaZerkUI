@@ -59,7 +59,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold12</FontName>
             <Width>175</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -82,7 +82,7 @@
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>175</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
