@@ -72,11 +72,11 @@
                 <X>10</X>
                 <Y>24</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -92,11 +92,11 @@
                 <X>10</X>
                 <Y>40</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>190</Width>
@@ -112,11 +112,11 @@
                 <X>10</X>
                 <Y>56</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>190</Width>
@@ -132,11 +132,11 @@
                 <X>10</X>
                 <Y>72</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>190</Width>

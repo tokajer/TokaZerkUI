@@ -245,11 +245,11 @@
                 <X>83</X>
                 <Y>194</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>150</Width>
@@ -265,11 +265,11 @@
                 <X>83</X>
                 <Y>206</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>150</Width>
@@ -285,11 +285,11 @@
                 <X>83</X>
                 <Y>219</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>150</Width>

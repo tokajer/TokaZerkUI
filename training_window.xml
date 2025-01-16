@@ -114,11 +114,11 @@
                 <X>40</X>
                 <Y>50</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -137,11 +137,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_spec_avail</Adapter>
         </ScalarLabelDef>
@@ -155,11 +155,11 @@
                 <X>40</X>
                 <Y>70</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -178,11 +178,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_spec_needed</Adapter>
             <ColorAdapter>training_spec_color</ColorAdapter>
@@ -197,11 +197,11 @@
                 <X>40</X>
                 <Y>90</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -220,11 +220,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_spec_remaining</Adapter>
             <ColorAdapter>training_spec_color</ColorAdapter>
@@ -261,11 +261,11 @@
                 <X>220</X>
                 <Y>50</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -284,11 +284,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_realm_avail</Adapter>
         </ScalarLabelDef>
@@ -302,11 +302,11 @@
                 <X>220</X>
                 <Y>70</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -325,11 +325,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_realm_needed</Adapter>
             <ColorAdapter>training_realm_color</ColorAdapter>
@@ -344,11 +344,11 @@
                 <X>220</X>
                 <Y>90</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -367,11 +367,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>training_realm_remaining</Adapter>
             <ColorAdapter>training_realm_color</ColorAdapter>
@@ -409,11 +409,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>train_min_level</Adapter>
             <ColorAdapter>train_min_level_color</ColorAdapter>
@@ -1228,11 +1228,11 @@
                 <X>35</X>
                 <Y>180</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1280,11 +1280,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level0</Adapter>
             <ColorAdapter>spec_level_color0</ColorAdapter>
@@ -1300,11 +1300,11 @@
                 <X>35</X>
                 <Y>205</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1352,11 +1352,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level1</Adapter>
             <ColorAdapter>spec_level_color1</ColorAdapter>
@@ -1372,11 +1372,11 @@
                 <X>35</X>
                 <Y>230</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1424,11 +1424,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level2</Adapter>
             <ColorAdapter>spec_level_color2</ColorAdapter>
@@ -1444,11 +1444,11 @@
                 <X>35</X>
                 <Y>255</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1496,11 +1496,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level3</Adapter>
             <ColorAdapter>spec_level_color3</ColorAdapter>
@@ -1516,11 +1516,11 @@
                 <X>35</X>
                 <Y>280</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1568,11 +1568,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level4</Adapter>
             <ColorAdapter>spec_level_color4</ColorAdapter>
@@ -1588,11 +1588,11 @@
                 <X>35</X>
                 <Y>305</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1640,11 +1640,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level5</Adapter>
             <ColorAdapter>spec_level_color5</ColorAdapter>
@@ -1660,11 +1660,11 @@
                 <X>35</X>
                 <Y>330</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1712,11 +1712,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level6</Adapter>
             <ColorAdapter>spec_level_color6</ColorAdapter>
@@ -1732,11 +1732,11 @@
                 <X>35</X>
                 <Y>355</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -1784,11 +1784,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>spec_level7</Adapter>
             <ColorAdapter>spec_level_color7</ColorAdapter>
@@ -2201,11 +2201,11 @@
                 <X>25</X>
                 <Y>165</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -2226,11 +2226,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_level0</Adapter>
             <Data>Level: </Data>
@@ -2247,11 +2247,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_skill_amount0</Adapter>
             <Data>New Abilities: </Data>
@@ -2452,11 +2452,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_page0</Adapter>
         </ScalarLabelDef>
@@ -2472,11 +2472,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_amount0</Adapter>
             <Data>of   </Data>
@@ -2503,11 +2503,11 @@
                 <X>25</X>
                 <Y>245</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -2528,11 +2528,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_level1</Adapter>
             <Data>Level: </Data>
@@ -2549,11 +2549,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_skill_amount1</Adapter>
             <Data>New Abilities: </Data>
@@ -2754,11 +2754,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_page1</Adapter>
         </ScalarLabelDef>
@@ -2774,11 +2774,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_amount1</Adapter>
             <Data>of   </Data>
@@ -2805,11 +2805,11 @@
                 <X>25</X>
                 <Y>325</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -2830,11 +2830,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_level2</Adapter>
             <Data>Level: </Data>
@@ -2851,11 +2851,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_skill_amount2</Adapter>
             <Data>New Abilities: </Data>
@@ -3056,11 +3056,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_page2</Adapter>
         </ScalarLabelDef>
@@ -3076,11 +3076,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_amount2</Adapter>
             <Data>of   </Data>
@@ -3107,11 +3107,11 @@
                 <X>25</X>
                 <Y>405</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>150</Width>
@@ -3132,11 +3132,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_level3</Adapter>
             <Data>Level: </Data>
@@ -3153,11 +3153,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_skill_amount3</Adapter>
             <Data>New Abilities: </Data>
@@ -3358,11 +3358,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_page3</Adapter>
         </ScalarLabelDef>
@@ -3378,11 +3378,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>summary_amount3</Adapter>
             <Data>of   </Data>
@@ -3418,11 +3418,11 @@
                 <X>20</X>
                 <Y>180</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3470,11 +3470,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level0</Adapter>
             <ColorAdapter>realm_level_color0</ColorAdapter>
@@ -3491,11 +3491,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost0</Adapter>
             <Data>Cost: </Data>
@@ -3511,11 +3511,11 @@
                 <X>20</X>
                 <Y>201</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3563,11 +3563,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level1</Adapter>
             <ColorAdapter>realm_level_color1</ColorAdapter>
@@ -3584,11 +3584,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost1</Adapter>
             <Data>Cost: </Data>
@@ -3604,11 +3604,11 @@
                 <X>20</X>
                 <Y>222</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3656,11 +3656,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level2</Adapter>
             <ColorAdapter>realm_level_color2</ColorAdapter>
@@ -3677,11 +3677,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost2</Adapter>
             <Data>Cost: </Data>
@@ -3697,11 +3697,11 @@
                 <X>20</X>
                 <Y>243</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3749,11 +3749,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level3</Adapter>
             <ColorAdapter>realm_level_color3</ColorAdapter>
@@ -3770,11 +3770,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost3</Adapter>
             <Data>Cost: </Data>
@@ -3790,11 +3790,11 @@
                 <X>20</X>
                 <Y>264</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3842,11 +3842,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level4</Adapter>
             <ColorAdapter>realm_level_color4</ColorAdapter>
@@ -3863,11 +3863,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost4</Adapter>
             <Data>Cost: </Data>
@@ -3883,11 +3883,11 @@
                 <X>20</X>
                 <Y>285</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -3935,11 +3935,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level5</Adapter>
             <ColorAdapter>realm_level_color5</ColorAdapter>
@@ -3956,11 +3956,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost5</Adapter>
             <Data>Cost: </Data>
@@ -3976,11 +3976,11 @@
                 <X>20</X>
                 <Y>306</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4028,11 +4028,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level6</Adapter>
             <ColorAdapter>realm_level_color6</ColorAdapter>
@@ -4049,11 +4049,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost6</Adapter>
             <Data>Cost: </Data>
@@ -4069,11 +4069,11 @@
                 <X>20</X>
                 <Y>327</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4121,11 +4121,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level7</Adapter>
             <ColorAdapter>realm_level_color7</ColorAdapter>
@@ -4142,11 +4142,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost7</Adapter>
             <Data>Cost: </Data>
@@ -4162,11 +4162,11 @@
                 <X>20</X>
                 <Y>348</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4214,11 +4214,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level8</Adapter>
             <ColorAdapter>realm_level_color8</ColorAdapter>
@@ -4235,11 +4235,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost8</Adapter>
             <Data>Cost: </Data>
@@ -4255,11 +4255,11 @@
                 <X>20</X>
                 <Y>369</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4307,11 +4307,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level9</Adapter>
             <ColorAdapter>realm_level_color9</ColorAdapter>
@@ -4328,11 +4328,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost9</Adapter>
             <Data>Cost: </Data>
@@ -4348,11 +4348,11 @@
                 <X>20</X>
                 <Y>390</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4400,11 +4400,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level10</Adapter>
             <ColorAdapter>realm_level_color10</ColorAdapter>
@@ -4421,11 +4421,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost10</Adapter>
             <Data>Cost: </Data>
@@ -4441,11 +4441,11 @@
                 <X>20</X>
                 <Y>411</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4493,11 +4493,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level11</Adapter>
             <ColorAdapter>realm_level_color11</ColorAdapter>
@@ -4514,11 +4514,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost11</Adapter>
             <Data>Cost: </Data>
@@ -4534,11 +4534,11 @@
                 <X>20</X>
                 <Y>432</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4586,11 +4586,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level12</Adapter>
             <ColorAdapter>realm_level_color12</ColorAdapter>
@@ -4607,11 +4607,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost12</Adapter>
             <Data>Cost: </Data>
@@ -4627,11 +4627,11 @@
                 <X>20</X>
                 <Y>453</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontBold11</FontName>
             <Width>165</Width>
@@ -4679,11 +4679,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_level13</Adapter>
             <ColorAdapter>realm_level_color13</ColorAdapter>
@@ -4700,11 +4700,11 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>realm_cost13</Adapter>
             <Data>Cost: </Data>

@@ -21,10 +21,10 @@
         <TextFont>
             <Name>tokafontregular10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorHighlit>
                 <R>0</R>

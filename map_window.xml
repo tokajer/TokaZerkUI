@@ -25,10 +25,10 @@
         <Font>
             <Name>TokaFontRegular11</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorActive>
                 <R>255</R>
@@ -85,11 +85,11 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>300</Width>

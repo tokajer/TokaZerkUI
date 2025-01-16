@@ -186,10 +186,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -237,10 +237,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -288,10 +288,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -339,10 +339,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -390,10 +390,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -441,10 +441,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -492,10 +492,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -543,10 +543,10 @@
         <TextFont>
             <Name>TokaFontBold10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorPressed>
                 <R>212</R>
@@ -625,10 +625,10 @@
         <TextFont>
             <Name>TokaFontRegular10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorHighlit>
                 <R>56</R>
@@ -706,10 +706,10 @@
         <TextFont>
             <Name>tokafontregular10</Name>
             <ColorNormal>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </ColorNormal>
             <ColorHighlit>
                 <R>56</R>
@@ -1397,11 +1397,11 @@
                 <X>17</X>
                 <Y>48</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -1437,11 +1437,11 @@
                 <X>215</X>
                 <Y>46</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>50</Width>
@@ -1477,11 +1477,11 @@
                 <X>302</X>
                 <Y>48</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -1517,11 +1517,11 @@
                 <X>366</X>
                 <Y>48</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -1555,11 +1555,11 @@
                 <X>510</X>
                 <Y>46</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -1595,11 +1595,11 @@
                 <X>17</X>
                 <Y>62</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>100</Width>
@@ -1635,11 +1635,11 @@
                 <X>109</X>
                 <Y>62</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>75</Width>
@@ -1676,11 +1676,11 @@
                 <Y>62</Y>
             </Position>
             <ToolTipID>135</ToolTipID>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>75</Width>
@@ -1717,11 +1717,11 @@
                 <X>366</X>
                 <Y>62</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>75</Width>
@@ -1911,11 +1911,11 @@
                 <X>537</X>
                 <Y>282</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontregular10</FontName>
             <Width>20</Width>
@@ -1979,11 +1979,11 @@
                 <X>99</X>
                 <Y>302</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>100</Width>
@@ -2050,11 +2050,11 @@
                 <X>17</X>
                 <Y>54</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -2090,11 +2090,11 @@
                 <X>238</X>
                 <Y>54</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold10</FontName>
             <Width>50</Width>
@@ -2233,11 +2233,11 @@
                 <X>535</X>
                 <Y>282</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontregular10</FontName>
             <Width>25</Width>

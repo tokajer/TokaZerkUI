@@ -179,11 +179,11 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>215</Width>
@@ -250,11 +250,11 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>215</Width>
@@ -321,11 +321,11 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>215</Width>

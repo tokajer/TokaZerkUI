@@ -55,9 +55,9 @@
         <IconTemplate>plain_icon_small</IconTemplate>
         <FontName>TokaFontRegular10</FontName>
         <FontColor>
-            <R>192</R>
-            <G>192</G>
-            <B>192</B>
+            <R>229</R>
+            <G>229</G>
+            <B>229</B>
             <A>255</A>
         </FontColor>
         <LinePadding>0</LinePadding>

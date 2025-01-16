@@ -99,11 +99,11 @@
                 <X>7</X>
                 <Y>37</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -123,11 +123,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level0</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -184,11 +184,11 @@
                 <X>145</X>
                 <Y>37</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -208,11 +208,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level1</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -269,11 +269,11 @@
                 <X>7</X>
                 <Y>120</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -293,11 +293,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level2</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -354,11 +354,11 @@
                 <X>145</X>
                 <Y>120</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -378,11 +378,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level3</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -439,11 +439,11 @@
                 <X>7</X>
                 <Y>203</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -463,11 +463,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level4</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -524,11 +524,11 @@
                 <X>145</X>
                 <Y>203</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -548,11 +548,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level5</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -609,11 +609,11 @@
                 <X>7</X>
                 <Y>286</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -633,11 +633,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level6</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
@@ -694,11 +694,11 @@
                 <X>145</X>
                 <Y>286</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>128</Width>
@@ -718,11 +718,11 @@
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>group_level7</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>

@@ -73,11 +73,11 @@
                 <X>8</X>
                 <Y>32</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>216</Width>
@@ -96,11 +96,11 @@
             <Width>216</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>keep_upgrade_target</Adapter>
         </ScalarLabelDef>
@@ -111,11 +111,11 @@
                 <X>8</X>
                 <Y>52</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>216</Width>
@@ -134,11 +134,11 @@
             <Width>216</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <Adapter>keep_upgrade_level</Adapter>
         </ScalarLabelDef>
@@ -150,11 +150,11 @@
                 <X>8</X>
                 <Y>72</Y>
             </Position>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
             <Width>216</Width>

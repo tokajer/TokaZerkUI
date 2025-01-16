@@ -53,11 +53,11 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold11</FontName>
             <Width>150</Width>
@@ -93,11 +93,11 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
+             <Color>
+                <R>229</R>
+                <G>229</G>
+                <B>229</B>
+                <A>229</A>
             </Color>
             <FontName>tokafontbold12</FontName>
             <Width>150</Width>
