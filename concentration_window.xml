@@ -10,16 +10,16 @@
         <WindowId>Concentration</WindowId>
         <CloseButton>true</CloseButton>
         <MoveButton>true</MoveButton>
-        <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <TopRightResizeButton>true</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>128</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>128</Width>
         <Height>104</Height>
-        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
