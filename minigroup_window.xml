@@ -325,7 +325,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>tokafontbold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -338,13 +338,13 @@
         <ScalarLabelDef>
             <ControlId>member_0_label_hp</ControlId>
             <Position>
-                <X>21</X>
+                <X>19</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>tokafontbold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -473,7 +473,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -486,13 +486,13 @@
         <ScalarLabelDef>
             <ControlId>member_1_label_hp</ControlId>
             <Position>
-                <X>21</X>
+                <X>19</X>
                 <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -621,7 +621,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -634,13 +634,13 @@
         <ScalarLabelDef>
             <ControlId>member_2_label_hp</ControlId>
             <Position>
-                <X>21</X>
+                <X>19</X>
                 <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -769,7 +769,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -782,13 +782,13 @@
         <ScalarLabelDef>
             <ControlId>member_3_label_hp</ControlId>
             <Position>
-                <X>21</X>
+                <X>19</X>
                 <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -917,7 +917,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -930,13 +930,13 @@
         <ScalarLabelDef>
             <ControlId>member_4_label_hp</ControlId>
             <Position>
-                <X>145</X>
+                <X>143</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1065,7 +1065,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1078,13 +1078,13 @@
         <ScalarLabelDef>
             <ControlId>member_5_label_hp</ControlId>
             <Position>
-                <X>145</X>
+                <X>143</X>
                 <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1213,7 +1213,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1226,13 +1226,13 @@
         <ScalarLabelDef>
             <ControlId>member_6_label_hp</ControlId>
             <Position>
-                <X>145</X>
+                <X>143</X>
                 <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -1361,7 +1361,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>76</Width>
             <Height>12</Height>
             <MaxCharacters>14</MaxCharacters>
@@ -1374,13 +1374,13 @@
         <ScalarLabelDef>
             <ControlId>member_7_label_hp</ControlId>
             <Position>
-                <X>145</X>
+                <X>143</X>
                 <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>tokafontbold12</FontName>
+            <FontName>TokaFontBold11</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>

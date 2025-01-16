@@ -313,7 +313,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>66</Y>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -336,7 +336,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>66</Y>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -359,7 +359,7 @@
             <ControlId>2000</ControlId>
             <Position>
                 <X>7</X>
-                <Y>66</Y>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -636,7 +636,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>104</Y>
+                <Y>102</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -659,7 +659,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>104</Y>
+                <Y>102</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -682,7 +682,7 @@
             <ControlId>2001</ControlId>
             <Position>
                 <X>7</X>
-                <Y>104</Y>
+                <Y>102</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -959,7 +959,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>142</Y>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -982,7 +982,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>142</Y>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1005,7 +1005,7 @@
             <ControlId>2002</ControlId>
             <Position>
                 <X>7</X>
-                <Y>142</Y>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1282,7 +1282,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>180</Y>
+                <Y>178</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1305,7 +1305,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>180</Y>
+                <Y>178</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1328,7 +1328,7 @@
             <ControlId>2003</ControlId>
             <Position>
                 <X>7</X>
-                <Y>180</Y>
+                <Y>178</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1605,7 +1605,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>218</Y>
+                <Y>216</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1628,7 +1628,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>218</Y>
+                <Y>216</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1651,7 +1651,7 @@
             <ControlId>2004</ControlId>
             <Position>
                 <X>7</X>
-                <Y>218</Y>
+                <Y>216</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1928,7 +1928,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>256</Y>
+                <Y>254</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1951,7 +1951,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>256</Y>
+                <Y>254</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1974,7 +1974,7 @@
             <ControlId>2005</ControlId>
             <Position>
                 <X>7</X>
-                <Y>256</Y>
+                <Y>254</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2251,7 +2251,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>294</Y>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2274,7 +2274,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>294</Y>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2297,7 +2297,7 @@
             <ControlId>2006</ControlId>
             <Position>
                 <X>7</X>
-                <Y>294</Y>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2574,7 +2574,7 @@
         <LabelDef>
             <Position>
                 <X>24</X>
-                <Y>332</Y>
+                <Y>330</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2597,7 +2597,7 @@
         <LabelDef>
             <Position>
                 <X>107</X>
-                <Y>332</Y>
+                <Y>330</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2620,7 +2620,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>7</X>
-                <Y>332</Y>
+                <Y>330</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

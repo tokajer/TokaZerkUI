@@ -157,13 +157,13 @@
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
-                <X>3</X>
-                <Y>11</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>chat_scale</TemplateName>
+            <TemplateName>g_button_bag</TemplateName>
         </ButtonDef>
 
 

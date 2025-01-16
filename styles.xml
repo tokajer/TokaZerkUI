@@ -39,10 +39,10 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>navigation</TextureName>
+            <TextureName>uielements</TextureName>
             <Normal>
-                <X>0</X>
-                <Y>43</Y>
+                <X>173</X>
+                <Y>115</Y>
             </Normal>
             <Pressed>
                 <X>14</X>
@@ -277,7 +277,7 @@
         <Texture>
             <TextureName>uielements</TextureName>
             <Normal>
-                <X>135</X>
+                <X>173</X>
                 <Y>119</Y>
             </Normal>
             <Pressed>
@@ -2137,9 +2137,9 @@
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
-                <R>127</R>
-                <G>127</G>
-                <B>127</B>
+                <R>102</R>
+                <G>102</G>
+                <B>102</B>
                 <A>255</A>
             </ColorGreyed>
             <TextTopOffset>0</TextTopOffset>

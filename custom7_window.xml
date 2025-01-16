@@ -353,7 +353,7 @@
             <ControlId>member_1_label</ControlId>
             <Position>
                 <X>36</X>
-                <Y>58</Y>
+                <Y>57</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -378,7 +378,7 @@
             <ControlId>member_1_class</ControlId>
             <Position>
                 <X>36</X>
-                <Y>67</Y>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

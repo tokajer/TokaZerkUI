@@ -1041,9 +1041,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>156</R>
-                <G>255</G>
-                <B>133</B>
+                <R>0</R>
+                <G>153</G>
+                <B>51</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
@@ -1109,9 +1109,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>156</R>
-                <G>255</G>
-                <B>133</B>
+                <R>0</R>
+                <G>153</G>
+                <B>51</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontRegular10</FontName>
