@@ -41,7 +41,7 @@
 
         <LabelDef>
             <Position>
-                <X>-4</X>
+                <X>0</X>
                 <Y>2</Y>
             </Position>
             <Alignment>
@@ -69,8 +69,8 @@
             </Position>
             <Color>
                 <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <G>153</G>
+                <B>0</B>
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>
