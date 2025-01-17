@@ -11,6 +11,12 @@
     </Texture>
 
 
+    <Texture>
+        <Name>g_page2</Name>
+        <File>custom/Assets/ghost/ghost_page2.tga</File>
+    </Texture>
+
+
     <CheckBoxTemplate>
         <Name>group_highlight1</Name>
         <Size>
@@ -79,7 +85,7 @@
 
 
     <StatusIconTemplate>
-        <Name>HSI</Name>
+        <Name>hsi</Name>
         <TextureName>health_status_icon</TextureName>
         <TextureStart>
             <X>0</X>
@@ -262,7 +268,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>HSI</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
 
@@ -411,7 +417,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>HSI</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
 
@@ -560,7 +566,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
 
@@ -709,7 +715,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
 
@@ -858,7 +864,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
 
@@ -1007,7 +1013,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
 
@@ -1153,7 +1159,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
 
@@ -1302,7 +1308,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>hsi</TemplateName>
+            <TemplateName>hsi_bsn</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
 
