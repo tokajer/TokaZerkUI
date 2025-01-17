@@ -40,7 +40,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_9px_grey</TemplateName>
+            <TemplateName>b_bar_9px_orange</TemplateName>
             <AdapterName>realm_exp_coarse</AdapterName>
             <Width>150</Width>
         </StatusBarDef>
@@ -55,7 +55,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_xp5_grey</TemplateName>
+            <TemplateName>b_bar_xp5_orange</TemplateName>
             <AdapterName>realm_exp_fine</AdapterName>
             <Width>148</Width>
         </StatusBarDef>

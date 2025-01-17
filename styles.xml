@@ -8323,6 +8323,66 @@
 
 
     <HorizontalResizeImageTemplate>
+        <Name>b_bar_xp5_orangefg</Name>
+        <Height>9</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>449</X>
+                <Y>134</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_xp5_orangebg</Name>
+        <Height>13</Height>
+        <LeftWidth>2</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>442</X>
+                <Y>132</Y>
+            </Left>
+            <Repeat>
+                <X>443</X>
+                <Y>132</Y>
+            </Repeat>
+            <Right>
+                <X>443</X>
+                <Y>132</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>b_bar_xp5_orange</Name>
+        <ForegroundHResizeTemplate>b_bar_xp5_orangefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>b_bar_xp5_orangebg</BackgroundHResizeTemplate>
+        <Height>13</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>2</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <HorizontalResizeImageTemplate>
         <Name>b_bar_xp5_bluefg</Name>
         <Height>9</Height>
         <LeftWidth>0</LeftWidth>
@@ -8464,6 +8524,66 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_9px_orangefg</Name>
+        <Height>7</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>15</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>445</X>
+                <Y>154</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_9px_orangebg</Name>
+        <Height>7</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>15</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>429</X>
+                <Y>154</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>b_bar_9px_orange</Name>
+        <ForegroundHResizeTemplate>b_bar_9px_orangefg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>b_bar_9px_orangebg</BackgroundHResizeTemplate>
+        <Height>7</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
 
 
     <HorizontalResizeImageTemplate>
