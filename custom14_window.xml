@@ -94,7 +94,7 @@
 
 
         <TabsDef>
-            <TemplateName>tokajer_tab_large</TemplateName>
+            <TemplateName>tokajer_tab</TemplateName>
             <Position>
                 <X>5</X>
                 <Y>14</Y>
@@ -220,8 +220,8 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
-            <Width>621</Width>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
             <Height>426</Height>
         </FullResizeImageDef>
 
@@ -232,7 +232,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>426</Height>
         </FullResizeImageDef>
@@ -311,7 +311,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>none</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -344,7 +344,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -377,7 +377,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -410,7 +410,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -443,7 +443,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -476,7 +476,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>
@@ -509,7 +509,7 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>dlg_background_transparent</TemplateName>
             <Width>621</Width>
             <Height>393</Height>
         </FullResizeImageDef>

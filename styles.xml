@@ -18636,7 +18636,7 @@
 
     <TabsTemplate>
         <Name>tokajer_tab</Name>
-        <ControlAreaFullResizeImageTemplate>g_window_background_blackflat</ControlAreaFullResizeImageTemplate>
+        <ControlAreaFullResizeImageTemplate>g_window_background_tokajer</ControlAreaFullResizeImageTemplate>
         <TabButtonTemplate>button_tokajer_62x18</TabButtonTemplate>
         <TabXOffset>5</TabXOffset>
         <TabYOffset>2</TabYOffset>
