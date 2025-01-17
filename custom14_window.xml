@@ -232,8 +232,8 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
             <Height>426</Height>
         </FullResizeImageDef>
 
@@ -311,9 +311,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>none</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -344,9 +344,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>623</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -377,9 +377,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>623</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -410,9 +410,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -443,9 +443,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -476,9 +476,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
@@ -509,9 +509,9 @@
                 <X>10</X>
                 <Y>44</Y>
             </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>621</Width>
-            <Height>393</Height>
+            <TemplateName>g_window_background_tokajer</TemplateName>
+            <Width>625</Width>
+            <Height>426</Height>
         </FullResizeImageDef>
 
 
