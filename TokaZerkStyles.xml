@@ -2219,6 +2219,48 @@
     </ImageAreaTemplate>
 
 
+    <ImageAreaTemplate>
+        <Name>toka_icon_manager</Name>
+        <TextureName>toka_texture</TextureName>
+        <Size>
+            <X>28</X>
+            <Y>28</Y>
+        </Size>
+        <TopLeft>
+            <X>781</X>
+            <Y>956</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>toka_icon_daoc</Name>
+        <TextureName>g_uielements</TextureName>
+        <Size>
+            <X>28</X>
+            <Y>28</Y>
+        </Size>
+        <TopLeft>
+            <X>88</X>
+            <Y>58</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>toka_icon_daoc2</Name>
+        <TextureName>g_uielements</TextureName>
+        <Size>
+            <X>28</X>
+            <Y>28</Y>
+        </Size>
+        <TopLeft>
+            <X>117</X>
+            <Y>58</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
     <!--icon map -->
 
 

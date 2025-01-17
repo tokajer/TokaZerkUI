@@ -157,13 +157,13 @@
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
-                <X>0</X>
-                <Y>0</Y>
+                <X>7</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>g_button_bag</TemplateName>
+            <TemplateName>window_move</TemplateName>
         </ButtonDef>
 
 
