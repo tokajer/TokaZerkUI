@@ -8383,6 +8383,66 @@
 
 
     <HorizontalResizeImageTemplate>
+        <Name>b_bar_xp5_greenfg</Name>
+        <Height>9</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>409</X>
+                <Y>134</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_xp5_greenbg</Name>
+        <Height>13</Height>
+        <LeftWidth>2</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>401</X>
+                <Y>132</Y>
+            </Left>
+            <Repeat>
+                <X>403</X>
+                <Y>132</Y>
+            </Repeat>
+            <Right>
+                <X>403</X>
+                <Y>132</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>b_bar_xp5_green</Name>
+        <ForegroundHResizeTemplate>b_bar_xp5_greenfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>b_bar_xp5_greenbg</BackgroundHResizeTemplate>
+        <Height>13</Height>
+        <ForegroundOffset>
+            <X>2</X>
+            <Y>2</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <HorizontalResizeImageTemplate>
         <Name>b_bar_xp5_greyfg</Name>
         <Height>9</Height>
         <LeftWidth>0</LeftWidth>
@@ -8404,6 +8464,66 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_9px_greenfg</Name>
+        <Height>7</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>15</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>405</X>
+                <Y>154</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>b_bar_9px_greenbg</Name>
+        <Height>7</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>15</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>389</X>
+                <Y>154</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>b_bar_9px_green</Name>
+        <ForegroundHResizeTemplate>b_bar_9px_greenfg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>b_bar_9px_greenbg</BackgroundHResizeTemplate>
+        <Height>7</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
 
 
     <HorizontalResizeImageTemplate>

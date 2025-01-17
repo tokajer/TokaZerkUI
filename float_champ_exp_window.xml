@@ -40,7 +40,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>toka_statusbar_xp_green</TemplateName>
+            <TemplateName>b_bar_9px_green</TemplateName>
             <AdapterName>summary_champ_exp_coarse</AdapterName>
             <Width>150</Width>
         </StatusBarDef>
