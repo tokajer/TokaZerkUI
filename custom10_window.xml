@@ -5,82 +5,107 @@
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Templates Boutons tab-->
+    <Texture>
+        <Name>health_status_icon</Name>
+        <File>custom/Assets/ghost/ghost_hh_statusicon_original.tga</File>
+    </Texture>
 
 
-    <ButtonTemplate>
-        <Name>bouton_menu_sf</Name>
+    <CheckBoxTemplate>
+        <Name>group_highlight1</Name>
         <Size>
-            <X>46</X>
-            <Y>12</Y>
+            <X>70</X>
+            <Y>68</Y>
         </Size>
         <Font>
-            <Name>Verd9</Name>
+            <Name></Name>
             <ColorNormal>
-                <R>200</R>
-                <G>200</G>
-                <B>200</B>
-                <A>100</A>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
             </ColorNormal>
             <ColorPressed>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>100</A>
+                <A>255</A>
             </ColorPressed>
             <ColorHighlit>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>100</A>
+                <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
-                <R>128</R>
-                <G>128</G>
-                <B>128</B>
-                <A>100</A>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
             </ColorDisabled>
+            <TextOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </TextOffset>
+            <TextAlignment>
+                <TopLeft>true</TopLeft>
+            </TextAlignment>
+            <ChangeFontColor>false</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName></TextureName>
+            <TextureName>g_page2</TextureName>
             <Normal>
-                <X>0</X>
-                <Y>0</Y>
+                <X>2</X>
+                <Y>143</Y>
             </Normal>
             <Pressed>
-                <X>0</X>
-                <Y>0</Y>
+                <X>2</X>
+                <Y>143</Y>
             </Pressed>
             <NormalHighlit>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>73</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>73</Y>
             </PressedHighlit>
             <Disabled>
-                <X>0</X>
-                <Y>0</Y>
+                <X>2</X>
+                <Y>143</Y>
             </Disabled>
         </Texture>
-    </ButtonTemplate>
+    </CheckBoxTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>HSI</Name>
+        <TextureName>health_status_icon</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>64</Width>
+        <Height>64</Height>
+        <MaxLevels>16</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
 
 
     <WindowTemplate>
         <Name>custom10_window</Name>
-        <WindowId>custom10</WindowId>
-        <CloseButton>true</CloseButton>
+        <WindowId>custom10_window</WindowId>
+        <CloseButton>false</CloseButton>
         <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>0</TitleWidth>
+        <TitleWidth>196</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>395</Width>
-        <Height>1</Height>
+        <Width>264</Width>
+        <Height>132</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -90,847 +115,1329 @@
         <ContextTemplateName></ContextTemplateName>
 
 
-        <TabsDef>
-            <TemplateName>tokajer_tab</TemplateName>
+        <CheckBoxDef>
             <Position>
-                <X>5</X>
+                <X>-2</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Width>400</Width>
-            <Height>18</Height>
-        <Tab>
-            <Id>1</Id>
-            <Name>Fight</Name>
-        </Tab>
-        <Tab>
-            <Id>2</Id>
-            <Name>Actions</Name>
-        </Tab>
-        <Tab>
-            <Id>3</Id>
-            <Name>Info 1</Name>
-        </Tab>
-        <Tab>
-            <Id>4</Id>
-            <Name>Info 2</Name>
-        </Tab>
-        <Tab>
-            <Id>5</Id>
-            <Name>UI</Name>
-        </Tab>
-        <Tab>
-            <Id>6</Id>
-            <Name>Group</Name>
-        </Tab>
-        <Tab>
-            <Id>7</Id>
-            <Name></Name>
-        </Tab>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1100</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1101</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1102</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1103</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1104</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1105</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>1</TabId>
-                <ControlId>1106</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1200</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1201</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1202</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1203</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1204</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1205</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>2</TabId>
-                <ControlId>1206</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1300</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1301</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1302</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1303</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1304</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1305</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>3</TabId>
-                <ControlId>1306</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1400</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1401</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1402</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1403</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1404</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1405</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>4</TabId>
-                <ControlId>1406</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1500</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1501</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1502</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1503</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1504</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1505</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>5</TabId>
-                <ControlId>1506</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1600</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1601</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1602</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1603</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1604</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1605</ControlId>
-            </TabControl>
-            <TabControl>
-                <TabId>6</TabId>
-                <ControlId>1606</ControlId>
-            </TabControl>
-        </TabsDef>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
-        <!-- TAB 6 : Groupe -->
+        <CheckBoxDef>
+            <Position>
+                <X>64</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
-        <ButtonDef>
-            <ControlId>1600</ControlId>
+        <CheckBoxDef>
+            <Position>
+                <X>130</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <Position>
+                <X>196</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <Position>
+                <X>196</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <Position>
+                <X>130</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <Position>
+                <X>64</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <Position>
+                <X>-2</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_highlight1</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 1                                    -->
+
+
+        <StatusIconDef>
             <Position>
                 <X>0</X>
-                <Y>20</Y>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Buffs</Label>
-            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
-        </ButtonDef>
+            <TemplateName>HSI</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
 
 
-        <ButtonDef>
-            <ControlId>1601</ControlId>
+        <LabelDef>
             <Position>
-                <X>62</X>
-                <Y>20</Y>
+                <X>2</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>MiniCon</Label>
-            <OnClickEvent>ToggleCustom1</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1602</ControlId>
+        <LabelDef>
             <Position>
-                <X>124</X>
-                <Y>20</Y>
+                <X>2</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>HH</Label>
-            <OnClickEvent>ToggleCustom12</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1603</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>186</X>
-                <Y>20</Y>
+                <X>12</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Gruppe</Label>
-            <OnClickEvent>ToggleCustom7</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1604</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>248</X>
-                <Y>20</Y>
+                <X>42</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Minigrp</Label>
-            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1605</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>310</X>
-                <Y>20</Y>
+                <X>42</X>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Invite</Label>
-            <OnClickEvent>GroupInvite</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1606</ControlId>
-            <Position>
-                <X>372</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Disband</Label>
-            <OnClickEvent>GroupDisband</OnClickEvent>
-        </ButtonDef>
-
-
-        <!-- TAB 5 : Interface -->
-
-
-        <ButtonDef>
-            <ControlId>1500</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>RP</Label>
-            <OnClickEvent>ToggleCustom4</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1501</ControlId>
-            <Position>
-                <X>62</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>XP</Label>
-            <OnClickEvent>ToggleCustom5</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1502</ControlId>
-            <Position>
-                <X>124</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Money</Label>
-            <OnClickEvent>ToggleCustom11</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1503</ControlId>
-            <Position>
-                <X>186</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Perfom</Label>
-            <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1504</ControlId>
-            <Position>
-                <X>248</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Stats</Label>
-            <OnClickEvent>ToggleCustom6</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1505</ControlId>
-            <Position>
-                <X>310</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Summary</Label>
-            <OnClickEvent>ToggleSummary</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1506</ControlId>
-            <Position>
-                <X>372</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Options</Label>
-            <OnClickEvent>ToggleOptions</OnClickEvent>
-        </ButtonDef>
-
-
-        <!-- TAB 4 : Infos -->
-
-
-        <ButtonDef>
-            <ControlId>1400</ControlId>
+        <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>20</Y>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Quest</Label>
-            <OnClickEvent>Journal</OnClickEvent>
-        </ButtonDef>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1401</ControlId>
+        <!--                                 GROUP MEMBER GROUP MEMBER 2                                 -->
+
+
+        <StatusIconDef>
             <Position>
-                <X>62</X>
-                <Y>20</Y>
+                <X>66</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Resists</Label>
-            <OnClickEvent>ToggleCustom15</OnClickEvent>
-        </ButtonDef>
+            <TemplateName>HSI</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
 
 
-        <ButtonDef>
-            <ControlId>1402</ControlId>
+        <LabelDef>
             <Position>
-                <X>124</X>
-                <Y>20</Y>
+                <X>68</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Crafting</Label>
-            <OnClickEvent>ToggleCustom14</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1403</ControlId>
+        <LabelDef>
             <Position>
-                <X>186</X>
-                <Y>20</Y>
+                <X>68</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Conc</Label>
-            <OnClickEvent>ToggleConcentration</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1404</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>248</X>
-                <Y>20</Y>
+                <X>73</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Bonus</Label>
-            <OnClickEvent>Bonuses</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1405</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>310</X>
-                <Y>20</Y>
+                <X>103</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Stats+</Label>
-            <OnClickEvent>ToggleCustom11</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1406</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>372</X>
-                <Y>20</Y>
+                <X>103</X>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Friends</Label>
-            <OnClickEvent>Friends</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <!-- TAB 3 : Menus -->
+        <InvisibleButtonDef>
+            <Position>
+                <X>66</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1300</ControlId>
+        <!--                                 GROUP MEMBER GROUP MEMBER 3                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>132</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>136</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>136</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>139</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>169</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>169</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>132</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER 4                                  -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>198</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>200</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>200</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>205</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>235</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>235</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>198</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER 5                                  -->
+
+
+        <StatusIconDef>
             <Position>
                 <X>0</X>
-                <Y>20</Y>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Realm</Label>
-            <OnClickEvent>Realm</OnClickEvent>
-        </ButtonDef>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
 
 
-        <ButtonDef>
-            <ControlId>1301</ControlId>
+        <LabelDef>
             <Position>
-                <X>62</X>
-                <Y>20</Y>
+                <X>2</X>
+                <Y>69</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Map</Label>
-            <OnClickEvent>ToggleMap</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1302</ControlId>
+        <LabelDef>
             <Position>
-                <X>124</X>
-                <Y>20</Y>
+                <X>2</X>
+                <Y>118</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>RvR</Label>
-            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1303</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>186</X>
-                <Y>20</Y>
+                <X>7</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Ranks</Label>
-            <OnClickEvent>ToggleCustom3</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1304</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>248</X>
-                <Y>20</Y>
+                <X>37</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Bonuses</Label>
-            <OnClickEvent>Bonuses</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1305</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>310</X>
-                <Y>20</Y>
+                <X>37</X>
+                <Y>109</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Relikte</Label>
-            <OnClickEvent>Relic</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1306</ControlId>
-            <Position>
-                <X>372</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Sozial</Label>
-            <OnClickEvent>Community</OnClickEvent>
-        </ButtonDef>
-
-
-        <!-- TAB 2 : Actions -->
-
-
-        <ButtonDef>
-            <ControlId>1200</ControlId>
+        <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>20</Y>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Anon</Label>
-            <OnClickEvent>Anon</OnClickEvent>
-        </ButtonDef>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1201</ControlId>
+        <!--                                 GROUP MEMBER GROUP MEMBER 6                                 -->
+
+
+        <StatusIconDef>
             <Position>
-                <X>62</X>
-                <Y>20</Y>
+                <X>66</X>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Afk</Label>
-            <OnClickEvent>Afk</OnClickEvent>
-        </ButtonDef>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
 
 
-        <ButtonDef>
-            <ControlId>1202</ControlId>
+        <LabelDef>
             <Position>
-                <X>124</X>
-                <Y>20</Y>
+                <X>68</X>
+                <Y>69</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Bind</Label>
-            <OnClickEvent>Bind</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1203</ControlId>
+        <LabelDef>
             <Position>
-                <X>186</X>
-                <Y>20</Y>
+                <X>68</X>
+                <Y>118</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Pray</Label>
-            <OnClickEvent>Pray</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1204</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>248</X>
-                <Y>20</Y>
+                <X>75</X>
+                <Y>88</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Rel</Label>
-            <OnClickEvent>Release</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1205</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>310</X>
-                <Y>20</Y>
+                <X>103</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Task</Label>
-            <OnClickEvent>Task</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1206</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>372</X>
-                <Y>20</Y>
+                <X>103</X>
+                <Y>108</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Quit</Label>
-            <OnClickEvent>Quit</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <!-- TAB 1 : Combat -->
-
-
-        <ButtonDef>
-            <ControlId>1100</ControlId>
+        <InvisibleButtonDef>
             <Position>
-                <X>-1</X>
-                <Y>20</Y>
+                <X>66</X>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Attack</Label>
-            <OnClickEvent>ToggleAttackMode</OnClickEvent>
-        </ButtonDef>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1101</ControlId>
+        <!--                                 GROUP MEMBER GROUP MEMBER 7                                 -->
+
+
+        <StatusIconDef>
             <Position>
-                <X>62</X>
-                <Y>20</Y>
+                <X>132</X>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Stick</Label>
-            <OnClickEvent>Stick</OnClickEvent>
-        </ButtonDef>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
 
 
-        <ButtonDef>
-            <ControlId>1102</ControlId>
+        <LabelDef>
             <Position>
-                <X>124</X>
-                <Y>20</Y>
+                <X>136</X>
+                <Y>69</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Face</Label>
-            <OnClickEvent>Face</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1103</ControlId>
+        <LabelDef>
             <Position>
-                <X>186</X>
-                <Y>20</Y>
+                <X>136</X>
+                <Y>118</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Follow</Label>
-            <OnClickEvent>Follow</OnClickEvent>
-        </ButtonDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1104</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>248</X>
-                <Y>20</Y>
+                <X>141</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Sprint</Label>
-            <OnClickEvent>Sprint</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
-        <ButtonDef>
-            <ControlId>1105</ControlId>
+        <ScalarLabelDef>
             <Position>
-                <X>310</X>
-                <Y>20</Y>
+                <X>169</X>
+                <Y>108</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Sit</Label>
-            <OnClickEvent>ToggleSitting</OnClickEvent>
-        </ButtonDef>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>169</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>132</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 8                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>198</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>200</X>
+                <Y>69</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>200</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>207</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>153</G>
+                <B>0</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_endurance7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>235</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>235</X>
+                <Y>108</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>TokaFontBold11</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>198</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>64</Width>
+            <Height>64</Height>
+        </InvisibleButtonDef>
 
 
     </WindowTemplate>

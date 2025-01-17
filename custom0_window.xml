@@ -113,7 +113,7 @@
 
 
         <ButtonDef>
-            <ControlId>TabComm</ControlId>
+            <ControlId>HH Ghost</ControlId>
             <Position>
                 <X>32</X>
                 <Y>79</Y>
@@ -122,7 +122,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>TabComm</Label>
+            <Label>HH Ghost</Label>
             <OnClickEvent>ToggleCustom10</OnClickEvent>
         </ButtonDef>
 
