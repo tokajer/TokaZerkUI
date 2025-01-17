@@ -66,12 +66,9 @@
 
         <LabelDef>
             <Position>
-                <X>0</X>
+                <X>16</X>
                 <Y>4</Y>
             </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
