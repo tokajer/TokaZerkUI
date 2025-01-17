@@ -65,7 +65,7 @@
         <LabelDef>
             <Position>
                 <X>13</X>
-                <Y>27</Y>
+                <Y>25</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -122,8 +122,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>HH Ghost</Label>
-            <OnClickEvent>ToggleCustom10</OnClickEvent>
+            <Label>RP XP</Label>
+            <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
         </ButtonDef>
 
 
@@ -136,8 +136,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>RP</Label>
-            <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
+            <Label>MBar</Label>
+            <OnClickEvent>ToggleMenuBar</OnClickEvent>
         </ButtonDef>
 
 
@@ -150,8 +150,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Conc Mini</Label>
-            <OnClickEvent>ToggleCustom1</OnClickEvent>
+            <Label>Concentration</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
         </ButtonDef>
 
 
@@ -187,7 +187,7 @@
         <LabelDef>
             <Position>
                 <X>10</X>
-                <Y>142</Y>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -481,7 +481,7 @@
         <LabelDef>
             <Position>
                 <X>225</X>
-                <Y>27</Y>
+                <Y>25</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -509,8 +509,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Concentration</Label>
-            <OnClickEvent>ToggleConcentration</OnClickEvent>
+            <Label>Healers Helper</Label>
+            <OnClickEvent>ToggleCustom10</OnClickEvent>
         </ButtonDef>
 
 
@@ -597,7 +597,7 @@
         <LabelDef>
             <Position>
                 <X>225</X>
-                <Y>144</Y>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
