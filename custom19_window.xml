@@ -64,10 +64,10 @@
 
         <FullResizeImageDef>
             <Position>
-                <X>10</X>
-                <Y>50</Y>
+                <X>9</X>
+                <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>1024</Width>
             <Height>516</Height>
         </FullResizeImageDef>
@@ -162,8 +162,8 @@
         <FullResizeImageDef>
             <ControlId>1102</ControlId>
             <Position>
-                <X>10</X>
-                <Y>50</Y>
+                <X>8</X>
+                <Y>44</Y>
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>1025</Width>
@@ -174,8 +174,8 @@
         <DynamicImageDef>
             <ControlId>1101</ControlId>
             <Position>
-                <X>11</X>
-                <Y>52</Y>
+                <X>9</X>
+                <Y>45</Y>
             </Position>
             <TextureName>tokajer_command_general</TextureName>
             <Dimensions>
@@ -198,10 +198,10 @@
         <FullResizeImageDef>
             <ControlId>1202</ControlId>
             <Position>
-                <X>10</X>
-                <Y>50</Y>
+                <X>8</X>
+                <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>1025</Width>
             <Height>546</Height>
         </FullResizeImageDef>
@@ -234,10 +234,10 @@
         <FullResizeImageDef>
             <ControlId>1302</ControlId>
             <Position>
-                <X>10</X>
-                <Y>50</Y>
+                <X>8</X>
+                <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>1025</Width>
             <Height>546</Height>
         </FullResizeImageDef>
@@ -267,10 +267,10 @@
         <FullResizeImageDef>
             <ControlId>1402</ControlId>
             <Position>
-                <X>10</X>
-                <Y>50</Y>
+                <X>8</X>
+                <Y>44</Y>
             </Position>
-            <TemplateName>dlg_interior_large</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>1025</Width>
             <Height>546</Height>
         </FullResizeImageDef>
