@@ -3813,7 +3813,7 @@
     <FullResizeImageTemplate>
         <Name>g_window_background_tokajer</Name>
         <TopHeight>2</TopHeight>
-        <MiddleHeight>8</MiddleHeight>
+        <MiddleHeight>4</MiddleHeight>
         <BottomHeight>2</BottomHeight>
         <LeftWidth>5</LeftWidth>
         <MiddleWidth>105</MiddleWidth>
@@ -3838,7 +3838,7 @@
             </MiddleLeft>
             <MiddleMiddle>
                 <X>3</X>
-                <Y>66</Y>
+                <Y>68</Y>
             </MiddleMiddle>
             <MiddleRight>
                 <X>107</X>
