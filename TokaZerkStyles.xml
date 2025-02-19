@@ -5430,56 +5430,56 @@
 
     <ImageAreaTemplate>
         <Name>g_icon_socket_large</Name>
-        <TextureName>g_page2</TextureName>
+        <TextureName>ui_tokajer_parts</TextureName>
         <Size>
             <X>34</X>
             <Y>34</Y>
         </Size>
         <TopLeft>
-            <X>110</X>
-            <Y>77</Y>
+            <X>149</X>
+            <Y>21</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
 
     <ImageAreaTemplate>
         <Name>g_icon_socket_large_active</Name>
-        <TextureName>g_page2</TextureName>
+        <TextureName>ui_tokajer_parts</TextureName>
         <Size>
             <X>34</X>
             <Y>34</Y>
         </Size>
         <TopLeft>
-            <X>148</X>
-            <Y>77</Y>
+            <X>149</X>
+            <Y>21</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
 
     <ImageAreaTemplate>
         <Name>g_icon_socket_small</Name>
-        <TextureName>g_page2</TextureName>
+        <TextureName>ui_tokajer_parts</TextureName>
         <Size>
             <X>18</X>
             <Y>18</Y>
         </Size>
         <TopLeft>
-            <X>185</X>
-            <Y>75</Y>
+            <X>149</X>
+            <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
 
     <ImageAreaTemplate>
         <Name>g_icon_socket_small_active</Name>
-        <TextureName>g_page2</TextureName>
+        <TextureName>ui_tokajer_parts</TextureName>
         <Size>
             <X>18</X>
             <Y>18</Y>
         </Size>
         <TopLeft>
-            <X>185</X>
-            <Y>96</Y>
+            <X>149</X>
+            <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
