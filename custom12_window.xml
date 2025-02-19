@@ -40,7 +40,7 @@
 
 
         <TabsDef>
-            <TemplateName>tokajer_tab_large</TemplateName>
+            <TemplateName>generic_tabs</TemplateName>
             <Position>
                 <X>1</X>
                 <Y>1</Y>
