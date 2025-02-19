@@ -98,7 +98,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>chat_entry</TemplateName>
+            <TemplateName>g_window_background_transparent</TemplateName>
             <Width>278</Width>
             <Height>48</Height>
         </FullResizeImageDef>
@@ -992,7 +992,7 @@
                 <X>27</X>
                 <Y>66</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1038,7 +1038,7 @@
                 <X>27</X>
                 <Y>83</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1084,7 +1084,7 @@
                 <X>27</X>
                 <Y>100</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1130,7 +1130,7 @@
                 <X>27</X>
                 <Y>117</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1176,7 +1176,7 @@
                 <X>27</X>
                 <Y>134</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1222,7 +1222,7 @@
                 <X>27</X>
                 <Y>151</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1268,7 +1268,7 @@
                 <X>27</X>
                 <Y>168</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1314,7 +1314,7 @@
                 <X>27</X>
                 <Y>185</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1360,7 +1360,7 @@
                 <X>27</X>
                 <Y>202</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1406,7 +1406,7 @@
                 <X>27</X>
                 <Y>219</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1452,7 +1452,7 @@
                 <X>27</X>
                 <Y>236</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1498,7 +1498,7 @@
                 <X>27</X>
                 <Y>253</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1544,7 +1544,7 @@
                 <X>27</X>
                 <Y>270</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1590,7 +1590,7 @@
                 <X>27</X>
                 <Y>287</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1636,7 +1636,7 @@
                 <X>27</X>
                 <Y>304</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1682,7 +1682,7 @@
                 <X>27</X>
                 <Y>321</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1922,7 +1922,7 @@
                 <X>177</X>
                 <Y>66</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -1968,7 +1968,7 @@
                 <X>177</X>
                 <Y>83</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2014,7 +2014,7 @@
                 <X>177</X>
                 <Y>100</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2060,7 +2060,7 @@
                 <X>177</X>
                 <Y>117</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2106,7 +2106,7 @@
                 <X>177</X>
                 <Y>134</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2152,7 +2152,7 @@
                 <X>177</X>
                 <Y>151</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2198,7 +2198,7 @@
                 <X>177</X>
                 <Y>168</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2244,7 +2244,7 @@
                 <X>177</X>
                 <Y>185</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2290,7 +2290,7 @@
                 <X>177</X>
                 <Y>202</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2336,7 +2336,7 @@
                 <X>177</X>
                 <Y>219</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2382,7 +2382,7 @@
                 <X>177</X>
                 <Y>236</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2428,7 +2428,7 @@
                 <X>177</X>
                 <Y>253</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2474,7 +2474,7 @@
                 <X>177</X>
                 <Y>270</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2523,7 +2523,7 @@
                 <X>177</X>
                 <Y>287</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>
@@ -2569,7 +2569,7 @@
                 <X>177</X>
                 <Y>304</Y>
             </Position>
-            <TemplateName>chat_config_checkbox</TemplateName>
+            <TemplateName>simple_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data></Data>

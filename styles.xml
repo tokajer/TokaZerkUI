@@ -2868,8 +2868,8 @@
     <CheckBoxTemplate>
         <Name>simple_check</Name>
         <Size>
-            <X>18</X>
-            <Y>18</Y>
+            <X>14</X>
+            <Y>14</Y>
         </Size>
         <Font>
             <Name>TokaFontRegular11</Name>
@@ -2910,23 +2910,23 @@
             <TextureName>ui_tokajer_parts</TextureName>
             <Normal>
                 <X>149</X>
-                <Y>60</Y>
+                <Y>81</Y>
             </Normal>
             <Pressed>
-                <X>149</X>
-                <Y>60</Y>
+                <X>166</X>
+                <Y>81</Y>
             </Pressed>
             <NormalHighlit>
                 <X>149</X>
-                <Y>60</Y>
+                <Y>81</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>149</X>
-                <Y>60</Y>
+                <Y>81</Y>
             </PressedHighlit>
             <Disabled>
                 <X>149</X>
-                <Y>60</Y>
+                <Y>81</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
