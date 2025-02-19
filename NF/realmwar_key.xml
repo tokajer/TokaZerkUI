@@ -528,7 +528,7 @@
 
     <ImageAreaTemplate>
         <Name>mino_relic_1</Name>
-        <TextureName>map_icons</TextureName>
+        <TextureName>map_icons_custom</TextureName>
         <Size>
             <X>16</X>
             <Y>16</Y>
