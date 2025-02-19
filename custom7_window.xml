@@ -92,7 +92,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power0</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -107,7 +107,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power0</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -122,7 +122,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance0</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -137,7 +137,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance0</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -298,7 +298,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power1</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -313,7 +313,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power1</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -328,7 +328,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance1</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -343,7 +343,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance1</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -504,7 +504,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power2</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -519,7 +519,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power2</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -534,7 +534,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance2</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -549,7 +549,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance2</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -710,7 +710,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power3</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -725,7 +725,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power3</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -740,7 +740,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance3</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -755,7 +755,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance3</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -916,7 +916,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power4</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -931,7 +931,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power4</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -946,7 +946,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance4</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -961,7 +961,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance4</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1122,7 +1122,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power5</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1137,7 +1137,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power5</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1152,7 +1152,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance5</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1167,7 +1167,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance5</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1328,7 +1328,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power6</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1343,7 +1343,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power6</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1358,7 +1358,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance6</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1373,7 +1373,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance6</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1534,7 +1534,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>group_power7</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1549,7 +1549,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power7</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
@@ -1564,7 +1564,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
             <Width>100</Width>
         </StatusBarDef>
@@ -1579,7 +1579,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>sidegroup_thin_outline</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
             <Width>102</Width>
         </StatusBarDef>
