@@ -71,17 +71,17 @@
         <Name>g_vstatus_fg_green</Name>
         <Width>7</Width>
         <TopHeight>0</TopHeight>
-        <RepeatHeight>26</RepeatHeight>
+        <RepeatHeight>21</RepeatHeight>
         <BottomHeight>0</BottomHeight>
         <Texture>
-            <TextureName>g_hh_reverse</TextureName>
+            <TextureName>floating_targetbar</TextureName>
             <Top>
                 <X>0</X>
                 <Y>0</Y>
             </Top>
             <Repeat>
-                <X>8</X>
-                <Y>0</Y>
+                <X>14</X>
+                <Y>5</Y>
             </Repeat>
             <Bottom>
                 <X>0</X>
@@ -98,14 +98,14 @@
         <RepeatHeight>26</RepeatHeight>
         <BottomHeight>0</BottomHeight>
         <Texture>
-            <TextureName>g_hh_reverse</TextureName>
+            <TextureName>floating_powerbar</TextureName>
             <Top>
                 <X>0</X>
                 <Y>0</Y>
             </Top>
             <Repeat>
                 <X>16</X>
-                <Y>0</Y>
+                <Y>3</Y>
             </Repeat>
             <Bottom>
                 <X>0</X>
