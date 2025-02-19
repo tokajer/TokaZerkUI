@@ -159,7 +159,7 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>50</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -181,7 +181,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>50</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -203,7 +203,7 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>50</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -225,7 +225,7 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>50</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -247,7 +247,7 @@
             <ControlId>1004</ControlId>
             <Position>
                 <X>50</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -269,7 +269,7 @@
             <ControlId>1005</ControlId>
             <Position>
                 <X>50</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -291,7 +291,7 @@
             <ControlId>1006</ControlId>
             <Position>
                 <X>50</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -313,7 +313,7 @@
             <ControlId>1007</ControlId>
             <Position>
                 <X>50</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -334,16 +334,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance0</Adapter>
@@ -355,16 +355,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance1</Adapter>
@@ -376,16 +376,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance2</Adapter>
@@ -397,16 +397,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance3</Adapter>
@@ -418,16 +418,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance4</Adapter>
@@ -439,16 +439,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance5</Adapter>
@@ -460,16 +460,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance6</Adapter>
@@ -481,19 +481,19 @@
         <ScalarLabelDef>
             <Position>
                 <X>22</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>0</R>
-                <G>204</G>
-                <B>0</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>group_endurance7</Adapter>
@@ -505,9 +505,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -526,9 +526,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -547,9 +547,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -568,9 +568,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -589,9 +589,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -610,9 +610,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -631,9 +631,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -652,9 +652,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>150</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -673,16 +673,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power0</Adapter>
@@ -694,16 +694,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power1</Adapter>
@@ -715,16 +715,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power2</Adapter>
@@ -736,16 +736,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power3</Adapter>
@@ -757,16 +757,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power4</Adapter>
@@ -778,16 +778,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power5</Adapter>
@@ -799,16 +799,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power6</Adapter>
@@ -820,16 +820,16 @@
         <ScalarLabelDef>
             <Position>
                 <X>2</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>20</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>group_power7</Adapter>
@@ -842,7 +842,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -866,7 +866,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -890,7 +890,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -914,7 +914,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -938,7 +938,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -962,7 +962,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -986,7 +986,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1010,7 +1010,7 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>280</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1033,7 +1033,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1055,7 +1055,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1077,7 +1077,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1099,7 +1099,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1121,7 +1121,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1143,7 +1143,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1165,7 +1165,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1187,7 +1187,7 @@
         <LabelDef>
             <Position>
                 <X>185</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

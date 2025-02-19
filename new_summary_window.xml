@@ -160,9 +160,9 @@
             <Height>11</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>0</B>
+                <R>241</R>
+                <G>208</G>
+                <B>50</B>
                 <A>255</A>
             </Color>
             <Adapter>summary_player_power</Adapter>
@@ -182,9 +182,9 @@
             <Height>11</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>102</R>
-                <G>255</G>
-                <B>51</B>
+                <R>28</R>
+                <G>117</G>
+                <B>7</B>
                 <A>255</A>
             </Color>
             <Adapter>summary_player_end</Adapter>
@@ -204,9 +204,9 @@
             <Height>11</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>114</R>
+                <G>16</G>
+                <B>16</B>
                 <A>255</A>
             </Color>
             <Adapter>summary_player_hits</Adapter>

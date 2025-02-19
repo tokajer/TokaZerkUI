@@ -232,7 +232,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health0</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -247,7 +247,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power0</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -262,7 +262,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance0</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -276,7 +276,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health0</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -285,12 +285,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>66</Y>
+                <Y>65</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance0</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -299,12 +299,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>66</Y>
+                <Y>65</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power0</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -555,7 +555,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health1</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -570,7 +570,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power1</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -585,7 +585,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance1</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -599,7 +599,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health1</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -608,12 +608,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>104</Y>
+                <Y>103</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance1</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -622,12 +622,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>104</Y>
+                <Y>103</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power1</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -878,7 +878,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health2</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -893,7 +893,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power2</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -908,7 +908,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance2</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -922,7 +922,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health2</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -931,12 +931,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>142</Y>
+                <Y>141</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance2</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -945,12 +945,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>142</Y>
+                <Y>141</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power2</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -1201,7 +1201,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health3</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -1216,7 +1216,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power3</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -1231,7 +1231,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance3</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -1245,7 +1245,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health3</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -1254,12 +1254,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>180</Y>
+                <Y>179</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance3</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -1268,12 +1268,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>180</Y>
+                <Y>179</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power3</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -1524,7 +1524,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health4</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -1539,7 +1539,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power4</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -1554,7 +1554,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance4</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -1568,7 +1568,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health4</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -1577,12 +1577,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>218</Y>
+                <Y>217</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance4</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -1591,12 +1591,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>218</Y>
+                <Y>217</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power4</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -1847,7 +1847,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health5</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -1862,7 +1862,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power5</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -1877,7 +1877,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance5</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -1891,7 +1891,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health5</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -1900,12 +1900,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>256</Y>
+                <Y>255</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance5</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -1914,12 +1914,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>256</Y>
+                <Y>255</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power5</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -2170,7 +2170,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health6</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -2185,7 +2185,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power6</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -2200,7 +2200,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance6</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -2214,7 +2214,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health6</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -2223,12 +2223,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>294</Y>
+                <Y>293</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance6</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -2237,12 +2237,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>294</Y>
+                <Y>293</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power6</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
@@ -2493,7 +2493,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_medium</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>group_health7</AdapterName>
             <Width>99</Width>
         </StatusBarDef>
@@ -2508,7 +2508,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_hhsize</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_power7</AdapterName>
             <Width>46</Width>
         </StatusBarDef>
@@ -2523,7 +2523,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_outline_short</TemplateName>
+            <TemplateName>none</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
             <Width>30</Width>
         </StatusBarDef>
@@ -2537,7 +2537,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>nonefloating_healthbar_13</TemplateName>
             <AdapterName>group_health7</AdapterName>
             <Width>97</Width>
         </StatusBarDef>
@@ -2546,12 +2546,12 @@
         <StatusBarDef>
             <Position>
                 <X>152</X>
-                <Y>332</Y>
+                <Y>331</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_green</TemplateName>
+            <TemplateName>floating_endobar_13</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
             <Width>28</Width>
         </StatusBarDef>
@@ -2560,12 +2560,12 @@
         <StatusBarDef>
             <Position>
                 <X>105</X>
-                <Y>332</Y>
+                <Y>331</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_smallfontbar_orange</TemplateName>
+            <TemplateName>floating_powerbar_13</TemplateName>
             <AdapterName>group_power7</AdapterName>
             <Width>44</Width>
         </StatusBarDef>
