@@ -45,12 +45,12 @@
         <StatusBarDef>
             <Position>
                 <X>28</X>
-                <Y>17</Y>
+                <Y>15</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status</TemplateName>
+            <TemplateName>floating_healthbar_11</TemplateName>
             <AdapterName>summary_target_hits</AdapterName>
             <Width>115</Width>
         </StatusBarDef>
