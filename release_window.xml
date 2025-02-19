@@ -49,7 +49,7 @@
                 <X>17</X>
                 <Y>34</Y>
             </Position>
-            <TemplateName>b_bar_xp4_grey</TemplateName>
+            <TemplateName>b_bar_xp3_grey</TemplateName>
             <AdapterName>release_timer_time</AdapterName>
             <Width>250</Width>
         </StatusBarDef>
