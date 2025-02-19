@@ -37,7 +37,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>dlg_sm_title_noresize</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>300</Width>
             <Height>150</Height>
         </FullResizeImageDef>
