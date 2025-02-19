@@ -4,4 +4,12 @@ based on original GhostUI and Edens Byasan UI.
 
 Colors
 38A59D -> eden teal
-C0C0C0 -> grey
+C0C0C0 -> Grey
+
+E8E8E8
+
+E5E5E5
+
+1C7507 -> Endu 
+F1D032 -> Power
+721010 -> health
