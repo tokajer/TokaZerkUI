@@ -95,7 +95,7 @@
         <Name>g_vstatus_fg_yellow</Name>
         <Width>7</Width>
         <TopHeight>0</TopHeight>
-        <RepeatHeight>26</RepeatHeight>
+        <RepeatHeight>21</RepeatHeight>
         <BottomHeight>0</BottomHeight>
         <Texture>
             <TextureName>floating_powerbar</TextureName>
@@ -105,7 +105,7 @@
             </Top>
             <Repeat>
                 <X>16</X>
-                <Y>3</Y>
+                <Y>6</Y>
             </Repeat>
             <Bottom>
                 <X>0</X>
