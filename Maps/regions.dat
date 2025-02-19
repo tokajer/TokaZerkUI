@@ -884,21 +884,6 @@ zone0_top=0
 zone0_left=0
 zone0_desc= An ancient Battleground where unseasoned fighters of three realms fought to test their mettle and hone their skills. Scholars researching the recent Pictish incursion had dismissed the Medallion's they all wore as a mere token of their heathen Gods...until they discovered their true purpose.
 
-; Caledonia
-[region167]
-zone_count=1
-zone0_number=251
-zone0_top=0
-zone0_left=0
-zone0_desc= An ancient Battleground where unseasoned fighters of three realms fought to test their mettle and hone their skills. Scholars researching the recent Pictish incursion had dismissed the Medallion's they all wore as a mere token of their heathen Gods...until they discovered their true purpose.
-
-; Caledonia
-[region168]
-zone_count=1
-zone0_number=252
-zone0_top=0
-zone0_left=0
-zone0_desc= An ancient Battleground where unseasoned fighters of three realms fought to test their mettle and hone their skills. Scholars researching the recent Pictish incursion had dismissed the Medallion's they all wore as a mere token of their heathen Gods...until they discovered their true purpose.
 
 ;
 ; Hibernia SI (Hybrasil)
@@ -2137,7 +2122,6 @@ zone0_height=5975
 zone0_desc=the Sundered Tombs: Task Dungeon
 
 ;Alb AbMines AW2
-; Halls of Flame - Midgard - New Catacombs - Forges of Flame
 [region389]
 zone_count=1
 zone_width=256
@@ -2145,14 +2129,13 @@ zone_height=256
 zone0_number=389
 zone0_left=0
 zone0_top=0
-zone0_offsetx=25070
-zone0_offsety=14408
-zone0_width=18277
-zone0_height=18277
-zone0_desc=
+zone0_offsetx=19618
+zone0_offsety=15314
+zone0_width=17179
+zone0_height=17179
+zone0_desc=Shafts of the Tenebrae: Adventure wing off Abandoned Mines
 
 ;Alb AbMines AW3
-; Granite Halls - Albion - New Catacombs - Roman Aqueducts
 [region390]
 zone_count=1
 zone_width=256
@@ -2160,11 +2143,11 @@ zone_height=256
 zone0_number=390
 zone0_left=0
 zone0_top=0
-zone0_offsetx=5711
-zone0_offsety=7644
-zone0_width=30629
-zone0_height=30629
-zone0_desc=
+zone0_offsetx=24952
+zone0_offsety=21751
+zone0_width=13820
+zone0_height=13820
+zone0_desc=Lair of the Exiled: Adventure wing off Abandoned Mines
 
 ;Tomb of Mithra AW1
 [region392]
@@ -2209,7 +2192,6 @@ zone0_height=10572
 zone0_desc=Depths of Despair: Adventure wing off Lower Crypt
 
 ;Lower Crypt AW
-; Childe's Vault - Albion - New Catacombs - Instance
 [region397]
 zone_count=1
 zone_width=256
@@ -2221,7 +2203,7 @@ zone0_offsetx=19845
 zone0_offsety=17897
 zone0_width=13623
 zone0_height=13623
-zone0_desc=
+zone0_desc=The Realm of the Damned: Adventure wing off Lower Crypt
 
 ;Mithra KT1
 [region400]
@@ -2519,7 +2501,6 @@ zone0_height=3449
 zone0_desc=The Sundered Tombs: Task Dungeon
 
 ;Stonehenge KT2
-; A Dragon's Curse Dream Instance - Spindelhalla
 [region421]
 zone_count=1
 zone_width=256
@@ -2527,14 +2508,13 @@ zone_height=256
 zone0_number=421
 zone0_left=0
 zone0_top=0
-zone0_offsetx=18600
-zone0_offsety=18046
-zone0_width=10733
-zone0_height=10733
-zone0_desc=A Dream
+zone0_offsetx=19801
+zone0_offsety=19591
+zone0_width=4650
+zone0_height=4650
+zone0_desc=The Sundered Tombs: Task Dungeon
 
 ;Stonehenge KT3
-; A Dragon's Curse Dream Instance - Coruscating Mine
 [region422]
 zone_count=1
 zone_width=256
@@ -2542,14 +2522,13 @@ zone_height=256
 zone0_number=422
 zone0_left=0
 zone0_top=0
-zone0_offsetx=17885
-zone0_offsety=13632
-zone0_width=13427
-zone0_height=13427
-zone0_desc=A Dream
+zone0_offsetx=22733
+zone0_offsety=19700
+zone0_width=5068
+zone0_height=5068
+zone0_desc=The Sundered Tombs: Task Dungeon
 
 ;Stonehenge KT4
-; A Dragon's Curse Dream Instance - Caer Sidi
 [region423]
 zone_count=1
 zone_width=256
@@ -2557,14 +2536,13 @@ zone_height=256
 zone0_number=423
 zone0_left=0
 zone0_top=0
-zone0_offsetx=13277
-zone0_offsety=15772
-zone0_width=20195
-zone0_height=20195
-zone0_desc=A Dream
+zone0_offsetx=21622
+zone0_offsety=21248
+zone0_width=5376
+zone0_height=5376
+zone0_desc=The Sundered Tombs: Task Dungeon
 
 ;Stonehenge KT5
-; A Dragon's Curse Dream Instance - Trollheim
 [region424]
 zone_count=1
 zone_width=256
@@ -2572,11 +2550,11 @@ zone_height=256
 zone0_number=424
 zone0_left=0
 zone0_top=0
-zone0_offsetx=3025
-zone0_offsety=-350
-zone0_width=46240
-zone0_height=46240
-zone0_desc=A Dream
+zone0_offsetx=22426
+zone0_offsety=22181
+zone0_width=4326
+zone0_height=4326
+zone0_desc=The Sundered Tombs: Task Dungeon
 
 ;Stonehenge AW1
 [region425]
@@ -3768,7 +3746,7 @@ zone0_desc=You are in an adventure wing within Varulvhamn.
 zone_count=1
 zone_width=256
 zone_height=256
-; The Burrow, Drakuvlhamn
+; The Burrow
 zone0_number=358
 zone0_left=0
 zone0_top=0
@@ -3776,7 +3754,7 @@ zone0_offsetx=17284
 zone0_offsety=18012
 zone0_width=9367
 zone0_height=9367
-zone0_desc=Home of the Drakulv, lotayal servants or bound slaves to Gjapinulva.
+zone0_desc=You are in an adventure wing within Varulvhamn.
 
 ;Mini Concealed Guardhouse Map - Vendo - KT4
 ; Vendo - KT4 - Midgard - Catacombs
@@ -3988,7 +3966,6 @@ zone0_desc=You are in an adventure wing within the Burial Grounds.
 
 ;Mini The Thieve's Den Map - Burial Grounds - AW2
 ; Burial Grounds - AW2 - Midgard - Catacombs
-; Drakulvhamn Sanctum - Midgard - New Catacombs - Instance
 [region331]
 zone_count=1
 zone_width=256
@@ -4001,11 +3978,10 @@ zone0_offsetx=12291
 zone0_offsety=8291
 zone0_width=21433
 zone0_height=21433
-zone0_desc=
+zone0_desc=You are in an adventure wing within the Burial Grounds.
 
 ;Mini Rebel Half Orc Lair Map - Abandoned Mines - AW1
 ; Abandoned Mines - AW1 - Midgard - Catacombs
-; Kingdom of the Sidhe - Hibernia - New Catacombs - Iarnvildur's Lair
 [region332]
 zone_count=1
 zone_width=256
@@ -4014,15 +3990,14 @@ zone_height=256
 zone0_number=332
 zone0_left=0
 zone0_top=0
-zone0_offsetx=2714
-zone0_offsety=-561
-zone0_width=34211
-zone0_height=34211
-zone0_desc=
+zone0_offsetx=10537
+zone0_offsety=13642
+zone0_width=17449
+zone0_height=17449
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
 
 ;Mini Haunted Halls Map - Abandoned Mines - AW2
 ; Abandoned Mines - AW2 - Midgard - Catacombs
-; Battle Atop the Oseberg - Midgard - New Catacombs - Burial Grounds
 [region333]
 zone_count=1
 zone_width=256
@@ -4031,11 +4006,11 @@ zone_height=256
 zone0_number=333
 zone0_left=0
 zone0_top=0
-zone0_offsetx=11719
-zone0_offsety=2541
-zone0_width=35665
-zone0_height=35665
-zone0_desc=
+zone0_offsetx=21193
+zone0_offsety=18004
+zone0_width=17580
+zone0_height=17580
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
 
 ;Mini Passage of Echoes Map - Nyttheim - AW2
 ; Nyttheim - AW2 - Midgard - Catacombs
@@ -4059,7 +4034,7 @@ zone0_desc=You are in an adventure wing within Nytthiem.
 zone_count=1
 zone_width=256
 zone_height=256
-; The Unrestful Tomb, Childe's Tomb
+; The Unrestful Tomb
 zone0_number=374
 zone0_left=0
 zone0_top=0
@@ -4067,7 +4042,7 @@ zone0_offsetx=18800
 zone0_offsety=17652
 zone0_width=11878
 zone0_height=11878
-zone0_desc=The tomb of a wealthy hunter, Childe, who became lost in a snow storm and supposedly died here despite disembowelling his horse and climbing into its body for protection.
+zone0_desc=You are in an adventure wing within the Deadlands.
 
 ;Mini Lost Passages Map - Mid Otherworld - AW1
 ; Mid Otherworld - AW1 - Midgard - Catacombs
@@ -4151,7 +4126,6 @@ zone0_desc=The Dismal Grotto.
 
 ;Mini Dismal Grotto Map - Spraggon Den - KT8
 ; Spraggon Den - KT8 - Hibernia - Catacombs
-; A Dragon's Curse Dream Instance - Fomor
 [region444]
 zone_count=1
 zone_width=256
@@ -4160,11 +4134,11 @@ zone_height=256
 zone0_number=444
 zone0_left=0
 zone0_top=0
-zone0_offsetx=16135
-zone0_offsety=13034
-zone0_width=18040
-zone0_height=18040
-zone0_desc=A Dream
+zone0_offsetx=20128
+zone0_offsety=22813
+zone0_width=7456
+zone0_height=7456
+zone0_desc=The Dismal Grotto. 
 
 ;Mini Dismal Grotto Map - Spraggon Den - KT1
 ; Spraggon Den - KT1 - Hibernia - Catacombs
@@ -4360,7 +4334,6 @@ zone0_desc=You are in a kill task region of the Coruscating Mine.
 
 ;Mini Unused Mines Map - Coruscating Mine - KT7
 ; Coruscating Mine - KT7 - Hibernia - Catacombs
-; A Dragon's Curse Dream Instance - Deep Volcanus ML7
 [region485]
 zone_count=1
 zone_width=256
@@ -4369,15 +4342,14 @@ zone_height=256
 zone0_number=485
 zone0_left=0
 zone0_top=0
-zone0_offsetx=8812
-zone0_offsety=-1840
-zone0_width=40378
-zone0_height=40378
-zone0_desc=A Dream
+zone0_offsetx=21179
+zone0_offsety=21699
+zone0_width=7252
+zone0_height=7252
+zone0_desc=You are in a kill task region of the Coruscating Mine.
 
 ;Mini Unused Mines Map - Coruscating Mine - KT8
 ; Coruscating Mine - KT8 - Hibernia - Catacombs
-; A Dragon's Curse Dream Instance - Aerus City ML9
 [region486]
 zone_count=1
 zone_width=256
@@ -4386,11 +4358,11 @@ zone_height=256
 zone0_number=486
 zone0_left=0
 zone0_top=0
-zone0_offsetx=5948
-zone0_offsety=728
-zone0_width=45181
-zone0_height=45181
-zone0_desc=A Dream
+zone0_offsetx=22595
+zone0_offsety=20915
+zone0_width=7705
+zone0_height=7705
+zone0_desc=You are in a kill task region of the Coruscating Mine.
 
 ;Mini The Pit of Despair Map - Coruscating Mine - AW1
 ; Coruscating Mine - AW1 - Hibernia - Catacombs
@@ -4458,7 +4430,6 @@ zone0_desc=You are in an adventure wing within the Glashtin Forge.
 
 ;Mini Gnoll Dens Map - Abandoned Mines - AW1
 ; Abandoned Mines - AW1 - Hibernia - Catacombs
-; Heart of Darkness - Albion - New Catacombs - Realm of the Damned
 [region494]
 zone_count=1
 zone_width=256
@@ -4467,11 +4438,11 @@ zone_height=256
 zone0_number=494
 zone0_left=0
 zone0_top=0
-zone0_offsetx=19845
-zone0_offsety=17897
-zone0_width=13623
-zone0_height=13623
-zone0_desc=
+zone0_offsetx=22730
+zone0_offsety=19400
+zone0_width=15145
+zone0_height=15145
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
 
 ;Mini Inner Sanctum Map - Lower Crypt - AW1
 ; Lower Crypt - AW1 - Hibernia - Catacombs
@@ -4491,7 +4462,6 @@ zone0_desc=You are in an adventure wing within the Deadlands.
 
 ;Mini The Dark Caverns Map - Koalinth - KT6
 ; Koalinth - KT6 - Hibernia - Catacombs
-; A Dragon's Curse Dream Instance - Halls of Ma'ati ML5
 [region445]
 zone_count=1
 zone_width=256
@@ -4500,11 +4470,11 @@ zone_height=256
 zone0_number=445
 zone0_left=0
 zone0_top=0
-zone0_offsetx=3680
-zone0_offsety=12244
-zone0_width=40247
-zone0_height=40247
-zone0_desc=A Dream 
+zone0_offsetx=19168
+zone0_offsety=21433
+zone0_width=7310
+zone0_height=7310
+zone0_desc=The Dark Caverns. 
 
 ;Mini The Dark Caverns Map - Koalinth - KT7
 ; Koalinth - KT7 - Hibernia - Catacombs
@@ -4816,7 +4786,7 @@ zone0_desc=Level 31-40 kill task dungeon
 zone_count=1
 zone_width=256
 zone_height=256
-; Blathnait's Refuge, A Rift
+; Blathnait's Refuge
 zone0_number=446
 zone0_left=0
 zone0_top=0
@@ -4824,11 +4794,10 @@ zone0_offsetx=2721
 zone0_offsety=1449
 zone0_width=31679
 zone0_height=31679
-zone0_desc=Within a rift of the endless Veil.
+zone0_desc=You are in an adventure wing within the Veil Rift.
 
 ;Mini Broken Mirrors Sanctum Map - Veil Rift - AW2
 ; Veil Rift - AW2 - Hibernia - Catacombs
-; The Inner Veil - Hibernia - New Catacombs - Instance
 [region447]
 zone_count=1
 zone_width=256
@@ -4841,7 +4810,7 @@ zone0_offsetx=2158
 zone0_offsety=714
 zone0_width=27312
 zone0_height=27312
-zone0_desc=
+zone0_desc=You are in an adventure wing within the Veil Rift.
 
 ;Mini Maze of Madness Map - Queen's Labrynth - AW1
 ; Queen's Labyrnth - AW1 - Hibernia - Catacombs
@@ -4877,7 +4846,6 @@ zone0_desc=You are in an adventure wing within the Queen's Labrynth.
 
 ;Mini Unused Mines Map - Abandoned Mines - AW1
 ; Abandoned Mines - AW1 - Hibernia - Catacombs
-; Marrach Briollag - Hibernia - New Catacombs - Veil Rift
 [region049]
 zone_count=1
 zone_width=256
@@ -4886,11 +4854,11 @@ zone_height=256
 zone0_number=049
 zone0_left=0
 zone0_top=0
-zone0_offsetx=13706
-zone0_offsety=5391
-zone0_width=39019
-zone0_height=39019
-zone0_desc=
+zone0_offsetx=21215
+zone0_offsety=13367
+zone0_width=19335
+zone0_height=19335
+zone0_desc=You are in an adventure wing within the Abandoned Mines.
 
 ;Mini Half Orc Command Post Map - Hibernia - Quest
 ; Abandoned Mines - Hibernia - Catacombs
@@ -4910,7 +4878,6 @@ zone0_desc=You are within a Half Orc Command Post.
 
 ;Mini Unused Mines Map - Coruscating Mine - KT1
 ; Coruscating Mine - KT1 - Hibernia - Catacombs
-; A Dragon's Curse Dream Instance - Stonehenge Barrows 
 [region048]
 zone_count=1
 zone_width=256
@@ -4919,11 +4886,11 @@ zone_height=256
 zone0_number=048
 zone0_left=0
 zone0_top=0
-zone0_offsetx=16622
-zone0_offsety=13583
-zone0_width=12694
-zone0_height=12694
-zone0_desc=A Dream
+zone0_offsetx=18337
+zone0_offsety=20722
+zone0_width=7452
+zone0_height=7452
+zone0_desc=You are in a kill task region of the Coruscating Mine.
 
 ;Mini The Deep Map - Nyttheim - AW1
 ; Nyttheim - AW1 - Hibernia - Catacombs
@@ -5421,7 +5388,6 @@ zone0_height=4717
 zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
 zone0_realm=0
 
-
 ; Labyrinth Hibernia Cave Instance
 [region194]
 zone_count=1
@@ -5438,31 +5404,86 @@ zone0_height=4717
 zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
 zone0_realm=0
 
-; EV Instance room
-[region275]
+;Thidranki
+[region000]
 zone_count=1
 zone_width=256
 zone_height=256
-; Manannan's Room
-zone0_number=275
-zone0_top=86 
-zone0_left=97
-zone0_desc=Manannan's Room: Instance. Ellan Vannin is an ancient island originally controlled by the Manx people and their ruler, Manannan mac Lir. His spirit was released when the portals opened to the Otherworlds and disturbed his final resting place. He rules here again. 
-zone0_realm=0
+zone0_number=252
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Thidranki - BG Level 20-24.
 
-
-;Mini Tuscaran Glacier Map
-; Frozen Cavern instance
-[region277]
+;Murdaigean
+[region000]
 zone_count=1
 zone_width=256
 zone_height=256
-; Frozen Cavern
-zone0_number=277
-zone0_left=0
-zone0_top=0
-zone0_offsetx=1317
-zone0_offsety=4139
-zone0_width=53125
-zone0_height=53125
-zone0_desc=
+zone0_number=253
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Murdaigean - BG Level 26-30.
+
+;Caledonia
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=250
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Caledonia - BG Level 30-34.
+
+;Thidranki
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=252
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Thidranki - BG Level 20-24.
+
+;Murdaigean
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=253
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Abermenai - BG Level 25-29.
+
+;Caledonia
+[region000]
+zone_count=1
+zone_width=512
+zone_height=512
+zone0_number=250
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=0
+zone0_offsety=0
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Caledonia - BG Level 30-34.
