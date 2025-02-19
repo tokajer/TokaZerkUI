@@ -230,10 +230,10 @@
 
         <StatusBarDef>
             <Position>
-                <X>85</X>
+                <X>84</X>
                 <Y>73</Y>
             </Position>
-            <TemplateName>g_smallfontbar_red</TemplateName>
+            <TemplateName>floating_healthbar_13</TemplateName>
             <AdapterName>siege_hits</AdapterName>
             <Width>145</Width>
         </StatusBarDef>
@@ -245,7 +245,7 @@
                 <X>83</X>
                 <Y>194</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -265,7 +265,7 @@
                 <X>83</X>
                 <Y>206</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -285,7 +285,7 @@
                 <X>83</X>
                 <Y>219</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
