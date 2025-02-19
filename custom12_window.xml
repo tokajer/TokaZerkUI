@@ -17,7 +17,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>242</Width>
+        <Width>250</Width>
         <Height>125</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -34,8 +34,8 @@
                 <Y>-3</Y>
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
-            <Width>246</Width>
-            <Height>128</Height>
+            <Width>255</Width>
+            <Height>130</Height>
         </FullResizeImageDef>
 
 
@@ -45,7 +45,7 @@
                 <X>1</X>
                 <Y>1</Y>
             </Position>
-            <Width>240</Width>
+            <Width>244</Width>
             <Height>120</Height>
         <Tab>
             <Id>1</Id>
@@ -77,12 +77,12 @@
         <DynamicImageDef>
             <ControlId>11</ControlId>
             <Position>
-                <X>1</X>
+                <X>3</X>
                 <Y>22</Y>
             </Position>
             <TextureName>resis_alb</TextureName>
             <Dimensions>
-                <X>240</X>
+                <X>244</X>
                 <Y>100</Y>
             </Dimensions>
             <TextureCoords>
@@ -95,12 +95,12 @@
         <DynamicImageDef>
             <ControlId>22</ControlId>
             <Position>
-                <X>1</X>
+                <X>3</X>
                 <Y>21</Y>
             </Position>
             <TextureName>resis_hib</TextureName>
             <Dimensions>
-                <X>240</X>
+                <X>244</X>
                 <Y>100</Y>
             </Dimensions>
             <TextureCoords>
@@ -113,12 +113,12 @@
         <DynamicImageDef>
             <ControlId>33</ControlId>
             <Position>
-                <X>1</X>
+                <X>3</X>
                 <Y>21</Y>
             </Position>
             <TextureName>resis_mid</TextureName>
             <Dimensions>
-                <X>240</X>
+                <X>244</X>
                 <Y>100</Y>
             </Dimensions>
             <TextureCoords>
