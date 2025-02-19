@@ -53,7 +53,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -93,7 +93,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
