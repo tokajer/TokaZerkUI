@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>warmap_agramon</Name>
-        <File>custom/Maps/z163.dds</File>
+        <File>maps/z163.dds</File>
     </Texture>
 
 
@@ -37,7 +37,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>270</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>308</Width>
+        <Width>315</Width>
         <Height>288</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -57,7 +57,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_5px</TemplateName>
+            <TemplateName>none</TemplateName>
             <Width>270</Width>
             <Height>288</Height>
         </FullResizeImageDef>
@@ -208,12 +208,12 @@
                 <Y>290</Y>
             </Position>
             <Color>
-                <R>82</R>
-                <G>217</G>
-                <B>94</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>mini7</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -229,12 +229,12 @@
                 <Y>306</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -250,12 +250,12 @@
                 <Y>322</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>tokafontbold10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -271,12 +271,12 @@
                 <Y>338</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -292,12 +292,12 @@
                 <Y>354</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -313,12 +313,12 @@
                 <Y>370</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>tokafontregular10</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
