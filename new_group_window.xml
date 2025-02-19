@@ -46,12 +46,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health0</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -60,12 +60,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>25</Y>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health1</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -74,12 +74,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>43</Y>
+                <Y>41</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health2</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -88,12 +88,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>61</Y>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health3</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -102,12 +102,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>79</Y>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health4</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -116,12 +116,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>97</Y>
+                <Y>95</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health5</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -130,12 +130,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>115</Y>
+                <Y>113</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health6</AdapterName>
             <Width>235</Width>
         </StatusBarDef>
@@ -144,12 +144,12 @@
         <StatusBarDef>
             <Position>
                 <X>43</X>
-                <Y>133</Y>
+                <Y>131</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status_thick</TemplateName>
+            <TemplateName>floating_healthbar_17</TemplateName>
             <AdapterName>group_health7</AdapterName>
             <Width>235</Width>
         </StatusBarDef>

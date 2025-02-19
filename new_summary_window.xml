@@ -96,7 +96,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status</TemplateName>
+            <TemplateName>floating_healthbar_9</TemplateName>
             <AdapterName>summary_player_hits</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
@@ -130,7 +130,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>green_status</TemplateName>
+            <TemplateName>floating_endobar_9</TemplateName>
             <AdapterName>summary_player_end</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
@@ -144,7 +144,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>yellow_status</TemplateName>
+            <TemplateName>floating_powerbar_9</TemplateName>
             <AdapterName>summary_player_power</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
@@ -247,7 +247,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status</TemplateName>
+            <TemplateName>floating_healthbar_9</TemplateName>
             <AdapterName>summary_target_hits</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
