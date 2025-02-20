@@ -1,4 +1,4 @@
-Tokajer's and Zerkers DAOC UI Eden 2.0.69
+Tokajer's and Zerkers DAOC UI Eden 1.0.0
 based on original GhostUI and Edens Byasan UI.
 
 
@@ -7,9 +7,7 @@ Colors
 C0C0C0 -> Grey
 
 E8E8E8
-
 E5E5E5
-
 1C7507 -> Endu 
 F1D032 -> Power
 721010 -> health
