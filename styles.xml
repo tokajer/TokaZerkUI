@@ -11972,6 +11972,30 @@
 
 
     <HorizontalResizeImageTemplate>
+        <Name>floating_powerbar_13px_bg_trans</Name>
+        <Height>13</Height>
+        <LeftWidth>2</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>floating_powerbar</TextureName>
+            <Left>
+                <X>2</X>
+                <Y>233</Y>
+            </Left>
+            <Repeat>
+                <X>52</X>
+                <Y>233</Y>
+            </Repeat>
+            <Right>
+                <X>123</X>
+                <Y>233</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
         <Name>floating_powerbar_15px_bg</Name>
         <Height>15</Height>
         <LeftWidth>2</LeftWidth>
@@ -12479,6 +12503,18 @@
         <Name>floating_powerbar_13</Name>
         <ForegroundHResizeTemplate>floating_powerbar_13px_fg</ForegroundHResizeTemplate>
         <BackgroundHResizeTemplate>floating_powerbar_13px_bg</BackgroundHResizeTemplate>
+        <Height>13</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>2</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>floating_powerbar_13_trans</Name>
+        <ForegroundHResizeTemplate>floating_powerbar_13px_fg</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>floating_powerbar_13px_bg_trans</BackgroundHResizeTemplate>
         <Height>13</Height>
         <ForegroundOffset>
             <X>0</X>
