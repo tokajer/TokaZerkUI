@@ -338,8 +338,8 @@
 
         <LabelDef>
             <Position>
-                <X>12</X>
-                <Y>276</Y>
+                <X>9</X>
+                <Y>271</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -347,7 +347,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tokafontbold10</FontName>
+            <FontName>TokaFontBold10</FontName>
             <Width>256</Width>
             <Height>17</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -359,24 +359,24 @@
         <StatusBarDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>30</X>
+                <X>32</X>
                 <Y>276</Y>
             </Position>
-            <TemplateName>exp_bubbles</TemplateName>
+            <TemplateName>b_bar_xp2_blue</TemplateName>
             <AdapterName>new_quest_exp_coarse</AdapterName>
-            <Width>90</Width>
+            <Width>110</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
-            <ControlId>1003</ControlId>
+            <ControlId>100300</ControlId>
             <Position>
-                <X>30</X>
+                <X>33</X>
                 <Y>284</Y>
             </Position>
-            <TemplateName>blue_status</TemplateName>
+            <TemplateName>b_xp_line_blue</TemplateName>
             <AdapterName>new_quest_exp_fine</AdapterName>
-            <Width>90</Width>
+            <Width>105</Width>
         </StatusBarDef>
 
 
