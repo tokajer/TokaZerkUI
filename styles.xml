@@ -2921,7 +2921,7 @@
                 <Y>81</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>149</X>
+                <X>166</X>
                 <Y>81</Y>
             </PressedHighlit>
             <Disabled>
@@ -18269,18 +18269,18 @@
         <RepeatWidth>8</RepeatWidth>
         <RightWidth>8</RightWidth>
         <Texture>
-            <TextureName>page3</TextureName>
+            <TextureName>ui_tokajer_parts</TextureName>
             <Left>
-                <X>66</X>
-                <Y>133</Y>
+                <X>79</X>
+                <Y>36</Y>
             </Left>
             <Repeat>
                 <X>75</X>
-                <Y>133</Y>
+                <Y>36</Y>
             </Repeat>
             <Right>
                 <X>84</X>
-                <Y>133</Y>
+                <Y>36</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -18369,18 +18369,18 @@
         <RepeatWidth>8</RepeatWidth>
         <RightWidth>8</RightWidth>
         <Texture>
-            <TextureName>page1</TextureName>
+            <TextureName>ui_tokajer_parts</TextureName>
             <Left>
                 <X>101</X>
-                <Y>203</Y>
+                <Y>61</Y>
             </Left>
             <Repeat>
                 <X>101</X>
-                <Y>203</Y>
+                <Y>61</Y>
             </Repeat>
             <Right>
                 <X>101</X>
-                <Y>203</Y>
+                <Y>61</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>

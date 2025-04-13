@@ -1005,7 +1005,7 @@
             <ControlId>5016</ControlId>
             <Position>
                 <X>48</X>
-                <Y>70</Y>
+                <Y>66</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1025,7 +1025,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>82</Y>
+                <Y>81</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1051,7 +1051,7 @@
             <ControlId>5017</ControlId>
             <Position>
                 <X>48</X>
-                <Y>87</Y>
+                <Y>83</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1071,7 +1071,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>99</Y>
+                <Y>98</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1097,7 +1097,7 @@
             <ControlId>5018</ControlId>
             <Position>
                 <X>48</X>
-                <Y>104</Y>
+                <Y>100</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1117,7 +1117,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>116</Y>
+                <Y>115</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1143,7 +1143,7 @@
             <ControlId>5019</ControlId>
             <Position>
                 <X>48</X>
-                <Y>121</Y>
+                <Y>117</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1163,7 +1163,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>133</Y>
+                <Y>132</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1189,7 +1189,7 @@
             <ControlId>5020</ControlId>
             <Position>
                 <X>48</X>
-                <Y>138</Y>
+                <Y>134</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1209,7 +1209,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>150</Y>
+                <Y>149</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1235,7 +1235,7 @@
             <ControlId>5021</ControlId>
             <Position>
                 <X>48</X>
-                <Y>155</Y>
+                <Y>151</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1255,7 +1255,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>167</Y>
+                <Y>166</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1281,7 +1281,7 @@
             <ControlId>5022</ControlId>
             <Position>
                 <X>48</X>
-                <Y>172</Y>
+                <Y>168</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1301,7 +1301,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>184</Y>
+                <Y>183</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1327,7 +1327,7 @@
             <ControlId>5023</ControlId>
             <Position>
                 <X>48</X>
-                <Y>189</Y>
+                <Y>185</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1347,7 +1347,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>201</Y>
+                <Y>200</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1373,7 +1373,7 @@
             <ControlId>5024</ControlId>
             <Position>
                 <X>48</X>
-                <Y>206</Y>
+                <Y>203</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1393,7 +1393,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>218</Y>
+                <Y>217</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1419,7 +1419,7 @@
             <ControlId>5025</ControlId>
             <Position>
                 <X>48</X>
-                <Y>223</Y>
+                <Y>219</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1439,7 +1439,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>235</Y>
+                <Y>234</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1465,7 +1465,7 @@
             <ControlId>5026</ControlId>
             <Position>
                 <X>48</X>
-                <Y>240</Y>
+                <Y>237</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1485,7 +1485,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>252</Y>
+                <Y>251</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1511,7 +1511,7 @@
             <ControlId>5027</ControlId>
             <Position>
                 <X>48</X>
-                <Y>257</Y>
+                <Y>253</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1531,7 +1531,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>269</Y>
+                <Y>268</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1557,7 +1557,7 @@
             <ControlId>5028</ControlId>
             <Position>
                 <X>48</X>
-                <Y>274</Y>
+                <Y>270</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1577,7 +1577,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>286</Y>
+                <Y>285</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1603,7 +1603,7 @@
             <ControlId>5029</ControlId>
             <Position>
                 <X>48</X>
-                <Y>291</Y>
+                <Y>287</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1623,7 +1623,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>303</Y>
+                <Y>302</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1649,7 +1649,7 @@
             <ControlId>5030</ControlId>
             <Position>
                 <X>48</X>
-                <Y>308</Y>
+                <Y>304</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1669,7 +1669,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>26</X>
-                <Y>320</Y>
+                <Y>319</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1695,7 +1695,7 @@
             <ControlId>5031</ControlId>
             <Position>
                 <X>48</X>
-                <Y>325</Y>
+                <Y>321</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1935,7 +1935,7 @@
             <ControlId>5001</ControlId>
             <Position>
                 <X>198</X>
-                <Y>70</Y>
+                <Y>66</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -1955,7 +1955,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>82</Y>
+                <Y>81</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -1981,7 +1981,7 @@
             <ControlId>5002</ControlId>
             <Position>
                 <X>198</X>
-                <Y>87</Y>
+                <Y>83</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2001,7 +2001,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>99</Y>
+                <Y>98</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2027,7 +2027,7 @@
             <ControlId>5003</ControlId>
             <Position>
                 <X>198</X>
-                <Y>104</Y>
+                <Y>100</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2047,7 +2047,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>116</Y>
+                <Y>115</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2073,7 +2073,7 @@
             <ControlId>5004</ControlId>
             <Position>
                 <X>198</X>
-                <Y>121</Y>
+                <Y>117</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2093,7 +2093,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>133</Y>
+                <Y>132</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2119,7 +2119,7 @@
             <ControlId>5005</ControlId>
             <Position>
                 <X>198</X>
-                <Y>138</Y>
+                <Y>134</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2139,7 +2139,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>150</Y>
+                <Y>149</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2165,7 +2165,7 @@
             <ControlId>5006</ControlId>
             <Position>
                 <X>198</X>
-                <Y>155</Y>
+                <Y>151</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2185,7 +2185,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>167</Y>
+                <Y>166</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2211,7 +2211,7 @@
             <ControlId>5007</ControlId>
             <Position>
                 <X>198</X>
-                <Y>172</Y>
+                <Y>168</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2231,7 +2231,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>184</Y>
+                <Y>183</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2257,7 +2257,7 @@
             <ControlId>5008</ControlId>
             <Position>
                 <X>198</X>
-                <Y>189</Y>
+                <Y>185</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2277,7 +2277,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>201</Y>
+                <Y>200</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2303,7 +2303,7 @@
             <ControlId>5009</ControlId>
             <Position>
                 <X>198</X>
-                <Y>206</Y>
+                <Y>202</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2323,7 +2323,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>218</Y>
+                <Y>217</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2349,7 +2349,7 @@
             <ControlId>5010</ControlId>
             <Position>
                 <X>198</X>
-                <Y>223</Y>
+                <Y>219</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2369,7 +2369,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>235</Y>
+                <Y>234</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2395,7 +2395,7 @@
             <ControlId>5011</ControlId>
             <Position>
                 <X>198</X>
-                <Y>240</Y>
+                <Y>236</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2415,7 +2415,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>252</Y>
+                <Y>251</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2441,7 +2441,7 @@
             <ControlId>5012</ControlId>
             <Position>
                 <X>198</X>
-                <Y>257</Y>
+                <Y>253</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2461,7 +2461,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>269</Y>
+                <Y>268</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2487,7 +2487,7 @@
             <ControlId>5013</ControlId>
             <Position>
                 <X>198</X>
-                <Y>274</Y>
+                <Y>270</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2510,7 +2510,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>286</Y>
+                <Y>285</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2536,7 +2536,7 @@
             <ControlId>5014</ControlId>
             <Position>
                 <X>198</X>
-                <Y>291</Y>
+                <Y>287</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -2556,7 +2556,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>176</X>
-                <Y>303</Y>
+                <Y>302</Y>
             </Position>
             <TemplateName>context_hr_image_divider</TemplateName>
             <Width>133</Width>
@@ -2582,7 +2582,7 @@
             <ControlId>5015</ControlId>
             <Position>
                 <X>198</X>
-                <Y>308</Y>
+                <Y>304</Y>
             </Position>
             <Color>
                 <R>255</R>
