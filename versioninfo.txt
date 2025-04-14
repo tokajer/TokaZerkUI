@@ -1,12 +1,24 @@
-Tokajer's and Zerkers DAOC UI Eden 1.0.0
-based on original GhostUI and Edens Byasan UI.
+Tokajer's and Zerkers DAOC UI Eden 1.0.4
 
 
-Colors
+Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia.
+TokaZerk UI is a custom user interface for Dark Age of Camelot, based on GhostUI and countless other elements, specifically tailored for the Eden freeshard server.
+
+Crafted by Tokajer and Zerker, this UI combines modern readability and sleek performance with the classic DAoC vibe. Whether you're a fresh recruit or a long-time realm defender, this UI will enhance your battlefield awareness and provide a cleaner, more immersive experience.
+
+Features
+🗺️ Switchable Map Sizes – Choose between large or small map layouts for optimal battlefield visibility.
+🔤 Font-Based Text Rendering – Unlike most UIs that use sprite-based graphics for text, TokaZerk uses true fonts for clearer, crisper readability.
+🎨 Clean, streamlined visuals that stay true to the classic DAoC aesthetic.
+🔧 Built with flexibility and customization in mind.
+
+
+
+###### Color Section ######
+
 38A59D -> eden teal
 C0C0C0 -> Grey
-
-E8E8E8
+E8E8E8  
 E5E5E5
 1C7507 -> Endu 
 F1D032 -> Power
