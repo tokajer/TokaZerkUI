@@ -376,7 +376,7 @@
             </Position>
             <TemplateName>b_xp_line_blue</TemplateName>
             <AdapterName>new_quest_exp_fine</AdapterName>
-            <Width>105</Width>
+            <Width>106</Width>
         </StatusBarDef>
 
 
