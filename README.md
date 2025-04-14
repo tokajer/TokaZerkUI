@@ -59,7 +59,7 @@ Then select the custom UI.
 
 Once installed, jump into the game and enjoy the enhanced UI!
 
-You can switch between **large** and **small** map styles by renaming folders inside the `custom` directory:
+You can switch between **large** and **small** map styles by deleting the old `Maps` folder and renaming folders inside the `custom` directory:
 
 - To use **large maps**, rename the folder `Maps_large` to `Maps`
 - To use **small maps**, rename the folder `Maps_small` to `Maps`
