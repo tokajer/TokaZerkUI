@@ -1,9 +1,8 @@
 # TokaZerk DAoC User Interface
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)  
-[![Last Commit](https://img.shields.io/github/last-commit/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/commits/main)  
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/stargazers)  
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/yourusername/tokazerk-daoc-ui)](https://github.com/tokajer/TokaZerkUI/commits/main)  
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/tokazerk-daoc-ui)](https://github.com/tokajer/TokaZerkUI/stargazers)  
 
 
 ![UI Preview](https://i.imgur.com/dufN7RN.png)
