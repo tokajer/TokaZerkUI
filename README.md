@@ -1,6 +1,6 @@
 # TokaZerk DAoC User Interface
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)  
 [![Last Commit](https://img.shields.io/github/last-commit/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/commits/main)  
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/stargazers)  
 [![GitHub Forks](https://img.shields.io/github/forks/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/network/members)
@@ -76,7 +76,7 @@ Feel free to open issues or pull requests on the [GitHub repository](https://git
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ---
 
