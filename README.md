@@ -1,41 +1,39 @@
-# Dein Projektname
+# TokaZerk DAoC User Interface
 
-[![Projekt-Logo](Pfad/zum/logo.png)](Link/zur/Projekt-Website)
+[![License](https://img.shields.io/badge/License-[Your License]-blue.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/network/members)
 
-Kurze und prägnante Beschreibung deines Projekts.
 
-## Inhaltsverzeichnis
+![Optional: Project Screenshot or GIF](path/to/your/screenshot.png)
 
-- [Über das Projekt](#über-das-projekt)
-- [Funktionen](#funktionen)
-- [Erste Schritte](#erste-schritte)
-  - [Voraussetzungen](#voraussetzungen)
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Verwendung](#verwendung)
-  - [Beispiel 1](#beispiel-1)
-    - ![Screenshot Beispiel 1](Pfad/zum/screenshot1.png)
-    - Beschreibung des Screenshots 1.
-  - [Beispiel 2](#beispiel-2)
-    - ![Animiertes GIF Beispiel 2](Pfad/zum/animation.gif)
-    - Beschreibung des animierten GIFs 2.
-- [Beitragen](#beitragen)
-- [Lizenz](#lizenz)
-- [Kontakt](#kontakt)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-## Über das Projekt
+## About the Project
 
-Eine ausführlichere Beschreibung deines Projekts. Was macht es, für wen ist es gedacht und welche Probleme löst es?
 
-## Funktionen
 
-- Auflistung der wichtigsten Funktionen deines Projekts.
-- Jede Funktion sollte kurz und prägnant beschrieben werden.
-- Du kannst auch Screenshots oder GIFs verwenden, um die Funktionen zu veranschaulichen.
 
-## Erste Schritte
+## about the Project
+Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia. This user interface for Dark Age of Camelot has been crafted with both nostalgia and modern usability in mind. Prepare to navigate the frontier with enhanced clarity, efficiency, and a touch of classic charm. Whether you're a seasoned veteran or a newcomer to the eternal war, this UI aims to streamline your journey and immerse you deeper into the legendary battles for realm supremacy."
 
-Anleitung für Benutzer, wie sie dein Projekt lokal einrichten und ausführen können.
 
-### Voraussetzungen
+## Installation 
 
-Liste alle Abhängigkeiten auf, die für die Ausführung des Projekts benötigt werden (z.B. Node.js, Python, Datenbanken etc.).
+Unzip the file and copy the "custom" directory to the games UI directory
+
+This typically means copying "custom" to "C:\Program Files (x86)\Electronic Arts\Dark Age of Camelot\ui"
+
+In the character selection screen choose Options > Interface > Custom Skin.
