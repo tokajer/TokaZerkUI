@@ -1,18 +1,17 @@
 # TokaZerk DAoC User Interface
 
-[![License](https://img.shields.io/badge/License-[Your License]-blue.svg)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/commits/main)
-[![GitHub Stars](https://img.shields.io/github/stars/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/network/members)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Last Commit](https://img.shields.io/github/last-commit/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/commits/main)  
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/stargazers)  
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/network/members)
 
 
-![Optional: Project Screenshot or GIF](path/to/your/screenshot.png)
+---
 
 ## Table of Contents
 
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -21,19 +20,77 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+---
+
 ## About the Project
 
+Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia.  
+**TokaZerk UI** is a custom user interface for **Dark Age of Camelot**, based on GhostUI and countless other elements, specifically tailored for the **Eden freeshard** server.
+
+Crafted by **Tokajer** and **Zerker**, this UI combines modern readability and sleek performance with the classic DAoC vibe. Whether you're a fresh recruit or a long-time realm defender, this UI will enhance your battlefield awareness and provide a cleaner, more immersive experience.
+
+---
+
+## Features
+
+- 🗺️ **Switchable Map Sizes** – Choose between **large** or **small** map layouts for optimal battlefield visibility.
+- 🔤 **Font-Based Text Rendering** – Unlike most UIs that use sprite-based graphics for text, TokaZerk uses true fonts for clearer, crisper readability.
+- 🎨 Clean, streamlined visuals that stay true to the classic DAoC aesthetic.
+- 🔧 Built with flexibility and customization in mind.
+
+---
+
+## Getting Started
+
+### Installation
+
+1. Download and unzip the UI package.
+2. Copy the entire `custom` folder to your DAoC UI directory. This is typically located at:
 
 
+3. Launch DAoC and, on the **character selection screen**, go to:  
+`Options > Interface > Custom Skin`  
+Then select the custom UI.
 
-## about the Project
-Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia. This user interface for Dark Age of Camelot has been crafted with both nostalgia and modern usability in mind. Prepare to navigate the frontier with enhanced clarity, efficiency, and a touch of classic charm. Whether you're a seasoned veteran or a newcomer to the eternal war, this UI aims to streamline your journey and immerse you deeper into the legendary battles for realm supremacy."
+---
 
+## Usage
 
-## Installation 
+Once installed, jump into the game and enjoy the enhanced UI!
 
-Unzip the file and copy the "custom" directory to the games UI directory
+You can switch between **large** and **small** map styles by renaming folders inside the `custom` directory:
 
-This typically means copying "custom" to "C:\Program Files (x86)\Electronic Arts\Dark Age of Camelot\ui"
+- To use **large maps**, rename the folder `Maps_large` to `Maps`
+- To use **small maps**, rename the folder `Maps_small` to `Maps`
 
-In the character selection screen choose Options > Interface > Custom Skin.
+Make sure only one folder is named `Maps` at a time.
+
+---
+
+## Contributing
+
+Suggestions and improvements are welcome!  
+Feel free to open issues or pull requests on the [GitHub repository](https://github.com/yourusername/tokazerk-daoc-ui).
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+Created by:
+- [Tokajer](https://github.com/tokajer)
+- [Zerker](https://github.com/zerker)
+
+For support or questions, open an issue on GitHub.
+
+---
+
+## Acknowledgements
+
+- This UI is largely based on GhostUI and countless other UIs before it.
+- Thanks to the Eden freeshard team for an incredible server.
