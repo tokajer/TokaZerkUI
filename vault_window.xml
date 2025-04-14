@@ -162,13 +162,13 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>100</X>
-                <Y>8</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -176,13 +176,13 @@
             <ControlId>1004</ControlId>
             <Position>
                 <X>80</X>
-                <Y>8</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 

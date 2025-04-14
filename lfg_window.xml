@@ -327,7 +327,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1264,7 +1264,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1287,7 +1287,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -1300,7 +1300,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -1316,7 +1316,7 @@
             <Width>104</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1335,7 +1335,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1358,7 +1358,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -1371,7 +1371,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -1387,7 +1387,7 @@
             <Width>104</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1528,7 +1528,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>

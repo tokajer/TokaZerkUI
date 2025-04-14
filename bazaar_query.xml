@@ -328,9 +328,9 @@
             <ControlId>1020</ControlId>
             <Position>
                 <X>100</X>
-                <Y>280</Y>
+                <Y>282</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -338,9 +338,9 @@
             <ControlId>1021</ControlId>
             <Position>
                 <X>160</X>
-                <Y>280</Y>
+                <Y>282</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -393,9 +393,9 @@
             <ControlId>1023</ControlId>
             <Position>
                 <X>100</X>
-                <Y>300</Y>
+                <Y>302</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -403,9 +403,9 @@
             <ControlId>1024</ControlId>
             <Position>
                 <X>160</X>
-                <Y>300</Y>
+                <Y>302</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -458,9 +458,9 @@
             <ControlId>1014</ControlId>
             <Position>
                 <X>100</X>
-                <Y>320</Y>
+                <Y>322</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -468,9 +468,9 @@
             <ControlId>1015</ControlId>
             <Position>
                 <X>160</X>
-                <Y>320</Y>
+                <Y>322</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 

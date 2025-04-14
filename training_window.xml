@@ -114,7 +114,7 @@
                 <X>40</X>
                 <Y>50</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -137,7 +137,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -155,7 +155,7 @@
                 <X>40</X>
                 <Y>70</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -178,7 +178,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -197,7 +197,7 @@
                 <X>40</X>
                 <Y>90</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -220,7 +220,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -261,7 +261,7 @@
                 <X>220</X>
                 <Y>50</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -284,7 +284,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -302,7 +302,7 @@
                 <X>220</X>
                 <Y>70</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -325,7 +325,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -344,7 +344,7 @@
                 <X>220</X>
                 <Y>90</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -367,7 +367,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -409,7 +409,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1228,7 +1228,7 @@
                 <X>35</X>
                 <Y>180</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1266,7 +1266,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1280,7 +1280,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1300,7 +1300,7 @@
                 <X>35</X>
                 <Y>205</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1338,7 +1338,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1352,7 +1352,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1372,7 +1372,7 @@
                 <X>35</X>
                 <Y>230</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1410,7 +1410,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1424,7 +1424,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1444,7 +1444,7 @@
                 <X>35</X>
                 <Y>255</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1482,7 +1482,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1496,7 +1496,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1516,7 +1516,7 @@
                 <X>35</X>
                 <Y>280</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1554,7 +1554,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1568,7 +1568,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1588,7 +1588,7 @@
                 <X>35</X>
                 <Y>305</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1626,7 +1626,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1640,7 +1640,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1660,7 +1660,7 @@
                 <X>35</X>
                 <Y>330</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1698,7 +1698,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1712,7 +1712,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1732,7 +1732,7 @@
                 <X>35</X>
                 <Y>355</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1770,7 +1770,7 @@
             <Width>155</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1784,7 +1784,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2201,7 +2201,7 @@
                 <X>25</X>
                 <Y>165</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2226,7 +2226,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2247,7 +2247,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2452,7 +2452,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2472,7 +2472,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2503,7 +2503,7 @@
                 <X>25</X>
                 <Y>245</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2528,7 +2528,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2549,7 +2549,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2754,7 +2754,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2774,7 +2774,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2805,7 +2805,7 @@
                 <X>25</X>
                 <Y>325</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2830,7 +2830,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2851,7 +2851,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3056,7 +3056,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3076,7 +3076,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3107,7 +3107,7 @@
                 <X>25</X>
                 <Y>405</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3132,7 +3132,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3153,7 +3153,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3358,7 +3358,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3378,7 +3378,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3418,7 +3418,7 @@
                 <X>20</X>
                 <Y>180</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3456,7 +3456,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3470,7 +3470,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3491,7 +3491,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3511,7 +3511,7 @@
                 <X>20</X>
                 <Y>201</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3549,7 +3549,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3563,7 +3563,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3584,7 +3584,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3604,7 +3604,7 @@
                 <X>20</X>
                 <Y>222</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3642,7 +3642,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3656,7 +3656,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3677,7 +3677,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3697,7 +3697,7 @@
                 <X>20</X>
                 <Y>243</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3735,7 +3735,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3749,7 +3749,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3770,7 +3770,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3790,7 +3790,7 @@
                 <X>20</X>
                 <Y>264</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3828,7 +3828,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3842,7 +3842,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3863,7 +3863,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3883,7 +3883,7 @@
                 <X>20</X>
                 <Y>285</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3921,7 +3921,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3935,7 +3935,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3956,7 +3956,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -3976,7 +3976,7 @@
                 <X>20</X>
                 <Y>306</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4014,7 +4014,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4028,7 +4028,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4049,7 +4049,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4069,7 +4069,7 @@
                 <X>20</X>
                 <Y>327</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4107,7 +4107,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4121,7 +4121,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4142,7 +4142,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4162,7 +4162,7 @@
                 <X>20</X>
                 <Y>348</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4200,7 +4200,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4214,7 +4214,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4235,7 +4235,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4255,7 +4255,7 @@
                 <X>20</X>
                 <Y>369</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4293,7 +4293,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4307,7 +4307,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4328,7 +4328,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4348,7 +4348,7 @@
                 <X>20</X>
                 <Y>390</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4386,7 +4386,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4400,7 +4400,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4421,7 +4421,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4441,7 +4441,7 @@
                 <X>20</X>
                 <Y>411</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4479,7 +4479,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4493,7 +4493,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4514,7 +4514,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4534,7 +4534,7 @@
                 <X>20</X>
                 <Y>432</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4572,7 +4572,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4586,7 +4586,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4607,7 +4607,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4627,7 +4627,7 @@
                 <X>20</X>
                 <Y>453</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4665,7 +4665,7 @@
             <Width>90</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>toka_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4679,7 +4679,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -4700,7 +4700,7 @@
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>

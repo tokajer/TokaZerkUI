@@ -97,7 +97,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
             <OnClickEvent>ValueChooserDecrease</OnClickEvent>
         </ButtonDef>
 
@@ -110,7 +110,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
             <OnClickEvent>ValueChooserIncrease</OnClickEvent>
         </ButtonDef>
 

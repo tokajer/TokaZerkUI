@@ -219,19 +219,19 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>220</X>
-                <Y>425</Y>
+                <Y>428</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
         <ButtonDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>240</X>
-                <Y>425</Y>
+                <X>247</X>
+                <Y>428</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -270,7 +270,7 @@
 
         <LabelDef>
             <Position>
-                <X>75</X>
+                <X>73</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -290,7 +290,7 @@
 
         <LabelDef>
             <Position>
-                <X>118</X>
+                <X>116</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -310,7 +310,7 @@
 
         <LabelDef>
             <Position>
-                <X>160</X>
+                <X>158</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -330,7 +330,7 @@
 
         <LabelDef>
             <Position>
-                <X>208</X>
+                <X>206</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -350,7 +350,7 @@
 
         <LabelDef>
             <Position>
-                <X>253</X>
+                <X>251</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -392,19 +392,19 @@
             <ControlId>1007</ControlId>
             <Position>
                 <X>220</X>
-                <Y>396</Y>
+                <Y>399</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>240</X>
-                <Y>396</Y>
+                <X>247</X>
+                <Y>399</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 

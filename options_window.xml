@@ -747,7 +747,7 @@
                 <X>86</X>
                 <Y>523</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -757,7 +757,7 @@
                 <X>128</X>
                 <Y>523</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 
@@ -812,7 +812,7 @@
                 <X>211</X>
                 <Y>523</Y>
             </Position>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
         </ButtonDef>
 
 
@@ -822,7 +822,7 @@
                 <X>253</X>
                 <Y>523</Y>
             </Position>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
         </ButtonDef>
 
 

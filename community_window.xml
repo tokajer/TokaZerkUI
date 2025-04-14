@@ -1397,7 +1397,7 @@
                 <X>17</X>
                 <Y>48</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1437,7 +1437,7 @@
                 <X>215</X>
                 <Y>46</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1477,7 +1477,7 @@
                 <X>302</X>
                 <Y>48</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1517,7 +1517,7 @@
                 <X>366</X>
                 <Y>48</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1555,7 +1555,7 @@
                 <X>510</X>
                 <Y>46</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1595,7 +1595,7 @@
                 <X>17</X>
                 <Y>62</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1635,7 +1635,7 @@
                 <X>109</X>
                 <Y>62</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1676,7 +1676,7 @@
                 <Y>62</Y>
             </Position>
             <ToolTipID>135</ToolTipID>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1717,7 +1717,7 @@
                 <X>366</X>
                 <Y>62</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1874,12 +1874,12 @@
             <ControlId>1225</ControlId>
             <Position>
                 <X>495</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
             <OnClickEvent>ComGuildMembersPrev</OnClickEvent>
         </ButtonDef>
 
@@ -1908,10 +1908,10 @@
         <LabelDef>
             <ControlId>1227</ControlId>
             <Position>
-                <X>537</X>
+                <X>538</X>
                 <Y>282</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -1950,12 +1950,12 @@
             <ControlId>1229</ControlId>
             <Position>
                 <X>574</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
             <OnClickEvent>ComGuildMembersNext</OnClickEvent>
         </ButtonDef>
 
@@ -1979,7 +1979,7 @@
                 <X>99</X>
                 <Y>302</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2050,7 +2050,7 @@
                 <X>17</X>
                 <Y>54</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2090,7 +2090,7 @@
                 <X>238</X>
                 <Y>54</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2196,12 +2196,12 @@
             <ControlId>1312</ControlId>
             <Position>
                 <X>495</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>toka_button_left_filled</TemplateName>
             <OnClickEvent>ComAllianceMembersPrev</OnClickEvent>
         </ButtonDef>
 
@@ -2230,10 +2230,10 @@
         <LabelDef>
             <ControlId>1314</ControlId>
             <Position>
-                <X>535</X>
+                <X>536</X>
                 <Y>282</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -2272,12 +2272,12 @@
             <ControlId>1316</ControlId>
             <Position>
                 <X>574</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>toka_button_right_filled</TemplateName>
             <OnClickEvent>ComAllianceMembersNext</OnClickEvent>
         </ButtonDef>
 
