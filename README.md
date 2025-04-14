@@ -63,8 +63,6 @@ You can switch between **large** and **small** map styles by renaming folders in
 - To use **large maps**, rename the folder `Maps_large` to `Maps`
 - To use **small maps**, rename the folder `Maps_small` to `Maps`
 
-Make sure only one folder is named `Maps` at a time.
-
 ---
 
 ## Contributing
