@@ -6,6 +6,8 @@
 [![GitHub Forks](https://img.shields.io/github/forks/yourusername/tokazerk-daoc-ui)](https://github.com/yourusername/tokazerk-daoc-ui/network/members)
 
 
+![UI Preview](https://i.imgur.com/dufN7RN.png)
+
 ---
 
 ## Table of Contents
