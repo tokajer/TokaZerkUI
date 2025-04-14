@@ -1331,7 +1331,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>player_location</TemplateName>
+            <TemplateName>player_location2</TemplateName>
         </ImageAreaDef>
 
 
