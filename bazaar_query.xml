@@ -337,7 +337,7 @@
         <ButtonDef>
             <ControlId>1021</ControlId>
             <Position>
-                <X>160</X>
+                <X>168</X>
                 <Y>282</Y>
             </Position>
             <TemplateName>toka_button_right_filled</TemplateName>
@@ -402,7 +402,7 @@
         <ButtonDef>
             <ControlId>1024</ControlId>
             <Position>
-                <X>160</X>
+                <X>168</X>
                 <Y>302</Y>
             </Position>
             <TemplateName>toka_button_right_filled</TemplateName>
@@ -467,7 +467,7 @@
         <ButtonDef>
             <ControlId>1015</ControlId>
             <Position>
-                <X>160</X>
+                <X>168</X>
                 <Y>322</Y>
             </Position>
             <TemplateName>toka_button_right_filled</TemplateName>
