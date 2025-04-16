@@ -12,14 +12,14 @@
         <RepeatHeight>18</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>ui_tokajer_parts</TextureName>
             <Top>
                 <X>186</X>
                 <Y>95</Y>
             </Top>
             <Repeat>
-                <X>186</X>
-                <Y>75</Y>
+                <X>148</X>
+                <Y>79</Y>
             </Repeat>
             <Bottom>
                 <X>186</X>
