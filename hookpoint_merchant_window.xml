@@ -99,7 +99,7 @@
                 <X>5</X>
                 <Y>321</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -130,7 +130,7 @@
                 <X>5</X>
                 <Y>339</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -161,7 +161,7 @@
                 <X>5</X>
                 <Y>357</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -192,7 +192,7 @@
                 <X>5</X>
                 <Y>375</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -227,7 +227,7 @@
                 <X>5</X>
                 <Y>405</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -258,9 +258,9 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>250</Y>
+                <Y>248</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -277,7 +277,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>180</X>
-                <Y>246</Y>
+                <Y>245</Y>
             </Position>
             <TemplateName>dialog_inset</TemplateName>
             <Width>70</Width>
@@ -287,7 +287,7 @@
         <ScalarLabelDef>
             <Position>
                 <X>185</X>
-                <Y>248</Y>
+                <Y>244</Y>
             </Position>
             <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
@@ -309,9 +309,9 @@
         <LabelDef>
             <Position>
                 <X>5</X>
-                <Y>266</Y>
+                <Y>264</Y>
             </Position>
-             <Color>
+            <Color>
                 <R>229</R>
                 <G>229</G>
                 <B>229</B>
@@ -328,7 +328,7 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>180</X>
-                <Y>262</Y>
+                <Y>261</Y>
             </Position>
             <TemplateName>dialog_inset</TemplateName>
             <Width>70</Width>
@@ -338,7 +338,7 @@
         <ScalarLabelDef>
             <Position>
                 <X>185</X>
-                <Y>264</Y>
+                <Y>262</Y>
             </Position>
             <FontName>TokaFontRegular10</FontName>
             <Width>64</Width>
@@ -370,7 +370,7 @@
         <LabelDef>
             <Position>
                 <X>9</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -409,7 +409,7 @@
         <LabelDef>
             <Position>
                 <X>60</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -448,7 +448,7 @@
         <LabelDef>
             <Position>
                 <X>112</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -487,7 +487,7 @@
         <LabelDef>
             <Position>
                 <X>164</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -526,7 +526,7 @@
         <LabelDef>
             <Position>
                 <X>216</X>
-                <Y>283</Y>
+                <Y>281</Y>
             </Position>
             <Color>
                 <R>255</R>
