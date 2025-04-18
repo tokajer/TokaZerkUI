@@ -1,7 +1,6 @@
 # TokaZerk DAoC User Interface
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)  
 [![Last Commit](https://img.shields.io/github/last-commit/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/commits/main)  
-![GitHub all releases](https://img.shields.io/github/downloads/tokajer/TokaZerkUI/total?label=Downloads+Total)  
 [![GitHub Stars](https://img.shields.io/github/stars/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/stargazers)  
 [![GitHub Forks](https://img.shields.io/github/forks/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/network/members)  
 
