@@ -3,6 +3,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/commits/main)  
 [![GitHub Stars](https://img.shields.io/github/stars/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/stargazers)  
 [![GitHub Forks](https://img.shields.io/github/forks/tokajer/TokaZerkUI)](https://github.com/tokajer/TokaZerkUI/network/members)  
+![GitHub all releases](https://img.shields.io/github/downloads/tokajer/TokaZerkUI/total?cacheSeconds=60)
 
 ![UI Preview](https://i.imgur.com/dufN7RN.png)
 
