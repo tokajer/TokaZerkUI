@@ -1,0 +1,23 @@
+name: Nightly Zip Build
+on:
+  push:
+    branches:
+      - main # Replace with your default branch name if different
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+    # Step 2: Create a ZIP archive
+    - name: Create ZIP archive
+      run: |
+        mkdir artifacts
+        zip -r ./artifacts/nightly-build.zip ./*
+    # Step 3: Upload the ZIP as an artifact
+    - name: Upload nightly artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: nightly-zip
+        path: ./artifacts/nightly-build.zip
