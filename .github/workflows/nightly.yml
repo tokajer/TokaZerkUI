@@ -15,9 +15,24 @@ jobs:
       run: |
         mkdir artifacts
         zip -r ./artifacts/nightly-build.zip ./*
-    # Step 3: Upload the ZIP as an artifact
-    - name: Upload nightly artifact
-      uses: actions/upload-artifact@v4
+    # Step 3: Publish to GitHub Release
+    - name: Create or Update Release
+      uses: actions/create-release@v1
       with:
-        name: nightly-zip
-        path: ./artifacts/nightly-build.zip
+        tag_name: nightly-${{ github.run_number }}
+        release_name: TokaZerk Nightly Build # Customize the release name
+        draft: false
+        prerelease: true
+        body: |
+          This is an automated nightly build.
+          - Commit: ${{ github.sha }}
+          - Date: ${{ github.event.head_commit.timestamp }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload ZIP to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./artifacts/nightly-build.zip
+        asset_name: nightly-build.zip
+        asset_content_type: application/zip
