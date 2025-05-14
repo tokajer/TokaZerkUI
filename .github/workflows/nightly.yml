@@ -9,7 +9,7 @@ jobs:
     steps:
     # Step 1: Checkout the repository
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/upload-artifact@v3.1.2
     # Step 2: Create a ZIP archive
     - name: Create ZIP archive
       run: |
