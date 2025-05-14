@@ -101,7 +101,7 @@
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Cru: </Data>
+            <Data>Cru:</Data>
             <ColorAdapter>stats_crush_color</ColorAdapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
@@ -151,7 +151,7 @@
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Sla: </Data>
+            <Data>Sla:</Data>
             <ColorAdapter>stats_slash_color</ColorAdapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
@@ -201,7 +201,7 @@
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Hea: </Data>
+            <Data>Hea:</Data>
             <ColorAdapter>stats_heat_color</ColorAdapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
@@ -251,7 +251,7 @@
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Col: </Data>
+            <Data>Col:</Data>
             <ColorAdapter>stats_cold_color</ColorAdapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
@@ -301,7 +301,7 @@
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Mat: </Data>
+            <Data>Mat:</Data>
             <ColorAdapter>stats_matter_color</ColorAdapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
