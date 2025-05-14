@@ -1,4 +1,4 @@
-Tokajer's and Zerkers DAOC UI Eden 1.0.4
+Tokajer's and Zerkers DAOC UI Eden 1.0.6
 
 
 Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia.
