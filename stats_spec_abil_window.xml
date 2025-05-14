@@ -3,54 +3,6 @@
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
 <!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
-
-
-    <ListBoxTemplate>
-        <Name>listbox_green_bg</Name>
-        <LinePadding>4</LinePadding>
-        <CellPadding>2</CellPadding>
-        <LabelLength>128</LabelLength>
-        <ScrollbarTemplate>g_vscrollbar</ScrollbarTemplate>
-        <DrawScroll>true</DrawScroll>
-        <ScrollbarTopOffset>0</ScrollbarTopOffset>
-        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>0</ScrollbarRightOffset>
-        <Sorting>false</Sorting>
-        <BackgroundTemplate>none</BackgroundTemplate>
-        <IconTemplate>plain_icon_small</IconTemplate>
-        <TextFont>
-            <Name>tokafontregular10</Name>
-            <ColorNormal>
-                <R>229</R>
-                <G>229</G>
-                <B>229</B>
-                <A>229</A>
-            </ColorNormal>
-            <ColorHighlit>
-                <R>0</R>
-                <G>192</G>
-                <B>0</B>
-                <A>255</A>
-            </ColorHighlit>
-            <ColorGreyed>
-                <R>127</R>
-                <G>127</G>
-                <B>127</B>
-                <A>255</A>
-            </ColorGreyed>
-            <TextTopOffset>0</TextTopOffset>
-            <TextBottomOffset>0</TextBottomOffset>
-            <TextLeftOffset>0</TextLeftOffset>
-            <TextRightOffset>0</TextRightOffset>
-            <LineOffset>0</LineOffset>
-        </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
-    </ListBoxTemplate>
-
-
     <WindowTemplate>
         <Name>stats_spec_abil</Name>
         <WindowId>Stats_Spec_Abil</WindowId>

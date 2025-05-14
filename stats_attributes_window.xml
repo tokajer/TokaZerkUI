@@ -877,6 +877,7 @@
 
 
         <ListBoxDef>
+            <ControlId>1100</ControlId>
             <Position>
                 <X>10</X>
                 <Y>280</Y>
