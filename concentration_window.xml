@@ -10,8 +10,8 @@
         <WindowId>Concentration</WindowId>
         <CloseButton>true</CloseButton>
         <MoveButton>true</MoveButton>
-        <TopRightResizeButton>true</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
