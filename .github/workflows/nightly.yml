@@ -9,7 +9,7 @@ jobs:
     steps:
     # Step 1: Checkout the repository
     - name: Checkout code
-      uses: actions/upload-artifact@v3.1.2
+      uses: actions/checkout@v3
     # Step 2: Create a ZIP archive
     - name: Create ZIP archive
       run: |
@@ -17,7 +17,7 @@ jobs:
         zip -r ./artifacts/nightly-build.zip ./*
     # Step 3: Upload the ZIP as an artifact
     - name: Upload nightly artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3.1.2
       with:
         name: nightly-zip
         path: ./artifacts/nightly-build.zip
