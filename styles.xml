@@ -19468,4 +19468,16 @@
     </MenuTemplate>
 
 
+    <StatusBarTemplate>
+        <Name>target_status_bar_color</Name>
+        <ForegroundHResizeTemplate>sidegroup_purple_foreground</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>sidegroup_purple_background</BackgroundHResizeTemplate>
+        <Height>18</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
 </Root_Element>
