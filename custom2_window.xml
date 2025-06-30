@@ -59,14 +59,14 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>16</X>
+                <X>17</X>
                 <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>tokafontbold12</FontName>
-            <Width>22</Width>
+            <Width>25</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Color>
@@ -84,7 +84,7 @@
 
         <LabelDef>
             <Position>
-                <X>38</X>
+                <X>46</X>
                 <Y>2</Y>
             </Position>
             <Color>
