@@ -98,7 +98,7 @@
 
 
     <WindowTemplate>
-        <Name>float_target_window</Name>
+        <Name>new_summary_window</Name>
         <WindowId></WindowId>
         <CloseButton>false</CloseButton>
         <MoveButton>true</MoveButton>
@@ -109,8 +109,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>10</Width>
-        <Height>10</Height>
+        <Width>13</Width>
+        <Height>13</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -126,17 +126,26 @@
         <StatusIconDef>
             <Position>
                 <X>-217</X>
-                <Y>-270</Y>
+                <Y>2</Y>
             </Position>
             <TemplateName>statusicon_hudhealthtarget</TemplateName>
             <AdapterName>summary_target_hits</AdapterName>
         </StatusIconDef>
 
 
+        <ImageAreaDef>
+            <Position>
+                <X>-217</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_hudhealthtarget_overlay</TemplateName>
+        </ImageAreaDef>
+
+
         <ScalarLabelDef>
             <Position>
                 <X>-202</X>
-                <Y>-10</Y>
+                <Y>256</Y>
             </Position>
             <FontName>tokafontbold12</FontName>
             <Width>40</Width>
@@ -161,17 +170,26 @@
         <StatusIconDef>
             <Position>
                 <X>-200</X>
-                <Y>-270</Y>
+                <Y>2</Y>
             </Position>
             <TemplateName>statusicon_hudhealth</TemplateName>
             <AdapterName>summary_player_hits</AdapterName>
         </StatusIconDef>
 
 
+        <ImageAreaDef>
+            <Position>
+                <X>-200</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>imagearea_hudhealth_overlay</TemplateName>
+        </ImageAreaDef>
+
+
         <ScalarLabelDef>
             <Position>
                 <X>-175</X>
-                <Y>-10</Y>
+                <Y>256</Y>
             </Position>
             <FontName>tokafontbold12</FontName>
             <Width>40</Width>
@@ -195,17 +213,26 @@
         <StatusIconDef>
             <Position>
                 <X>166</X>
-                <Y>-270</Y>
+                <Y>0</Y>
             </Position>
             <TemplateName>statusicon_hudend</TemplateName>
             <AdapterName>summary_player_end</AdapterName>
         </StatusIconDef>
 
 
+        <ImageAreaDef>
+            <Position>
+                <X>167</X>
+                <Y>-3</Y>
+            </Position>
+            <TemplateName>imagearea_hudend_overlay</TemplateName>
+        </ImageAreaDef>
+
+
         <ScalarLabelDef>
             <Position>
                 <X>142</X>
-                <Y>-10</Y>
+                <Y>256</Y>
             </Position>
             <FontName>tokafontbold12</FontName>
             <Width>40</Width>
@@ -229,17 +256,26 @@
         <StatusIconDef>
             <Position>
                 <X>183</X>
-                <Y>-270</Y>
+                <Y>0</Y>
             </Position>
             <TemplateName>statusicon_hudpwr</TemplateName>
             <AdapterName>summary_player_power</AdapterName>
         </StatusIconDef>
 
 
+        <ImageAreaDef>
+            <Position>
+                <X>184</X>
+                <Y>-3</Y>
+            </Position>
+            <TemplateName>imagearea_hudpwr_overlay</TemplateName>
+        </ImageAreaDef>
+
+
         <ScalarLabelDef>
             <Position>
                 <X>169</X>
-                <Y>-10</Y>
+                <Y>256</Y>
             </Position>
             <FontName>tokafontbold12</FontName>
             <Width>40</Width>
@@ -264,7 +300,7 @@
         <LabelDef>
             <Position>
                 <X>-244</X>
-                <Y>-10</Y>
+                <Y>276</Y>
             </Position>
             <Color>
                 <R>255</R>
