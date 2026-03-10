@@ -135,7 +135,7 @@
 
 
     <TTFFont>
-        <Name>TokaFontBold8</Name>
+        <Name>TokaFontRegular8</Name>
         <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
         <Height>8</Height>
         <Antialiased>true</Antialiased>
