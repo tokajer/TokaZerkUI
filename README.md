@@ -69,7 +69,7 @@ You can switch between **large** and **small** map styles by deleting the old `M
 ## Contributing
 
 Suggestions and improvements are welcome!  
-Feel free to open issues or pull requests on the [GitHub repository](https://github.com/yourusername/tokazerk-daoc-ui).
+Feel free to open issues or pull requests on the [GitHub repository](https://github.com/tokajer/tokazerk-daoc-ui).
 
 ---
 
