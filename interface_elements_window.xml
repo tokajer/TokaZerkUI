@@ -18,7 +18,7 @@
         <TitleWidth>350</TitleWidth>
         <TitleHeight>8</TitleHeight>
         <Width>350</Width>
-        <Height>475</Height>
+        <Height>500</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -39,7 +39,7 @@
             </Alignment>
             <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>350</Width>
-            <Height>475</Height>
+            <Height>500</Height>
         </FullResizeImageDef>
 
 
@@ -518,6 +518,40 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Maps &amp; Journals:</Data>
         </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>105</X>
+                <Y>459</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>56</R>
+                <G>165</G>
+                <B>157</B>
+                <A>255</A>
+            </Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Custom Windows:</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>35</X>
+                <Y>475</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TOKA UI MANAGER</Label>
+            <Width>280</Width>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>

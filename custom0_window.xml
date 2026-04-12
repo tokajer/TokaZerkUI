@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>custom0_window</Name>
         <WindowId>custom0_window</WindowId>
@@ -15,16 +11,16 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>300</TitleWidth>
+        <TitleWidth>440</TitleWidth>
         <TitleHeight>18</TitleHeight>
-        <Width>400</Width>
-        <Height>550</Height>
+        <Width>440</Width>
+        <Height>580</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>400</MinWidth>
-        <MinHeight>400</MinHeight>
+        <MinWidth>440</MinWidth>
+        <MinHeight>580</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -34,11 +30,12 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>g_window_background_tokajer</TemplateName>
-            <Width>400</Width>
-            <Height>550</Height>
+            <Width>440</Width>
+            <Height>580</Height>
         </FullResizeImageDef>
 
 
+        <!-- Title -->
         <LabelDef>
             <ControlId>title_label</ControlId>
             <Position>
@@ -55,920 +52,510 @@
                 <A>255</A>
             </Color>
             <FontName>TokaFontBold12</FontName>
-            <Width>300</Width>
+            <Width>440</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Tokajer's UI Window Manager</Data>
+            <Data>TOKA UI MANAGER</Data>
         </LabelDef>
 
 
+        <!-- ============================================================ -->
+        <!-- COLUMN 1 (X=15) �?" Status Bars / Experience / Character / System -->
+        <!-- ============================================================ -->
+
         <LabelDef>
-            <Position>
-                <X>13</X>
-                <Y>25</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
+            <Position><X>15</X><Y>28</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
             <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
+            <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Status Bars:</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>42</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HEALTH (FLOAT)</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom5</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>259</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Eden Info</Label>
-            <OnClickEvent>ToggleCustom19</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>41</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Lvl XP</Label>
-            <OnClickEvent>ToggleFloatLevelXP</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>HH Ghost</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>79</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>RP XP</Label>
-            <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>98</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>MBar</Label>
-            <OnClickEvent>ToggleMenuBar</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>96</X>
-                <Y>41</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Concentration</Label>
-            <OnClickEvent>ToggleConcentration</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>floatingpower</ControlId>
-            <Position>
-                <X>96</X>
-                <Y>79</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Power (Float)</Label>
-            <OnClickEvent>ToggleCustom17</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>96</X>
-                <Y>98</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Target Health</Label>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>62</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TARGET HEALTH</Label>
+            <Width>125</Width>
             <OnClickEvent>ToggleCustom2</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
-
-        <LabelDef>
-            <Position>
-                <X>10</X>
-                <Y>140</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
-            <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Data>Toolbars:</Data>
-        </LabelDef>
-
-
-        <ButtonDef>
-            <ControlId>ghost toolbar</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>154</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Toolbar</Label>
-            <OnClickEvent>ToggleCustom9</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>group toolbar</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>173</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Toolbar</Label>
-            <OnClickEvent>ToggleCustom8</OnClickEvent>
-        </ButtonDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>157</X>
-                <Y>157</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_smallicon_gtoolbar</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>157</X>
-                <Y>175</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_smallicon_groupbar</TemplateName>
-        </ImageAreaDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>13</X>
-                <Y>207</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
-            <FontName>TokaFontBold11</FontName>
-            <Width>150</Width>
-            <Height>12</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Data>On-Screen Gadgets:</Data>
-        </LabelDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>221</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Clock</Label>
-            <OnClickEvent>ToggleClock</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>240</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Compass</Label>
-            <OnClickEvent>ToggleCompass</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>259</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Resists</Label>
-            <OnClickEvent>ToggleCustom15</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>278</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Stats</Label>
-            <OnClickEvent>ToggleCustom6</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>297</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Performance</Label>
-            <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>316</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Pet</Label>
-            <OnClickEvent>ToggleMiniPet</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>pulse</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>335</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Pulse</Label>
-            <OnClickEvent>ToggleCustom18</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>354</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Quiver</Label>
-            <OnClickEvent>ToggleQuiver</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>374</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Summary</Label>
-            <OnClickEvent>ToggleSummary</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>394</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>New Summary</Label>
-            <OnClickEvent>ToggleNewSummary</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>414</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Different Compass </Label>
-            <OnClickEvent>ToggleCustom11</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>floatingendurance</ControlId>
-            <Position>
-                <X>32</X>
-                <Y>435</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Resists</Label>
-            <OnClickEvent>ToggleCustom12</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>154</X>
-                <Y>463</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_82x18</TemplateName>
-            <Label>Menu</Label>
-            <OnClickEvent>ToggleMainMenu</OnClickEvent>
-        </ButtonDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>157</X>
-                <Y>213</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_clock</TemplateName>
-        </ImageAreaDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>225</X>
-                <Y>25</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
-            <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Data>Buffs &amp; Group:</Data>
-        </LabelDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>242</X>
-                <Y>41</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Healers Helper</Label>
-            <OnClickEvent>ToggleCustom10</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>242</X>
-                <Y>60</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Group Buffs</Label>
-            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>242</X>
-                <Y>98</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Mini Group</Label>
-            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>242</X>
-                <Y>79</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Group Helper</Label>
-            <OnClickEvent>ToggleCustom7</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>96</X>
-                <Y>60</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Endu (Float)</Label>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>82</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ENDURANCE (FLOAT)</Label>
+            <Width>125</Width>
             <OnClickEvent>ToggleCustom16</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
-
-        <ImageAreaDef>
-            <Position>
-                <X>359</X>
-                <Y>35</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_group_conc</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>357</X>
-                <Y>56</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_group_buffs</TemplateName>
-        </ImageAreaDef>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>102</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>POWER (FLOAT)</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom17</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>
-            <Position>
-                <X>225</X>
-                <Y>140</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
+            <Position><X>15</X><Y>128</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
             <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
+            <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Maps</Data>
+            <Data>Experience:</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>142</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>LEVEL XP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleFloatLevelXP</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>158</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_82x18</TemplateName>
-            <Label>Map</Label>
-            <OnClickEvent>ToggleMap</OnClickEvent>
-        </ButtonDef>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>162</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CHAMPION XP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleFloatChampXP</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>177</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_82x18</TemplateName>
-            <Label>Realm</Label>
-            <OnClickEvent>Realm</OnClickEvent>
-        </ButtonDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>153</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_map</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>173</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_realmwar</TemplateName>
-        </ImageAreaDef>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>182</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>REALM XP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>
-            <Position>
-                <X>225</X>
-                <Y>207</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
+            <Position><X>15</X><Y>208</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
             <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
+            <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Journals</Data>
+            <Data>Character:</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>222</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>SUMMARY</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleSummary</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>221</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Quest</Label>
-            <OnClickEvent>Journal</OnClickEvent>
-        </ButtonDef>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>242</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>NEW SUMMARY</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleNewSummary</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>262</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>FLOATING TARGET</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleFloatTarget</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>240</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Crafting</Label>
-            <OnClickEvent>ToggleCustom14</OnClickEvent>
-        </ButtonDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>217</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_journal</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>238</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_mljournal</TemplateName>
-        </ImageAreaDef>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>282</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>STATUS WINDOW</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom4</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>
-            <Position>
-                <X>225</X>
-                <Y>283</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>157</B>
-                <A>255</A>
-            </Color>
+            <Position><X>15</X><Y>308</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
             <FontName>TokaFontBold11</FontName>
-            <Width>100</Width>
-            <Height>12</Height>
+            <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Miscellaneous</Data>
+            <Data>System:</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>322</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MENU BAR</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleMenuBar</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>297</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Commands</Label>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>342</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>COMMANDS</Label>
+            <Width>125</Width>
             <OnClickEvent>ToggleCommandWindow</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>362</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>PERFORMANCE</Label>
+            <Width>125</Width>
+            <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>316</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Friends</Label>
-            <OnClickEvent>Friends</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>335</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Key Config</Label>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>382</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>KEY CONFIG</Label>
+            <Width>125</Width>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
-
-        <ButtonDef>
-            <Position>
-                <X>244</X>
-                <Y>355</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Options</Label>
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>402</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>OPTIONS</Label>
+            <Width>125</Width>
             <OnClickEvent>ToggleOptions</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>422</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TITLE WINDOW</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleTitle</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>15</X><Y>442</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MOUNT WINDOW</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleMount</OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>rrchart</ControlId>
-            <Position>
-                <X>244</X>
-                <Y>375</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>RR Chart</Label>
-            <OnClickEvent>ToggleCustom3</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>social</ControlId>
-            <Position>
-                <X>243</X>
-                <Y>395</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Social</Label>
-            <OnClickEvent>Community</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>ArmorResists</ControlId>
-            <Position>
-                <X>243</X>
-                <Y>416</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Armor Resists</Label>
-            <OnClickEvent>ToggleCustom13</OnClickEvent>
-        </ButtonDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>292</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_command</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>362</X>
-                <Y>255</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>g_icon_friends</TemplateName>
-        </ImageAreaDef>
-
+        <!-- ============================================================ -->
+        <!-- COLUMN 2 (X=155) �?" Gadgets / Maps & Journals                 -->
+        <!-- ============================================================ -->
 
         <LabelDef>
-            <Position>
-                <X>95</X>
-                <Y>505</Y>
-            </Position>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>144</B>
-                <A>255</A>
-            </Color>
-            <FontName>tokafontbold10</FontName>
-            <Width>240</Width>
-            <Height>10</Height>
+            <Position><X>155</X><Y>28</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Green labeled items typically left on screen.</Data>
+            <Data>Gadgets:</Data>
         </LabelDef>
 
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>42</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CLOCK</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleClock</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>62</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>COMPASS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCompassWindow</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>82</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ALT. COMPASS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom11</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>102</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CONCENTRATION</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>122</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>PET WINDOW</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleMiniPet</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>142</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>QUIVER</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleQuiver</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>162</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>PULSE</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom18</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>182</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TOOLBAR</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom9</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>202</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MINI TOOLBAR</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom8</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>222</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MINI STATS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom6</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>242</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MINI RESISTS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom15</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
 
         <LabelDef>
-            <Position>
-                <X>78</X>
-                <Y>518</Y>
-            </Position>
-            <Color>
-                <R>56</R>
-                <G>165</G>
-                <B>144</B>
-                <A>255</A>
-            </Color>
-            <FontName>tokafontbold10</FontName>
-            <Width>250</Width>
-            <Height>10</Height>
+            <Position><X>155</X><Y>268</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>130</Width><Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Maps &amp; Journals:</Data>
+        </LabelDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>282</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MAP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>302</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>WARMAP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ShowWarmap</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>322</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>QUEST JOURNAL</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleJournal</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <LabelDef>
+            <Position><X>155</X><Y>368</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>130</Width><Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Guides &amp; Info:</Data>
+        </LabelDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>382</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>BONUSES</Label>
+            <Width>125</Width>
+            <OnClickEvent>Bonuses</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>402</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>ARMOR RESISTS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom13</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>422</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CRAFTING JOURNAL</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom14</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!-- ============================================================ -->
+        <!-- COLUMN 3 (X=295) �?" Group & Buffs / Realm Info                -->
+        <!-- ============================================================ -->
+
+        <LabelDef>
+            <Position><X>295</X><Y>28</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>130</Width><Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Group &amp; Buffs:</Data>
+        </LabelDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>42</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>HEALERS HELPER</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom10</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>62</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>GROUP BUFFS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>82</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>GROUP HELPER</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom7</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>102</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>GROUP HELPER V2</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom1</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>122</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>MINI GROUP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>142</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>FLOATING GROUP</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleNewGroup</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>162</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>FRIENDS</Label>
+            <Width>125</Width>
+            <OnClickEvent>Friends</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>182</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>SOCIAL WINDOW</Label>
+            <Width>125</Width>
+            <OnClickEvent>Community</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <LabelDef>
+            <Position><X>295</X><Y>208</Y></Position>
+            <Alignment><TopLeft>true</TopLeft></Alignment>
+            <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
+            <FontName>TokaFontBold11</FontName>
+            <Width>130</Width><Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Realm Info:</Data>
+        </LabelDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>222</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>RELIC STATUS</Label>
+            <Width>125</Width>
+            <OnClickEvent>Relic</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>242</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>KEEP STATUS</Label>
+            <Width>125</Width>
+            <OnClickEvent>Realm</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>262</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>RR CHART</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom3</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>295</X><Y>282</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>EDEN INFO</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom19</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!-- Footer -->
+        <LabelDef>
+            <Position><X>0</X><Y>560</Y></Position>
+            <Alignment><CenterHorizontally>true</CenterHorizontally></Alignment>
+            <Color><R>56</R><G>165</G><B>144</B><A>255</A></Color>
+            <FontName>TokaFontBold10</FontName>
+            <Width>440</Width><Height>10</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>based on GhostUI and BysanUI by Tokajer &amp; Zerker (2025)</Data>
         </LabelDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>60</Y>
-            </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>CL XP</Label>
-            <OnClickEvent>ToggleFloatChampXP</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>242</X>
-                <Y>117</Y>
-            </Position>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Group Helper V2</Label>
-            <OnClickEvent>ToggleCustom1</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>117</Y>
-            </Position>
-            <TemplateName>button_tokajer_62x18</TemplateName>
-            <Label>Status</Label>
-            <OnClickEvent>ToggleCustom4</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>96</X>
-                <Y>117</Y>
-            </Position>
-            <TemplateName>button_tokajer_xlarge</TemplateName>
-            <Label>Health (Float)</Label>
-            <OnClickEvent>ToggleCustom5</OnClickEvent>
-        </ButtonDef>
 
 
     </WindowTemplate>

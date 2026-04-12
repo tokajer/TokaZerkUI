@@ -17,8 +17,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>10</Width>
-        <Height>10</Height>
+        <Width>240</Width>
+        <Height>60</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -40,7 +40,6 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <ToolTipID>1</ToolTipID>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -66,8 +65,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>1</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -115,8 +115,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>3</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -139,7 +140,6 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <ToolTipID>2</ToolTipID>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -165,8 +165,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>2</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -214,8 +215,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>4</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -263,8 +265,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>5</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -312,8 +315,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>7</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -361,8 +365,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>6</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -410,8 +415,9 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>8</ToolTipID>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>35</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -459,7 +465,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>60</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -506,7 +512,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>60</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -553,7 +559,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>TokaFontRegular12</FontName>
-            <Width>100</Width>
+            <Width>60</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>

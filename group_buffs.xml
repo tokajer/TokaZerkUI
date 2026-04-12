@@ -753,6 +753,18 @@
         </InvisibleButtonDef>
 
 
+        <HorizontalResizeButtonDef>
+            <Position>
+                <X>78</X>
+                <Y>350</Y>
+            </Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>CONCENTRATION</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
     </WindowTemplate>
 
 
