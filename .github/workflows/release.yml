@@ -24,11 +24,18 @@ jobs:
 
       - name: Create release archive
         run: |
-          zip -r "$ASSET_NAME" . \
-            --exclude "*.md" \
-            --exclude "*.bak" \
-            --exclude ".git/*" \
-            --exclude ".github/*"
+          mkdir -p staging/custom
+          rsync -a \
+            --exclude="*.md" \
+            --exclude="*.bak" \
+            --exclude=".git" \
+            --exclude=".github" \
+            --exclude="staging" \
+            . staging/custom/
+          cd staging
+          zip -r "../$ASSET_NAME" custom
+          cd ..
+          rm -rf staging
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
