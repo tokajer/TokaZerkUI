@@ -1,0 +1,46 @@
+{
+  "name": "tokazerk-ui-picker",
+  "version": "0.1.0",
+  "description": "Asset picker for the TokaZerk DAoC UI - swap Options variants, map sizes and frontier styles",
+  "main": "main.js",
+  "author": "Tokajer",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/assets.test.js && node test/preview.test.js",
+    "dist:linux": "electron-builder --linux",
+    "dist:win": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "de.tokajer.tokazerkui.picker",
+    "productName": "TokaZerkUI-Picker",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "lib/**",
+      "renderer/**"
+    ],
+    "linux": {
+      "target": "AppImage",
+      "category": "Game",
+      "icon": "build/icon.png"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}.exe"
+    },
+    "appImage": {
+      "artifactName": "${productName}-${version}.AppImage"
+    }
+  }
+}

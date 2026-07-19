@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:" />
+  <title>TokaZerk UI Picker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="title-block">
+      <h1>TokaZerk UI Picker</h1>
+      <p id="ui-root" class="ui-root"></p>
+    </div>
+    <button id="pick-folder" class="ghost">Change folder…</button>
+  </header>
+
+  <main id="categories"></main>
+
+  <div id="empty" class="empty hidden">
+    <p>No TokaZerk UI folder found.</p>
+    <p>Select your DAoC <code>ui/custom</code> folder (the one containing <code>Options</code>).</p>
+    <button id="pick-folder-empty">Select folder…</button>
+  </div>
+
+  <footer>
+    <span>Changes take effect after reloading the UI (relog or <code>/quit</code> to character select).</span>
+  </footer>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <div id="lightbox" class="lightbox hidden">
+    <img id="lightbox-img" alt="preview" />
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

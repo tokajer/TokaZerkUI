@@ -16,6 +16,7 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Asset Picker](#asset-picker)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -36,6 +37,7 @@ Crafted by **Tokajer** and **Zerker**, this UI combines modern readability and s
 
 - 🗺️ **Switchable Map Sizes** – Choose between **large** or **small** map layouts for optimal battlefield visibility.
 - 🔤 **Font-Based Text Rendering** – Unlike most UIs that use sprite-based graphics for text, TokaZerk uses true fonts for clearer, crisper readability.
+- 🎛️ **Asset Picker** – A small desktop app (Windows & Linux) that previews and swaps the optional assets — target window styles, HUD, map size, old/new frontier war maps — with a single click. See [Asset Picker](#asset-picker).
 - 🎨 Clean, streamlined visuals that stay true to the classic DAoC aesthetic.
 - 🔧 Built with flexibility and customization in mind.
 
@@ -59,10 +61,33 @@ Then select the custom UI.
 
 Once installed, jump into the game and enjoy the enhanced UI!
 
-You can switch between **large** and **small** map styles by deleting the old `Maps` folder and renaming folders inside the `custom` directory:
+The easiest way to customize the UI is the [Asset Picker](#asset-picker) — it previews and swaps all optional assets for you. If you prefer to do it by hand, you can switch between **large** and **small** map styles by deleting the old `Maps` folder and renaming folders inside the `custom` directory:
 
 - To use **large maps**, rename the folder `Maps_large` to `Maps`
 - To use **small maps**, rename the folder `Maps_small` to `Maps`
+
+---
+
+## Asset Picker
+
+The **TokaZerk UI Picker** is a small desktop app that swaps the optional assets of the UI for you — no more renaming folders by hand. It automatically finds the switchable assets, shows a preview of each one and marks the variant that is currently active.
+
+**What you can switch**
+
+- 🎯 **Target Window** – e.g. the blue or purple target status bar
+- 📟 **HUD** and floating windows
+- 🗺️ **Map Size** – large or small
+- ⚔️ **Frontier War Maps** – New Frontiers (NF) or Old Frontiers (OF)
+
+**How to use it**
+
+1. Grab the picker from the [releases page](https://github.com/tokajer/TokaZerkUI/releases):
+   - **Windows** – `TokaZerkUI-Picker-<version>.exe` (portable, no installation)
+   - **Linux** – `TokaZerkUI-Picker-<version>.AppImage` (`chmod +x` to make it executable)
+2. Put it into (or next to) your `Dark Age of Camelot/ui/custom` folder and start it. If it doesn't find the folder automatically, pick it via *Change folder…*.
+3. Click a variant to apply it. Changes take effect after the game reloads the UI (relog or `/quit` to character select).
+
+The first time a variant is applied, the files it replaces are backed up so you can always switch back to the **Original**. See [picker/README.md](picker/README.md) for details and build instructions.
 
 ---
 

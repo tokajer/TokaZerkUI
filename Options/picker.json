@@ -1,0 +1,22 @@
+{
+  "$comment": "Declares swap categories for the TokaZerk UI Picker. Each category has a target (relative to the custom/ root, '.' = root) and variants whose 'dir' is relative to this Options folder. Folders under Options not listed here are auto-discovered and applied to the root.",
+  "categories": [
+    {
+      "label": "Map Size",
+      "target": "Maps",
+      "variants": [
+        { "label": "Large", "dir": "Maps_large" },
+        { "label": "Small", "dir": "Maps_small" }
+      ]
+    },
+    {
+      "label": "Frontier War Maps",
+      "target": ".",
+      "backupDir": "warmap",
+      "variants": [
+        { "label": "New Frontiers", "dir": "warmap/NF" },
+        { "label": "Old Frontiers", "dir": "warmap/OF" }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,10 @@ jobs:
             --exclude "*.md" \
             --exclude "*.bak" \
             --exclude ".git/*" \
-            --exclude ".github/*"
+            --exclude ".github/*" \
+            --exclude ".gitignore" \
+            --exclude "picker/*" \
+            --exclude "Options/*/_original/*"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2

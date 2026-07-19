@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2419"/>
+      <stop offset="1" stop-color="#14120e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c352"/>
+      <stop offset="1" stop-color="#a37f1c"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="url(#bg)" stroke="url(#gold)" stroke-width="14"/>
+  <!-- shield outline -->
+  <path d="M256 96 L392 140 V268 C392 344 328 396 256 424 C184 396 120 344 120 268 V140 Z"
+        fill="none" stroke="url(#gold)" stroke-width="16" stroke-linejoin="round"/>
+  <!-- T -->
+  <path d="M170 180 H278 V214 H242 V330 H206 V214 H170 Z" fill="#e8e0d0"/>
+  <!-- Z -->
+  <path d="M252 240 H342 V270 L294 330 H342 V360 H252 V330 L300 270 H252 Z" fill="url(#gold)"/>
+</svg>
