@@ -73,7 +73,7 @@
 
     <TTFFont>
         <Name>TokaFontBold8</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>8</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -82,7 +82,7 @@
 
     <TTFFont>
         <Name>TokaFontBold9</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>9</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -91,7 +91,7 @@
 
     <TTFFont>
         <Name>TokaFontBold10</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -100,7 +100,7 @@
 
     <TTFFont>
         <Name>TokaFontBold11</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>11</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -109,7 +109,7 @@
 
     <TTFFont>
         <Name>TokaFontBold12</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>12</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -118,7 +118,7 @@
 
     <TTFFont>
         <Name>TokaFontBold13</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>13</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -127,7 +127,7 @@
 
     <TTFFont>
         <Name>TokaFontBold14</Name>
-        <File>custom/Assets/Fonts/TokaFontBold.ttf</File>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>14</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -136,7 +136,7 @@
 
     <TTFFont>
         <Name>TokaFontBold8</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>8</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -145,7 +145,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular9</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>9</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -154,7 +154,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular10</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -163,7 +163,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular11</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>11</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -172,7 +172,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular12</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>12</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -181,7 +181,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular13</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>13</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -190,7 +190,7 @@
 
     <TTFFont>
         <Name>TokaFontRegular14</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>14</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -199,7 +199,7 @@
 
     <TTFFont>
         <Name>TokaFontLight9</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>9</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -208,7 +208,7 @@
 
     <TTFFont>
         <Name>TokaFontLight10</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -217,7 +217,7 @@
 
     <TTFFont>
         <Name>TokaFontLight11</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>11</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -226,7 +226,7 @@
 
     <TTFFont>
         <Name>TokaFontLight12</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>12</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -235,7 +235,7 @@
 
     <TTFFont>
         <Name>TokaFontLight13</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>13</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -244,7 +244,7 @@
 
     <TTFFont>
         <Name>TokaFontLight14</Name>
-        <File>custom/Assets/Fonts/TokaFontLight.ttf</File>
+        <File>custom/assets/fonts/TokaFontLight.ttf</File>
         <Height>14</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -253,7 +253,7 @@
 
     <TTFFont>
         <Name>chat_small</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -262,7 +262,7 @@
 
     <TTFFont>
         <Name>chat_large</Name>
-        <File>custom/Assets/Fonts/TokaFontRegular.ttf</File>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>13</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
@@ -286,7 +286,7 @@
 
     <Texture>
         <Name>navigation</Name>
-        <File>custom/Assets/ghost/_gh_o_navigation.tga</File>
+        <File>custom/assets/ghost/_gh_o_navigation.tga</File>
     </Texture>
 
 
@@ -310,7 +310,7 @@
 
     <Texture>
         <Name>ui_tokajer_parts</Name>
-        <File>custom/Assets/Textures/tokajer_ui_parts.dds</File>
+        <File>custom/assets/textures/tokajer_ui_parts.dds</File>
     </Texture>
 
 
@@ -430,49 +430,49 @@
 
     <Texture>
         <Name>map_icons_custom</Name>
-        <File>custom/Assets/ghost/map_icons.tga</File>
+        <File>custom/assets/ghost/map_icons.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>status_effect_icon</Name>
-        <File>custom/Assets/Textures/status_effect_icon.tga</File>
+        <File>custom/assets/textures/status_effect_icon.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>knapp</Name>
-        <File>custom/Assets/Textures/knapp.tga</File>
+        <File>custom/assets/textures/knapp.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_bg_h</Name>
-        <File>custom/Assets/Textures/b_bg_h.tga</File>
+        <File>custom/assets/textures/b_bg_h.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_rrchart</Name>
-        <File>custom/Assets/Textures/b_rrchart.tga</File>
+        <File>custom/assets/textures/b_rrchart.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_reverse</Name>
-        <File>custom/Assets/Textures/b_rreverse.tga</File>
+        <File>custom/assets/textures/b_rreverse.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>compass_3d</Name>
-        <File>custom/Assets/Textures/b_comp.tga</File>
+        <File>custom/assets/textures/b_comp.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>ConditionOverlay</Name>
-        <File>custom/Assets/Textures/Overlay.tga</File>
+        <File>custom/assets/textures/Overlay.tga</File>
     </Texture>
 
 
@@ -484,241 +484,241 @@
 
     <Texture>
         <Name>hsi_s</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_m.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_m.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_hhbar</Name>
-        <File>custom/Assets/Textures/b_hhbar.tga</File>
+        <File>custom/assets/textures/b_hhbar.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>uielements</Name>
-        <File>custom/Assets/Textures/b_uielements.tga</File>
+        <File>custom/assets/textures/b_uielements.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>performance</Name>
-        <File>custom/Assets/Textures/performance.tga</File>
+        <File>custom/assets/textures/performance.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>realm_symbols</Name>
-        <File>custom/Assets/Textures/realm_symb.tga</File>
+        <File>custom/assets/textures/realm_symb.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_l</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page1</Name>
-        <File>custom/Assets/Textures/atlantis_01.tga</File>
+        <File>custom/assets/textures/atlantis_01.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page2</Name>
-        <File>custom/Assets/Textures/atlantis_02.tga</File>
+        <File>custom/assets/textures/atlantis_02.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page3</Name>
-        <File>custom/Assets/Textures/atlantis_03.tga</File>
+        <File>custom/assets/textures/atlantis_03.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page4</Name>
-        <File>custom/Assets/Textures/atlantis_04.tga</File>
+        <File>custom/assets/textures/atlantis_04.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page4b</Name>
-        <File>custom/Assets/ghost/_gh_o_atlantis_04b.tga</File>
+        <File>custom/assets/ghost/_gh_o_atlantis_04b.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hh_reverse_box</Name>
-        <File>custom/Assets/Textures/hh_reverse_box.tga</File>
+        <File>custom/assets/textures/hh_reverse_box.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>frames_win</Name>
-        <File>custom/Assets/Textures/frames_win.tga</File>
+        <File>custom/assets/textures/frames_win.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_hh_reverse2</Name>
-        <File>custom/Assets/ghost/ghost_hh_reverse2.tga</File>
+        <File>custom/assets/ghost/ghost_hh_reverse2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_hh_reverse</Name>
-        <File>custom/Assets/ghost/ghost_hh_reverse4.tga</File>
+        <File>custom/assets/ghost/ghost_hh_reverse4.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>FloatingImages2</Name>
-        <File>custom/Assets/Textures/FloatingBars2.tga</File>
+        <File>custom/assets/textures/FloatingBars2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>uielements2</Name>
-        <File>custom/Assets/Textures/b_uielements2.tga</File>
+        <File>custom/assets/textures/b_uielements2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_bsn</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_bysan.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_bysan.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>ConditionOverlay2</Name>
-        <File>custom/Assets/Textures/Overlay2.tga</File>
+        <File>custom/assets/textures/Overlay2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_bsn2</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_bsn.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_bsn.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_bg_h2</Name>
-        <File>custom/Assets/Textures/b_bg_h2.tga</File>
+        <File>custom/assets/textures/b_bg_h2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>ConditionOverlay3</Name>
-        <File>custom/Assets/Textures/Overlay3.tga</File>
+        <File>custom/assets/textures/Overlay3.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_bsnb</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_bsnb.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_bsnb.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>b_chat_bg</Name>
-        <File>custom/Assets/Textures/b_chat_bg.tga</File>
+        <File>custom/assets/textures/b_chat_bg.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>compass_2d</Name>
-        <File>custom/Assets/Textures/b_comp2d.tga</File>
+        <File>custom/assets/textures/b_comp2d.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_hh_reverse3</Name>
-        <File>custom/Assets/ghost/ghost_hh_reverse3.tga</File>
+        <File>custom/assets/ghost/ghost_hh_reverse3.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>Floating_HealthBar</Name>
-        <File>custom/Assets/Textures/Bars/HealthBar.tga</File>
+        <File>custom/assets/textures/Bars/HealthBar.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>Floating_TargetBar</Name>
-        <File>custom/Assets/Textures/Bars/TargetBar.tga</File>
+        <File>custom/assets/textures/Bars/TargetBar.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>Floating_EndoBar</Name>
-        <File>custom/Assets/Textures/Bars/EndoBar.tga</File>
+        <File>custom/assets/textures/Bars/EndoBar.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>Floating_PowerBar</Name>
-        <File>custom/Assets/Textures/Bars/PowerBar.tga</File>
+        <File>custom/assets/textures/Bars/PowerBar.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_bsnbig</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_bysbig.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_bysbig.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>ConditionOverlay4</Name>
-        <File>custom/Assets/Textures/Overlay4.tga</File>
+        <File>custom/assets/textures/Overlay4.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>hsi_bsn_colorblind</Name>
-        <File>custom/Assets/Textures/hh_statusicon_original_colorblind.tga</File>
+        <File>custom/assets/textures/hh_statusicon_original_colorblind.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>knapp2</Name>
-        <File>custom/Assets/Textures/knapp2.tga</File>
+        <File>custom/assets/textures/knapp2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page4b</Name>
-        <File>custom/Assets/Textures/atlantis_04b.tga</File>
+        <File>custom/assets/textures/atlantis_04b.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>whatisthistexture</Name>
-        <File>custom/Assets/Textures/whatisthis.tga</File>
+        <File>custom/assets/textures/whatisthis.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>toka_texture</Name>
-        <File>custom/Assets/Textures/whatisthis.tga</File>
+        <File>custom/assets/textures/whatisthis.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>toka_hh</Name>
-        <File>custom/Assets/Textures/whatisthishh.tga</File>
+        <File>custom/assets/textures/whatisthishh.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>toka_statuseffects</Name>
-        <File>custom/Assets/Textures/whatisthisstatuseffects.tga</File>
+        <File>custom/assets/textures/whatisthisstatuseffects.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>FloatingImages</Name>
-        <File>custom/Assets/Textures/FloatingBars.tga</File>
+        <File>custom/assets/textures/FloatingBars.tga</File>
     </Texture>
 
 

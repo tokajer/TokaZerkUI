@@ -7,13 +7,13 @@
 
     <Texture>
         <Name>health_status_icon</Name>
-        <File>custom/Assets/ghost/ghost_hh_statusicon_original.tga</File>
+        <File>custom/assets/ghost/ghost_hh_statusicon_original.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_page2</Name>
-        <File>custom/Assets/ghost/ghost_page2.tga</File>
+        <File>custom/assets/ghost/ghost_page2.tga</File>
     </Texture>
 
 

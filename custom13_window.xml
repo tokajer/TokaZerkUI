@@ -10,7 +10,7 @@
 
     <Texture>
         <Name>ArmorResistImages_01</Name>
-        <File>custom/Assets/resists.dds</File>
+        <File>custom/assets/resists.dds</File>
     </Texture>
 
 

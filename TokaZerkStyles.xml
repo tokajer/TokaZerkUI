@@ -10,43 +10,43 @@
 
     <Texture>
         <Name>g_statusbars</Name>
-        <File>custom/Assets/ghost/ghost_statusbars.tga</File>
+        <File>custom/assets/ghost/ghost_statusbars.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_uielements</Name>
-        <File>custom/Assets/ghost/ghost_uielements.tga</File>
+        <File>custom/assets/ghost/ghost_uielements.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_uielements2</Name>
-        <File>custom/Assets/ghost/ghost_uielements2.tga</File>
+        <File>custom/assets/ghost/ghost_uielements2.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_extra</Name>
-        <File>custom/Assets/ghost/ghost_extra.tga</File>
+        <File>custom/assets/ghost/ghost_extra.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_healhelp1</Name>
-        <File>custom/Assets\ghost/ghost_hh_orb_textures.tga</File>
+        <File>custom/assets/ghost/ghost_hh_orb_textures.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>g_rrchart</Name>
-        <File>custom/Assets/ghost/ghost_rrchart.tga</File>
+        <File>custom/assets/ghost/ghost_rrchart.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page2</Name>
-        <File>custom/Assets/ghost/ghost_page2.tga</File>
+        <File>custom/assets/ghost/ghost_page2.tga</File>
     </Texture>
 
 
