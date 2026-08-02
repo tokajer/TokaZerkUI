@@ -93,3 +93,9 @@ For support or questions, open an issue on GitHub.
 
 - This UI is largely based on GhostUI and countless other UIs before it.
 - Thanks to the Eden freeshard team for an incredible server.
+
+## If you like our work you can
+
+Tokajer:
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=tokajer&button_colour=1e4c7a&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00)](https://www.buymeacoffee.com/tokajer)
+
