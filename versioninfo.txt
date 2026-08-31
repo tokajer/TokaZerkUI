@@ -1,4 +1,4 @@
-Tokajer's and Zerkers DAOC UI Eden 1.0.6
+Tokajer's and Zerkers DAOC UI Eden 1.0.10
 
 
 Welcome, adventurers, to a reimagined experience in the realms of Albion, Midgard, and Hibernia.
@@ -25,3 +25,60 @@ E5E5E5
 1C7507 -> Endu 
 F1D032 -> Power
 721010 -> health
+
+244369
+
+
+ #181717  0.92
+
+#38A59D → RGB(56, 165, 157)    — Eden Teal
+#C0C0C0 → RGB(192, 192, 192)   — Grau
+#E8E8E8 → RGB(232, 232, 232)   — Helles Grau
+#E5E5E5 → RGB(229, 229, 229)   — Helles  gray
+#1C7507 → RGB(28, 117, 7)      — Endu green
+#F1D032 → RGB(241, 208, 50)    — Power Gold
+#721010 → RGB(114, 16, 16)     — Health Rot
+Overlay:
+
+
+#1f4169- blue
+#3779c2 - light blue
+#721010  - red
+#8e2222 - red light
+#b42f2f  - lighter red
+
+#63c6c9 - mint türlis
+
+#6d5e41  - gold
+
+Orange/browsn - #93541c
+
+orange: b64d0a
+
+FCT
+
+Damage: #ffa500
+Crit: #b300b3
+
+damkage-take: #ff0000
+Heal: #005dd6
+Heal Crit : #00a0d6
+Heal res: #00d6c7
+Spell Dam: #ffa500
+
+Immu: #800080
+
+centred MEssa: #6d5e41
+Message Alt: #88bbff
+Message alt 2: #c0c0c0
+
+
+miss: #c0c0c0
+block: #60a5fa
+parry: #c084fc
+evade: #4ade80
+
+Pet Damage: #22d3ee
+
+morth: #c89bff
+
