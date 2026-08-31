@@ -355,7 +355,7 @@
 
 
         <LabelDef>
-            <Position><X>155</X><Y>268</Y></Position>
+            <Position><X>155</X><Y>288</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
             <FontName>TokaFontBold11</FontName>
@@ -365,7 +365,7 @@
         </LabelDef>
 
         <HorizontalResizeButtonDef>
-            <Position><X>155</X><Y>282</Y></Position>
+            <Position><X>155</X><Y>302</Y></Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>MAP</Label>
             <Width>125</Width>
@@ -373,7 +373,7 @@
         </HorizontalResizeButtonDef>
 
         <HorizontalResizeButtonDef>
-            <Position><X>155</X><Y>302</Y></Position>
+            <Position><X>155</X><Y>322</Y></Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>WARMAP</Label>
             <Width>125</Width>
@@ -381,7 +381,7 @@
         </HorizontalResizeButtonDef>
 
         <HorizontalResizeButtonDef>
-            <Position><X>155</X><Y>322</Y></Position>
+            <Position><X>155</X><Y>342</Y></Position>
             <TemplateName>hr_button_tokajer</TemplateName>
             <Label>QUEST JOURNAL</Label>
             <Width>125</Width>
@@ -452,6 +452,14 @@
             <Label>GROUP BUFFS</Label>
             <Width>125</Width>
             <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+        <HorizontalResizeButtonDef>
+            <Position><X>155</X><Y>262</Y></Position>
+            <TemplateName>hr_button_tokajer</TemplateName>
+            <Label>TARGET  RESISTS</Label>
+            <Width>125</Width>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
         </HorizontalResizeButtonDef>
 
         <HorizontalResizeButtonDef>
