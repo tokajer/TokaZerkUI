@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>warmap_mid</Name>
-        <File>custom/midmap.tga</File>
+        <File>custom/warmap/mid/midmap.tga</File>
     </Texture>
 
 
@@ -489,7 +489,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Close</Label>
             <OnClickEvent>ShowWarmap</OnClickEvent>
         </ButtonDef>
@@ -504,7 +504,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button_smalltext</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Teleport</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
         </ButtonDef>
@@ -518,7 +518,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button_smalltext</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Bonuses</Label>
             <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
         </ButtonDef>

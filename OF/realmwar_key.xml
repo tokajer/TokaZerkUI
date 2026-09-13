@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>map_icons</Name>
-        <File>custom/map_icons.tga</File>
+        <File>custom/assets/ghost/map_icons.tga</File>
     </Texture>
 
 

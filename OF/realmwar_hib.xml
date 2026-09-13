@@ -2,12 +2,12 @@
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
-<!-- @@ Kostenloser Download erh�ltlich auf http://www.bradtownsend.com/daoced -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
 
 
     <Texture>
         <Name>warmap_hib</Name>
-        <File>custom/hibmap.tga</File>
+        <File>custom/warmap/hib/hibmap2.tga</File>
     </Texture>
 
 
@@ -484,12 +484,12 @@
             <ControlId>2011</ControlId>
             <Position>
                 <X>135</X>
-                <Y>99</Y>
+                <Y>101</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Close</Label>
             <OnClickEvent>ShowWarmap</OnClickEvent>
         </ButtonDef>
@@ -504,7 +504,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button_smalltext</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Teleport</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
         </ButtonDef>
@@ -518,7 +518,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_generic_button_smalltext</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Bonuses</Label>
             <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
         </ButtonDef>
