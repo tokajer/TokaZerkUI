@@ -35,7 +35,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>g_window_background</TemplateName>
+            <TemplateName>g_window_background_tokajer</TemplateName>
             <Width>128</Width>
             <Height>84</Height>
         </FullResizeImageDef>
@@ -103,7 +103,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left</TemplateName>
             <Label></Label>
             <onClickEvent>WindowAlphaDecrease</onClickEvent>
         </ButtonDef>
@@ -117,7 +117,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right</TemplateName>
             <Label></Label>
             <onClickEvent>WindowAlphaIncrease</onClickEvent>
         </ButtonDef>
@@ -186,7 +186,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_left_button</TemplateName>
+            <TemplateName>toka_button_left</TemplateName>
             <Label></Label>
             <onClickEvent>FontAlphaDecrease</onClickEvent>
         </ButtonDef>
@@ -200,7 +200,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>g_right_button</TemplateName>
+            <TemplateName>toka_button_right</TemplateName>
             <Label></Label>
             <onClickEvent>FontAlphaIncrease</onClickEvent>
         </ButtonDef>
@@ -242,7 +242,7 @@
             </Position>
             <Alignment>
             </Alignment>
-            <TemplateName>g_generic_button</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Accept</Label>
             <onClickEvent>AlphaSettingsAccept</onClickEvent>
         </ButtonDef>
@@ -255,7 +255,7 @@
             </Position>
             <Alignment>
             </Alignment>
-            <TemplateName>g_generic_button</TemplateName>
+            <TemplateName>button_tokajer_62x18</TemplateName>
             <Label>Cancel</Label>
             <onClickEvent>AlphaSettingsCancel</onClickEvent>
         </ButtonDef>
