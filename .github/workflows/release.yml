@@ -3,7 +3,6 @@ name: Release
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+'
       - 'v[0-9]+.[0-9]+.[0-9]+'
 
 concurrency:
@@ -22,6 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check tag format
+        run: |
+          [[ "$GITHUB_REF_NAME" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "Tag '$GITHUB_REF_NAME' does not match required format vX.Y.Z"; exit 1; }
+
       - name: Create release archive
         run: |
           mkdir -p staging/custom
@@ -32,10 +35,18 @@ jobs:
             --exclude=".github" \
             --exclude="staging" \
             . staging/custom/
+          VERSION="${GITHUB_REF_NAME#v}"
+          BUILT="$(date -u +%Y-%m-%d)"
+          printf '{\n  "name": "TokaZerkUI",\n  "version": "%s",\n  "built": "%s"\n}\n' "$VERSION" "$BUILT" > staging/custom/tokazerk.json
           cd staging
           zip -r "../$ASSET_NAME" custom
           cd ..
           rm -rf staging
+
+      - name: Verify archive layout
+        run: |
+          unzip -Z1 "$ASSET_NAME" | grep -vq '^custom/' && { echo "Archive contains entries outside custom/"; exit 1; }
+          unzip -Z1 "$ASSET_NAME" | grep -qx 'custom/tokazerk.json' || { echo "Archive missing custom/tokazerk.json"; exit 1; }
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
