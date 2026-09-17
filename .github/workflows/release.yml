@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
+      - 'v[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+'
 
 concurrency:
   group: release-${{ github.ref }}
@@ -23,7 +24,7 @@ jobs:
 
       - name: Check tag format
         run: |
-          [[ "$GITHUB_REF_NAME" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "Tag '$GITHUB_REF_NAME' does not match required format vX.Y.Z"; exit 1; }
+          [[ "$GITHUB_REF_NAME" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-beta\.[0-9]+)?$ ]] || { echo "Tag '$GITHUB_REF_NAME' does not match required format vX.Y.Z or vX.Y.Z-beta.N"; exit 1; }
 
       - name: Create release archive
         run: |
@@ -52,5 +53,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: TokaZerk UI ${{ github.ref_name }}
+          prerelease: ${{ contains(github.ref_name, '-beta.') }}
           generate_release_notes: true
           files: ${{ env.ASSET_NAME }}
