@@ -53,7 +53,7 @@
         <ScrollbarTemplate>generic_vscroll</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>TokaFontRegular10</FontName>
+        <FontName>TokaSmall</FontName>
         <FontColor>
             <R>229</R>
             <G>229</G>
@@ -126,7 +126,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>TokaFontRegular11</FontName>
+            <FontName>TokaMedium</FontName>
             <Width>272</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>
@@ -212,7 +212,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>TokaFontRegular11</FontName>
+            <FontName>TokaMedium</FontName>
             <Width>300</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>
@@ -231,7 +231,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

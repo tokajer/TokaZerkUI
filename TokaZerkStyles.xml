@@ -66,7 +66,7 @@
             <Y>14</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -400,7 +400,7 @@
             <Y>64</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -997,7 +997,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -1440,7 +1440,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -1499,7 +1499,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -1557,7 +1557,7 @@
         <Height>20</Height>
         <LabelLength>128</LabelLength>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -1903,7 +1903,7 @@
             <Y>17</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -2080,7 +2080,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -2150,7 +2150,7 @@
             <Y>28</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2468,7 +2468,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2535,7 +2535,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>tokafontbold10</Name>
+            <Name>TokaSmallBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -2710,7 +2710,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2772,7 +2772,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2834,7 +2834,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2893,7 +2893,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -2955,7 +2955,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3014,7 +3014,7 @@
             <Y>11</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3206,7 +3206,7 @@
         <ScrollbarTemplate>g_vscrollbar</ScrollbarTemplate>
         <CheckBoxTemplate>g_generic_checkbox</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>TokaFontRegular10</FontName>
+        <FontName>TokaSmall</FontName>
         <FontColor>
             <R>192</R>
             <G>192</G>
@@ -3237,7 +3237,7 @@
         <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -3283,7 +3283,7 @@
         <BackgroundTemplate>g_window_background</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
-            <Name>TokaFontBold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3325,7 +3325,7 @@
             <Y>14</Y>
         </Size>
         <Font>
-            <Name>TokaFontBold10</Name>
+            <Name>TokaSmallBold</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -3387,7 +3387,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -3505,7 +3505,7 @@
             <Y>20</Y>
         </Size>
         <Font>
-            <Name>tokafontbold12</Name>
+            <Name>TokaLargeBold</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -3989,7 +3989,7 @@
             <Y>46</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4048,7 +4048,7 @@
             <Y>46</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4132,7 +4132,7 @@
             <Y>400</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4194,7 +4194,7 @@
             <Y>110</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -4256,7 +4256,7 @@
             <Y>200</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -5272,7 +5272,7 @@
             <Y>38</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -5574,7 +5574,7 @@
             <Y>14</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>

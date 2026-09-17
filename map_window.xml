@@ -23,7 +23,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>TokaMedium</Name>
             <ColorNormal>
                 <R>229</R>
                 <G>229</G>
@@ -91,7 +91,7 @@
                 <B>229</B>
                 <A>229</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>300</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>

@@ -60,7 +60,7 @@
                 <B>157</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>164</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -82,7 +82,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -98,7 +98,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -126,7 +126,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -142,7 +142,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -173,7 +173,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>60</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -195,7 +195,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>80</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -220,7 +220,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -236,7 +236,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -264,7 +264,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -280,7 +280,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -308,7 +308,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -324,7 +324,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -352,7 +352,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -368,7 +368,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -419,7 +419,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -448,7 +448,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -476,7 +476,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -505,7 +505,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -533,7 +533,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -562,7 +562,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -590,7 +590,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -619,7 +619,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -647,7 +647,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -676,7 +676,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -704,7 +704,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -733,7 +733,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -761,7 +761,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -790,7 +790,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -821,7 +821,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -850,7 +850,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1044,7 +1044,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1064,7 +1064,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1095,7 +1095,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1115,7 +1115,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>137</Width>
             <Height>100</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1146,7 +1146,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1166,7 +1166,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1197,7 +1197,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1217,7 +1217,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1248,7 +1248,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1268,7 +1268,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1299,7 +1299,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1319,7 +1319,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1350,7 +1350,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1370,7 +1370,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1401,7 +1401,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1421,7 +1421,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1452,7 +1452,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -1472,7 +1472,7 @@
                 <B>200</B>
                 <A>200</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>64</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>

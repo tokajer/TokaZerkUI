@@ -70,7 +70,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>32</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -93,7 +93,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>40</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -122,7 +122,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>46</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>

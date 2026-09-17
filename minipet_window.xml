@@ -82,7 +82,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -108,7 +108,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

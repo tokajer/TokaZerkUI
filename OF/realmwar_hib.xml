@@ -88,7 +88,7 @@
             <Y>64</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular10</Name>
+            <Name>TokaSmall</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -251,7 +251,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -275,7 +275,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -296,7 +296,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -320,7 +320,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -344,7 +344,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -368,7 +368,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

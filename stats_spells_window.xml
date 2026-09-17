@@ -12,7 +12,7 @@
             <Y>12</Y>
         </Size>
         <Font>
-            <Name>TokaFontRegular11</Name>
+            <Name>TokaMedium</Name>
             <ColorNormal>
                 <R>56</R>
                 <G>165</G>
@@ -78,7 +78,7 @@
         <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
         <CheckBoxTemplate>tree_check</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <FontName>TokaFontRegular10</FontName>
+        <FontName>TokaSmall</FontName>
         <FontColor>
             <R>229</R>
             <G>229</G>
@@ -178,7 +178,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>164</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>

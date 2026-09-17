@@ -51,7 +51,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>TokaFontRegular10</FontName>
+            <FontName>TokaSmall</FontName>
             <Width>22</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>

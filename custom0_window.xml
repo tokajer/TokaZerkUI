@@ -51,7 +51,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>440</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -67,7 +67,7 @@
             <Position><X>15</X><Y>28</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Status Bars:</Data>
@@ -110,7 +110,7 @@
             <Position><X>15</X><Y>128</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Experience:</Data>
@@ -145,7 +145,7 @@
             <Position><X>15</X><Y>208</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Character:</Data>
@@ -188,7 +188,7 @@
             <Position><X>15</X><Y>308</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>System:</Data>
@@ -259,7 +259,7 @@
             <Position><X>155</X><Y>28</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Gadgets:</Data>
@@ -358,7 +358,7 @@
             <Position><X>155</X><Y>288</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Maps &amp; Journals:</Data>
@@ -393,7 +393,7 @@
             <Position><X>155</X><Y>368</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Guides &amp; Info:</Data>
@@ -432,7 +432,7 @@
             <Position><X>295</X><Y>28</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Group &amp; Buffs:</Data>
@@ -515,7 +515,7 @@
             <Position><X>295</X><Y>208</Y></Position>
             <Alignment><TopLeft>true</TopLeft></Alignment>
             <Color><R>56</R><G>165</G><B>157</B><A>255</A></Color>
-            <FontName>TokaFontBold11</FontName>
+            <FontName>TokaMediumBold</FontName>
             <Width>130</Width><Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Realm Info:</Data>
@@ -559,7 +559,7 @@
             <Position><X>0</X><Y>560</Y></Position>
             <Alignment><CenterHorizontally>true</CenterHorizontally></Alignment>
             <Color><R>56</R><G>165</G><B>144</B><A>255</A></Color>
-            <FontName>TokaFontBold10</FontName>
+            <FontName>TokaSmallBold</FontName>
             <Width>440</Width><Height>10</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>based on GhostUI and BysanUI by Tokajer &amp; Zerker (2025)</Data>

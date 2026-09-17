@@ -54,7 +54,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>100</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>

@@ -296,7 +296,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>TokaFontBold12</FontName>
+            <FontName>TokaLargeBold</FontName>
             <Width>630</Width>
             <Height>17</Height>
             <MaxCharacters>15</MaxCharacters>

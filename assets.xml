@@ -72,88 +72,7 @@
 
 
     <TTFFont>
-        <Name>TokaFontBold8</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>8</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold9</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>9</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold10</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>10</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold11</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>11</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold12</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>12</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold13</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>13</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold14</Name>
-        <File>custom/assets/fonts/TokaFontBold.ttf</File>
-        <Height>14</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontBold8</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>8</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontRegular9</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>9</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontRegular10</Name>
+        <Name>TokaSmall</Name>
         <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
@@ -162,53 +81,8 @@
 
 
     <TTFFont>
-        <Name>TokaFontRegular11</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>11</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontRegular12</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>12</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontRegular13</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>13</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontRegular14</Name>
-        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
-        <Height>14</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>0</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontLight9</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
-        <Height>9</Height>
-        <Antialiased>true</Antialiased>
-        <Hint>2</Hint>
-    </TTFFont>
-
-
-    <TTFFont>
-        <Name>TokaFontLight10</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
+        <Name>TokaSmallBold</Name>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>10</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -216,8 +90,8 @@
 
 
     <TTFFont>
-        <Name>TokaFontLight11</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
+        <Name>TokaMedium</Name>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>11</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -225,8 +99,17 @@
 
 
     <TTFFont>
-        <Name>TokaFontLight12</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
+        <Name>TokaMediumBold</Name>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
+        <Height>11</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>TokaLarge</Name>
+        <File>custom/assets/fonts/TokaFontRegular.ttf</File>
         <Height>12</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
@@ -234,17 +117,17 @@
 
 
     <TTFFont>
-        <Name>TokaFontLight13</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
-        <Height>13</Height>
+        <Name>TokaLargeBold</Name>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
+        <Height>12</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
     </TTFFont>
 
 
     <TTFFont>
-        <Name>TokaFontLight14</Name>
-        <File>custom/assets/fonts/TokaFontLight.ttf</File>
+        <Name>TokaXLargeBold</Name>
+        <File>custom/assets/fonts/TokaFontBold.ttf</File>
         <Height>14</Height>
         <Antialiased>true</Antialiased>
         <Hint>0</Hint>
